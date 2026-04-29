@@ -1,1 +1,596 @@
-{"_meta":{"version":1,"last_updated":"","total_papers":0}}
+{
+  "_meta": {
+    "version": 1,
+    "last_updated": "2026-04-29T12:47:04.549304+00:00",
+    "total_papers": 10
+  },
+  "2604.24921": {
+    "title": "Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System",
+    "authors": [
+      "Yifei Wei",
+      "Linqing Zhong",
+      "Yi Liu",
+      "Yuxiang Lu",
+      "Xindong He",
+      "Maoqing Yao",
+      "Guanghui Ren"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-27T19:02:46+00:00",
+    "updated": "2026-04-27T19:02:46+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.24921v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24921v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "提出Libra-VLA：基于异步粗细双系统架构的视觉语言动作模型。",
+    "tags": [
+      "No Code",
+      "Demo",
+      "Academic",
+      "Accepted",
+      "🔴 No Code",
+      "🎮 Demo"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 3.95
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": true,
+    "key_terms": [
+      "Vision-Language-Action (VLA)",
+      "Coarse-to-Fine Hierarchy",
+      "Hybrid Action Space",
+      "Asynchronous Execution",
+      "Robotic Manipulation"
+    ],
+    "journal_ref": null,
+    "comment": "Accepted to the Main Conference of ACL 2026. Project page: https://libra-vla.github.io/",
+    "relevance_tier": "core"
+  },
+  "2604.25329": {
+    "title": "ProDrive: Proactive Planning for Autonomous Driving via Ego-Environment Co-Evolution",
+    "authors": [
+      "Chuyao Fu",
+      "Shengzhe Gan",
+      "Zhuoli Ouyang",
+      "Yuhan Rui",
+      "Xiaowei Chi",
+      "Sirui Han",
+      "Jiankun Wang",
+      "Hong Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-28T07:46:30+00:00",
+    "updated": "2026-04-28T07:46:30+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25329v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25329v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "提出基于世界模型的自车与环境协同演化主动规划框架。",
+    "tags": [
+      "No Code",
+      "Academic",
+      "Accepted",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 2,
+      "focus_relevance": 5,
+      "weighted": 3.95
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "World Models",
+      "Proactive Planning",
+      "Ego-Environment Co-Evolution",
+      "End-to-End Autonomous Driving",
+      "BEV Prediction"
+    ],
+    "journal_ref": null,
+    "comment": "Accepted to CVPR 2026 GigaBrain Challenge Workshop",
+    "relevance_tier": "core"
+  },
+  "2604.25898": {
+    "title": "TSN-Affinity: Similarity-Driven Parameter Reuse for Continual Offline Reinforcement Learning",
+    "authors": [
+      "Dominik Żurek",
+      "Kamil Faber",
+      "Marcin Pietron",
+      "Paweł Gajewski",
+      "Roberto Corizzo"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-04-28T17:41:04+00:00",
+    "updated": "2026-04-28T17:41:04+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25898v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25898v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "提出基于相似度驱动参数复用的连续离线强化学习方法。",
+    "tags": [
+      "Code",
+      "Academic",
+      "🟢 Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [
+      "Unknown"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": true,
+    "code_url": "https://github.com/anonymized-for-submission123/tsn-affinity",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Continual Offline RL",
+      "Decision Transformer",
+      "Parameter Reuse",
+      "Catastrophic Forgetting",
+      "Robotic Manipulation"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2604.25897": {
+    "title": "Variational Neural Belief Parameterizations for Robust Dexterous Grasping under Multimodal Uncertainty",
+    "authors": [
+      "Clinton Enwerem",
+      "Shreya Kalyanaraman",
+      "John S. Baras",
+      "Calin Belta"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-28T17:40:49+00:00",
+    "updated": "2026-04-28T17:40:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25897v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25897v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "基于变分神经信念和可微CVaR的鲁棒灵巧抓取规划。",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Boston University",
+      "University of Maryland"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 2,
+      "focus_relevance": 4,
+      "weighted": 3.45
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Variational Inference",
+      "Dexterous Grasping",
+      "Risk-sensitive POMDP",
+      "Conditional Value-at-Risk (CVaR)",
+      "Differentiable Belief"
+    ],
+    "journal_ref": null,
+    "comment": "11 pages, 10 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2604.25788": {
+    "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
+    "authors": [
+      "Yixuan Huang",
+      "Bowen Li",
+      "Vaibhav Saxena",
+      "Yichao Liang",
+      "Utkarsh Aashu Mishra",
+      "Liang Ji",
+      "Lihan Zha",
+      "Jimmy Wu",
+      "Nishanth Kumar",
+      "Sebastian Scherer",
+      "Danfei Xu",
+      "Tom Silver"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-28T15:58:09+00:00",
+    "updated": "2026-04-28T15:58:09+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25788v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25788v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "提出KinDER基准以评估机器人的运动学与动力学物理推理能力。",
+    "tags": [
+      "Code",
+      "Dataset",
+      "Academic",
+      "Accepted",
+      "🟢 Code",
+      "📊 Dataset",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "Carnegie Mellon University",
+      "Massachusetts Institute of Technology"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 5,
+      "focus_relevance": 4,
+      "weighted": 4.1
+    },
+    "has_code": true,
+    "code_url": "https://prpl-group.com/kinder-site/",
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "Physical Reasoning",
+      "Embodied AI Benchmark",
+      "Kinematics and Dynamics",
+      "Sim-to-Real",
+      "Robot Learning"
+    ],
+    "journal_ref": null,
+    "comment": "Project website: https://prpl-group.com/kinder-site/. 21 pages, 8 figures. Accepted to Robotics Science and Systems (RSS), 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2604.25554": {
+    "title": "Egocentric Tactile and Proximity Sensors as Observation Priors for Humanoid Collision Avoidance",
+    "authors": [
+      "Carson Kohlbrenner",
+      "Niraj Pudasaini",
+      "William Xie",
+      "Naren Sivagnanadasan",
+      "Nikolaus Correll",
+      "Alessandro Roncone"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-28T12:20:42+00:00",
+    "updated": "2026-04-28T12:20:42+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25554v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25554v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "探究触觉与接近传感器特性如何影响人形机器人避障策略。",
+    "tags": [
+      "No Code",
+      "Academic",
+      "Accepted",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "University of Colorado Boulder"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 2,
+      "focus_relevance": 2,
+      "weighted": 2.75
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Proximity Sensors",
+      "Tactile Sensing",
+      "Humanoid Robot",
+      "Collision Avoidance",
+      "Reinforcement Learning"
+    ],
+    "journal_ref": null,
+    "comment": "This work was accepted at the 8th RoboTac Workshop at the International Conference on Robotics and Automation (ICRA) 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2604.25459": {
+    "title": "GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning",
+    "authors": [
+      "Yufei Jia",
+      "Heng Zhang",
+      "Ziheng Zhang",
+      "Junzhe Wu",
+      "Mingrui Yu",
+      "Zifan Wang",
+      "Dixuan Jiang",
+      "Zheng Li",
+      "Chenyu Cao",
+      "Zhuoyuan Yu",
+      "Xun Yang",
+      "Haizhou Ge",
+      "Yuchi Zhang",
+      "Jiayuan Zhang",
+      "Zhenbiao Huang",
+      "Tianle Liu",
+      "Shenyu Chen",
+      "Jiacheng Wang",
+      "Bin Xie",
+      "Xuran Yao",
+      "Xiwa Deng",
+      "Guangyu Wang",
+      "Jinzhi Zhang",
+      "Lei Hao",
+      "Zhixing Chen",
+      "Yuxiang Chen",
+      "Anqi Wang",
+      "Hongyun Tian",
+      "Yiyi Yan",
+      "Zhanxiang Cao",
+      "Yizhou Jiang",
+      "Hanyang Shao",
+      "Yue Li",
+      "Lu Shi",
+      "Bokui Chen",
+      "Wei Sui",
+      "Hanqing Cui",
+      "Yusen Qin",
+      "Ruqi Huang",
+      "Lei Han",
+      "Tiancai Wang",
+      "Guyue Zhou"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-28T10:05:39+00:00",
+    "updated": "2026-04-28T10:05:39+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25459v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25459v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "基于3DGS的高吞吐量高保真机器人视觉强化学习仿真器。",
+    "tags": [
+      "Code",
+      "Demo",
+      "Academic",
+      "Accepted",
+      "🟢 Code",
+      "🎮 Demo",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "Tsinghua University"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 4,
+      "focus_relevance": 4,
+      "weighted": 4.0
+    },
+    "has_code": true,
+    "code_url": "https://gsplayground.github.io",
+    "has_dataset": false,
+    "has_demo": true,
+    "key_terms": [
+      "3D Gaussian Splatting",
+      "Real2Sim",
+      "Parallel Physics Engine",
+      "Visual Reinforcement Learning",
+      "Embodied AI Simulator"
+    ],
+    "journal_ref": null,
+    "comment": "Robotics: Science and Systems 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2604.25126": {
+    "title": "HANDFUL: Sequential Grasp-Conditioned Dexterous Manipulation with Resource Awareness",
+    "authors": [
+      "Ethan Foong",
+      "Yunshuang Li",
+      "Hao Jiang",
+      "Gaurav S. Sukhatme",
+      "Daniel Seita"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-28T02:04:50+00:00",
+    "updated": "2026-04-28T02:04:50+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25126v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25126v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "提出HANDFUL框架，通过资源感知抓取实现顺序灵巧操作。",
+    "tags": [
+      "Academic",
+      "Code",
+      "Dataset",
+      "Demo",
+      "🟢 Code",
+      "📊 Dataset",
+      "🎮 Demo"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "University of Southern California"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 4,
+      "focus_relevance": 2,
+      "weighted": 3.25
+    },
+    "has_code": true,
+    "code_url": "https://handful-dex.github.io",
+    "has_dataset": true,
+    "has_demo": true,
+    "key_terms": [
+      "Dexterous Manipulation",
+      "Sequential Tasks",
+      "Resource-Aware Grasping",
+      "Curriculum Learning"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2604.25416": {
+    "title": "Biased Dreams: Limitations to Epistemic Uncertainty Quantification in Latent Space Models",
+    "authors": [
+      "Julia Berger",
+      "Bernd Frauenknecht",
+      "Sebastian Trimpe",
+      "Bastian Leibe"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-04-28T09:27:01+00:00",
+    "updated": "2026-04-28T09:27:01+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25416v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25416v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "揭示潜在世界模型中认知不确定性量化的局限与奖励高估偏差。",
+    "tags": [
+      "Academic",
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "RWTH Aachen University"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 2,
+      "focus_relevance": 5,
+      "weighted": 3.95
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Latent Dynamics Models",
+      "Epistemic Uncertainty",
+      "World Models",
+      "Model-Based RL",
+      "RSSM"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2604.25405": {
+    "title": "Leveraging Previous-Traversal Point Cloud Map Priors for Camera-Based 3D Object Detection and Tracking",
+    "authors": [
+      "Markus Käppeler",
+      "Özgün Çiçek",
+      "Yakov Miron",
+      "Abhinav Valada"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-04-28T09:16:44+00:00",
+    "updated": "2026-04-28T09:16:44+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25405v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25405v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "结合历史点云地图先验提升纯视觉3D目标检测与跟踪性能。",
+    "tags": [
+      "Code",
+      "Academic",
+      "🟢 Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "University of Freiburg"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 5,
+      "focus_relevance": 1,
+      "weighted": 2.8
+    },
+    "has_code": true,
+    "code_url": "https://dualviewmapdet.cs.uni-freiburg.de",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "3D Object Detection",
+      "Camera-based Perception",
+      "Point Cloud Maps",
+      "BEV Fusion",
+      "Autonomous Driving"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  }
+}

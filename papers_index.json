@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-04-29T12:47:04.549304+00:00",
-    "total_papers": 10
+    "last_updated": "2026-04-29T12:55:41.776067+00:00",
+    "total_papers": 11
   },
   "2604.24921": {
     "title": "Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System",
@@ -588,6 +588,59 @@
       "Point Cloud Maps",
       "BEV Fusion",
       "Autonomous Driving"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2604.24934": {
+    "title": "TEACar: An Open-Source Autonomous Driving Platform",
+    "authors": [
+      "Zhongzheng Zhang",
+      "Maxwell Ruyle",
+      "Andrew Kappes",
+      "Tyler Ruble",
+      "William Shaoul",
+      "Dana Moreno",
+      "Jack Penn",
+      "Ivan Ruchkin"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-27T19:20:52+00:00",
+    "updated": "2026-04-27T19:20:52+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.24934v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24934v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "开源模块化小型自动驾驶硬件平台TEACAR",
+    "tags": [
+      "Code",
+      "🟢 Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 2,
+      "reproducibility": 4,
+      "focus_relevance": 2,
+      "weighted": 2.6
+    },
+    "has_code": true,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Hardware-in-the-Loop",
+      "Modular Robotics",
+      "ROS 2",
+      "CNN Steering Controller",
+      "Small-Scale Autonomous Driving"
     ],
     "journal_ref": null,
     "comment": null,
