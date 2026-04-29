@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-04-29T13:13:00.489499+00:00",
-    "total_papers": 7
+    "last_updated": "2026-04-29T14:00:23.372024+00:00",
+    "total_papers": 11
   },
   "2604.24921": {
     "title": "Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System",
@@ -412,6 +412,221 @@
       "Bird's-Eye View",
       "Camera-Map Fusion",
       "Autonomous Driving"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2604.25897": {
+    "title": "Variational Neural Belief Parameterizations for Robust Dexterous Grasping under Multimodal Uncertainty",
+    "authors": [
+      "Clinton Enwerem",
+      "Shreya Kalyanaraman",
+      "John S. Baras",
+      "Calin Belta"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-28T17:40:49+00:00",
+    "updated": "2026-04-28T17:40:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25897v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25897v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "变分神经信念参数化实现鲁棒灵巧抓取",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Boston University",
+      "University of Maryland"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.65
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Variational Inference",
+      "Gaussian Mixture Belief",
+      "CVaR",
+      "Dexterous Grasping",
+      "POMDP"
+    ],
+    "journal_ref": null,
+    "comment": "11 pages, 10 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2604.25554": {
+    "title": "Egocentric Tactile and Proximity Sensors as Observation Priors for Humanoid Collision Avoidance",
+    "authors": [
+      "Carson Kohlbrenner",
+      "Niraj Pudasaini",
+      "William Xie",
+      "Naren Sivagnanadasan",
+      "Nikolaus Correll",
+      "Alessandro Roncone"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-28T12:20:42+00:00",
+    "updated": "2026-04-28T12:20:42+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25554v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25554v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "人形机器人全身避碰的传感器消融与强化学习框架",
+    "tags": [
+      "No Code",
+      "Academic",
+      "Accepted",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "University of Colorado Boulder"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 2,
+      "focus_relevance": 2,
+      "weighted": 2.75
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Whole-body collision avoidance",
+      "Proximity sensors",
+      "Humanoid robot",
+      "Reinforcement learning",
+      "Egocentric sensing"
+    ],
+    "journal_ref": null,
+    "comment": "This work was accepted at the 8th RoboTac Workshop at the International Conference on Robotics and Automation (ICRA) 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2604.25126": {
+    "title": "HANDFUL: Sequential Grasp-Conditioned Dexterous Manipulation with Resource Awareness",
+    "authors": [
+      "Ethan Foong",
+      "Yunshuang Li",
+      "Hao Jiang",
+      "Gaurav S. Sukhatme",
+      "Daniel Seita"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-28T02:04:50+00:00",
+    "updated": "2026-04-28T02:04:50+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.25126v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25126v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "面向序列灵巧操作的资源感知抓取规划方法",
+    "tags": [
+      "Academic",
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "University of Southern California"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.65
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "resource-aware grasping",
+      "dexterous manipulation",
+      "curriculum-based policy learning",
+      "sequential manipulation",
+      "sim-to-real transfer"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2604.24934": {
+    "title": "TEACar: An Open-Source Autonomous Driving Platform",
+    "authors": [
+      "Zhongzheng Zhang",
+      "Maxwell Ruyle",
+      "Andrew Kappes",
+      "Tyler Ruble",
+      "William Shaoul",
+      "Dana Moreno",
+      "Jack Penn",
+      "Ivan Ruchkin"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-04-27T19:20:52+00:00",
+    "updated": "2026-04-27T19:20:52+00:00",
+    "abs_url": "http://arxiv.org/abs/2604.24934v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24934v1",
+    "first_seen": "2026-04-29",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "开源模块化小型自动驾驶硬件在环验证平台",
+    "tags": [
+      "Code",
+      "Academic",
+      "🟢 Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 2,
+      "reproducibility": 4,
+      "focus_relevance": 2,
+      "weighted": 2.6
+    },
+    "has_code": true,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Hardware-in-the-Loop",
+      "Autonomous Racing",
+      "ROS 2",
+      "Modular Robotics",
+      "CNN Controller"
     ],
     "journal_ref": null,
     "comment": null,
