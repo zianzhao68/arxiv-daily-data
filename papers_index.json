@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-05-05T07:47:53.869609+00:00",
-    "total_papers": 86
+    "last_updated": "2026-05-06T07:48:49.019833+00:00",
+    "total_papers": 94
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -4781,6 +4781,516 @@
       "Pseudo-Label Denoising",
       "LiDAR Simulation",
       "Adverse Weather"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.03821": {
+    "title": "RoboAlign-R1: Distilled Multimodal Reward Alignment for Robot Video World Models",
+    "authors": [
+      "Hao Wu",
+      "Yuqi Li",
+      "Yuan Gao",
+      "Fan Xu",
+      "Fan Zhang",
+      "Kun Wang",
+      "Penghao Zhao",
+      "Qiufeng Wang",
+      "Yizhou Zhao",
+      "Weiyan Wang",
+      "Yingli Tian",
+      "Xian Wu",
+      "Xiaomeng Huang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-05T14:49:00+00:00",
+    "updated": "2026-05-05T14:49:00+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.03821v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03821v1",
+    "first_seen": "2026-05-06",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "机器人视频世界模型的蒸馏多模态奖励对齐方法",
+    "tags": [
+      "Code",
+      "Dataset",
+      "🟢 Code",
+      "📊 Dataset",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 5,
+      "focus_relevance": 5,
+      "weighted": 4.25
+    },
+    "has_code": true,
+    "code_url": "https://roboalign-r1.netlify.app/#bibtex",
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "Robot Video World Models",
+      "Multimodal Reward Distillation",
+      "GRPO Post-Training",
+      "Sliding Window Re-encoding",
+      "RobotWorldBench"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core"
+  },
+  "2605.03269": {
+    "title": "RLDX-1 Technical Report",
+    "authors": [
+      "Dongyoung Kim",
+      "Huiwon Jang",
+      "Myungkyu Koo",
+      "Suhyeok Jang",
+      "Taeyoung Kim",
+      "Beomjun Kim",
+      "Byungjun Yoon",
+      "Changsung Jang",
+      "Daewon Choi",
+      "Dongsu Han",
+      "Donguk Lee",
+      "Heeseung Kwon",
+      "Hojin Jeon",
+      "Jaehyun Kang",
+      "Jaekyoung Bae",
+      "Jihyuk Lee",
+      "Jimin Lee",
+      "John Won",
+      "Joonwoo Ahn",
+      "Junhyeong Park",
+      "Junyoung Sung",
+      "Kyungmin Lee",
+      "Minseong Han",
+      "Minsung Yoon",
+      "Sejune Joo",
+      "Seonil Son",
+      "Seungcheol Park",
+      "Seunggeun Cho",
+      "Seungjun Moon",
+      "Seungku Kim",
+      "Yonghoon Dong",
+      "Yongjin Cho",
+      "Youngchan Kim",
+      "Chang Hwan Kim",
+      "Dohyeon Kim",
+      "Hazel Lee",
+      "Heecheol Kim",
+      "Hensen Ahn",
+      "Hyungkyu Ryu",
+      "Hyunsoo Choi",
+      "Hyunsoo Shin",
+      "Jaeheon Jung",
+      "Jaewoo Kim",
+      "Jinwook Kim",
+      "Joochul Chang",
+      "Joonsoo Kim",
+      "Junghun Park",
+      "Jungwoo Park",
+      "Junho Cho",
+      "Junhyeok Park",
+      "Junwon Lee",
+      "Kangwook Lee",
+      "Kwanghoon Kim",
+      "Kyoungwhan Choe",
+      "Manoj Bhadu",
+      "Nayoung Oh",
+      "Sangjun Kim",
+      "Sangwoo Kim",
+      "Seunghoon Shim",
+      "Seunghyun Kim",
+      "Seungjun Lee",
+      "Seungyup Ka",
+      "Sungryol Yang",
+      "Wook Jung",
+      "Yashu Shukla",
+      "Yeonjae Lee",
+      "Yeonwoo Bae",
+      "Jinwoo Shin"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-05T01:40:15+00:00",
+    "updated": "2026-05-05T01:40:15+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.03269v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03269v1",
+    "first_seen": "2026-05-06",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "RLDX-1统一多模态感知实现通用灵巧操作",
+    "tags": [
+      "Code",
+      "🟢 Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 4,
+      "focus_relevance": 5,
+      "weighted": 4.05
+    },
+    "has_code": true,
+    "code_url": "https://github.com/RLWRLD/RLDX-1",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Multi-Stream Action Transformer",
+      "Vision-Language-Action",
+      "dexterous manipulation",
+      "flow matching",
+      "synthetic data generation"
+    ],
+    "journal_ref": null,
+    "comment": "Project page: https://rlwrld.ai/rldx-1",
+    "relevance_tier": "core"
+  },
+  "2605.03941": {
+    "title": "A Benchmark for Interactive World Models with a Unified Action Generation Framework",
+    "authors": [
+      "Jianjie Fang",
+      "Yingshan Lei",
+      "Qin Wan",
+      "Ziyou Wang",
+      "Yuchao Huang",
+      "Yongyan Xu",
+      "Baining Zhao",
+      "Weichen Zhang",
+      "Chen Gao",
+      "Xinlei Chen",
+      "Yong Li"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-05T16:30:03+00:00",
+    "updated": "2026-05-05T16:30:03+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.03941v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03941v1",
+    "first_seen": "2026-05-06",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "交互式世界模型统一评测基准与动作生成框架",
+    "tags": [
+      "Code",
+      "Dataset",
+      "Demo",
+      "Academic",
+      "Accepted",
+      "🟢 Code",
+      "📊 Dataset",
+      "🎮 Demo",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "Tsinghua University",
+      "Northeastern University",
+      "South China University of Technology"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 4,
+      "focus_relevance": 4,
+      "weighted": 4.1
+    },
+    "has_code": true,
+    "code_url": "https://github.com/EmbodiedCity/iWorld-Bench",
+    "has_dataset": true,
+    "has_demo": true,
+    "key_terms": [
+      "Interactive World Models",
+      "Action Generation Framework",
+      "World Model Benchmark",
+      "Trajectory Following",
+      "Memory Ability"
+    ],
+    "journal_ref": null,
+    "comment": "Accepted at ICML 2026",
+    "relevance_tier": "core"
+  },
+  "2603.28489": {
+    "title": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms",
+    "authors": [
+      "Muyang He",
+      "Hanzhong Guo",
+      "Junxiong Lin",
+      "Yizhou Yu"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "primary_category": "eess.IV",
+    "published": "2026-03-30T14:23:45+00:00",
+    "updated": "2026-05-04T04:34:54+00:00",
+    "abs_url": "http://arxiv.org/abs/2603.28489v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.28489v2",
+    "first_seen": "2026-05-06",
+    "announce_type": "cross",
+    "direction": "multiple",
+    "one_line_summary": "视频生成世界模型效率优化全面综述",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "The University of Hong Kong",
+      "Hong Kong Generative AI Research and Development Center"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.05
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Video Generation",
+      "World Models",
+      "Efficient Inference",
+      "Diffusion Distillation",
+      "Embodied AI"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core"
+  },
+  "2605.03855": {
+    "title": "Evaluating Generative Models as Interactive Emergent Representations of Human-Like Collaborative Behavior",
+    "authors": [
+      "Shinas Shaji",
+      "Teena Chakkalayil Hassan",
+      "Sebastian Houben",
+      "Alex Mitrevski"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-05T15:20:15+00:00",
+    "updated": "2026-05-05T15:20:15+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.03855v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03855v1",
+    "first_seen": "2026-05-06",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "大模型智能体涌现类人协作行为评估",
+    "tags": [
+      "Code",
+      "Academic",
+      "🟢 Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Hochschule Bonn-Rhein-Sieg",
+      "Chalmers University of Technology",
+      "Fraunhofer Institute for Intelligent Analysis and Information Systems (IAIS)"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 4,
+      "focus_relevance": 2,
+      "weighted": 2.95
+    },
+    "has_code": true,
+    "code_url": "https://github.com/ShinasShaji/llm-collab-arena",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "LLM-as-Judge",
+      "Theory of Mind",
+      "Human-AI Collaboration",
+      "Embodied Agents",
+      "Emergent Behavior"
+    ],
+    "journal_ref": null,
+    "comment": "Under review",
+    "relevance_tier": "peripheral"
+  },
+  "2605.03846": {
+    "title": "SigLoMa: Learning Open-World Quadrupedal Loco-Manipulation from Ego-Centric Vision",
+    "authors": [
+      "Shiyi Chen",
+      "Haiyi Liu",
+      "Mingye Yang",
+      "Jiaqi Zhang",
+      "Debing Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-05T15:13:15+00:00",
+    "updated": "2026-05-05T15:13:15+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.03846v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03846v1",
+    "first_seen": "2026-05-06",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "自中心视觉驱动的四足开放世界操作学习",
+    "tags": [
+      "Academic",
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "Tsinghua University",
+      "Imperial College London"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.65
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Sigma Points",
+      "Ego-centric Kalman Filter",
+      "Sim-to-Real",
+      "Quadrupedal Loco-Manipulation",
+      "Active Sampling Curriculum"
+    ],
+    "journal_ref": null,
+    "comment": "Project website: https://11chens.github.io/SigLoMa/",
+    "relevance_tier": "peripheral"
+  },
+  "2605.03363": {
+    "title": "Learning Reactive Dexterous Grasping via Hierarchical Task-Space RL Planning and Joint-Space QP Control",
+    "authors": [
+      "Ho Jae Lee",
+      "Yonghyeon Lee",
+      "Alexander Alexiev",
+      "Tzu-Yuan Lin",
+      "Se Hwan Jeon",
+      "Sangbae Kim"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-05T04:49:38+00:00",
+    "updated": "2026-05-05T04:49:38+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.03363v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03363v1",
+    "first_seen": "2026-05-06",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "多智能体任务空间RL分层规划实现灵巧抓取",
+    "tags": [
+      "Academic",
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "MIT"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 4,
+      "focus_relevance": 3,
+      "weighted": 3.5
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Multi-Agent Reinforcement Learning",
+      "Task-Space Planning",
+      "Quadratic Programming",
+      "Sim-to-Real Transfer",
+      "Dexterous Grasping"
+    ],
+    "journal_ref": null,
+    "comment": "18 pages",
+    "relevance_tier": "peripheral"
+  },
+  "2605.03413": {
+    "title": "Learning to Theorize the World from Observation",
+    "authors": [
+      "Doojin Baek",
+      "Gyubin Lee",
+      "Junyeob Baek",
+      "Hosung Lee",
+      "Sungjin Ahn"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-05-05T06:39:12+00:00",
+    "updated": "2026-05-05T06:39:12+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.03413v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.03413v1",
+    "first_seen": "2026-05-06",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "从观测中归纳可解释世界理论的神经程序学习",
+    "tags": [
+      "Academic",
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "KAIST"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.65
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Learning-to-Theorize",
+      "Neural Theorizer",
+      "Program Induction",
+      "Compositional Generalization",
+      "Minimum Description Length"
     ],
     "journal_ref": null,
     "comment": null,
