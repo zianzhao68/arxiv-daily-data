@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.06481",
+  "title": "OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation",
+  "generated_at": "2026-05-08T05:56:54.539158+00:00",
+  "candidates": [
+    {
+      "filename": "figure-003-fig1.png",
+      "source": "tex",
+      "original_name": "fig1.pdf",
+      "size_bytes": 2465661,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-000-gallery-lp.png",
+      "source": "tex",
+      "original_name": "gallery_lp.png",
+      "size_bytes": 2261011,
+      "width": 1485,
+      "height": 822
+    },
+    {
+      "filename": "figure-001-gallery-libero.png",
+      "source": "tex",
+      "original_name": "gallery_libero.png",
+      "size_bytes": 1469975,
+      "width": 1165,
+      "height": 661
+    },
+    {
+      "filename": "figure-011-page-27-xref-514.png",
+      "source": "pdf-image",
+      "original_name": "page-27-xref-514.png",
+      "size_bytes": 1012156,
+      "width": 1165,
+      "height": 661
+    },
+    {
+      "filename": "figure-004-fig2.png",
+      "source": "tex",
+      "original_name": "fig2.pdf",
+      "size_bytes": 771544,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "filename": "figure-002-gallery-simplerenv.png",
+      "source": "tex",
+      "original_name": "gallery_simplerenv.pdf",
+      "size_bytes": 657830,
+      "width": 799,
+      "height": 340
+    },
+    {
+      "filename": "figure-007-fig4-results.png",
+      "source": "tex",
+      "original_name": "fig4_results.pdf",
+      "size_bytes": 240734,
+      "width": 663,
+      "height": 369
+    },
+    {
+      "filename": "figure-006-fig5-mechanism.png",
+      "source": "tex",
+      "original_name": "fig5_mechanism.pdf",
+      "size_bytes": 172532,
+      "width": 970,
+      "height": 273
+    },
+    {
+      "filename": "figure-005-fig3.png",
+      "source": "tex",
+      "original_name": "fig3.pdf",
+      "size_bytes": 171802,
+      "width": 560,
+      "height": 513
+    },
+    {
+      "filename": "figure-010-page-2-xref-813.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-813.jpeg",
+      "size_bytes": 159173,
+      "width": 1254,
+      "height": 686
+    },
+    {
+      "filename": "figure-008-fig9-attribution.png",
+      "source": "tex",
+      "original_name": "fig9_attribution.pdf",
+      "size_bytes": 82635,
+      "width": 755,
+      "height": 248
+    },
+    {
+      "filename": "figure-009-page-2-xref-811.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-811.jpeg",
+      "size_bytes": 13684,
+      "width": 143,
+      "height": 277
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-003-fig1.png",
+      "priority": "high",
+      "reason": "作为论文 teaser，直观对比了 Holistic WAM 的 entangled tokens 缺陷与 OA-WAM 的 addressable object-slots 优势，并展示了 Layout、Camera、Light、Language 等六种场景扰动，直接支撑核心动机与鲁棒性主张。",
+      "description": "Holistic WAM 与 OA-WAM 的概念对比图，展示对象可寻址槽位在场景扰动下的鲁棒操控优势。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-004-fig2.png",
+      "priority": "high",
+      "reason": "完整呈现 OA-WAM 的系统架构：从多视角观测与文本指令的 token 化、Slot Adapter、Block-causal Sequence Assembly，到 OA-WAM Backbone，再到 Image VQ Head、World Head 与 Action Head 的三头输出，是理解方法细节的关键图。",
+      "description": "OA-WAM 整体模型架构图，涵盖输入编码、块因果序列组装、主干网络及三个输出头。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-007-fig4-results.png",
+      "priority": "high",
+      "reason": "主实验结果汇总：左侧雷达图展示 OA-WAM 在 LIBERO-Plus 七个几何/语义扰动轴上的 SOTA 表现，右侧柱状图展示在 SimplerEnv WidowX 上的成功率对比，直接支撑论文性能主张。",
+      "description": "LIBERO-Plus 七轴雷达图与 SimplerEnv WidowX 柱状图的主实验对比结果。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-006-fig5-mechanism.png",
+      "priority": "high",
+      "reason": "机制验证三联图：(a) 相机偏移鲁棒性曲线量化 OA 约束的收益；(b) role-query attention 热力图验证 address-only keys 的注意力路由；(c) slot-swap intervention 轨迹图直观展示 swap-binding cosine 0.87 的因果效应，是 addressability 核心洞察的关键证据。",
+      "description": "机制分析图，包含相机鲁棒性曲线、角色查询注意力热力图与槽位交换干预轨迹。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

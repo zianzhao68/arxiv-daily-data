@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.05951",
+  "title": "HaM-World: Soft-Hamiltonian World Models with Selective Memory for Planning",
+  "generated_at": "2026-05-08T06:04:33.567308+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-architecture-overview.png",
+      "source": "tex",
+      "original_name": "architecture_overview.png",
+      "size_bytes": 2367500,
+      "width": 4605,
+      "height": 2223
+    },
+    {
+      "filename": "figure-001-bestseed-rollout.png",
+      "source": "tex",
+      "original_name": "bestseed_rollout.png",
+      "size_bytes": 1147727,
+      "width": 3861,
+      "height": 1453
+    },
+    {
+      "filename": "figure-002-cheetah-flow-q5p5.png",
+      "source": "tex",
+      "original_name": "cheetah_flow_q5p5.png",
+      "size_bytes": 744982,
+      "width": 1616,
+      "height": 1302
+    },
+    {
+      "filename": "figure-003-cheetah-flow-q2p3.png",
+      "source": "tex",
+      "original_name": "cheetah_flow_q2p3.png",
+      "size_bytes": 704597,
+      "width": 1617,
+      "height": 1302
+    },
+    {
+      "filename": "figure-004-cheetah-umap.png",
+      "source": "tex",
+      "original_name": "cheetah_umap.png",
+      "size_bytes": 396995,
+      "width": 311,
+      "height": 203
+    },
+    {
+      "filename": "figure-005-cheetah-crossing.png",
+      "source": "tex",
+      "original_name": "cheetah_crossing.png",
+      "size_bytes": 143689,
+      "width": 1494,
+      "height": 1107
+    },
+    {
+      "filename": "figure-006-curve-cartpole-swingup.png",
+      "source": "tex",
+      "original_name": "curve_cartpole_swingup.png",
+      "size_bytes": 116735,
+      "width": 217,
+      "height": 166
+    },
+    {
+      "filename": "figure-007-curve-reacher-easy.png",
+      "source": "tex",
+      "original_name": "curve_reacher_easy.png",
+      "size_bytes": 110384,
+      "width": 217,
+      "height": 166
+    },
+    {
+      "filename": "figure-008-cheetah-zero-damp-q.png",
+      "source": "tex",
+      "original_name": "cheetah_zero_damp_q.png",
+      "size_bytes": 104671,
+      "width": 252,
+      "height": 173
+    },
+    {
+      "filename": "figure-009-cheetah-free-energy.png",
+      "source": "tex",
+      "original_name": "cheetah_free_energy.png",
+      "size_bytes": 99435,
+      "width": 262,
+      "height": 180
+    },
+    {
+      "filename": "figure-010-curve-cheetah-run.png",
+      "source": "tex",
+      "original_name": "curve_cheetah_run.png",
+      "size_bytes": 94948,
+      "width": 217,
+      "height": 166
+    },
+    {
+      "filename": "figure-011-cheetah-rollout-energy.png",
+      "source": "tex",
+      "original_name": "cheetah_rollout_energy.png",
+      "size_bytes": 93488,
+      "width": 262,
+      "height": 180
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-000-architecture-overview.png",
+      "priority": "high",
+      "reason": "完整展示 HaM-World 的系统架构与规划闭环，包括 (q,p,c) latent 分解、Hamiltonian 动力学、Mamba 选择性记忆、CEM Planner 及 World Model Rollout，是理解方法设计的总览图。",
+      "description": "HaM-World 整体架构与 latent dynamics 设计概览，展示 (q,p,c) 分解、Hamiltonian 演化、Mamba 记忆与 CEM 规划闭环。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-002-cheetah-flow-q5p5.png",
+      "priority": "high",
+      "reason": "直接在相空间展示 Hamiltonian 向量场与策略轨迹的交互，颜色编码控制输入对能量的影响，是支撑 Soft-Hamiltonian 设计与 control-induced energy transfer 核心洞察的关键机制图。",
+      "description": "Cheetah 任务在 q[5]-p[5] 相空间中的轨迹与 Hamiltonian 向量场，颜色编码控制输入对能量的影响。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-004-cheetah-umap.png",
+      "priority": "high",
+      "reason": "通过 UMAP 可视化验证 latent state 的几何组织，清晰显示 q、p、c 三个子空间在嵌入空间中彼此分离，直接支撑论文关于配置、动量与任务语义分离的核心假设。",
+      "description": "UMAP 可视化显示 latent state 中 q、p、c 三个子空间呈现分离的几何结构。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-010-curve-cheetah-run.png",
+      "priority": "medium",
+      "reason": "Cheetah Run 任务上的主实验训练曲线，展示 HaM-World 与多条基线在 eval return 上的收敛过程与最终性能差距，支撑实验结论。",
+      "description": "Cheetah Run 任务上各方法的 eval return 随环境步数变化的训练曲线对比。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

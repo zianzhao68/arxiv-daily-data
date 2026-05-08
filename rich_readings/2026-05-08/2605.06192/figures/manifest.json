@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.06192",
+  "title": "EA-WM: Event-Aware Generative World Model with Structured Kinematic-to-Visual Action Fields",
+  "generated_at": "2026-05-08T06:06:36.867809+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-fig8.png",
+      "source": "tex",
+      "original_name": "fig8.png",
+      "size_bytes": 3007820,
+      "width": 535,
+      "height": 576
+    },
+    {
+      "filename": "figure-001-fig4-copy.png",
+      "source": "tex",
+      "original_name": "fig4_copy.png",
+      "size_bytes": 2725697,
+      "width": 682,
+      "height": 306
+    },
+    {
+      "filename": "figure-002-fig9.png",
+      "source": "tex",
+      "original_name": "fig9.png",
+      "size_bytes": 2596032,
+      "width": 535,
+      "height": 576
+    },
+    {
+      "filename": "figure-003-fig6.png",
+      "source": "tex",
+      "original_name": "fig6.png",
+      "size_bytes": 2580920,
+      "width": 535,
+      "height": 576
+    },
+    {
+      "filename": "figure-004-fig7.png",
+      "source": "tex",
+      "original_name": "fig7.png",
+      "size_bytes": 2542604,
+      "width": 535,
+      "height": 576
+    },
+    {
+      "filename": "figure-005-fig3-3.png",
+      "source": "tex",
+      "original_name": "fig3_3.png",
+      "size_bytes": 2378724,
+      "width": 729,
+      "height": 227
+    },
+    {
+      "filename": "figure-006-fig10.png",
+      "source": "tex",
+      "original_name": "fig10.png",
+      "size_bytes": 2360865,
+      "width": 535,
+      "height": 576
+    },
+    {
+      "filename": "figure-007-fig5.png",
+      "source": "tex",
+      "original_name": "fig5.png",
+      "size_bytes": 1855504,
+      "width": 455,
+      "height": 228
+    },
+    {
+      "filename": "figure-008-fig2-copy-1.png",
+      "source": "tex",
+      "original_name": "fig2_copy_1.png",
+      "size_bytes": 966163,
+      "width": 780,
+      "height": 416
+    },
+    {
+      "filename": "figure-009-fig1.png",
+      "source": "tex",
+      "original_name": "fig1_.png",
+      "size_bytes": 876126,
+      "width": 940,
+      "height": 502
+    },
+    {
+      "filename": "figure-011-page-4-xref-399.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-399.png",
+      "size_bytes": 770290,
+      "width": 2682,
+      "height": 1432
+    },
+    {
+      "filename": "figure-010-page-2-xref-391.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-391.png",
+      "size_bytes": 601672,
+      "width": 3231,
+      "height": 1728
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-010-page-2-xref-391.png",
+      "priority": "high",
+      "reason": "直接呈现论文核心动机与Insight：通过左右对比清晰阐释了传统Raw Action Conditioning在空间 grounding、 embodiment语义和相机几何对齐上的缺陷，以及本文提出的KVAFs Conditioning如何解决这些问题，是理解论文立意的关键图。",
+      "description": "Raw Action Conditioning与KVAFs Conditioning的概念与能力对比图。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-011-page-4-xref-399.png",
+      "priority": "high",
+      "reason": "完整的模型架构与系统设计图，涵盖KVAFS构造（前向运动学、相机投影、深度感知骨架）、潜在编码（RGB视频与帧差分编码）以及Z-WM双分支架构（Video分支、KVAFS分支、Event-Aware双向融合块），是精读笔记中拆解方法细节不可或缺的图。",
+      "description": "EA-WM整体架构图，展示KVAFS构造、潜在编码和Z-WM双分支生成架构。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-005-fig3-3.png",
+      "priority": "medium",
+      "reason": "带有红框标注的定性对比图，红框突出了关键区域（如机器人末端执行器或物体交互部位），能够直观展示本文方法在细粒度空间几何和交互动态上的优势，支撑实验关键结论。",
+      "description": "带红框关键区域标注的定性实验对比或消融结果网格。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-007-fig5.png",
+      "priority": "medium",
+      "reason": "精选的多样化任务定性结果，覆盖放置、按压、堆叠、协作等多种操作，能直观验证模型在不同机器人-物体交互场景下的生成质量与泛化能力，属于主实验支撑图。",
+      "description": "多样化机器人操作任务的定性生成结果序列展示。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

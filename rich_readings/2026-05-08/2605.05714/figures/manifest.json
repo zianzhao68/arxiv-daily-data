@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.05714",
+  "title": "TriRelVLA: Triadic Relational Structure for Generalizable Embodied Manipulation",
+  "generated_at": "2026-05-08T05:59:44.141763+00:00",
+  "candidates": [
+    {
+      "filename": "figure-002-figure-4-relation.png",
+      "source": "tex",
+      "original_name": "Figure_4_Relation.pdf",
+      "size_bytes": 5444297,
+      "width": 1471,
+      "height": 846
+    },
+    {
+      "filename": "figure-001-figure-7-realcomparison.png",
+      "source": "tex",
+      "original_name": "Figure_7_RealComparison.pdf",
+      "size_bytes": 1534031,
+      "width": 1129,
+      "height": 362
+    },
+    {
+      "filename": "figure-004-figure-6-syncomparison.png",
+      "source": "tex",
+      "original_name": "Figure_6_SynComparison.pdf",
+      "size_bytes": 993423,
+      "width": 948,
+      "height": 346
+    },
+    {
+      "filename": "figure-003-figure-3-representation.png",
+      "source": "tex",
+      "original_name": "Figure_3_Representation.pdf",
+      "size_bytes": 724187,
+      "width": 376,
+      "height": 212
+    },
+    {
+      "filename": "figure-000-figure-5-dataset.png",
+      "source": "tex",
+      "original_name": "Figure_5_Dataset.pdf",
+      "size_bytes": 610218,
+      "width": 472,
+      "height": 211
+    },
+    {
+      "filename": "figure-005-figure-1-paradigm.png",
+      "source": "tex",
+      "original_name": "Figure_1_Paradigm.pdf",
+      "size_bytes": 537001,
+      "width": 1237,
+      "height": 666
+    },
+    {
+      "filename": "figure-006-figure-2-framework.png",
+      "source": "tex",
+      "original_name": "Figure_2_Framework.pdf",
+      "size_bytes": 332269,
+      "width": 545,
+      "height": 224
+    },
+    {
+      "filename": "figure-007-page-2-xref-360.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-360.png",
+      "size_bytes": 61024,
+      "width": 498,
+      "height": 279
+    },
+    {
+      "filename": "figure-009-page-4-xref-392.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-392.jpeg",
+      "size_bytes": 41528,
+      "width": 172,
+      "height": 172
+    },
+    {
+      "filename": "figure-008-page-4-xref-391.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-391.jpeg",
+      "size_bytes": 40670,
+      "width": 172,
+      "height": 172
+    },
+    {
+      "filename": "figure-010-page-4-xref-394.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-394.jpeg",
+      "size_bytes": 39392,
+      "width": 179,
+      "height": 177
+    },
+    {
+      "filename": "figure-011-page-4-xref-395.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-395.jpeg",
+      "size_bytes": 14130,
+      "width": 179,
+      "height": 88
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-006-figure-2-framework.png",
+      "priority": "high",
+      "reason": "完整呈现了TriRelVLA从多模态输入、显式三元组表示、任务引导的交叉注意力、关系感知图Transformer到关系条件动作生成的全链路架构，是理解方法设计与数据流的核心图表。",
+      "description": "TriRelVLA整体框架与数据流图，涵盖输入编码、三元组表示、关系图构建及动作生成。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-005-figure-1-paradigm.png",
+      "priority": "high",
+      "reason": "通过对比隐式表示VLA、结构化表示VLA与本文TriRelVLA的范式差异，直观揭示了核心洞察——三元关系瓶颈如何解耦外观统计与动作预测，并附有关键的微调与泛化性能摘要。",
+      "description": "三种VLA表示范式对比及微调与泛化性能比较。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-001-figure-7-realcomparison.png",
+      "priority": "medium",
+      "reason": "真实世界主实验结果，展示了与OpenVLA、Octo、CogACT、SemanticVLA等基线在跨场景、跨物体、跨任务泛化上的成功率对比，并配有真实机器人操作场景，直接支撑论文关键结论。",
+      "description": "真实环境下跨场景、跨物体、跨任务泛化的SOTA对比实验结果。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-004-figure-6-syncomparison.png",
+      "priority": "medium",
+      "reason": "仿真环境下的主实验结果，覆盖多种复杂操作任务，与多个基线进行详细成功率对比，补充验证了方法在受控环境中的有效性与泛化增益。",
+      "description": "仿真环境下多任务操作的成功率对比实验。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

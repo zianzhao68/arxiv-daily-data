@@ -1,0 +1,126 @@
+{
+  "arxiv_id": "2605.06388",
+  "title": "Reconstruction or Semantics? What Makes a Latent Space Useful for Robotic World Models",
+  "generated_at": "2026-05-08T06:02:28.877994+00:00",
+  "candidates": [
+    {
+      "filename": "figure-004-comparison-ood-instruction.png",
+      "source": "tex",
+      "original_name": "comparison_ood_instruction.pdf",
+      "size_bytes": 4821242,
+      "width": 692,
+      "height": 948
+    },
+    {
+      "filename": "figure-005-comparison-ood.png",
+      "source": "tex",
+      "original_name": "comparison_ood.pdf",
+      "size_bytes": 4786461,
+      "width": 682,
+      "height": 860
+    },
+    {
+      "filename": "figure-006-comparison-ood-2.png",
+      "source": "tex",
+      "original_name": "comparison_ood_2.pdf",
+      "size_bytes": 4586621,
+      "width": 682,
+      "height": 860
+    },
+    {
+      "filename": "figure-007-comparison-ood-instruction-2.png",
+      "source": "tex",
+      "original_name": "comparison_ood_instruction_2.pdf",
+      "size_bytes": 3960044,
+      "width": 692,
+      "height": 948
+    },
+    {
+      "filename": "figure-000-comparison-combined-2.png",
+      "source": "tex",
+      "original_name": "comparison_combined_2.pdf",
+      "size_bytes": 3595205,
+      "width": 667,
+      "height": 579
+    },
+    {
+      "filename": "figure-001-comparison-combined.png",
+      "source": "tex",
+      "original_name": "comparison_combined.pdf",
+      "size_bytes": 2762878,
+      "width": 667,
+      "height": 579
+    },
+    {
+      "filename": "figure-002-comparison-vla-2.png",
+      "source": "tex",
+      "original_name": "comparison_vla_2.pdf",
+      "size_bytes": 2631501,
+      "width": 909,
+      "height": 275
+    },
+    {
+      "filename": "figure-003-comparison-vla.png",
+      "source": "tex",
+      "original_name": "comparison_vla.pdf",
+      "size_bytes": 2273681,
+      "width": 909,
+      "height": 275
+    },
+    {
+      "filename": "figure-008-logo.png",
+      "source": "tex",
+      "original_name": "logo.png",
+      "size_bytes": 306482,
+      "width": 1070,
+      "height": 448
+    },
+    {
+      "filename": "figure-009-frame-2-t22.png",
+      "source": "tex",
+      "original_name": "frame_2_t22.png",
+      "size_bytes": 106970,
+      "width": 192,
+      "height": 192
+    },
+    {
+      "filename": "figure-010-frame-3-t33.png",
+      "source": "tex",
+      "original_name": "frame_3_t33.png",
+      "size_bytes": 106792,
+      "width": 192,
+      "height": 192
+    },
+    {
+      "filename": "figure-011-frame-0-t0.png",
+      "source": "tex",
+      "original_name": "frame_0_t0.png",
+      "size_bytes": 105230,
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-comparison-combined.png",
+      "priority": "high",
+      "reason": "该图通过多任务、多模型的视频预测帧并排对比，直观呈现重建型与语义型编码器在视觉生成质量上的差异，是支撑“视觉保真度不足以评估世界模型”这一核心 Insight 的关键视觉证据。",
+      "description": "六种编码器在三个机器人操作任务上的视频预测帧综合对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-002-comparison-vla-2.png",
+      "priority": "medium",
+      "reason": "展示语言条件规划任务中不同编码器的 rollout 成功与失败案例，直接体现语义编码器在下游策略与规划性能上的优势，补充视觉保真度之外的评估维度。",
+      "description": "两组语言指令任务中 VAE、Cosmos、V-JEPA 2.1 与 Web-DINO 的规划结果对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-003-comparison-vla.png",
+      "priority": "medium",
+      "reason": "通过另一组语言条件任务（如拾取毛巾、关闭烤箱）展示不同语义编码器在特定指令下的差异化表现，增强论文结论的鲁棒性与细致度。",
+      "description": "另两组 VLA 任务中四种编码器的规划成功率对比，显示不同模型的差异化失败模式。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

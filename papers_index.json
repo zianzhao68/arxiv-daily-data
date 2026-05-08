@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-05-06T07:48:49.019833+00:00",
-    "total_papers": 94
+    "last_updated": "2026-05-08T06:06:36.868708+00:00",
+    "total_papers": 109
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -5291,6 +5291,954 @@
       "Program Induction",
       "Compositional Generalization",
       "Minimum Description Length"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.06481": {
+    "title": "OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation",
+    "authors": [
+      "Yushan Liu",
+      "Peibo Sun",
+      "Shoujie Li",
+      "Yifan Xie",
+      "Lingfeng Zhang",
+      "Xintao Chao",
+      "Shiyuan Dong",
+      "Fang Chen",
+      "Xiao-Ping Zhang",
+      "Wenbo Ding"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-07T16:06:08+00:00",
+    "updated": "2026-05-07T16:06:08+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.06481v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06481v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "对象可寻址世界动作模型增强机器人鲁棒操控",
+    "tags": [
+      "No Code",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 4,
+      "focus_relevance": 5,
+      "weighted": 4.15
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Object-Addressable Attention",
+      "World Action Model",
+      "Slot-Based Representation",
+      "Flow Matching",
+      "LIBERO-Plus"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-08/2605.06481/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-003-fig1.png",
+        "priority": "high",
+        "reason": "作为论文 teaser，直观对比了 Holistic WAM 的 entangled tokens 缺陷与 OA-WAM 的 addressable object-slots 优势，并展示了 Layout、Camera、Light、Language 等六种场景扰动，直接支撑核心动机与鲁棒性主张。",
+        "description": "Holistic WAM 与 OA-WAM 的概念对比图，展示对象可寻址槽位在场景扰动下的鲁棒操控优势。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-004-fig2.png",
+        "priority": "high",
+        "reason": "完整呈现 OA-WAM 的系统架构：从多视角观测与文本指令的 token 化、Slot Adapter、Block-causal Sequence Assembly，到 OA-WAM Backbone，再到 Image VQ Head、World Head 与 Action Head 的三头输出，是理解方法细节的关键图。",
+        "description": "OA-WAM 整体模型架构图，涵盖输入编码、块因果序列组装、主干网络及三个输出头。",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-007-fig4-results.png",
+        "priority": "high",
+        "reason": "主实验结果汇总：左侧雷达图展示 OA-WAM 在 LIBERO-Plus 七个几何/语义扰动轴上的 SOTA 表现，右侧柱状图展示在 SimplerEnv WidowX 上的成功率对比，直接支撑论文性能主张。",
+        "description": "LIBERO-Plus 七轴雷达图与 SimplerEnv WidowX 柱状图的主实验对比结果。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-006-fig5-mechanism.png",
+        "priority": "high",
+        "reason": "机制验证三联图：(a) 相机偏移鲁棒性曲线量化 OA 约束的收益；(b) role-query attention 热力图验证 address-only keys 的注意力路由；(c) slot-swap intervention 轨迹图直观展示 swap-binding cosine 0.87 的因果效应，是 addressability 核心洞察的关键证据。",
+        "description": "机制分析图，包含相机鲁棒性曲线、角色查询注意力热力图与槽位交换干预轨迹。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-08T05:56:54.539158+00:00"
+  },
+  "2605.06311": {
+    "title": "Toward Visually Realistic Simulation: A Benchmark for Evaluating Robot Manipulation in Simulation",
+    "authors": [
+      "Yixin Zhu",
+      "Zixiong Wang",
+      "Jian Yang",
+      "Jin Xie",
+      "Jingyi Yu",
+      "Jiayuan Gu",
+      "Beibei Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-07T14:13:05+00:00",
+    "updated": "2026-05-07T14:13:05+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.06311v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06311v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "构建视觉真实的机器人仿真评测基准VISER",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.8
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "PBR Materials",
+      "Sim-to-Real",
+      "VLA Evaluation",
+      "MLLM-driven Retrieval",
+      "Robot Manipulation Benchmark"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core"
+  },
+  "2605.06192": {
+    "title": "EA-WM: Event-Aware Generative World Model with Structured Kinematic-to-Visual Action Fields",
+    "authors": [
+      "Zhaoyang Yang",
+      "Yurun Jin",
+      "Lizhe Qi",
+      "Cong Huang",
+      "Kai Chen"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-07T13:06:19+00:00",
+    "updated": "2026-05-07T13:06:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.06192v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06192v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "事件感知世界模型实现运动学视觉闭环",
+    "tags": [
+      "No Code",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.05
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Kinematic-to-Visual Action Fields",
+      "Event-Difference Latent Supervision",
+      "robotic video world model",
+      "action-conditioned video generation",
+      "WorldArena benchmark"
+    ],
+    "journal_ref": null,
+    "comment": "Preprint. 22 pages, 10 figures",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-08/2605.06192/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-010-page-2-xref-391.png",
+        "priority": "high",
+        "reason": "直接呈现论文核心动机与Insight：通过左右对比清晰阐释了传统Raw Action Conditioning在空间 grounding、 embodiment语义和相机几何对齐上的缺陷，以及本文提出的KVAFs Conditioning如何解决这些问题，是理解论文立意的关键图。",
+        "description": "Raw Action Conditioning与KVAFs Conditioning的概念与能力对比图。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-011-page-4-xref-399.png",
+        "priority": "high",
+        "reason": "完整的模型架构与系统设计图，涵盖KVAFS构造（前向运动学、相机投影、深度感知骨架）、潜在编码（RGB视频与帧差分编码）以及Z-WM双分支架构（Video分支、KVAFS分支、Event-Aware双向融合块），是精读笔记中拆解方法细节不可或缺的图。",
+        "description": "EA-WM整体架构图，展示KVAFS构造、潜在编码和Z-WM双分支生成架构。",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-005-fig3-3.png",
+        "priority": "medium",
+        "reason": "带有红框标注的定性对比图，红框突出了关键区域（如机器人末端执行器或物体交互部位），能够直观展示本文方法在细粒度空间几何和交互动态上的优势，支撑实验关键结论。",
+        "description": "带红框关键区域标注的定性实验对比或消融结果网格。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-007-fig5.png",
+        "priority": "medium",
+        "reason": "精选的多样化任务定性结果，覆盖放置、按压、堆叠、协作等多种操作，能直观验证模型在不同机器人-物体交互场景下的生成质量与泛化能力，属于主实验支撑图。",
+        "description": "多样化机器人操作任务的定性生成结果序列展示。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-08T06:06:36.867809+00:00"
+  },
+  "2605.06175": {
+    "title": "VLA-GSE: Boosting Parameter-Efficient Fine-Tuning in VLA with Generalized and Specialized Experts",
+    "authors": [
+      "Yuhua Jiang",
+      "Junjie Lu",
+      "Xinyao Qin",
+      "Xiaoyu Chen",
+      "Kaixin Wang",
+      "Feifei Gao",
+      "Li Zhao"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-07T12:56:58+00:00",
+    "updated": "2026-05-07T12:56:58+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.06175v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06175v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "基于谱分解的VLA参数高效微调专家混合框架",
+    "tags": [
+      "Code",
+      "🟢 Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 4,
+      "focus_relevance": 5,
+      "weighted": 4.05
+    },
+    "has_code": true,
+    "code_url": "https://github.com/YuhuaJiang2002/VLA-GSE",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "VLA",
+      "PEFT",
+      "Mixture of Experts",
+      "SVD Initialization",
+      "Gradient Scale Balancing"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core"
+  },
+  "2605.05714": {
+    "title": "TriRelVLA: Triadic Relational Structure for Generalizable Embodied Manipulation",
+    "authors": [
+      "Hanyu Zhou",
+      "Chuanhao Ma",
+      "Gim Hee Lee"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-07T05:57:49+00:00",
+    "updated": "2026-05-07T05:57:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.05714v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05714v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "三元关系VLA框架提升具身操作泛化",
+    "tags": [
+      "No Code",
+      "Dataset",
+      "Academic",
+      "🔴 No Code",
+      "📊 Dataset",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "National University of Singapore"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.15
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "Vision-Language-Action",
+      "Triadic Relational Structure",
+      "Relational Graph Transformer",
+      "Relational Bottleneck",
+      "Embodied Manipulation"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-08/2605.05714/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-006-figure-2-framework.png",
+        "priority": "high",
+        "reason": "完整呈现了TriRelVLA从多模态输入、显式三元组表示、任务引导的交叉注意力、关系感知图Transformer到关系条件动作生成的全链路架构，是理解方法设计与数据流的核心图表。",
+        "description": "TriRelVLA整体框架与数据流图，涵盖输入编码、三元组表示、关系图构建及动作生成。",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-005-figure-1-paradigm.png",
+        "priority": "high",
+        "reason": "通过对比隐式表示VLA、结构化表示VLA与本文TriRelVLA的范式差异，直观揭示了核心洞察——三元关系瓶颈如何解耦外观统计与动作预测，并附有关键的微调与泛化性能摘要。",
+        "description": "三种VLA表示范式对比及微调与泛化性能比较。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-001-figure-7-realcomparison.png",
+        "priority": "medium",
+        "reason": "真实世界主实验结果，展示了与OpenVLA、Octo、CogACT、SemanticVLA等基线在跨场景、跨物体、跨任务泛化上的成功率对比，并配有真实机器人操作场景，直接支撑论文关键结论。",
+        "description": "真实环境下跨场景、跨物体、跨任务泛化的SOTA对比实验结果。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-004-figure-6-syncomparison.png",
+        "priority": "medium",
+        "reason": "仿真环境下的主实验结果，覆盖多种复杂操作任务，与多个基线进行详细成功率对比，补充验证了方法在受控环境中的有效性与泛化增益。",
+        "description": "仿真环境下多任务操作的成功率对比实验。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-08T05:59:44.141763+00:00"
+  },
+  "2605.06388": {
+    "title": "Reconstruction or Semantics? What Makes a Latent Space Useful for Robotic World Models",
+    "authors": [
+      "Nilaksh",
+      "Saurav Jha",
+      "Artem Zholus",
+      "Sarath Chandar"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-07T15:05:26+00:00",
+    "updated": "2026-05-07T15:05:26+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.06388v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06388v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "语义潜空间更利于机器人扩散世界模型策略规划",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Mila - Quebec AI Institute"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.15
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Latent Diffusion Models",
+      "Semantic Latent Space",
+      "Robotic World Models",
+      "Action-Conditioned Video Generation",
+      "Policy Evaluation"
+    ],
+    "journal_ref": null,
+    "comment": "9 pages",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-08/2605.06388/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-001-comparison-combined.png",
+        "priority": "high",
+        "reason": "该图通过多任务、多模型的视频预测帧并排对比，直观呈现重建型与语义型编码器在视觉生成质量上的差异，是支撑“视觉保真度不足以评估世界模型”这一核心 Insight 的关键视觉证据。",
+        "description": "六种编码器在三个机器人操作任务上的视频预测帧综合对比。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-002-comparison-vla-2.png",
+        "priority": "medium",
+        "reason": "展示语言条件规划任务中不同编码器的 rollout 成功与失败案例，直接体现语义编码器在下游策略与规划性能上的优势，补充视觉保真度之外的评估维度。",
+        "description": "两组语言指令任务中 VAE、Cosmos、V-JEPA 2.1 与 Web-DINO 的规划结果对比。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-003-comparison-vla.png",
+        "priority": "medium",
+        "reason": "通过另一组语言条件任务（如拾取毛巾、关闭烤箱）展示不同语义编码器在特定指令下的差异化表现，增强论文结论的鲁棒性与细致度。",
+        "description": "另两组 VLA 任务中四种编码器的规划成功率对比，显示不同模型的差异化失败模式。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-08T06:02:28.877994+00:00"
+  },
+  "2605.06298": {
+    "title": "Render, Don't Decode: Weight-Space World Models with Latent Structural Disentanglement",
+    "authors": [
+      "Roussel Desmond Nzoyem",
+      "Mauro Comi"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-07T14:02:00+00:00",
+    "updated": "2026-05-07T14:02:00+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.06298v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06298v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "基于INR权重空间的世界模型实现结构与动态解耦",
+    "tags": [
+      "Code",
+      "Academic",
+      "🟢 Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 5,
+      "focus_relevance": 4,
+      "weighted": 3.9
+    },
+    "has_code": true,
+    "code_url": "https://github.com/ddrous/nova",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Implicit Neural Representation",
+      "Weight-Space Learning",
+      "Latent Action Models",
+      "Content-Motion Disentanglement",
+      "Zero-Shot Super-Resolution"
+    ],
+    "journal_ref": null,
+    "comment": "35 pages, 30 figures, 8 tables",
+    "relevance_tier": "core"
+  },
+  "2605.06222": {
+    "title": "When to Trust Imagination: Adaptive Action Execution for World Action Models",
+    "authors": [
+      "Rui Wang",
+      "Yue Zhang",
+      "Jiehong Lin",
+      "Kuncheng Luo",
+      "Jianan Wang",
+      "Zhongrui Wang",
+      "Xiaojuan Qi"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-07T13:18:28+00:00",
+    "updated": "2026-05-07T13:18:28+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.06222v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06222v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "世界动作模型自适应执行验证框架",
+    "tags": [
+      "No Code",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.05
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "World Action Models",
+      "Adaptive Action Execution",
+      "Future-Reality Verification",
+      "Causal Attention",
+      "Robot Manipulation"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core"
+  },
+  "2605.05951": {
+    "title": "HaM-World: Soft-Hamiltonian World Models with Selective Memory for Planning",
+    "authors": [
+      "Haoyun Tang",
+      "Haodong Cui",
+      "Keyao Xu",
+      "Kun Wang",
+      "Zhandong Mei"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-05-07T09:58:18+00:00",
+    "updated": "2026-05-07T09:58:18+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.05951v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05951v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "软哈密顿世界模型结合选择性记忆增强规划稳定性",
+    "tags": [
+      "Code",
+      "🟢 Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 4,
+      "focus_relevance": 5,
+      "weighted": 4.15
+    },
+    "has_code": true,
+    "code_url": "https://github.com/HaoyunT/HaM_World",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Soft-Hamiltonian dynamics",
+      "Mamba selective memory",
+      "Latent q/p/c factorization",
+      "Cross-entropy method planning",
+      "OOD robustness"
+    ],
+    "journal_ref": null,
+    "comment": "22 pages, 5 figures. Code: https://github.com/HaoyunT/HaM_World",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-08/2605.05951/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-000-architecture-overview.png",
+        "priority": "high",
+        "reason": "完整展示 HaM-World 的系统架构与规划闭环，包括 (q,p,c) latent 分解、Hamiltonian 动力学、Mamba 选择性记忆、CEM Planner 及 World Model Rollout，是理解方法设计的总览图。",
+        "description": "HaM-World 整体架构与 latent dynamics 设计概览，展示 (q,p,c) 分解、Hamiltonian 演化、Mamba 记忆与 CEM 规划闭环。",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-002-cheetah-flow-q5p5.png",
+        "priority": "high",
+        "reason": "直接在相空间展示 Hamiltonian 向量场与策略轨迹的交互，颜色编码控制输入对能量的影响，是支撑 Soft-Hamiltonian 设计与 control-induced energy transfer 核心洞察的关键机制图。",
+        "description": "Cheetah 任务在 q[5]-p[5] 相空间中的轨迹与 Hamiltonian 向量场，颜色编码控制输入对能量的影响。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-004-cheetah-umap.png",
+        "priority": "high",
+        "reason": "通过 UMAP 可视化验证 latent state 的几何组织，清晰显示 q、p、c 三个子空间在嵌入空间中彼此分离，直接支撑论文关于配置、动量与任务语义分离的核心假设。",
+        "description": "UMAP 可视化显示 latent state 中 q、p、c 三个子空间呈现分离的几何结构。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-010-curve-cheetah-run.png",
+        "priority": "medium",
+        "reason": "Cheetah Run 任务上的主实验训练曲线，展示 HaM-World 与多条基线在 eval return 上的收敛过程与最终性能差距，支撑实验结论。",
+        "description": "Cheetah Run 任务上各方法的 eval return 随环境步数变化的训练曲线对比。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-08T06:04:33.567308+00:00"
+  },
+  "2605.06593": {
+    "title": "ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting",
+    "authors": [
+      "David Müller",
+      "Agon Serifi",
+      "Sammy Christen",
+      "Ruben Grandia",
+      "Espen Knoop",
+      "Moritz Bächer"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.GR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-07T17:20:15+00:00",
+    "updated": "2026-05-07T17:20:15+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.06593v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06593v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "基于双层优化与强化学习的物理感知运动重定向框架",
+    "tags": [
+      "Industry",
+      "Accepted",
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "Disney Research"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.9
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "motion retargeting",
+      "bilevel optimization",
+      "reinforcement learning",
+      "physics simulation",
+      "sim-to-real"
+    ],
+    "journal_ref": null,
+    "comment": "SIGGRAPH 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2605.06234": {
+    "title": "RobotEQ: Transitioning from Passive Intelligence to Active Intelligence in Embodied AI",
+    "authors": [
+      "Kuofei Fang",
+      "Xinyi Che",
+      "Haomin Ouyang",
+      "Shufan Zhang",
+      "Xuehao Wang",
+      "Qi Liu",
+      "Liyi Liu",
+      "Chenqi Zhang",
+      "Wenxi Cai",
+      "Wenyu Dai",
+      "Jinyang Wu",
+      "Fan Zhang",
+      "Haoyu Chen",
+      "Bin He",
+      "Zheng Lian"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.HC"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-07T13:22:26+00:00",
+    "updated": "2026-05-07T13:22:26+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.06234v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.06234v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "首个具身主动智能基准RobotEQ发布",
+    "tags": [
+      "Code",
+      "Dataset",
+      "🟢 Code",
+      "📊 Dataset"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 4,
+      "focus_relevance": 2,
+      "weighted": 3.05
+    },
+    "has_code": true,
+    "code_url": "https://anonymous.4open.science/r/RobotEQ",
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "active intelligence",
+      "social norms",
+      "embodied AI benchmark",
+      "spatial grounding",
+      "RAG"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.05945": {
+    "title": "MobileEgo Anywhere: Open Infrastructure for long horizon egocentric data on commodity hardware",
+    "authors": [
+      "Senthil Palanisamy",
+      "Abhishek Anand",
+      "Satpal Singh Rathor",
+      "Pratyush Patnaik",
+      "Shubhanshu Khatana"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-07T09:55:20+00:00",
+    "updated": "2026-05-07T09:55:20+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.05945v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05945v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "开源手机采集长时VLA训练数据",
+    "tags": [
+      "Code",
+      "Dataset",
+      "Industry",
+      "🟢 Code",
+      "📊 Dataset"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "FPV Labs"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 4,
+      "focus_relevance": 4,
+      "weighted": 3.45
+    },
+    "has_code": true,
+    "code_url": "https://fpvlabs.ai/python-package",
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "VLA dataset",
+      "egocentric data",
+      "long-horizon tracking",
+      "commodity hardware",
+      "automated annotation"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.05925": {
+    "title": "DexSynRefine: Synthesizing and Refining Human-Object Interaction Motion for Physically Feasible Dexterous Robot Actions",
+    "authors": [
+      "Hyesung Lee",
+      "Hyunwoo Jung",
+      "Si-Hwan Heo",
+      "Sungwook Yang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-07T09:31:43+00:00",
+    "updated": "2026-05-07T09:31:43+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.05925v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05925v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "基于残差RL合成HOI运动实现灵巧操作真机迁移",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.7
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Human-Object Interaction",
+      "Task-space Residual RL",
+      "Motion Manifold Flow Primitives",
+      "Sim-to-real Transfer",
+      "Dexterous Manipulation"
+    ],
+    "journal_ref": null,
+    "comment": "Project page: https://dexsynrefine.github.io/",
+    "relevance_tier": "peripheral"
+  },
+  "2605.05960": {
+    "title": "Plug-and-Play Label Map Diffusion for Universal Goal-Oriented Navigation",
+    "authors": [
+      "Zhixuan Shen",
+      "Yijie Zeng",
+      "Shengxiang Luo",
+      "Tianrui Li",
+      "Haonan Luo"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-07T10:06:40+00:00",
+    "updated": "2026-05-07T10:06:40+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.05960v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05960v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "扩散模型补全BEV标签地图辅助目标导航",
+    "tags": [
+      "Academic",
+      "Accepted",
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Southwest Jiaotong University"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 2,
+      "weighted": 2.85
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "BEV Map Completion",
+      "Diffusion Models",
+      "Goal-Oriented Navigation",
+      "Obstacle-Guided Denoising",
+      "Semantic Mapping"
+    ],
+    "journal_ref": null,
+    "comment": "21 pages, 10 figures, Extended Version of accepted ICML 2026 Paper",
+    "relevance_tier": "peripheral"
+  },
+  "2605.05897": {
+    "title": "Generating Roadside LiDAR Datasets from Vehicle-Side Datasets via Novel View Synthesis",
+    "authors": [
+      "Yuhan Xia",
+      "Runxin Zhao",
+      "Hanyang Zhuang",
+      "Chunxiang Wang",
+      "Ming Yang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-07T09:10:18+00:00",
+    "updated": "2026-05-07T09:10:18+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.05897v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.05897v1",
+    "first_seen": "2026-05-08",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "基于神经场的车路协同激光雷达数据合成方法",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "Shanghai Jiao Tong University"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 2,
+      "weighted": 2.95
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "LiDAR Novel View Synthesis",
+      "Neural Fields",
+      "Point Cloud Completion",
+      "V2X Perception",
+      "Occupancy-based Visibility Constraint"
     ],
     "journal_ref": null,
     "comment": null,
