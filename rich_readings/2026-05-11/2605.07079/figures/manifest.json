@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.07079",
+  "title": "Learning Visual Feature-Based World Models via Residual Latent Action",
+  "generated_at": "2026-05-11T09:29:20.471415+00:00",
+  "candidates": [
+    {
+      "filename": "figure-010-predictive.png",
+      "source": "tex",
+      "original_name": "predictive.pdf",
+      "size_bytes": 2228822,
+      "width": 548,
+      "height": 536
+    },
+    {
+      "filename": "figure-005-wm2.png",
+      "source": "tex",
+      "original_name": "wm2.pdf",
+      "size_bytes": 1594361,
+      "width": 524,
+      "height": 515
+    },
+    {
+      "filename": "figure-003-wm3.png",
+      "source": "tex",
+      "original_name": "wm3.pdf",
+      "size_bytes": 1579715,
+      "width": 524,
+      "height": 514
+    },
+    {
+      "filename": "figure-006-wm1.png",
+      "source": "tex",
+      "original_name": "wm1.pdf",
+      "size_bytes": 1571635,
+      "width": 524,
+      "height": 514
+    },
+    {
+      "filename": "figure-004-wm4.png",
+      "source": "tex",
+      "original_name": "wm4.pdf",
+      "size_bytes": 1564281,
+      "width": 524,
+      "height": 514
+    },
+    {
+      "filename": "figure-007-wm5.png",
+      "source": "tex",
+      "original_name": "wm5.pdf",
+      "size_bytes": 1509164,
+      "width": 524,
+      "height": 513
+    },
+    {
+      "filename": "figure-009-wm6.png",
+      "source": "tex",
+      "original_name": "wm6.pdf",
+      "size_bytes": 1495440,
+      "width": 524,
+      "height": 513
+    },
+    {
+      "filename": "figure-000-topology.png",
+      "source": "tex",
+      "original_name": "topology.pdf",
+      "size_bytes": 1160675,
+      "width": 600,
+      "height": 392
+    },
+    {
+      "filename": "figure-011-iws.png",
+      "source": "tex",
+      "original_name": "iws.pdf",
+      "size_bytes": 621849,
+      "width": 465,
+      "height": 172
+    },
+    {
+      "filename": "figure-002-maniskill.png",
+      "source": "tex",
+      "original_name": "maniskill.pdf",
+      "size_bytes": 521764,
+      "width": 553,
+      "height": 103
+    },
+    {
+      "filename": "figure-001-imitation-v2.png",
+      "source": "tex",
+      "original_name": "imitation-v2.pdf",
+      "size_bytes": 152163,
+      "width": 579,
+      "height": 101
+    },
+    {
+      "filename": "figure-008-wm.png",
+      "source": "tex",
+      "original_name": "wm.pdf",
+      "size_bytes": 126712,
+      "width": 463,
+      "height": 178
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-000-topology.png",
+      "priority": "high",
+      "reason": "展示论文核心框架：如何从大量无动作视频和少量带动作视频中学习 Residual Latent Action (RLA)，以及 RLA 如何同时驱动策略和世界模型。整体拓扑图直接对应论文方法的核心设计，是理解后续所有模块的总览。",
+      "description": "RLA 学习框架拓扑图，包含视觉编码、自注意力、Latent Action 与 Action 双分支输出，以及自编码器训练流程。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-011-iws.png",
+      "priority": "high",
+      "reason": "详细刻画了 RLA-WM 的核心算法——Lightweight Flow Matching。图中展示了条件化自注意力、ODE 求解、MSE 损失以及编码器-解码器的训练闭环，是理解世界模型如何预测未来视觉特征的关键。",
+      "description": "Lightweight Flow Matching 训练流程图，包含条件输入、ODE 求解、速度估计与 MSE 损失。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-010-predictive.png",
+      "priority": "high",
+      "reason": "直接支撑论文核心 Insight：RLA 不仅可从 DINO residuals 轻松学习，还具备预测性、泛化性和时序编码能力。通过与 DINO 直接插值的定性对比，清晰展示了 RLA 在保持物体一致性、动作连贯性上的显著优势。",
+      "description": "DINO Tokens 插值与 RLA 插值的定性对比，展示 RLA 在多任务上的预测一致性与时序平滑性。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-005-wm2.png",
+      "priority": "medium",
+      "reason": "主实验的定性结果，展示 RLA-WM 在模拟与真实任务上的长程未来帧预测能力。与 Vid2World、DINO-WM、IWM、FM-WM 等 SOTA 方法并列对比，能直观体现 RLA-WM 在减少幻觉、保持物体几何与运动一致性方面的优势。",
+      "description": "世界模型未来帧预测的 SOTA 定性对比，涵盖 Ground Truth、RLA-WM 及多个基线方法。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

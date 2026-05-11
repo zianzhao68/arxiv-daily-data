@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.07381",
+  "title": "Escaping the Diversity Trap in Robotic Manipulation via Anchor-Centric Adaptation",
+  "generated_at": "2026-05-11T09:19:05.471821+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-cases.png",
+      "source": "tex",
+      "original_name": "cases.pdf",
+      "size_bytes": 3172520,
+      "width": 632,
+      "height": 1154
+    },
+    {
+      "filename": "figure-011-page-1-xref-382.png",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-382.png",
+      "size_bytes": 952017,
+      "width": 1453,
+      "height": 426
+    },
+    {
+      "filename": "figure-001-qiancai.png",
+      "source": "tex",
+      "original_name": "qiancai.pdf",
+      "size_bytes": 830102,
+      "width": 381,
+      "height": 399
+    },
+    {
+      "filename": "figure-003-setup.png",
+      "source": "tex",
+      "original_name": "setup.pdf",
+      "size_bytes": 454540,
+      "width": 412,
+      "height": 246
+    },
+    {
+      "filename": "figure-002-approach.png",
+      "source": "tex",
+      "original_name": "approach.pdf",
+      "size_bytes": 417210,
+      "width": 687,
+      "height": 288
+    },
+    {
+      "filename": "figure-007-anchor-num.png",
+      "source": "tex",
+      "original_name": "anchor_num.pdf",
+      "size_bytes": 147494,
+      "width": 686,
+      "height": 398
+    },
+    {
+      "filename": "figure-005-anchor-ratio.png",
+      "source": "tex",
+      "original_name": "anchor_ratio.pdf",
+      "size_bytes": 120719,
+      "width": 338,
+      "height": 272
+    },
+    {
+      "filename": "figure-004-gain.png",
+      "source": "tex",
+      "original_name": "gain.pdf",
+      "size_bytes": 103146,
+      "width": 480,
+      "height": 289
+    },
+    {
+      "filename": "figure-008-page-1-xref-374.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-374.jpeg",
+      "size_bytes": 96056,
+      "width": 512,
+      "height": 295
+    },
+    {
+      "filename": "figure-006-anchor-shape.png",
+      "source": "tex",
+      "original_name": "anchor_shape.pdf",
+      "size_bytes": 74392,
+      "width": 546,
+      "height": 354
+    },
+    {
+      "filename": "figure-010-page-1-xref-381.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-381.jpeg",
+      "size_bytes": 45240,
+      "width": 228,
+      "height": 292
+    },
+    {
+      "filename": "figure-009-page-1-xref-376.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-376.jpeg",
+      "size_bytes": 38129,
+      "width": 228,
+      "height": 292
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-qiancai.png",
+      "priority": "high",
+      "reason": "直接呈现论文核心insight——Coverage-Density Trade-off，通过对比Diversity Trap与Anchor-Centric策略，结合成功率曲线与策略分布可视化，解释为何小预算下追求多样覆盖会失败，以及锚点重复与扩展的优势。",
+      "description": "Diversity Trap与Anchor-Centric策略的概念对比，以及不同锚点数量下的策略分布和成功率曲线。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-002-approach.png",
+      "priority": "high",
+      "reason": "清晰展示ACA方法的两阶段完整流程：Stage1通过重复锚点轨迹进行稳定化（密度化），Stage2通过教师强制偏差挖掘边界并进行约束残差适应（扩展）。是理解方法设计与算法流程的核心架构图。",
+      "description": "Anchor-Centric Adaptation (ACA) 两阶段框架，包括锚点稳定化、边界挖掘和约束残差适应。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-007-anchor-num.png",
+      "priority": "medium",
+      "reason": "直接验证Coverage-Density Trade-off的关键实验：在不同数据预算下，成功率随锚点数量呈倒U型变化，明确存在最优锚点分配，支撑了论文的理论分析。",
+      "description": "不同预算下成功率随锚点数量变化的曲线，呈现倒U型最优关系。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-004-gain.png",
+      "priority": "medium",
+      "reason": "展示ACA在四个真实机器人任务上的跨任务性能提升，直观对比基线与ACA的增益，是证明方法有效性的主实验结果图。",
+      "description": "Block Stacking、Cup Placement等任务上基线策略与+ACA的成功率对比及提升幅度。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

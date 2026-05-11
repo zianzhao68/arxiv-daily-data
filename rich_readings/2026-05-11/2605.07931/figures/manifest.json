@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.07931",
+  "title": "One Token Per Frame: Reconsidering Visual Bandwidth in World Models for VLA Policy",
+  "generated_at": "2026-05-11T09:36:13.272725+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-experiment.png",
+      "source": "tex",
+      "original_name": "experiment.pdf",
+      "size_bytes": 9370103,
+      "width": 3858,
+      "height": 950
+    },
+    {
+      "filename": "figure-003-motivation-new.png",
+      "source": "tex",
+      "original_name": "motivation_new.pdf",
+      "size_bytes": 1059164,
+      "width": 1910,
+      "height": 268
+    },
+    {
+      "filename": "figure-001-onewm-vla.png",
+      "source": "tex",
+      "original_name": "onewm_vla.pdf",
+      "size_bytes": 328653,
+      "width": 769,
+      "height": 325
+    },
+    {
+      "filename": "figure-002-pca-analysis.png",
+      "source": "tex",
+      "original_name": "pca_analysis.png",
+      "size_bytes": 323555,
+      "width": 1000,
+      "height": 426
+    },
+    {
+      "filename": "figure-004-onewm-adaptive.png",
+      "source": "tex",
+      "original_name": "onewm_adaptive.pdf",
+      "size_bytes": 82319,
+      "width": 405,
+      "height": 258
+    },
+    {
+      "filename": "figure-009-page-6-xref-555.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-6-xref-555.jpeg",
+      "size_bytes": 65680,
+      "width": 452,
+      "height": 618
+    },
+    {
+      "filename": "figure-008-page-6-xref-554.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-6-xref-554.jpeg",
+      "size_bytes": 64695,
+      "width": 452,
+      "height": 608
+    },
+    {
+      "filename": "figure-007-page-6-xref-553.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-6-xref-553.jpeg",
+      "size_bytes": 61331,
+      "width": 452,
+      "height": 616
+    },
+    {
+      "filename": "figure-011-page-6-xref-557.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-6-xref-557.jpeg",
+      "size_bytes": 55900,
+      "width": 452,
+      "height": 603
+    },
+    {
+      "filename": "figure-010-page-6-xref-556.png",
+      "source": "pdf-image",
+      "original_name": "page-6-xref-556.png",
+      "size_bytes": 26014,
+      "width": 2871,
+      "height": 630
+    },
+    {
+      "filename": "figure-006-page-2-xref-472.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-472.jpeg",
+      "size_bytes": 20319,
+      "width": 181,
+      "height": 126
+    },
+    {
+      "filename": "figure-005-page-2-xref-468.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-468.jpeg",
+      "size_bytes": 18829,
+      "width": 269,
+      "height": 195
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-003-motivation-new.png",
+      "priority": "high",
+      "reason": "通过左右对比直接呈现论文核心动机与insight，清晰展示传统像素空间预测的高冗余、长程不稳定问题，以及本文提出的极度压缩语义潜在世界token范式为何更高效可扩展，是理解全文立意的关键图。",
+      "description": "传统像素空间预测范式与本文语义潜在世界token压缩范式的左右对比示意图。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-001-onewm-vla.png",
+      "priority": "high",
+      "reason": "涵盖OneWM-VLA模型全貌与数据流向，包含Siglip编码、Adaptive Fusion、Tokenizer、Latent World & Action Model、Joint Flow Matching及注意力掩码等关键实现细节，是精读笔记中复现方法的首要参考。",
+      "description": "OneWM-VLA整体架构图，展示从多视角图像到潜在世界token与动作轨迹的完整流程。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-onewm-adaptive.png",
+      "priority": "high",
+      "reason": "这是论文标题中“Adaptive Attention Pooling”的核心实现，揭示了如何通过可学习自适应权重对Max/Sum/Learned三种注意力池化进行加权融合，将多视角特征压缩为单帧Latent World Token，是方法部分最具技术深度的模块级图解。",
+      "description": "Adaptive Fusion模块结构，展示基于Softmax自适应权重对三种注意力池化进行加权融合。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-002-pca-analysis.png",
+      "priority": "medium",
+      "reason": "用定量可视化（Fisher Ratio从0.524降至0.405，保留77.2%）支撑“每帧视觉带宽可压缩至单token而不损害任务相关性能”这一关键结论，是连接方法设计与实验验证的重要证据。",
+      "description": "任务相关token的PCA分析，对比Pooling前后（256 token vs 1 token）的类间判别信息保留程度。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.06747",
+  "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours",
+  "generated_at": "2026-05-11T09:08:52.992109+00:00",
+  "candidates": [
+    {
+      "filename": "figure-003-sample-result.png",
+      "source": "tex",
+      "original_name": "sample_result.pdf",
+      "size_bytes": 5841287,
+      "width": 959,
+      "height": 540
+    },
+    {
+      "filename": "figure-000-dataset.png",
+      "source": "tex",
+      "original_name": "dataset.png",
+      "size_bytes": 4782678,
+      "width": 1777,
+      "height": 500
+    },
+    {
+      "filename": "figure-001-teaser.png",
+      "source": "tex",
+      "original_name": "teaser.pdf",
+      "size_bytes": 2066052,
+      "width": 1285,
+      "height": 519
+    },
+    {
+      "filename": "figure-002-statics.png",
+      "source": "tex",
+      "original_name": "statics.png",
+      "size_bytes": 908060,
+      "width": 1254,
+      "height": 705
+    },
+    {
+      "filename": "figure-005-loss.png",
+      "source": "tex",
+      "original_name": "loss.png",
+      "size_bytes": 397547,
+      "width": 597,
+      "height": 283
+    },
+    {
+      "filename": "figure-004-datapipeline-v2.png",
+      "source": "tex",
+      "original_name": "datapipeline_v2.pdf",
+      "size_bytes": 261593,
+      "width": 666,
+      "height": 266
+    },
+    {
+      "filename": "figure-006-pku.png",
+      "source": "tex",
+      "original_name": "pku.png",
+      "size_bytes": 169852,
+      "width": 1276,
+      "height": 359
+    },
+    {
+      "filename": "figure-007-github.png",
+      "source": "tex",
+      "original_name": "github.png",
+      "size_bytes": 77808,
+      "width": 983,
+      "height": 957
+    },
+    {
+      "filename": "figure-009-page-1-xref-79.png",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-79.png",
+      "size_bytes": 53619,
+      "width": 1276,
+      "height": 359
+    },
+    {
+      "filename": "figure-008-page-1-xref-76.png",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-76.png",
+      "size_bytes": 23738,
+      "width": 384,
+      "height": 384
+    },
+    {
+      "filename": "figure-011-page-2-xref-346.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-346.jpeg",
+      "size_bytes": 11173,
+      "width": 226,
+      "height": 436
+    },
+    {
+      "filename": "figure-010-page-2-xref-345.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-345.jpeg",
+      "size_bytes": 10765,
+      "width": 199,
+      "height": 444
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-teaser.png",
+      "priority": "high",
+      "reason": "作为论文核心概览图，直观呈现HumanNet覆盖的egocentric/exocentric双视角、human-to-robot transfer范式以及丰富的多层级标注体系，是理解论文insight的关键入口",
+      "description": "展示数据集的双视角学习范式（外视角人体到机器人重定向、第一人称到机器人操作）及丰富标注与规模统计",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-004-datapipeline-v2.png",
+      "priority": "high",
+      "reason": "清晰展示了从关键词发现、多源视频爬取到去重过滤、场景分割及多模态标注的完整数据构建管线，是方法部分的核心架构图",
+      "description": "HumanNet数据收集、处理与标注的系统流程图",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-005-loss.png",
+      "priority": "medium",
+      "reason": "直接验证论文核心结论：在固定验证集下，基于HumanNet的1000小时egocentric视频继续训练在多个OOD评测场景下优于100小时真实机器人数据，证明人类视频可作为可扩展替代",
+      "description": "Qwen VLM在领域内及多种OOD场景下的训练损失曲线对比",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-002-statics.png",
+      "priority": "medium",
+      "reason": "通过位姿分数、运动分数、运动长度等多维度统计分布，展示数据集的质量与结构特征，支撑数据筛选与层次化设计的合理性",
+      "description": "数据集的位姿分数、运动分数、运动长度分布及一级类别均值统计",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

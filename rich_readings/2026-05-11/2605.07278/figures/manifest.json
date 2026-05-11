@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.07278",
+  "title": "Predictive but Not Plannable: RC-aux for Latent World Models",
+  "generated_at": "2026-05-11T09:14:44.268892+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-fig-cube-lewm-vs-rcaux-temporal-samples.png",
+      "source": "tex",
+      "original_name": "fig_cube_lewm_vs_rcaux_temporal_samples.pdf",
+      "size_bytes": 533745,
+      "width": 557,
+      "height": 406
+    },
+    {
+      "filename": "figure-001-method.png",
+      "source": "tex",
+      "original_name": "method.pdf",
+      "size_bytes": 294875,
+      "width": 822,
+      "height": 453
+    },
+    {
+      "filename": "figure-002-fig-cube-rcaux-success-temporal-samples.png",
+      "source": "tex",
+      "original_name": "fig_cube_rcaux_success_temporal_samples.pdf",
+      "size_bytes": 282182,
+      "width": 544,
+      "height": 224
+    },
+    {
+      "filename": "figure-003-fig-pusht-rcaux-success-temporal-samples.png",
+      "source": "tex",
+      "original_name": "fig_pusht_rcaux_success_temporal_samples.pdf",
+      "size_bytes": 199834,
+      "width": 545,
+      "height": 440
+    },
+    {
+      "filename": "figure-005-fig-wall-lewm-vs-rcaux-temporal-samples.png",
+      "source": "tex",
+      "original_name": "fig_wall_lewm_vs_rcaux_temporal_samples.pdf",
+      "size_bytes": 147323,
+      "width": 557,
+      "height": 406
+    },
+    {
+      "filename": "figure-010-fig-latent-reachability-diagnostic-wall-tworoom-.png",
+      "source": "tex",
+      "original_name": "fig_latent_reachability_diagnostic_wall_tworoom_ryg.pdf",
+      "size_bytes": 144658,
+      "width": 541,
+      "height": 408
+    },
+    {
+      "filename": "figure-006-rc-aux-latent-shortcuts.png",
+      "source": "tex",
+      "original_name": "rc_aux_latent_shortcuts.pdf",
+      "size_bytes": 131868,
+      "width": 737,
+      "height": 226
+    },
+    {
+      "filename": "figure-009-fig-wall-tworoom-trajectory-overlays-enhanced.png",
+      "source": "tex",
+      "original_name": "fig_wall_tworoom_trajectory_overlays_enhanced.pdf",
+      "size_bytes": 131560,
+      "width": 533,
+      "height": 381
+    },
+    {
+      "filename": "figure-011-fig-old5-all-baselines.png",
+      "source": "tex",
+      "original_name": "fig_old5_all_baselines.pdf",
+      "size_bytes": 118463,
+      "width": 915,
+      "height": 274
+    },
+    {
+      "filename": "figure-004-fig-reacher-rcaux-success-temporal-samples.png",
+      "source": "tex",
+      "original_name": "fig_reacher_rcaux_success_temporal_samples.pdf",
+      "size_bytes": 107772,
+      "width": 543,
+      "height": 152
+    },
+    {
+      "filename": "figure-008-fig-tworoom-rcaux-success-temporal-samples.png",
+      "source": "tex",
+      "original_name": "fig_tworoom_rcaux_success_temporal_samples.pdf",
+      "size_bytes": 92998,
+      "width": 544,
+      "height": 296
+    },
+    {
+      "filename": "figure-007-fig-wall-rcaux-success-temporal-samples.png",
+      "source": "tex",
+      "original_name": "fig_wall_rcaux_success_temporal_samples.pdf",
+      "size_bytes": 91831,
+      "width": 544,
+      "height": 296
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-method.png",
+      "priority": "high",
+      "reason": "完整呈现了 RC-aux 的核心方法框架：左侧展示训练阶段的时间对齐（多步开环预测）与空间对齐（预算条件可达性判别器及困难负样本），右侧展示测试阶段如何利用可达性信号筛选既靠近目标又在预算内可达的 rollout。是理解论文方法的第一入口。",
+      "description": "RC-aux 方法总览图，分为训练阶段（时间与空间对齐）和规划阶段（选择可达且靠近目标的 rollout）。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-006-rc-aux-latent-shortcuts.png",
+      "priority": "high",
+      "reason": "直接图解论文核心动机：物理空间中被障碍物阻断的直线路径（shortcut）在潜在空间中可能表现为 L2 距离很小的“伪近邻”，导致基于欧氏距离的规划失败。该图解释了为何仅靠预测精度不足以保证可规划性，是全文 insight 的浓缩。",
+      "description": "潜在空间捷径示意图：左侧为物理空间中被障碍物阻断的直线路径，右侧为潜在空间中 L2 距离小但实际不可达的 shortcut。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-011-fig-old5-all-baselines.png",
+      "priority": "medium",
+      "reason": "主实验结果柱状图，覆盖 TwoRoom、Reacher、Push-T、Wall、Cube 五个任务，对比了 DINO-WM、PLDM、GCBC、IQL、IVL、LeWM、LeWM-cont 与 RC-aux 的成功率。RC-aux 在多个任务上显著优于 LeWM 基线，是支撑论文主要结论的定量证据。",
+      "description": "五个任务上各基线方法的成功率对比柱状图。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-010-fig-latent-reachability-diagnostic-wall-tworoom-.png",
+      "priority": "medium",
+      "reason": "在 Wall 和 TwoRoom 任务中对潜在空间轨迹进行诊断，定量展示 LeWM 的 terminal L2 大且轨迹发散，而 RC-aux 的 terminal L2 显著更小、reach probability 更高。直接验证了 RC-aux 改善了潜在空间的可达性结构。",
+      "description": "Wall 与 TwoRoom 任务的潜在空间轨迹诊断图，对比 LeWM 与 RC-aux 的 terminal L2 和 reach probability。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
