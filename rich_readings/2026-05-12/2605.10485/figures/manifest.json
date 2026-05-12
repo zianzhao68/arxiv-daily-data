@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.10485",
+  "title": "VEGA: Visual Encoder Grounding Alignment for Spatially-Aware Vision-Language-Action Models",
+  "generated_at": "2026-05-12T08:21:00.409389+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-realdemo.png",
+      "source": "tex",
+      "original_name": "realdemo.pdf",
+      "size_bytes": 19189366,
+      "width": 3993,
+      "height": 2836
+    },
+    {
+      "filename": "figure-002-failure.png",
+      "source": "tex",
+      "original_name": "failure.pdf",
+      "size_bytes": 9026391,
+      "width": 3993,
+      "height": 2836
+    },
+    {
+      "filename": "figure-004-sim-vis.png",
+      "source": "tex",
+      "original_name": "sim_vis.pdf",
+      "size_bytes": 8301484,
+      "width": 3993,
+      "height": 2836
+    },
+    {
+      "filename": "figure-005-feat-vis.png",
+      "source": "tex",
+      "original_name": "feat_vis.pdf",
+      "size_bytes": 2269507,
+      "width": 3993,
+      "height": 2836
+    },
+    {
+      "filename": "figure-003-probe.png",
+      "source": "tex",
+      "original_name": "probe.pdf",
+      "size_bytes": 2081067,
+      "width": 3993,
+      "height": 2836
+    },
+    {
+      "filename": "figure-001-efficiency.png",
+      "source": "tex",
+      "original_name": "efficiency.pdf",
+      "size_bytes": 1764719,
+      "width": 3993,
+      "height": 2836
+    },
+    {
+      "filename": "figure-006-method.png",
+      "source": "tex",
+      "original_name": "method.pdf",
+      "size_bytes": 1365885,
+      "width": 3993,
+      "height": 2836
+    },
+    {
+      "filename": "figure-007-teaser.png",
+      "source": "tex",
+      "original_name": "teaser.pdf",
+      "size_bytes": 1054142,
+      "width": 3709,
+      "height": 1985
+    },
+    {
+      "filename": "figure-011-page-4-xref-490.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-490.png",
+      "size_bytes": 263401,
+      "width": 1644,
+      "height": 955
+    },
+    {
+      "filename": "figure-008-bridge-pretrain-metrics.png",
+      "source": "tex",
+      "original_name": "bridge_pretrain_metrics.pdf",
+      "size_bytes": 100487,
+      "width": 524,
+      "height": 271
+    },
+    {
+      "filename": "figure-009-ablation-chart.png",
+      "source": "tex",
+      "original_name": "ablation_chart.pdf",
+      "size_bytes": 79844,
+      "width": 768,
+      "height": 204
+    },
+    {
+      "filename": "figure-010-page-4-xref-488.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-488.png",
+      "size_bytes": 17102,
+      "width": 168,
+      "height": 168
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-007-teaser.png",
+      "priority": "high",
+      "reason": "对比了显式空间定位、LLM级隐式token对齐与本文视觉编码器级隐式对齐三种范式，直接阐释论文的核心insight与方法定位",
+      "description": "三种空间grounding范式的架构对比图",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-006-method.png",
+      "priority": "high",
+      "reason": "清晰展示VEGA整体框架，包括多视角图像输入、DinoV2-FiT3D特征对齐、轻量projector及动作预测流程，是理解方法细节的关键",
+      "description": "VEGA模型架构与训练流程图",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-001-efficiency.png",
+      "priority": "medium",
+      "reason": "同时展示训练效率（收敛速度与最终性能）与数据效率（不同数据比例下的成功率），定量证明VEGA在实用层面的优势",
+      "description": "训练效率与数据效率对比曲线",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-003-probe.png",
+      "priority": "medium",
+      "reason": "展示不同视觉backbone在训练过程中的下游任务成功率，直接支撑DINOv2-FiT3D作为空间感知编码器的有效性，是主实验结果",
+      "description": "不同backbone的下游任务成功率随训练步数变化曲线",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

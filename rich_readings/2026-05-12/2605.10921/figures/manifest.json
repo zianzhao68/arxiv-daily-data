@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.10921",
+  "title": "RoboMemArena: A Comprehensive and Challenging Robotic Memory Benchmark",
+  "generated_at": "2026-05-12T08:24:43.554288+00:00",
+  "candidates": [
+    {
+      "filename": "figure-003-robomem-sample.png",
+      "source": "tex",
+      "original_name": "robomem_sample.pdf",
+      "size_bytes": 3020052,
+      "width": 1417,
+      "height": 567
+    },
+    {
+      "filename": "figure-004-subtask-decomposition.png",
+      "source": "tex",
+      "original_name": "subtask_decomposition.pdf",
+      "size_bytes": 2878293,
+      "width": 1584,
+      "height": 1080
+    },
+    {
+      "filename": "figure-001-teaser.png",
+      "source": "tex",
+      "original_name": "teaser.pdf",
+      "size_bytes": 1589987,
+      "width": 922,
+      "height": 518
+    },
+    {
+      "filename": "figure-000-robo-mem.png",
+      "source": "tex",
+      "original_name": "robo_mem.pdf",
+      "size_bytes": 799084,
+      "width": 594,
+      "height": 842
+    },
+    {
+      "filename": "figure-005-10.png",
+      "source": "tex",
+      "original_name": "10.png",
+      "size_bytes": 643306,
+      "width": 1131,
+      "height": 382
+    },
+    {
+      "filename": "figure-008-combined-summary-alt.png",
+      "source": "tex",
+      "original_name": "combined_summary_alt.pdf",
+      "size_bytes": 468107,
+      "width": 3111,
+      "height": 476
+    },
+    {
+      "filename": "figure-006-logoopenhelix.png",
+      "source": "tex",
+      "original_name": "logoopenhelix.png",
+      "size_bytes": 462235,
+      "width": 1248,
+      "height": 696
+    },
+    {
+      "filename": "figure-011-page-1-xref-126.png",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-126.png",
+      "size_bytes": 397387,
+      "width": 1248,
+      "height": 696
+    },
+    {
+      "filename": "figure-007-db.png",
+      "source": "tex",
+      "original_name": "db.pdf",
+      "size_bytes": 236161,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "filename": "figure-002-robo-mem-sen.png",
+      "source": "tex",
+      "original_name": "robo_mem_SEN.pdf",
+      "size_bytes": 225053,
+      "width": 594,
+      "height": 842
+    },
+    {
+      "filename": "figure-009-hf.png",
+      "source": "tex",
+      "original_name": "hf.pdf",
+      "size_bytes": 219169,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "filename": "figure-010-github.png",
+      "source": "tex",
+      "original_name": "github.pdf",
+      "size_bytes": 117233,
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-004-subtask-decomposition.png",
+      "priority": "high",
+      "reason": "展示了 PrediMem 双系统（S2 高层规划器 + S1 低层 VLA）的完整架构，包括记忆库（Recent Buffer / Keyframe Buffer）、预测编码头（Predictive Coding Head）与关键帧决策机制，是理解方法设计的核心图。",
+      "description": "PrediMem 双系统架构图，包含高层 VLM 规划器、低层 VLA、记忆库与预测编码头。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-001-teaser.png",
+      "priority": "high",
+      "reason": "集 RoboMemArena 整体流程、基准统计、基线对比（+40.0% 相对提升）、真实世界评估与雷达图于一体，信息密度极高，直接呈现论文核心贡献与实验优势。",
+      "description": "论文 teaser，涵盖三阶段流程、RoboMemArena 统计、基线成功率对比及基准雷达图。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-000-robo-mem.png",
+      "priority": "high",
+      "reason": "通过真实世界长程任务（擦盘子、转移物体）直观展示 PrediMem S2 如何基于关键帧进行子任务推理（），再由 S1 执行动作，直接解释双系统协作的 insight。",
+      "description": "真实世界任务执行序列，展示 PrediMem S2 推理与 S1 执行的交替过程。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-008-combined-summary-alt.png",
+      "priority": "medium",
+      "reason": "以横向条形图对比 RoboMemArena 与现有基准在轨迹长度、任务组成和历史依赖子任务比例上的差异，支撑“现有基准不足、需要新基准”的关键结论。",
+      "description": "RoboMemArena 与现有基准在平均轨迹长度、任务组成和历史依赖子任务比例上的对比。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

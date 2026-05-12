@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.10821",
+  "title": "Unified Noise Steering for Efficient Human-Guided VLA Adaptation",
+  "generated_at": "2026-05-12T08:15:47.670093+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-arm.png",
+      "source": "tex",
+      "original_name": "Arm.png",
+      "size_bytes": 2762918,
+      "width": 647,
+      "height": 485
+    },
+    {
+      "filename": "figure-001-daggercase1.png",
+      "source": "tex",
+      "original_name": "daggercase1.png",
+      "size_bytes": 735493,
+      "width": 840,
+      "height": 168
+    },
+    {
+      "filename": "figure-002-dsrlcase.png",
+      "source": "tex",
+      "original_name": "dsrlcase.png",
+      "size_bytes": 733125,
+      "width": 839,
+      "height": 168
+    },
+    {
+      "filename": "figure-003-unicase.png",
+      "source": "tex",
+      "original_name": "unicase.png",
+      "size_bytes": 732809,
+      "width": 839,
+      "height": 168
+    },
+    {
+      "filename": "figure-004-daggercase2.png",
+      "source": "tex",
+      "original_name": "daggercase2.png",
+      "size_bytes": 730427,
+      "width": 840,
+      "height": 168
+    },
+    {
+      "filename": "figure-007-frame.png",
+      "source": "tex",
+      "original_name": "frame.pdf",
+      "size_bytes": 628926,
+      "width": 929,
+      "height": 487
+    },
+    {
+      "filename": "figure-008-head.png",
+      "source": "tex",
+      "original_name": "head.pdf",
+      "size_bytes": 378920,
+      "width": 1020,
+      "height": 326
+    },
+    {
+      "filename": "figure-009-exp.png",
+      "source": "tex",
+      "original_name": "exp.pdf",
+      "size_bytes": 350036,
+      "width": 396,
+      "height": 102
+    },
+    {
+      "filename": "figure-005-online-adaptation-curve.png",
+      "source": "tex",
+      "original_name": "online_adaptation_curve.png",
+      "size_bytes": 249358,
+      "width": 769,
+      "height": 482
+    },
+    {
+      "filename": "figure-006-trajectory-composition.png",
+      "source": "tex",
+      "original_name": "trajectory_composition.png",
+      "size_bytes": 237083,
+      "width": 1025,
+      "height": 558
+    },
+    {
+      "filename": "figure-011-page-2-xref-408.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-408.png",
+      "size_bytes": 37239,
+      "width": 436,
+      "height": 258
+    },
+    {
+      "filename": "figure-010-page-2-xref-407.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-407.png",
+      "size_bytes": 22864,
+      "width": 454,
+      "height": 249
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-007-frame.png",
+      "priority": "high",
+      "reason": "完整展示了UniSteer的四大核心模块（模型架构、环境交互、人类接管、统一噪声空间引导）及数据流，是理解方法原理与训练流程的关键总览图。",
+      "description": "UniSteer整体框架图，包含Noise Actor、Frozen FM Decoder、Human Takeover、Action-to-Noise Inversion、RL Buffer与Demo Buffer等组件。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-008-head.png",
+      "priority": "high",
+      "reason": "直接阐释论文核心insight：传统噪声空间微调难以探索成功动作，而UniSteer通过Action-to-Noise Inversion将人类动作映射为噪声监督，使探索变得容易；同时附带性能与轨迹数摘要。",
+      "description": "Noise-Space Finetuning与UniSteer的对比示意图，以及成功率曲线和所需轨迹数的汇总。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-005-online-adaptation-curve.png",
+      "priority": "medium",
+      "reason": "主实验结果图，清晰对比UniSteer、DSRL和DAgger在真实世界训练过程中的平均成功率，直接证明UniSteer收敛更快、性能更高。",
+      "description": "不同方法随训练时间（分钟）变化的平均成功率曲线。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-006-trajectory-composition.png",
+      "priority": "medium",
+      "reason": "消融/效率实验图，按任务展示各方法所需的模型自主轨迹与人类干预轨迹数量，支撑论文“高效利用人类纠正”的关键结论。",
+      "description": "在四个真实任务上，DSRL、Ours和DAgger所需的模型轨迹与人类轨迹数量对比柱状图。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
