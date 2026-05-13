@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.12236",
+  "title": "TMRL: Diffusion Timestep-Modulated Pretraining Enables Exploration for Efficient Policy Finetuning",
+  "generated_at": "2026-05-13T08:36:28.423949+00:00",
+  "candidates": [
+    {
+      "filename": "figure-002-libero-exploration.png",
+      "source": "tex",
+      "original_name": "libero_exploration.pdf",
+      "size_bytes": 3294110,
+      "width": 1588,
+      "height": 512
+    },
+    {
+      "filename": "figure-000-libero-object-smoothing.png",
+      "source": "tex",
+      "original_name": "libero_object_smoothing.pdf",
+      "size_bytes": 2504677,
+      "width": 397,
+      "height": 792
+    },
+    {
+      "filename": "figure-001-libero-spatial-smoothing.png",
+      "source": "tex",
+      "original_name": "libero_spatial_smoothing.pdf",
+      "size_bytes": 1830743,
+      "width": 397,
+      "height": 792
+    },
+    {
+      "filename": "figure-003-libero-goal-smoothing.png",
+      "source": "tex",
+      "original_name": "libero_goal_smoothing.pdf",
+      "size_bytes": 1760710,
+      "width": 397,
+      "height": 792
+    },
+    {
+      "filename": "figure-007-tasks.png",
+      "source": "tex",
+      "original_name": "tasks.pdf",
+      "size_bytes": 1510597,
+      "width": 1696,
+      "height": 256
+    },
+    {
+      "filename": "figure-004-pedagogical.png",
+      "source": "tex",
+      "original_name": "pedagogical.pdf",
+      "size_bytes": 1327561,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "filename": "figure-011-shrimp-timesteps.png",
+      "source": "tex",
+      "original_name": "shrimp_timesteps.pdf",
+      "size_bytes": 1153051,
+      "width": 967,
+      "height": 454
+    },
+    {
+      "filename": "figure-006-toy-exp-plus.png",
+      "source": "tex",
+      "original_name": "toy_exp_plus.pdf",
+      "size_bytes": 1043129,
+      "width": 1162,
+      "height": 681
+    },
+    {
+      "filename": "figure-010-dexterous-tasks.png",
+      "source": "tex",
+      "original_name": "dexterous_tasks.pdf",
+      "size_bytes": 721756,
+      "width": 1553,
+      "height": 381
+    },
+    {
+      "filename": "figure-009-method-single.png",
+      "source": "tex",
+      "original_name": "method_single.pdf",
+      "size_bytes": 679229,
+      "width": 1307,
+      "height": 315
+    },
+    {
+      "filename": "figure-008-dexterous-grasping.png",
+      "source": "tex",
+      "original_name": "dexterous_grasping.pdf",
+      "size_bytes": 513091,
+      "width": 1181,
+      "height": 756
+    },
+    {
+      "filename": "figure-005-teaser.jpg",
+      "source": "tex",
+      "original_name": "teaser.jpg",
+      "size_bytes": 466343,
+      "width": 2250,
+      "height": 843
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-009-method-single.png",
+      "priority": "high",
+      "reason": "核心方法架构图，清晰展示Context-Smoothed Pre-training与Timestep-Modulated Reinforcement Learning的两阶段框架，包括噪声上下文注入、扩散时间步调制及与RL训练的交互，是理解论文方法设计的基础。",
+      "description": "展示CSP预训练和TMRL微调的完整系统框架与数据流。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-pedagogical.png",
+      "priority": "high",
+      "reason": "直接阐释论文最核心的insight：通过向策略输入注入前向扩散噪声造成Context Aliasing，使不同下游任务的动作分布从分离到重叠，进而实现Action Borrowing。该图用直观的视觉示例和动作分布散点解释了为何CSP能缓解BC预训练分布狭窄的问题。",
+      "description": "通过胡萝卜放置任务示例，解释Context Aliasing如何使动作分布重叠以实现Action Borrowing。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-008-dexterous-grasping.png",
+      "priority": "medium",
+      "reason": "主实验结果图，在dexterous-grasping任务上对比TMRL与DSRL基线的成功率曲线，显示TMRL在样本效率和最终性能上均有显著提升，是支撑论文关键结论的定量证据。",
+      "description": "dexterous-grasping任务上TMRL与DSRL的成功率随训练迭代变化曲线。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-011-shrimp-timesteps.png",
+      "priority": "medium",
+      "reason": "真实世界机器人实验验证，展示在'pick up the shrimp'任务中，First Success与Final Policy在不同Action Chunk下对扩散时间步的动态选择差异，并配以实际执行帧，直观证明时间步调制机制在真实任务中平衡探索与利用的有效性。",
+      "description": "真实机器人抓取虾任务中，时间步调制策略在首次成功与最终策略间的对比及视觉序列。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

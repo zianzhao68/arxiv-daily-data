@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.12386",
+  "title": "SafeManip: A Property-Driven Benchmark for Temporal Safety Evaluation in Robotic Manipulation",
+  "generated_at": "2026-05-13T08:47:56.746444+00:00",
+  "candidates": [
+    {
+      "filename": "figure-006-page-2-xref-288.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-288.png",
+      "size_bytes": 1523455,
+      "width": 2376,
+      "height": 703
+    },
+    {
+      "filename": "figure-000-safemanip-teaser.png",
+      "source": "tex",
+      "original_name": "SafeManip-teaser.png",
+      "size_bytes": 1435247,
+      "width": 760,
+      "height": 225
+    },
+    {
+      "filename": "figure-001-rq2.png",
+      "source": "tex",
+      "original_name": "RQ2.png",
+      "size_bytes": 912793,
+      "width": 1701,
+      "height": 376
+    },
+    {
+      "filename": "figure-009-page-8-xref-303.png",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-303.png",
+      "size_bytes": 774195,
+      "width": 5317,
+      "height": 1177
+    },
+    {
+      "filename": "figure-002-rq3-task-suite.png",
+      "source": "tex",
+      "original_name": "RQ3_task_suite.png",
+      "size_bytes": 761146,
+      "width": 1514,
+      "height": 361
+    },
+    {
+      "filename": "figure-011-page-9-xref-305.png",
+      "source": "pdf-image",
+      "original_name": "page-9-xref-305.png",
+      "size_bytes": 640454,
+      "width": 4732,
+      "height": 1131
+    },
+    {
+      "filename": "figure-003-rq3-horizon.png",
+      "source": "tex",
+      "original_name": "RQ3_horizon.png",
+      "size_bytes": 452170,
+      "width": 1107,
+      "height": 405
+    },
+    {
+      "filename": "figure-010-page-8-xref-304.png",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-304.png",
+      "size_bytes": 371936,
+      "width": 3462,
+      "height": 1266
+    },
+    {
+      "filename": "figure-008-page-7-xref-302.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-302.png",
+      "size_bytes": 305398,
+      "width": 3060,
+      "height": 1593
+    },
+    {
+      "filename": "figure-004-rq1-stacked-bar.png",
+      "source": "tex",
+      "original_name": "RQ1_stacked_bar.png",
+      "size_bytes": 279721,
+      "width": 979,
+      "height": 509
+    },
+    {
+      "filename": "figure-005-rq1-scatter.png",
+      "source": "tex",
+      "original_name": "RQ1_scatter.png",
+      "size_bytes": 248571,
+      "width": 753,
+      "height": 523
+    },
+    {
+      "filename": "figure-007-page-7-xref-301.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-301.png",
+      "size_bytes": 221372,
+      "width": 2354,
+      "height": 1635
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-006-page-2-xref-288.png",
+      "priority": "high",
+      "reason": "该图完整展示了 SafeManip 的核心框架：从 Privileged Information 到 LTLf 公式、基于 DFA 的 Monitor、时序安全判定流程，以及 8 大安全类别与评估指标。是理解论文方法体系的总览图，精读笔记必须保留。",
+      "description": "SafeManip 整体框架与 8 类时序安全属性的定义与监控流程示意图",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-001-rq2.png",
+      "priority": "medium",
+      "reason": "以热力图形式呈现了 6 个策略在 8 类安全属性上的 (a) Safety violation rate 与 (b) Unsafe-state exposure rate。能直观展示不同模型在各类别上的安全短板，是支撑“强模型仍存在大量时序违规”这一核心结论的关键实验图。",
+      "description": "按安全类别划分的策略违规率与不安全状态暴露率热力图",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-004-rq1-stacked-bar.png",
+      "priority": "medium",
+      "reason": "通过堆叠柱状图将 rollout 结果细分为 Fail-unsafe、Fail-safe、Success-unsafe、Success-safe 四类，直接量化了“任务成功不等于执行安全”这一核心 insight。Success-unsafe 占比的对比是论文最有力的实证之一。",
+      "description": "各策略 rollout 结果分布（失败/成功 × 安全/不安全）的堆叠柱状图",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-005-rq1-scatter.png",
+      "priority": "medium",
+      "reason": "以散点图展示 Task success rate 与 Safety violation rate 的权衡关系，清晰揭示 π₀.₅ 和 GR00T 系列在成功率提升时安全违规并未同步下降的现象，是论文核心结论的高度浓缩。",
+      "description": "任务成功率与安全违规率的散点权衡图",
+      "suggested_section": "核心 Insight"
+    }
+  ]
+}

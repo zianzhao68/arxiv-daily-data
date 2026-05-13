@@ -1,0 +1,126 @@
+{
+  "arxiv_id": "2605.12334",
+  "title": "Reinforcing VLAs in Task-Agnostic World Models",
+  "generated_at": "2026-05-13T08:44:03.628676+00:00",
+  "candidates": [
+    {
+      "filename": "figure-007-ghost-compare-2.png",
+      "source": "tex",
+      "original_name": "ghost_compare_2.pdf",
+      "size_bytes": 4957606,
+      "width": 2120,
+      "height": 536
+    },
+    {
+      "filename": "figure-008-compare-dnv-3.png",
+      "source": "tex",
+      "original_name": "compare_dnv_3.pdf",
+      "size_bytes": 4392794,
+      "width": 2120,
+      "height": 536
+    },
+    {
+      "filename": "figure-009-ghost-compare-1.png",
+      "source": "tex",
+      "original_name": "ghost_compare_1.pdf",
+      "size_bytes": 3711603,
+      "width": 2120,
+      "height": 536
+    },
+    {
+      "filename": "figure-010-compare-dnv-1.png",
+      "source": "tex",
+      "original_name": "compare_dnv_1.pdf",
+      "size_bytes": 3575441,
+      "width": 2120,
+      "height": 536
+    },
+    {
+      "filename": "figure-011-compare-dnv-2.png",
+      "source": "tex",
+      "original_name": "compare_dnv_2.pdf",
+      "size_bytes": 3569040,
+      "width": 2120,
+      "height": 536
+    },
+    {
+      "filename": "figure-000-rollout-testdata10-121f.png",
+      "source": "tex",
+      "original_name": "rollout_testdata10_121f.png",
+      "size_bytes": 1248958,
+      "width": 1590,
+      "height": 402
+    },
+    {
+      "filename": "figure-001-rollout-testdata14-201f.png",
+      "source": "tex",
+      "original_name": "rollout_testdata14_201f.png",
+      "size_bytes": 1224470,
+      "width": 1590,
+      "height": 402
+    },
+    {
+      "filename": "figure-002-rollout-testdata14-121f.png",
+      "source": "tex",
+      "original_name": "rollout_testdata14_121f.png",
+      "size_bytes": 1208308,
+      "width": 1590,
+      "height": 402
+    },
+    {
+      "filename": "figure-003-rollout-testdata2-201f.png",
+      "source": "tex",
+      "original_name": "rollout_testdata2_201f.png",
+      "size_bytes": 1206913,
+      "width": 1590,
+      "height": 402
+    },
+    {
+      "filename": "figure-004-rollout-testdata15-201f.png",
+      "source": "tex",
+      "original_name": "rollout_testdata15_201f.png",
+      "size_bytes": 1206162,
+      "width": 1590,
+      "height": 402
+    },
+    {
+      "filename": "figure-005-motivation.png",
+      "source": "tex",
+      "original_name": "motivation.png",
+      "size_bytes": 1097894,
+      "width": 831,
+      "height": 300
+    },
+    {
+      "filename": "figure-006-paper-figure-play-and-tasks.png",
+      "source": "tex",
+      "original_name": "paper_figure_play_and_tasks.png",
+      "size_bytes": 921346,
+      "width": 445,
+      "height": 128
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-005-motivation.png",
+      "priority": "high",
+      "reason": "清晰对比了传统任务特定世界模型与本文提出的通用任务无关世界模型的核心范式差异，直接阐释了RAW-Dream的核心insight与系统架构",
+      "description": "左右对比图展示Previous In-Domain Only World Model与Our Paradigm General-Purpose World Model的架构差异",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-006-paper-figure-play-and-tasks.png",
+      "priority": "medium",
+      "reason": "展示了无目标行为收集的多样任务场景与真实机器人操作示例，支撑论文中关于任务无关数据多样性与泛化能力的关键结论",
+      "description": "(a)多种任务布局展示数据多样性，(b)真实机器人操作示例",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-000-rollout-testdata10-121f.png",
+      "priority": "medium",
+      "reason": "展示了在真实世界中模型预测的未来轨迹rollout序列，验证任务无关世界模型在实际物理交互中的规划与执行有效性",
+      "description": "真实机器人操作的时间序列帧，展示完整任务执行过程",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

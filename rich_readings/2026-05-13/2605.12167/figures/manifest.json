@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.12167",
+  "title": "From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation",
+  "generated_at": "2026-05-13T08:40:18.671345+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-6-realoutdis2-img.png",
+      "source": "tex",
+      "original_name": "6_realoutdis2_img.pdf",
+      "size_bytes": 2763227,
+      "width": 765,
+      "height": 1034
+    },
+    {
+      "filename": "figure-005-6-success-img.png",
+      "source": "tex",
+      "original_name": "6_success_img.pdf",
+      "size_bytes": 2741566,
+      "width": 765,
+      "height": 1034
+    },
+    {
+      "filename": "figure-002-6-realset-img.png",
+      "source": "tex",
+      "original_name": "6_realset_img.pdf",
+      "size_bytes": 2563656,
+      "width": 765,
+      "height": 1034
+    },
+    {
+      "filename": "figure-001-6-realoutdis1-img.png",
+      "source": "tex",
+      "original_name": "6_realoutdis1_img.pdf",
+      "size_bytes": 2556393,
+      "width": 765,
+      "height": 1034
+    },
+    {
+      "filename": "figure-003-6-realindis-img.png",
+      "source": "tex",
+      "original_name": "6_realindis_img.pdf",
+      "size_bytes": 2467311,
+      "width": 765,
+      "height": 1034
+    },
+    {
+      "filename": "figure-007-6-video-failure-img.png",
+      "source": "tex",
+      "original_name": "6_video_failure_img.pdf",
+      "size_bytes": 1740417,
+      "width": 765,
+      "height": 652
+    },
+    {
+      "filename": "figure-009-6-heatmap-img.png",
+      "source": "tex",
+      "original_name": "6_heatmap_img.pdf",
+      "size_bytes": 1563202,
+      "width": 935,
+      "height": 320
+    },
+    {
+      "filename": "figure-008-6-complex-img.png",
+      "source": "tex",
+      "original_name": "6_complex_img.pdf",
+      "size_bytes": 1055795,
+      "width": 765,
+      "height": 142
+    },
+    {
+      "filename": "figure-004-6-model-img.png",
+      "source": "tex",
+      "original_name": "6_model_img.pdf",
+      "size_bytes": 1004478,
+      "width": 1360,
+      "height": 765
+    },
+    {
+      "filename": "figure-006-3-exp-show-img.png",
+      "source": "tex",
+      "original_name": "3_exp_show_img.pdf",
+      "size_bytes": 498468,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-010-4-exp-q2.png",
+      "source": "tex",
+      "original_name": "4_exp_Q2.pdf",
+      "size_bytes": 100405,
+      "width": 283,
+      "height": 283
+    },
+    {
+      "filename": "figure-011-4-exp-q3.png",
+      "source": "tex",
+      "original_name": "4_exp_Q3.pdf",
+      "size_bytes": 99385,
+      "width": 283,
+      "height": 283
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-004-6-model-img.png",
+      "priority": "high",
+      "reason": "完整展示了MoLA的预训练与微调架构，包括MoIDM、Spatiotemporal Transformer、VQ Codebook、Video Generation Model和Action Head等核心模块，是理解方法流程与系统设计的关键图。",
+      "description": "MoLA整体框架图，分为Pre-training（重建未来帧）和Fine-tuning（视频生成+动作执行）两个阶段。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-009-6-heatmap-img.png",
+      "priority": "high",
+      "reason": "通过跨环境（CALVIN、LIBERO、Open X-Embodiments）的注意力热图，直观验证了模型关注动作相关的语义区域而非背景，直接支撑论文“action-centric”的核心insight。",
+      "description": "展示$o_t$与$o_{t+k}$帧及模型注意力热图，证明其聚焦于与状态转移相关的动作区域。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-007-6-video-failure-img.png",
+      "priority": "medium",
+      "reason": "通过Video与Execution的对比（红框失败/绿框成功），直观呈现视频生成模型的预测帧与实际控制需求之间的鸿沟，支撑论文motivation及MoLA解决该问题的必要性。",
+      "description": "视频生成预测与实际执行轨迹的对比，展示视觉保真度与控制相关性不匹配的案例。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-011-4-exp-q3.png",
+      "priority": "medium",
+      "reason": "雷达图形式展示Baseline、Frozen MIDM与Fine-tuned MIDM在5项任务上的性能对比，是支撑微调策略有效性的关键消融实验结果。",
+      "description": "消融实验雷达图，比较不同MIDM训练策略对任务成功率的影响。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

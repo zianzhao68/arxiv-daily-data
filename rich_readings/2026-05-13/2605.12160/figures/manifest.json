@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.12160",
+  "title": "Premover: Fast Vision-Language-Action Control by Acting Before Instructions Are Complete",
+  "generated_at": "2026-05-13T08:51:49.238788+00:00",
+  "candidates": [
+    {
+      "filename": "figure-004-figure6.png",
+      "source": "tex",
+      "original_name": "Figure6.pdf",
+      "size_bytes": 1414962,
+      "width": 614,
+      "height": 362
+    },
+    {
+      "filename": "figure-005-figure7.png",
+      "source": "tex",
+      "original_name": "Figure7.pdf",
+      "size_bytes": 1199729,
+      "width": 614,
+      "height": 362
+    },
+    {
+      "filename": "figure-002-figure8.png",
+      "source": "tex",
+      "original_name": "Figure8.pdf",
+      "size_bytes": 1003122,
+      "width": 675,
+      "height": 419
+    },
+    {
+      "filename": "figure-001-figure3.png",
+      "source": "tex",
+      "original_name": "Figure3.pdf",
+      "size_bytes": 924516,
+      "width": 2050,
+      "height": 716
+    },
+    {
+      "filename": "figure-003-figure4.png",
+      "source": "tex",
+      "original_name": "Figure4.pdf",
+      "size_bytes": 883098,
+      "width": 904,
+      "height": 206
+    },
+    {
+      "filename": "figure-000-figure2.png",
+      "source": "tex",
+      "original_name": "Figure2.pdf",
+      "size_bytes": 181745,
+      "width": 930,
+      "height": 288
+    },
+    {
+      "filename": "figure-011-page-4-xref-443.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-443.jpeg",
+      "size_bytes": 39147,
+      "width": 274,
+      "height": 273
+    },
+    {
+      "filename": "figure-010-page-4-xref-442.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-442.jpeg",
+      "size_bytes": 36887,
+      "width": 274,
+      "height": 268
+    },
+    {
+      "filename": "figure-006-figure1.png",
+      "source": "tex",
+      "original_name": "Figure1.pdf",
+      "size_bytes": 32722,
+      "width": 252,
+      "height": 178
+    },
+    {
+      "filename": "figure-007-figure5.png",
+      "source": "tex",
+      "original_name": "Figure5.pdf",
+      "size_bytes": 27838,
+      "width": 246,
+      "height": 165
+    },
+    {
+      "filename": "figure-008-page-2-xref-406.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-406.png",
+      "size_bytes": 17546,
+      "width": 263,
+      "height": 210
+    },
+    {
+      "filename": "figure-009-page-4-xref-440.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-440.png",
+      "size_bytes": 9495,
+      "width": 1255,
+      "height": 308
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-figure3.png",
+      "priority": "high",
+      "reason": "完整展示了 Premover 的核心架构：冻结的 VLA Backbone、可训练的 Focus Map（Vision/Lang Focus Head、Vis-Lang Similarity、Patch Probability）以及 Action Readiness Gate，是理解方法原理的关键图。",
+      "description": "Premover 系统架构图，包含 Frozen VLA Backbone、Focus Map 模块和 Action Readiness Gate。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-000-figure2.png",
+      "priority": "high",
+      "reason": "以时间线形式直观呈现论文核心 Insight：传统 VLA 在指令输入期间空闲，而 Premover 在指令未完成时即可开始行动，实现约 9s 提前量与 13.6% 端到端延迟降低。",
+      "description": "Conventional VLA 与 Premover 的指令-行动时间线对比图。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-002-figure8.png",
+      "priority": "medium",
+      "reason": "主实验的定性/定量结合展示，覆盖 LIBERO 和 VLA-Arena 的多个任务，直接证明 Premover 在不同场景下均能显著缩短完成时间（3.8s–5.2s）。",
+      "description": "四个任务上 Default 与 Premover 的逐帧时间轴对比，标注节省的秒数。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-003-figure4.png",
+      "priority": "medium",
+      "reason": "通过 Original RGB、Original Attention Map 与 Focus Map 的并排对比，直观说明 Premover 如何将分散的注意力收敛到目标对象，支撑方法有效性的关键可视化证据。",
+      "description": "两个任务上原始 RGB、原始注意力图与 Premover Focus Map 的可视化对比。",
+      "suggested_section": "方法与公式"
+    }
+  ]
+}
