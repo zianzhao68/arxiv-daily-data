@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.13382",
+  "title": "BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning",
+  "generated_at": "2026-05-14T08:34:26.700726+00:00",
+  "candidates": [
+    {
+      "filename": "figure-004-mask.png",
+      "source": "tex",
+      "original_name": "mask.pdf",
+      "size_bytes": 1530519,
+      "width": 1661,
+      "height": 1115
+    },
+    {
+      "filename": "figure-001-shift.png",
+      "source": "tex",
+      "original_name": "shift.pdf",
+      "size_bytes": 1369988,
+      "width": 2001,
+      "height": 1342
+    },
+    {
+      "filename": "figure-000-merge.png",
+      "source": "tex",
+      "original_name": "merge.pdf",
+      "size_bytes": 808644,
+      "width": 991,
+      "height": 440
+    },
+    {
+      "filename": "figure-011-page-2-xref-662.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-662.png",
+      "size_bytes": 507679,
+      "width": 1486,
+      "height": 660
+    },
+    {
+      "filename": "figure-005-overall2.png",
+      "source": "tex",
+      "original_name": "overall2.pdf",
+      "size_bytes": 498851,
+      "width": 811,
+      "height": 362
+    },
+    {
+      "filename": "figure-010-logometa.png",
+      "source": "tex",
+      "original_name": "logometa.pdf",
+      "size_bytes": 393242,
+      "width": 3722,
+      "height": 750
+    },
+    {
+      "filename": "figure-003-loss-curve-plot.png",
+      "source": "tex",
+      "original_name": "loss_curve_plot.pdf",
+      "size_bytes": 186343,
+      "width": 683,
+      "height": 251
+    },
+    {
+      "filename": "figure-008-denoise-steps-analysis.png",
+      "source": "tex",
+      "original_name": "denoise_steps_analysis.pdf",
+      "size_bytes": 107708,
+      "width": 496,
+      "height": 423
+    },
+    {
+      "filename": "figure-006-libero-results.png",
+      "source": "tex",
+      "original_name": "libero_results.pdf",
+      "size_bytes": 94157,
+      "width": 351,
+      "height": 568
+    },
+    {
+      "filename": "figure-009-plot-block-size-comparison.png",
+      "source": "tex",
+      "original_name": "plot_block_size_comparison.pdf",
+      "size_bytes": 63514,
+      "width": 466,
+      "height": 355
+    },
+    {
+      "filename": "figure-007-forcing-comparison-plot.png",
+      "source": "tex",
+      "original_name": "forcing_comparison_plot.pdf",
+      "size_bytes": 60297,
+      "width": 466,
+      "height": 355
+    },
+    {
+      "filename": "figure-002-plot-demo.png",
+      "source": "tex",
+      "original_name": "plot_demo.pdf",
+      "size_bytes": 57510,
+      "width": 206,
+      "height": 160
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-011-page-2-xref-662.png",
+      "priority": "high",
+      "reason": "展示了从Autoregressive VLA到Block Diffusion的完整系统架构与适配流程，包括Causal Mask到Blockwise Causal的演变，是理解BlockVLA核心设计的关键总览图。",
+      "description": "BlockVLA整体架构：从自回归VLA经SFT适配到块扩散VLA的完整流程示意图。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-mask.png",
+      "priority": "high",
+      "reason": "详细解释了Overall Attention Mask设计、Diffusion Forcing与Teacher Forcing的RoPE id分配差异，直接支撑块级因果并行生成的核心算法insight。",
+      "description": "注意力掩码与位置编码设计：整体掩码矩阵及两种forcing机制下的RoPE id分配。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-000-merge.png",
+      "priority": "medium",
+      "reason": "主实验结果图，直观展示BlockVLA在LIBERO上相比DDVLA和OpenVLA的成功率优势，以及3.3倍推理加速的吞吐量对比，直接支撑论文核心贡献。",
+      "description": "LIBERO主实验结果：成功率随训练步数对比与推理吞吐量对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-003-loss-curve-plot.png",
+      "priority": "medium",
+      "reason": "训练损失收敛曲线，量化展示Block Diffusion相比Discrete Diffusion训练收敛快1.9倍，直接验证论文关于训练效率提升的关键结论。",
+      "description": "训练收敛速度对比：Block Diffusion与Discrete Diffusion在LIBERO-Object上的损失曲线。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

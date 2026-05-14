@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.13548",
+  "title": "AttenA+: Rectifying Action Inequality in Robotic Foundation Models",
+  "generated_at": "2026-05-14T08:30:57.151243+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-sim-real-experiments1.png",
+      "source": "tex",
+      "original_name": "sim_real_experiments1.png",
+      "size_bytes": 9490981,
+      "width": 894,
+      "height": 404
+    },
+    {
+      "filename": "figure-001-main-plot2.png",
+      "source": "tex",
+      "original_name": "main_plot2.png",
+      "size_bytes": 6305972,
+      "width": 1067,
+      "height": 508
+    },
+    {
+      "filename": "figure-002-appendix-sim-libero-experiments.png",
+      "source": "tex",
+      "original_name": "appendix_sim_libero_experiments.png",
+      "size_bytes": 6098862,
+      "width": 567,
+      "height": 567
+    },
+    {
+      "filename": "figure-003-appendix-sim-robotwin-experiments.png",
+      "source": "tex",
+      "original_name": "appendix_sim_robotwin_experiments.png",
+      "size_bytes": 5104052,
+      "width": 606,
+      "height": 453
+    },
+    {
+      "filename": "figure-004-object-speed-vis-demo1.png",
+      "source": "tex",
+      "original_name": "object_speed_vis_demo1.png",
+      "size_bytes": 4801497,
+      "width": 886,
+      "height": 334
+    },
+    {
+      "filename": "figure-005-compare-demo.png",
+      "source": "tex",
+      "original_name": "compare_demo.png",
+      "size_bytes": 4659639,
+      "width": 962,
+      "height": 365
+    },
+    {
+      "filename": "figure-006-appendix-real-experiments.png",
+      "source": "tex",
+      "original_name": "appendix_real_experiments.png",
+      "size_bytes": 4126666,
+      "width": 474,
+      "height": 709
+    },
+    {
+      "filename": "figure-007-workflow1.png",
+      "source": "tex",
+      "original_name": "workflow1.png",
+      "size_bytes": 2260369,
+      "width": 963,
+      "height": 314
+    },
+    {
+      "filename": "figure-008-object-clip05-0.png",
+      "source": "tex",
+      "original_name": "object_clip05.0.png",
+      "size_bytes": 178204,
+      "width": 1687,
+      "height": 900
+    },
+    {
+      "filename": "figure-009-object-clip10-0.png",
+      "source": "tex",
+      "original_name": "object_clip10.0.png",
+      "size_bytes": 177823,
+      "width": 1687,
+      "height": 900
+    },
+    {
+      "filename": "figure-010-object-clip02-0.png",
+      "source": "tex",
+      "original_name": "object_clip02.0.png",
+      "size_bytes": 160371,
+      "width": 1687,
+      "height": 900
+    },
+    {
+      "filename": "figure-011-real-bins2.png",
+      "source": "tex",
+      "original_name": "real_bins2.png",
+      "size_bytes": 128414,
+      "width": 931,
+      "height": 226
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-007-workflow1.png",
+      "priority": "high",
+      "reason": "该图直观展示了AttenA+的核心方法流程：从视觉/语言观测到基础动作模型，再基于轨迹速度场生成注意力权重，最终得到Attended Actions。图中还配有机器人操作实例与注意力高亮，清晰解释了速度-注意力-动作重加权的物理直觉，是理解论文insight的关键架构图。",
+      "description": "AttenA+方法架构总览，展示基于轨迹速度场生成动作注意力权重并重新加权训练目标的完整流程。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-011-real-bins2.png",
+      "priority": "medium",
+      "reason": "主实验结果对比图，量化了AttenA+相比Baseline在成功率(SR)、错误率(ER)、SR-I和ERE-R四项指标上的提升，直接支撑论文核心结论，是精读笔记中展示方法有效性的关键证据。",
+      "description": "Baseline与AttenA+在SR、ER、SR-I、ERE-R指标上的柱状图对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-008-object-clip05-0.png",
+      "priority": "medium",
+      "reason": "消融实验图，对比了Inverse、Exp Decay、Log等多种速度-权重映射策略在clip=5.0时的热力图分布，帮助理解不同权重函数对轨迹各时刻注意力分配的影响及策略选择依据。",
+      "description": "clip=5.0时不同速度归一化与权重策略的热力图对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-010-object-clip02-0.png",
+      "priority": "medium",
+      "reason": "与clip=5.0形成对照，展示在更激进的clip参数（2.0）下各权重策略的分布变化，补充说明方法对超参数的敏感性及权重极端化程度，深化对速度-权重映射机制的理解。",
+      "description": "clip=2.0时不同速度归一化与权重策略的热力图对比。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

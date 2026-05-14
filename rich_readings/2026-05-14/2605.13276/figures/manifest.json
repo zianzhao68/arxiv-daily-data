@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.13276",
+  "title": "D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models",
+  "generated_at": "2026-05-14T08:41:32.666404+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-mutinode.png",
+      "source": "tex",
+      "original_name": "mutinode.png",
+      "size_bytes": 761172,
+      "width": 2046,
+      "height": 1807
+    },
+    {
+      "filename": "figure-001-openvla-data.png",
+      "source": "tex",
+      "original_name": "openvla-data.png",
+      "size_bytes": 371224,
+      "width": 4027,
+      "height": 1102
+    },
+    {
+      "filename": "figure-002-pi-data.png",
+      "source": "tex",
+      "original_name": "pi_data.png",
+      "size_bytes": 340595,
+      "width": 4027,
+      "height": 1102
+    },
+    {
+      "filename": "figure-003-framwork3.png",
+      "source": "tex",
+      "original_name": "framwork3.png",
+      "size_bytes": 277768,
+      "width": 1523,
+      "height": 968
+    },
+    {
+      "filename": "figure-011-page-7-xref-256.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-256.png",
+      "size_bytes": 264908,
+      "width": 4027,
+      "height": 1102
+    },
+    {
+      "filename": "figure-010-page-7-xref-255.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-255.png",
+      "size_bytes": 236451,
+      "width": 4027,
+      "height": 1102
+    },
+    {
+      "filename": "figure-008-page-4-xref-253.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-253.png",
+      "size_bytes": 225347,
+      "width": 1142,
+      "height": 726
+    },
+    {
+      "filename": "figure-004-scale.png",
+      "source": "tex",
+      "original_name": "scale.png",
+      "size_bytes": 192896,
+      "width": 2151,
+      "height": 620
+    },
+    {
+      "filename": "figure-009-page-5-xref-254.png",
+      "source": "pdf-image",
+      "original_name": "page-5-xref-254.png",
+      "size_bytes": 189498,
+      "width": 2046,
+      "height": 1807
+    },
+    {
+      "filename": "figure-005-placement.png",
+      "source": "tex",
+      "original_name": "placement.png",
+      "size_bytes": 98152,
+      "width": 1071,
+      "height": 661
+    },
+    {
+      "filename": "figure-006-success-1.png",
+      "source": "tex",
+      "original_name": "success_1.png",
+      "size_bytes": 70616,
+      "width": 816,
+      "height": 329
+    },
+    {
+      "filename": "figure-007-page-1-xref-70.png",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-70.png",
+      "size_bytes": 67036,
+      "width": 803,
+      "height": 495
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-003-framwork3.png",
+      "priority": "high",
+      "reason": "展示D-VLA核心框架的异步Swimlane流水线与完整数据流，涵盖Zero-Copy共享内存交换、Rollout Worker、Training Executor及跨节点通信（All-to-All/FSDP/AllReduce），是理解系统设计的总览图。",
+      "description": "带编号数据流的D-VLA系统框架图，分层展示采样进程、通信层与训练执行器。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-005-placement.png",
+      "priority": "high",
+      "reason": "通过Colocated、Disaggregated、Hybrid与Hybrid (Ours)四种部署模式的直观对比，直接解释Plane Decoupling的核心思想——物理隔离高频训练数据与低频权重控制，以消除仿真与优化的资源冲突。",
+      "description": "四种GPU资源部署与调度模式的架构对比图。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-001-openvla-data.png",
+      "priority": "medium",
+      "reason": "主实验结果，在OpenVLA-OFT基准上对比多种基线（RLinf-co/dis、RL-VLA3等）的吞吐量、单步耗时及Rollout/Actor时间占比，直接支撑D-VLA低延迟与高吞吐的结论。",
+      "description": "OpenVLA-OFT上不同框架的吞吐量、步时及时间分解三合一对比柱状图。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-004-scale.png",
+      "priority": "medium",
+      "reason": "展示框架随环境数量增加的吞吐量变化曲线及时间组件分解，验证D-VLA在超大规模场景下的扩展性与稳定性，支撑线性加速的结论。",
+      "description": "吞吐量随环境数量扩展的折线图及时间组件堆叠柱状图。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.13778",
+  "title": "Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs",
+  "generated_at": "2026-05-14T08:38:11.229216+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-conveyor-demo.png",
+      "source": "tex",
+      "original_name": "conveyor_demo.pdf",
+      "size_bytes": 2141421,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-004-real-robot.png",
+      "source": "tex",
+      "original_name": "real_robot.pdf",
+      "size_bytes": 1243653,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-003-fallback.png",
+      "source": "tex",
+      "original_name": "fallback.pdf",
+      "size_bytes": 965900,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-001-overview-wo-title.png",
+      "source": "tex",
+      "original_name": "overview_wo_title.pdf",
+      "size_bytes": 961862,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-002-action-visualization.png",
+      "source": "tex",
+      "original_name": "action_visualization.pdf",
+      "size_bytes": 506966,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-005-framework-v1.png",
+      "source": "tex",
+      "original_name": "framework_v1.pdf",
+      "size_bytes": 230343,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-006-roofline.png",
+      "source": "tex",
+      "original_name": "roofline.pdf",
+      "size_bytes": 222497,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-007-verify.png",
+      "source": "tex",
+      "original_name": "verify.pdf",
+      "size_bytes": 100408,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-011-page-1-xref-389.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-389.jpeg",
+      "size_bytes": 45343,
+      "width": 221,
+      "height": 221
+    },
+    {
+      "filename": "figure-010-page-1-xref-388.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-388.jpeg",
+      "size_bytes": 45041,
+      "width": 221,
+      "height": 221
+    },
+    {
+      "filename": "figure-008-page-1-xref-384.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-384.jpeg",
+      "size_bytes": 40235,
+      "width": 221,
+      "height": 221
+    },
+    {
+      "filename": "figure-009-page-1-xref-386.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-386.jpeg",
+      "size_bytes": 40155,
+      "width": 221,
+      "height": 221
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-005-framework-v1.png",
+      "priority": "high",
+      "reason": "这是论文核心方法架构图，清晰展示了 Full Path（VLM+AE）与 Flash Path（Draft+Verify）的双路径设计，以及 Draft Model 的内部结构（Gemma Block + Action Linear），是理解 FLASH 框架的关键。",
+      "description": "Realtime-VLA FLASH 框架总览与 Draft Model 内部结构",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-001-overview-wo-title.png",
+      "priority": "high",
+      "reason": "左侧通过时间线直观对比了同步推理（失败）与 FLASH（成功）的帧级差异，右侧图解了 Speculative Inference 的 Draft-Verify-Accept 流程，是论文核心 Insight 的浓缩展示。",
+      "description": "同步推理与 FLASH 的时间线对比及推测推理流程示意",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-002-action-visualization.png",
+      "priority": "high",
+      "reason": "以 3D 轨迹可视化直接揭示了 Naive Speculative Inference 的失败原因（Fine Adjustment 阶段偏差导致 Task Failure），以及 Phase-Aware Fallback 如何通过回退到 Full Path 保证 Task Success，是支撑核心算法贡献的直观证据。",
+      "description": "Naive 推测推理与 Phase-Aware Fallback 的 3D 轨迹对比",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-000-conveyor-demo.png",
+      "priority": "medium",
+      "reason": "展示了真实世界传送带分拣任务中 JAX（失败）与 FLASH+Triton（成功）的对比，覆盖玩具狗和梳子两个实例，直接验证了论文方法在延迟敏感的真实场景中的有效性。",
+      "description": "真实世界传送带分拣任务中基线与 FLASH 的定性结果对比",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

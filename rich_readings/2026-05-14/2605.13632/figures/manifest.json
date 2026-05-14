@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.13632",
+  "title": "Guide, Think, Act: Interactive Embodied Reasoning in Vision-Language-Action Models",
+  "generated_at": "2026-05-14T08:27:25.240072+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-plus.png",
+      "source": "tex",
+      "original_name": "plus.pdf",
+      "size_bytes": 5055315,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-006-cot-new.png",
+      "source": "tex",
+      "original_name": "cot_new.pdf",
+      "size_bytes": 4741220,
+      "width": 960,
+      "height": 597
+    },
+    {
+      "filename": "figure-002-guidance-demo.png",
+      "source": "tex",
+      "original_name": "guidance_demo.pdf",
+      "size_bytes": 4238267,
+      "width": 960,
+      "height": 369
+    },
+    {
+      "filename": "figure-003-base.png",
+      "source": "tex",
+      "original_name": "base.pdf",
+      "size_bytes": 3164520,
+      "width": 960,
+      "height": 312
+    },
+    {
+      "filename": "figure-005-google.png",
+      "source": "tex",
+      "original_name": "Google.pdf",
+      "size_bytes": 2249710,
+      "width": 960,
+      "height": 312
+    },
+    {
+      "filename": "figure-011-page-4-xref-522.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-522.png",
+      "size_bytes": 1422521,
+      "width": 3000,
+      "height": 1687
+    },
+    {
+      "filename": "figure-007-over-view.png",
+      "source": "tex",
+      "original_name": "Over_view.pdf",
+      "size_bytes": 1299991,
+      "width": 959,
+      "height": 540
+    },
+    {
+      "filename": "figure-009-fig3-combined.png",
+      "source": "tex",
+      "original_name": "fig3_combined.pdf",
+      "size_bytes": 1176818,
+      "width": 964,
+      "height": 420
+    },
+    {
+      "filename": "figure-004-data-engine.png",
+      "source": "tex",
+      "original_name": "data_engine.pdf",
+      "size_bytes": 810284,
+      "width": 960,
+      "height": 313
+    },
+    {
+      "filename": "figure-008-fig3a.png",
+      "source": "tex",
+      "original_name": "fig3a.pdf",
+      "size_bytes": 587794,
+      "width": 340,
+      "height": 453
+    },
+    {
+      "filename": "figure-000-framework.png",
+      "source": "tex",
+      "original_name": "framework.pdf",
+      "size_bytes": 448027,
+      "width": 707,
+      "height": 273
+    },
+    {
+      "filename": "figure-010-page-2-xref-502.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-502.jpeg",
+      "size_bytes": 14965,
+      "width": 367,
+      "height": 223
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-007-over-view.png",
+      "priority": "high",
+      "reason": "展示了GTA-VLA的核心系统架构，包括VLM backbone、Conditioned spatial-visual Chain-of-Thought、Action head以及高低频视觉编码与用户空间引导的融合方式，是理解方法设计的总览性关键图。",
+      "description": "GTA-VLA整体框架图，涵盖语言指令、图像输入、VLM主干、空间-视觉思维链与动作头。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-009-fig3-combined.png",
+      "priority": "high",
+      "reason": "直接阐释论文核心Insight：传统直接策略存在mis-grounding与mis-localization问题，而GTA-VLA通过显式空间引导（Guide）、推理（Think）和执行（Act）解决歧义并实现精准操作，是论文动机与贡献的直观体现。",
+      "description": "传统直接策略与GTA-VLA的对比图，展示空间歧义下的错误定位与正确引导执行。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-005-google.png",
+      "priority": "medium",
+      "reason": "主实验结果图，对比了Baseline、w/ CoT和w/ Point Guidance在Seen/Unseen及Single/Multiple四种设置下的成功率，直接支撑交互式空间引导显著提升OOD与歧义场景性能的关键结论。",
+      "description": "不同方法在四种实验设置下的成功率柱状图对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-011-page-4-xref-522.png",
+      "priority": "medium",
+      "reason": "展示了大规模训练数据的来源分布（6个数据集、306k episodes）以及自动数据标注引擎的完整流程（关键帧提取、任务分解、目标检测、跟踪过滤），支撑方法的可扩展性与数据基础。",
+      "description": "数据集分布饼图与自动指令标注流程图。",
+      "suggested_section": "方法与公式"
+    }
+  ]
+}
