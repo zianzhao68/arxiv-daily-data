@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.15735",
+  "title": "UAM: A Dual-Stream Perspective on Forgetting in VLA Training",
+  "generated_at": "2026-05-18T09:19:22.383838+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-app-exp-ood-2.png",
+      "source": "tex",
+      "original_name": "app-exp-ood-2.png",
+      "size_bytes": 2722735,
+      "width": 2484,
+      "height": 2358
+    },
+    {
+      "filename": "figure-001-overview-last.png",
+      "source": "tex",
+      "original_name": "overview-last.png",
+      "size_bytes": 2267537,
+      "width": 858,
+      "height": 322
+    },
+    {
+      "filename": "figure-002-app-exp-ood.png",
+      "source": "tex",
+      "original_name": "app-exp-ood.png",
+      "size_bytes": 2199573,
+      "width": 2508,
+      "height": 2258
+    },
+    {
+      "filename": "figure-003-attnmask.png",
+      "source": "tex",
+      "original_name": "attnmask.png",
+      "size_bytes": 2164248,
+      "width": 1143,
+      "height": 465
+    },
+    {
+      "filename": "figure-004-method-exp-all.png",
+      "source": "tex",
+      "original_name": "method-exp-all.png",
+      "size_bytes": 2119964,
+      "width": 578,
+      "height": 483
+    },
+    {
+      "filename": "figure-005-exp-repr.png",
+      "source": "tex",
+      "original_name": "exp-repr.png",
+      "size_bytes": 983957,
+      "width": 2952,
+      "height": 1047
+    },
+    {
+      "filename": "figure-006-exp-real-v.png",
+      "source": "tex",
+      "original_name": "exp_real_v.png",
+      "size_bytes": 923168,
+      "width": 773,
+      "height": 509
+    },
+    {
+      "filename": "figure-007-method-dorsal.png",
+      "source": "tex",
+      "original_name": "method_dorsal.png",
+      "size_bytes": 375487,
+      "width": 1409,
+      "height": 433
+    },
+    {
+      "filename": "figure-008-th.png",
+      "source": "tex",
+      "original_name": "th.png",
+      "size_bytes": 352906,
+      "width": 231,
+      "height": 233
+    },
+    {
+      "filename": "figure-009-th2.png",
+      "source": "tex",
+      "original_name": "th2.png",
+      "size_bytes": 178030,
+      "width": 683,
+      "height": 256
+    },
+    {
+      "filename": "figure-010-vla-architecture-comparison.png",
+      "source": "tex",
+      "original_name": "vla_architecture_comparison.png",
+      "size_bytes": 176714,
+      "width": 338,
+      "height": 244
+    },
+    {
+      "filename": "figure-011-seed-logo.png",
+      "source": "tex",
+      "original_name": "seed_logo.png",
+      "size_bytes": 149241,
+      "width": 3889,
+      "height": 438
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-overview-last.png",
+      "priority": "high",
+      "reason": "该图完整呈现了论文的核心叙事：左侧揭示VLA微调导致的语义遗忘（Embodiment Tax），中间提出UAM的三专家解耦架构与桥接机制，右侧通过损失景观解释Dorsal Expert为何有效。一张图即可覆盖问题、方法与原理，是精读笔记必放的概览图。",
+      "description": "论文总览图，展示VLA语义遗忘问题、UAM解决方案（语义-动态-控制三专家桥接）及理论解释。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-007-method-dorsal.png",
+      "priority": "high",
+      "reason": "清晰刻画了UAM的多专家框架（Semantic/Dorsal/Action Expert）以及三种初始化策略（Random/Semantic/Visual-Dynamics）。这是理解方法细节和复现的关键架构图，直接对应摘要中“parallel Dorsal Expert”与“pretrained generative model initialization”的设计。",
+      "description": "UAM多专家框架与初始化策略架构图，展示三专家级联及视觉-动态初始化。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-method-exp-all.png",
+      "priority": "medium",
+      "reason": "横跨Real-World、Calvin ABC-D、Robotwin 16 Tasks三大基准的柱状图对比，系统验证了UAM在动作准确率上的优势，同时包含Freeze/Non-Freeze、不同初始化等消融设置，是支撑论文主要实验结论的定量证据。",
+      "description": "多数据集主实验结果与消融对比，涵盖真实世界与模拟环境。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-006-exp-real-v.png",
+      "priority": "medium",
+      "reason": "聚焦OOD泛化的关键实验，细分为Novel Objects、Novel Object-Target Pairs、Novel Object-Target-Skill及Cross-lingual Descriptions四类场景，直接证明UAM在分布外语义与动作组合上的鲁棒性，支撑摘要中“out-of-distribution generalization”的核心 claim。",
+      "description": "真实世界OOD泛化实验结果，展示新物体、新组合、跨语言指令下的成功率。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

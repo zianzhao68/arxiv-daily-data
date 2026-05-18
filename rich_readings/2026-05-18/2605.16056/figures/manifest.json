@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2605.16056",
+  "title": "Health-Conditioned Vision-Language-Action Models for Malfunction-Aware Robot Control",
+  "generated_at": "2026-05-18T09:28:15.478895+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-page-2-xref-38.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-38.png",
+      "size_bytes": 2218980,
+      "width": 2112,
+      "height": 1152
+    },
+    {
+      "filename": "figure-000-healthvla-arch.png",
+      "source": "tex",
+      "original_name": "healthvla_arch.png",
+      "size_bytes": 1467188,
+      "width": 2112,
+      "height": 1152
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-000-healthvla-arch.png",
+      "priority": "high",
+      "reason": "该图完整展示了Health-Conditioned VLA的核心架构，清晰呈现了视觉编码器、LLM、Health Projector与Propriojector的融合方式、Action Head设计，以及Frozen/Trainable参数的划分，是理解论文方法原理与轻量化微调策略的关键。",
+      "description": "Health-Conditioned VLA端到端架构图，涵盖双视角视觉输入、语言指令、本体状态与健康向量的融合流程及动作输出。",
+      "suggested_section": "方法与公式"
+    }
+  ]
+}

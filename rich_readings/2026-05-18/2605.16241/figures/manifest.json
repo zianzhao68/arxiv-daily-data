@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.16241",
+  "title": "Offline Semantic Guidance for Efficient Vision-Language-Action Policy Distillation",
+  "generated_at": "2026-05-18T09:21:39.301406+00:00",
+  "candidates": [
+    {
+      "filename": "figure-002-pipeline-overview.png",
+      "source": "tex",
+      "original_name": "pipeline_overview.pdf",
+      "size_bytes": 389902,
+      "width": 952,
+      "height": 474
+    },
+    {
+      "filename": "figure-001-fig4-phase-examples.png",
+      "source": "tex",
+      "original_name": "fig4_phase_examples.pdf",
+      "size_bytes": 349566,
+      "width": 363,
+      "height": 194
+    },
+    {
+      "filename": "figure-000-gripper-oscillation.png",
+      "source": "tex",
+      "original_name": "gripper_oscillation.pdf",
+      "size_bytes": 280480,
+      "width": 410,
+      "height": 378
+    },
+    {
+      "filename": "figure-011-page-5-xref-408.png",
+      "source": "pdf-image",
+      "original_name": "page-5-xref-408.png",
+      "size_bytes": 116444,
+      "width": 192,
+      "height": 192
+    },
+    {
+      "filename": "figure-003-phase-distribution.png",
+      "source": "tex",
+      "original_name": "phase_distribution.pdf",
+      "size_bytes": 77878,
+      "width": 363,
+      "height": 266
+    },
+    {
+      "filename": "figure-008-page-4-xref-400.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-400.png",
+      "size_bytes": 42950,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "filename": "figure-009-page-4-xref-401.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-401.png",
+      "size_bytes": 42892,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "filename": "figure-010-page-4-xref-402.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-402.png",
+      "size_bytes": 42660,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "filename": "figure-007-page-4-xref-399.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-399.png",
+      "size_bytes": 41961,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "filename": "figure-004-page-4-xref-396.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-396.png",
+      "size_bytes": 41277,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "filename": "figure-006-page-4-xref-398.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-398.png",
+      "size_bytes": 41265,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "filename": "figure-005-page-4-xref-397.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-397.png",
+      "size_bytes": 8908,
+      "width": 150,
+      "height": 150
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-002-pipeline-overview.png",
+      "priority": "high",
+      "reason": "全文核心架构图，清晰呈现教师-学生-VLM三者关系、两种语义监督信号（单帧阶段锚点+多帧运动方向）的流向，以及训练与推理解耦的设计。",
+      "description": "VLA-AD整体蒸馏框架，展示VLM离线生成语义阶段锚点与多帧方向描述，辅助轻量学生VLA模仿大模型教师。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-001-fig4-phase-examples.png",
+      "priority": "medium",
+      "reason": "直观展示“语义阶段锚点”的具体形式，帮助理解VLM如何为离线训练提供高层语义监督，是方法细节的重要补充。",
+      "description": "三个任务阶段（Approaching/Transporting/Placing）的仿真截图及VLM生成的自然语言描述示例。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-000-gripper-oscillation.png",
+      "priority": "medium",
+      "reason": "直接验证论文核心结论：语义监督使学生对教师噪声（如高频错误夹持抖动）更鲁棒，输出更平滑，是支撑“鲁棒性”声明的关键证据。",
+      "description": "教师与学生策略在夹持器开闭动作上的时序对比，以及关键帧可视化。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-003-phase-distribution.png",
+      "priority": "medium",
+      "reason": "消融实验结果表明9 phase具有最优的分布均衡性（|CV-1|最低），支撑了方法中阶段数量选择的合理性。",
+      "description": "不同phase数量（3/5/7/9/11/13）下的帧占比分布及|CV-1|指标对比。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

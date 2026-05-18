@@ -1,0 +1,93 @@
+{
+  "arxiv_id": "2605.15836",
+  "title": "GAP: Geometric Anchor Pre-training for Data-Efficient Visuomotor Learning of Manipulation Tasks",
+  "generated_at": "2026-05-18T09:33:27.123806+00:00",
+  "candidates": [
+    {
+      "filename": "figure-006-page-8-xref-262.png",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-262.png",
+      "size_bytes": 6104030,
+      "width": 3240,
+      "height": 611
+    },
+    {
+      "filename": "figure-000-real-world.png",
+      "source": "tex",
+      "original_name": "real_world.png",
+      "size_bytes": 5933142,
+      "width": 3240,
+      "height": 611
+    },
+    {
+      "filename": "figure-005-page-4-xref-253.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-253.png",
+      "size_bytes": 3038959,
+      "width": 1234,
+      "height": 1768
+    },
+    {
+      "filename": "figure-001-qualitative-hq.png",
+      "source": "tex",
+      "original_name": "qualitative_hq.png",
+      "size_bytes": 2462898,
+      "width": 462,
+      "height": 663
+    },
+    {
+      "filename": "figure-003-iros-2026-method-d.png",
+      "source": "tex",
+      "original_name": "iros_2026_method_d.pdf",
+      "size_bytes": 576915,
+      "width": 959,
+      "height": 341
+    },
+    {
+      "filename": "figure-002-iros-2026-teaser-e.png",
+      "source": "tex",
+      "original_name": "iros_2026_teaser_e.pdf",
+      "size_bytes": 436441,
+      "width": 568,
+      "height": 450
+    },
+    {
+      "filename": "figure-004-task-ablation-plot.png",
+      "source": "tex",
+      "original_name": "task_ablation_plot.pdf",
+      "size_bytes": 127988,
+      "width": 900,
+      "height": 450
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-003-iros-2026-method-d.png",
+      "priority": "high",
+      "reason": "展示了GAP两阶段训练框架（预训练+小样本适应），包含Backbone、Pooling Layer、Structured Keypoints、Auxiliary Supervision和Diffusion Policy等核心模块，是理解方法的核心。",
+      "description": "两阶段训练框架：Phase 1使用GAP Loss预训练结构化关键点，Phase 2基于少量专家演示训练视觉运动策略。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-002-iros-2026-teaser-e.png",
+      "priority": "high",
+      "reason": "通过对比Previous methods（无正则化池化导致关键点锁定任务无关特征）与GAP（正则化池化实现物体中心关键点快速适应），直接揭示了论文核心动机与insight。",
+      "description": "对比图展示无正则化池化层在微调时失败而GAP通过物体中心关键点实现高成功率。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-004-task-ablation-plot.png",
+      "priority": "medium",
+      "reason": "主实验结果，在RoboMimic和ManiSkill任务上对比了Global AvgPool、Unreg. Pooling、Attention和GAP四种池化策略，直接支撑了GAP在数据稀缺场景下显著优于基线的关键结论。",
+      "description": "在SquareNutAssembly和StackCube任务上的成功率对比柱状图。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-005-page-4-xref-253.png",
+      "priority": "medium",
+      "reason": "展示了三个模拟操作任务及模型预测的关键点可视化，直观证明了GAP产生的关键点位于物体上、覆盖空间范围且稳定，支撑方法有效性的关键结论。",
+      "description": "三个机器人操作任务的定性可视化与关键点标注。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

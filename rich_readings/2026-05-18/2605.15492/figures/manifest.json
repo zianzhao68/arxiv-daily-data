@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.15492",
+  "title": "FLASH: Efficient Visuomotor Policy via Sparse Sampling",
+  "generated_at": "2026-05-18T09:24:53.928119+00:00",
+  "candidates": [
+    {
+      "filename": "figure-003-tasks.png",
+      "source": "tex",
+      "original_name": "tasks.pdf",
+      "size_bytes": 1008919,
+      "width": 940,
+      "height": 163
+    },
+    {
+      "filename": "figure-004-flash-teaser.png",
+      "source": "tex",
+      "original_name": "FLASH_teaser.pdf",
+      "size_bytes": 978850,
+      "width": 2268,
+      "height": 850
+    },
+    {
+      "filename": "figure-001-training-efficiency.png",
+      "source": "tex",
+      "original_name": "training_efficiency.pdf",
+      "size_bytes": 842486,
+      "width": 896,
+      "height": 268
+    },
+    {
+      "filename": "figure-007-ablation.png",
+      "source": "tex",
+      "original_name": "ablation.pdf",
+      "size_bytes": 742500,
+      "width": 882,
+      "height": 257
+    },
+    {
+      "filename": "figure-005-sim-exp.png",
+      "source": "tex",
+      "original_name": "sim_exp.pdf",
+      "size_bytes": 700365,
+      "width": 913,
+      "height": 275
+    },
+    {
+      "filename": "figure-002-place-cube.png",
+      "source": "tex",
+      "original_name": "place_cube.pdf",
+      "size_bytes": 557587,
+      "width": 353,
+      "height": 432
+    },
+    {
+      "filename": "figure-006-flash-flow.png",
+      "source": "tex",
+      "original_name": "FLASH_flow.pdf",
+      "size_bytes": 401887,
+      "width": 2268,
+      "height": 850
+    },
+    {
+      "filename": "figure-011-close-box.png",
+      "source": "tex",
+      "original_name": "close_box.pdf",
+      "size_bytes": 140560,
+      "width": 417,
+      "height": 263
+    },
+    {
+      "filename": "figure-010-open-drawer.png",
+      "source": "tex",
+      "original_name": "open_drawer.pdf",
+      "size_bytes": 139576,
+      "width": 417,
+      "height": 263
+    },
+    {
+      "filename": "figure-008-mars-lablogowhite.png",
+      "source": "tex",
+      "original_name": "mars_lablogowhite.png",
+      "size_bytes": 128246,
+      "width": 1248,
+      "height": 528
+    },
+    {
+      "filename": "figure-009-mars-lablogo.png",
+      "source": "tex",
+      "original_name": "mars_lablogo.png",
+      "size_bytes": 127560,
+      "width": 1248,
+      "height": 528
+    },
+    {
+      "filename": "figure-000-insert-cube.png",
+      "source": "tex",
+      "original_name": "insert_cube.pdf",
+      "size_bytes": 117349,
+      "width": 226,
+      "height": 80
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-004-flash-teaser.png",
+      "priority": "high",
+      "reason": "直接阐释了FLASH的核心创新：通过稀疏采样将专家轨迹压缩为Legendre多项式系数，并对比了传统多步去噪与FLASH单步历史锚定生成的差异，是理解论文insight的关键。",
+      "description": "稀疏采样策略示意图与传统扩散/流匹配范式同FLASH单步历史锚定范式的对比。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-006-flash-flow.png",
+      "priority": "high",
+      "reason": "展示了FLASH完整的网络架构（DiT-style Flow Transformer、多项式拟合、Euler步进）和训练目标（Flow-Matching Loss + Consistency Loss），是复现和理解方法细节的核心蓝图。",
+      "description": "FLASH策略的推理网络架构与训练流程框图。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-001-training-efficiency.png",
+      "priority": "medium",
+      "reason": "在三个代表性模拟任务上展示了FLASH相比扩散/流匹配基线及ACT的收敛速度优势，支撑了“训练效率提升4倍”的关键结论。",
+      "description": "不同方法在三个模拟任务上的训练步数-成功率曲线对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-005-sim-exp.png",
+      "priority": "medium",
+      "reason": "通过推理时延、累积误差随时间变化及评估采样步长鲁棒性三个维度，量化了FLASH在实时控制中的效率与精度优势，直接对应摘要中的速度提升claim。",
+      "description": "各方法单回合总推理时延、轨迹误差累积曲线及不同评估采样步长下的成功率。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
