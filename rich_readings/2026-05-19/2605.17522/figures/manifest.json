@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.17522",
+  "title": "RoboFlow4D: A Lightweight Flow World Model Toward Real-Time Flow-Guided Robotic Manipulation",
+  "generated_at": "2026-05-19T09:33:14.438285+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-pipeline.png",
+      "source": "tex",
+      "original_name": "pipeline.pdf",
+      "size_bytes": 2257192,
+      "width": 960,
+      "height": 851
+    },
+    {
+      "filename": "figure-008-page-1-xref-599.png",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-599.png",
+      "size_bytes": 1685898,
+      "width": 2136,
+      "height": 1749
+    },
+    {
+      "filename": "figure-002-data-gen.png",
+      "source": "tex",
+      "original_name": "data_gen.pdf",
+      "size_bytes": 1631258,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-005-exp-vis.png",
+      "source": "tex",
+      "original_name": "exp_vis.pdf",
+      "size_bytes": 1147751,
+      "width": 960,
+      "height": 851
+    },
+    {
+      "filename": "figure-000-comp-designs.png",
+      "source": "tex",
+      "original_name": "comp_designs.pdf",
+      "size_bytes": 852524,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-009-page-4-xref-649.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-649.jpeg",
+      "size_bytes": 831289,
+      "width": 2868,
+      "height": 2253
+    },
+    {
+      "filename": "figure-010-page-5-xref-652.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-5-xref-652.jpeg",
+      "size_bytes": 277845,
+      "width": 1380,
+      "height": 1254
+    },
+    {
+      "filename": "figure-003-maniskill.jpg",
+      "source": "tex",
+      "original_name": "maniskill.jpg",
+      "size_bytes": 247776,
+      "width": 500,
+      "height": 424
+    },
+    {
+      "filename": "figure-004-libero.jpg",
+      "source": "tex",
+      "original_name": "libero.jpg",
+      "size_bytes": 205177,
+      "width": 500,
+      "height": 446
+    },
+    {
+      "filename": "figure-006-real.jpg",
+      "source": "tex",
+      "original_name": "real.jpg",
+      "size_bytes": 141332,
+      "width": 500,
+      "height": 427
+    },
+    {
+      "filename": "figure-007-setup.jpg",
+      "source": "tex",
+      "original_name": "setup.jpg",
+      "size_bytes": 131537,
+      "width": 502,
+      "height": 353
+    },
+    {
+      "filename": "figure-011-page-8-xref-610.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-610.jpeg",
+      "size_bytes": 131537,
+      "width": 502,
+      "height": 353
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-pipeline.png",
+      "priority": "high",
+      "reason": "完整展示了 RoboFlow4D 的系统架构，包括多模态编码器、FlowDiT 去噪网络、流条件策略学习以及快慢闭环控制，是理解论文方法设计的核心大图。",
+      "description": "RoboFlow4D 整体架构与闭环控制流程",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-000-comp-designs.png",
+      "priority": "high",
+      "reason": "通过与 Pixel Flow 和 Fixed-Length Point Flow 的模块化方案对比，突出本文端到端、目标导向、自适应时空流的核心 Insight；同时包含 LIBERO/ManiSkill3 成功率与延迟/参数量效率的主实验图表，直接支撑论文关键结论。",
+      "description": "三种流设计范式对比及主实验结果",
+      "suggested_section": "核心 Insight / 实验与消融"
+    },
+    {
+      "filename": "figure-005-exp-vis.png",
+      "priority": "medium",
+      "reason": "定性展示了真实场景下预测流的可视化与闭环规划能力，特别是 Grasp Failure → Recovery → Re-grasp 的失败恢复过程，直观验证了系统的鲁棒性和实时重规划价值。",
+      "description": "真实世界评估中的预测流与闭环失败恢复案例",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-002-data-gen.png",
+      "priority": "medium",
+      "reason": "清晰呈现两阶段数据生成流程（Grounded-SAM2 + 3D Tracker 感知跟踪，再到原子任务与关键帧流），帮助理解训练数据构建与任务分解机制，支撑方法可扩展性的关键结论。",
+      "description": "两阶段数据生成与原子任务关键帧流构建",
+      "suggested_section": "方法与公式"
+    }
+  ]
+}

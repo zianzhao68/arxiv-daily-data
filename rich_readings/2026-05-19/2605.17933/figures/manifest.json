@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.17933",
+  "title": "AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents",
+  "generated_at": "2026-05-19T09:27:31.268916+00:00",
+  "candidates": [
+    {
+      "filename": "figure-002-comparison.png",
+      "source": "tex",
+      "original_name": "Comparison.pdf",
+      "size_bytes": 5483186,
+      "width": 2832,
+      "height": 1647
+    },
+    {
+      "filename": "figure-000-logo.png",
+      "source": "tex",
+      "original_name": "logo.png",
+      "size_bytes": 1250420,
+      "width": 3287,
+      "height": 433
+    },
+    {
+      "filename": "figure-003-3dvisual-priors.png",
+      "source": "tex",
+      "original_name": "3Dvisual_priors.pdf",
+      "size_bytes": 782808,
+      "width": 1154,
+      "height": 842
+    },
+    {
+      "filename": "figure-001-arch.png",
+      "source": "tex",
+      "original_name": "arch.pdf",
+      "size_bytes": 652201,
+      "width": 798,
+      "height": 473
+    },
+    {
+      "filename": "figure-004-teaser.png",
+      "source": "tex",
+      "original_name": "Teaser.pdf",
+      "size_bytes": 388561,
+      "width": 1050,
+      "height": 818
+    },
+    {
+      "filename": "figure-006-radar-ablation.png",
+      "source": "tex",
+      "original_name": "radar_ablation.pdf",
+      "size_bytes": 308591,
+      "width": 443,
+      "height": 370
+    },
+    {
+      "filename": "figure-009-trajectory-reward-sokoban.png",
+      "source": "tex",
+      "original_name": "trajectory_reward_sokoban.pdf",
+      "size_bytes": 167059,
+      "width": 886,
+      "height": 505
+    },
+    {
+      "filename": "figure-010-exemplar-pool-b.png",
+      "source": "tex",
+      "original_name": "exemplar_pool_B.pdf",
+      "size_bytes": 166654,
+      "width": 712,
+      "height": 280
+    },
+    {
+      "filename": "figure-007-reward-waterfall.png",
+      "source": "tex",
+      "original_name": "reward_waterfall.pdf",
+      "size_bytes": 122647,
+      "width": 1029,
+      "height": 352
+    },
+    {
+      "filename": "figure-011-exemplar-pool-a.png",
+      "source": "tex",
+      "original_name": "exemplar_pool_A.pdf",
+      "size_bytes": 117542,
+      "width": 713,
+      "height": 295
+    },
+    {
+      "filename": "figure-008-curve.png",
+      "source": "tex",
+      "original_name": "curve.pdf",
+      "size_bytes": 113106,
+      "width": 454,
+      "height": 296
+    },
+    {
+      "filename": "figure-005-heatmap-frames.png",
+      "source": "tex",
+      "original_name": "heatmap_frames.pdf",
+      "size_bytes": 35098,
+      "width": 1052,
+      "height": 398
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-arch.png",
+      "priority": "high",
+      "reason": "系统阐述了AtlasVA的核心组件与数据流，包含三层视觉记忆、无教师图谱演化、密集奖励塑造与策略优化循环，是理解方法全貌的关键架构图。",
+      "description": "AtlasVA完整框架图，展示三层视觉记忆（VSM）、无教师视觉图谱演化、基于图谱的密集视觉奖励塑造及优化闭环。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-teaser.png",
+      "priority": "high",
+      "reason": "通过上下对比直观揭示论文核心Insight：现有文本中心范式存在模态错位、教师依赖与稀疏奖励问题，而AtlasVA直接在视觉模态中构建自进化记忆与密集奖励。",
+      "description": "文本中心范式（教师LLM+文本技能库）与AtlasVA（原生视觉记忆+无教师演化+密集视觉奖励）的范式对比图。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-006-radar-ablation.png",
+      "priority": "medium",
+      "reason": "在6个任务维度上同时展示完整方法与5种消融变体的性能差距，全面验证了三层视觉记忆各模块（VSM、Atlas Evolution、Dense Reward、Heatmap、Exemplar）的必要性。",
+      "description": "雷达图展示AtlasVA及其消融版本在Sokoban、FrozenLake、Navigation、PrimSkill等任务上的准确率对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-009-trajectory-reward-sokoban.png",
+      "priority": "medium",
+      "reason": "以具体游戏轨迹为例，配合各时间步的Danger Penalty、Affinity Gain与总奖励曲线，直接证明自进化图谱如何提供细粒度视觉引导，避免死胡同并维持正向塑造。",
+      "description": "Sokoban单条轨迹中各时间步的视觉奖励分解曲线与关键状态截图（Start、Risky detour、Correct push、Solved）。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

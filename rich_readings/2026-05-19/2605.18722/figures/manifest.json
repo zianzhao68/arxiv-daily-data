@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.18722",
+  "title": "Dexora: Open-source VLA for High-DoF Bimanual Dexterity",
+  "generated_at": "2026-05-19T09:37:32.850113+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-cross-embodiment-gen.png",
+      "source": "tex",
+      "original_name": "cross_embodiment_gen.pdf",
+      "size_bytes": 2229118,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-001-dex-tasks.png",
+      "source": "tex",
+      "original_name": "dex_tasks.pdf",
+      "size_bytes": 2040394,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-005-discriminator-effectiveness.png",
+      "source": "tex",
+      "original_name": "discriminator_effectiveness.pdf",
+      "size_bytes": 1892363,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-003-basic-tasks.png",
+      "source": "tex",
+      "original_name": "basic_tasks.pdf",
+      "size_bytes": 1826567,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-002-teaser.png",
+      "source": "tex",
+      "original_name": "teaser.pdf",
+      "size_bytes": 1509940,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-004-ood.png",
+      "source": "tex",
+      "original_name": "OOD.pdf",
+      "size_bytes": 1488732,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-007-dataset-demonstration.png",
+      "source": "tex",
+      "original_name": "dataset_demonstration.pdf",
+      "size_bytes": 1181797,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-006-hardware-and-teleoperation.png",
+      "source": "tex",
+      "original_name": "hardware_and_teleoperation.pdf",
+      "size_bytes": 602465,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-009-method.png",
+      "source": "tex",
+      "original_name": "method.pdf",
+      "size_bytes": 357708,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-011-page-1-xref-252.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-252.jpeg",
+      "size_bytes": 80193,
+      "width": 1155,
+      "height": 384
+    },
+    {
+      "filename": "figure-008-intro-6areas.png",
+      "source": "tex",
+      "original_name": "intro-6areas.pdf",
+      "size_bytes": 71944,
+      "width": 283,
+      "height": 283
+    },
+    {
+      "filename": "figure-010-scaling.png",
+      "source": "tex",
+      "original_name": "scaling.pdf",
+      "size_bytes": 64221,
+      "width": 713,
+      "height": 281
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-002-teaser.png",
+      "priority": "high",
+      "reason": "这是论文的核心概览图，以四象限形式同时展示了数据集构成、判别器引导的架构设计、主实验性能对比（含SOTA提升幅度）以及跨具身泛化能力，是理解Dexora整体贡献的最佳入口。",
+      "description": "Dexora整体框架概览，包含Dataset、Architecture、Performance、Generalization四大模块。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-009-method.png",
+      "priority": "high",
+      "reason": "详细展示了核心训练流程的三阶段设计：数据过滤（预筛选与后验证）、判别器训练、以及数据质量感知的后训练（加权损失）。直接对应论文提出的 discriminator-guided quality-aware training 核心方法。",
+      "description": "Dexora训练流程图，涵盖数据过滤、判别器训练与数据质量感知的扩散策略后训练。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-005-discriminator-effectiveness.png",
+      "priority": "high",
+      "reason": "通过可视化对比（有无判别器）与关节状态曲线，直观证明了判别器对抑制抖动、保证动作稳定性的关键作用，是支撑论文核心insight（数据质量感知训练）的最直接证据。",
+      "description": "判别器有效性消融实验，对比展示有/无判别器时的机器人操作效果与关节状态差异。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-010-scaling.png",
+      "priority": "medium",
+      "reason": "消融实验图，定量展示了仅使用仿真数据、加入50%真实数据以及加入全部真实数据对成功率的影响，直接验证了真实数据对灵巧操作的关键作用，支撑论文核心结论。",
+      "description": "数据缩放消融实验，对比Sim Only、Sim+50% Real、Sim+All Real在四项任务上的成功率。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

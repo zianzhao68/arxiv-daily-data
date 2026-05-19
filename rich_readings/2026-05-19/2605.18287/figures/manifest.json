@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.18287",
+  "title": "StableVLA: Towards Robust Vision-Language-Action Models without Extra Data",
+  "generated_at": "2026-05-19T09:22:35.881026+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-teaser-lay.png",
+      "source": "tex",
+      "original_name": "teaser_lay.pdf",
+      "size_bytes": 13466824,
+      "width": 7667,
+      "height": 2367
+    },
+    {
+      "filename": "figure-000-insight.png",
+      "source": "tex",
+      "original_name": "insight.pdf",
+      "size_bytes": 4379946,
+      "width": 1085,
+      "height": 1005
+    },
+    {
+      "filename": "figure-007-semantic.png",
+      "source": "tex",
+      "original_name": "semantic.pdf",
+      "size_bytes": 1943540,
+      "width": 884,
+      "height": 558
+    },
+    {
+      "filename": "figure-002-stable-real-quali.png",
+      "source": "tex",
+      "original_name": "stable_real_quali.pdf",
+      "size_bytes": 1581869,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-009-radar-4tasks-with-clean.png",
+      "source": "tex",
+      "original_name": "radar_4tasks_with_clean.pdf",
+      "size_bytes": 1008708,
+      "width": 804,
+      "height": 847
+    },
+    {
+      "filename": "figure-003-real-vis.png",
+      "source": "tex",
+      "original_name": "real_vis.pdf",
+      "size_bytes": 678686,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-004-pku.png",
+      "source": "tex",
+      "original_name": "pku.png",
+      "size_bytes": 169852,
+      "width": 1276,
+      "height": 359
+    },
+    {
+      "filename": "figure-005-main-arch.png",
+      "source": "tex",
+      "original_name": "main_arch.pdf",
+      "size_bytes": 159961,
+      "width": 766,
+      "height": 216
+    },
+    {
+      "filename": "figure-006-hf.png",
+      "source": "tex",
+      "original_name": "hf.png",
+      "size_bytes": 119134,
+      "width": 192,
+      "height": 178
+    },
+    {
+      "filename": "figure-008-github.png",
+      "source": "tex",
+      "original_name": "github.png",
+      "size_bytes": 77808,
+      "width": 983,
+      "height": 957
+    },
+    {
+      "filename": "figure-010-cascade-3types.png",
+      "source": "tex",
+      "original_name": "cascade_3types.pdf",
+      "size_bytes": 73301,
+      "width": 567,
+      "height": 277
+    },
+    {
+      "filename": "figure-011-page-1-xref-119.png",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-119.png",
+      "size_bytes": 23738,
+      "width": 384,
+      "height": 384
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-003-real-vis.png",
+      "priority": "high",
+      "reason": "直接呈现论文核心洞察：IB-Adapter使模型在强视觉干扰下仍保持对任务关键区域的稳定注意力，是理解方法动机与有效性的关键图。",
+      "description": "展示Baseline与StableVLA在干净输入及不同严重度损坏输入下的注意力图对比。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-005-main-arch.png",
+      "priority": "high",
+      "reason": "清晰展示Information Bottleneck Adapter的数学结构（Q/K/Gram Matrix/Sigmoid/Attention Map）及其在VLA中的嵌入位置，是理解方法的核心架构图。",
+      "description": "IB-Adapter结构（左）与整体VLA框架（右），包含Visual Encoder、LLM Backbone、Policy Module及7D动作输出。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-009-radar-4tasks-with-clean.png",
+      "priority": "medium",
+      "reason": "主实验结果的可视化，全面展示StableVLA在各类任务上相比OpenVLA、OpenPI等SOTA模型的优势，支撑论文主要贡献。",
+      "description": "四个LIBERO基准（Spatial/Object/Goal/Long）上多模型性能雷达图对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-010-cascade-3types.png",
+      "priority": "medium",
+      "reason": "消融分析图，定量揭示IB-Adapter如何在各处理阶段维持表征一致性，直接支撑“无需额外数据即可提升鲁棒性”的关键结论。",
+      "description": "在Fog与Defocus Blur（Severity 5）下，MLP与FusedIB-Adapter在Vision、Projector、Action三阶段的一致性分数对比。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

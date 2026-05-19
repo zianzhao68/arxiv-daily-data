@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.18556",
+  "title": "Key-Gram: Extensible World Knowledge for Embodied Manipulation",
+  "generated_at": "2026-05-19T09:16:45.934511+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-real-world-expand.png",
+      "source": "tex",
+      "original_name": "real_world_expand.pdf",
+      "size_bytes": 3174330,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-001-real-world-long-horizon.png",
+      "source": "tex",
+      "original_name": "real_world_long_horizon.pdf",
+      "size_bytes": 2170888,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-002-keygram-overview.png",
+      "source": "tex",
+      "original_name": "keygram_overview.pdf",
+      "size_bytes": 412318,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-003-keygram-extensibility.png",
+      "source": "tex",
+      "original_name": "keygram-extensibility.pdf",
+      "size_bytes": 384412,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-011-page-8-xref-428.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-428.jpeg",
+      "size_bytes": 105783,
+      "width": 480,
+      "height": 360
+    },
+    {
+      "filename": "figure-010-page-8-xref-427.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-427.jpeg",
+      "size_bytes": 105121,
+      "width": 480,
+      "height": 360
+    },
+    {
+      "filename": "figure-009-page-8-xref-426.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-426.jpeg",
+      "size_bytes": 103386,
+      "width": 480,
+      "height": 360
+    },
+    {
+      "filename": "figure-004-ablation.png",
+      "source": "tex",
+      "original_name": "Ablation.png",
+      "size_bytes": 98602,
+      "width": 975,
+      "height": 360
+    },
+    {
+      "filename": "figure-007-page-3-xref-393.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-3-xref-393.jpeg",
+      "size_bytes": 32353,
+      "width": 192,
+      "height": 192
+    },
+    {
+      "filename": "figure-008-page-6-xref-413.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-6-xref-413.jpeg",
+      "size_bytes": 31432,
+      "width": 195,
+      "height": 180
+    },
+    {
+      "filename": "figure-005-page-3-xref-391.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-3-xref-391.jpeg",
+      "size_bytes": 30669,
+      "width": 192,
+      "height": 192
+    },
+    {
+      "filename": "figure-006-page-3-xref-392.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-3-xref-392.jpeg",
+      "size_bytes": 27080,
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-002-keygram-overview.png",
+      "priority": "high",
+      "reason": "展示了Key-Gram的整体Pipeline（语言检索→视觉推理→动作推断）以及Key-Gram模块的内部结构（Hash、Embedding、Attention、Conv融合），是理解论文核心方法的第一入口。",
+      "description": "Key-Gram整体架构与核心模块设计图",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-003-keygram-extensibility.png",
+      "priority": "high",
+      "reason": "解释了Key-Gram如何通过多物理子表拼接逻辑表、如何随指令长度和任务复杂度扩展，是论文核心创新——可扩展外部记忆机制——的关键说明图。",
+      "description": "逻辑表构建与随指令长度/任务复杂度扩展的机制图",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-004-ablation.png",
+      "priority": "medium",
+      "reason": "通过对比Vanilla、KG(1)和KG(1,8)在不同插入层数下的性能与门控值，直接验证了Key-Gram插入位置与数量的影响，是支撑方法有效性的关键消融实验。",
+      "description": "不同配置下插入Transformer层数对score与normed gates影响的消融实验图",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-001-real-world-long-horizon.png",
+      "priority": "medium",
+      "reason": "展示了真实世界长程复合指令（排序、组合、多步搬运）的连续执行过程，直观验证了方法在真实机器人上的泛化与长程推理能力。",
+      "description": "真实世界长程任务执行序列示例",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
