@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.26282",
+  "title": "Scaling World-Model Reinforcement Learning Through Diffusion Policy Optimization",
+  "generated_at": "2026-05-27T09:21:23.827296+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-all-diffusion-manifold-3d-5e.png",
+      "source": "tex",
+      "original_name": "All_diffusion_manifold_3D_5e.pdf",
+      "size_bytes": 4825212,
+      "width": 2520,
+      "height": 2880
+    },
+    {
+      "filename": "figure-001-all-mppi-manifold-3d-5e.png",
+      "source": "tex",
+      "original_name": "All_mppi_manifold_3D_5e.pdf",
+      "size_bytes": 4593762,
+      "width": 2520,
+      "height": 2880
+    },
+    {
+      "filename": "figure-005-all-diffusion-manifold-3d-1e.png",
+      "source": "tex",
+      "original_name": "All_diffusion_manifold_3D_1e.pdf",
+      "size_bytes": 4012995,
+      "width": 2520,
+      "height": 2880
+    },
+    {
+      "filename": "figure-004-all-mppi-manifold-3d-1e.png",
+      "source": "tex",
+      "original_name": "All_mppi_manifold_3D_1e.pdf",
+      "size_bytes": 3972195,
+      "width": 2520,
+      "height": 2880
+    },
+    {
+      "filename": "figure-008-insight-eta.png",
+      "source": "tex",
+      "original_name": "insight_eta.pdf",
+      "size_bytes": 2917092,
+      "width": 2859,
+      "height": 497
+    },
+    {
+      "filename": "figure-011-conceptual.png",
+      "source": "tex",
+      "original_name": "Conceptual.pdf",
+      "size_bytes": 2605385,
+      "width": 2409,
+      "height": 1318
+    },
+    {
+      "filename": "figure-006-drift-separate-all-methods.png",
+      "source": "tex",
+      "original_name": "drift_separate_all_methods.pdf",
+      "size_bytes": 1611276,
+      "width": 1296,
+      "height": 720
+    },
+    {
+      "filename": "figure-003-demo-myosuite.png",
+      "source": "tex",
+      "original_name": "demo_myosuite.png",
+      "size_bytes": 1461363,
+      "width": 815,
+      "height": 323
+    },
+    {
+      "filename": "figure-007-integrated-manifold.png",
+      "source": "tex",
+      "original_name": "integrated_manifold.pdf",
+      "size_bytes": 1149953,
+      "width": 2588,
+      "height": 743
+    },
+    {
+      "filename": "figure-010-demo-maniskill2.png",
+      "source": "tex",
+      "original_name": "demo_maniskill2.png",
+      "size_bytes": 522383,
+      "width": 960,
+      "height": 324
+    },
+    {
+      "filename": "figure-009-insight.png",
+      "source": "tex",
+      "original_name": "insight.pdf",
+      "size_bytes": 463140,
+      "width": 1636,
+      "height": 291
+    },
+    {
+      "filename": "figure-002-abstract.png",
+      "source": "tex",
+      "original_name": "abstract.pdf",
+      "size_bytes": 373678,
+      "width": 547,
+      "height": 222
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-011-conceptual.png",
+      "priority": "high",
+      "reason": "完整呈现MBDPO的核心方法框架，涵盖扩散策略优化、去噪世界模型校准分数场、隐式能量正则化等关键模块，是理解论文方法机制的首要图示。",
+      "description": "MBDPO概念框架与扩散策略优化流程图",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-008-insight-eta.png",
+      "priority": "medium",
+      "reason": "通过Cross TD-error曲线与能量正则化参数η的箱线图，定量展示MBDPO相比TD-MPC2在价值学习一致性上的优势，直接支撑论文核心insight。",
+      "description": "Cross TD-error对比及能量正则化η消融实验",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-006-drift-separate-all-methods.png",
+      "priority": "medium",
+      "reason": "在8个代表性任务上展示不同方法的Squared Difference时序曲线，系统验证MBDPO缓解模型漂移与训练不一致性的效果，支撑关键实验结论。",
+      "description": "多任务策略漂移/差异对比实验",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-007-integrated-manifold.png",
+      "priority": "medium",
+      "reason": "以3D流形可视化直观对比MBDPO与TD-MPC2在单episode与多episode中的行为轨迹差异，形象说明策略一致性与探索效率的提升。",
+      "description": "单/多episode策略流形可视化对比",
+      "suggested_section": "核心Insight"
+    }
+  ]
+}

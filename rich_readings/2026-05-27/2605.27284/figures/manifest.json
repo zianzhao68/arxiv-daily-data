@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.27284",
+  "title": "FineVLA: Fine-Grained Instruction Alignment for Steerable Vision-Language-Action Policies",
+  "generated_at": "2026-05-27T09:16:11.682173+00:00",
+  "candidates": [
+    {
+      "filename": "figure-002-realworldtask.png",
+      "source": "tex",
+      "original_name": "RealWorldTask.pdf",
+      "size_bytes": 11731953,
+      "width": 2477,
+      "height": 662
+    },
+    {
+      "filename": "figure-001-main.png",
+      "source": "tex",
+      "original_name": "main.pdf",
+      "size_bytes": 8971416,
+      "width": 2426,
+      "height": 1298
+    },
+    {
+      "filename": "figure-000-benchmark.png",
+      "source": "tex",
+      "original_name": "Benchmark.pdf",
+      "size_bytes": 6511014,
+      "width": 1932,
+      "height": 1094
+    },
+    {
+      "filename": "figure-003-tool.png",
+      "source": "tex",
+      "original_name": "Tool.pdf",
+      "size_bytes": 5674152,
+      "width": 2562,
+      "height": 1232
+    },
+    {
+      "filename": "figure-004-clustering-examples-combined.png",
+      "source": "tex",
+      "original_name": "clustering_examples_combined.png",
+      "size_bytes": 1540790,
+      "width": 2100,
+      "height": 1716
+    },
+    {
+      "filename": "figure-005-finevla-logo.png",
+      "source": "tex",
+      "original_name": "FineVLA-logo.png",
+      "size_bytes": 1381872,
+      "width": 1063,
+      "height": 394
+    },
+    {
+      "filename": "figure-006-human-ranking2.png",
+      "source": "tex",
+      "original_name": "Human_ranking2.png",
+      "size_bytes": 693009,
+      "width": 1350,
+      "height": 753
+    },
+    {
+      "filename": "figure-007-human-ranking.png",
+      "source": "tex",
+      "original_name": "Human_ranking.png",
+      "size_bytes": 560635,
+      "width": 1350,
+      "height": 741
+    },
+    {
+      "filename": "figure-010-robotwin-mixing-curve.png",
+      "source": "tex",
+      "original_name": "robotwin_mixing_curve.pdf",
+      "size_bytes": 117104,
+      "width": 627,
+      "height": 397
+    },
+    {
+      "filename": "figure-011-caption-human-alignment-easy.png",
+      "source": "tex",
+      "original_name": "caption_human_alignment_easy.pdf",
+      "size_bytes": 89981,
+      "width": 560,
+      "height": 401
+    },
+    {
+      "filename": "figure-009-xlang-logo.png",
+      "source": "tex",
+      "original_name": "XLANG_logo.png",
+      "size_bytes": 85235,
+      "width": 490,
+      "height": 86
+    },
+    {
+      "filename": "figure-008-qwen-logo.png",
+      "source": "tex",
+      "original_name": "qwen-logo.pdf",
+      "size_bytes": 69551,
+      "width": 595,
+      "height": 842
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-010-robotwin-mixing-curve.png",
+      "priority": "medium",
+      "reason": "直接展示论文核心实验发现：细粒度与原始目标级指令混合训练呈现倒U型趋势，在FG:Raw=1:2至1:1时达到峰值，是支撑“两者互补且不牺牲目标级成功率”这一关键结论的主实验图。",
+      "description": "不同FG比例下RoboTwin Easy/Hard任务成功率的混合曲线。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-011-caption-human-alignment-easy.png",
+      "priority": "medium",
+      "reason": "验证自动VLM评判器（GPT/Gemini）与人类排名具有极高相关性（r>0.97），支撑细粒度benchmark的可扩展标注与评估可靠性。",
+      "description": "各模型生成caption的自动评判分数与人类归一化排名的对比柱状图。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-006-human-ranking2.png",
+      "priority": "medium",
+      "reason": "直观展示FineVLA数据构建工具的人类验证界面，说明如何从原始轨迹生成并筛选细粒度指令，支撑FineVLA-Data数据集构建方法的可信度。",
+      "description": "细粒度caption人工排序与验证的Web界面截图。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-clustering-examples-combined.png",
+      "priority": "medium",
+      "reason": "通过DTW距离矩阵与MDS嵌入展示大规模异构机器人轨迹的聚类结构，支撑将10个开源数据集的97万+轨迹统一并划分为细粒度任务的数据处理合理性。",
+      "description": "基于DTW的轨迹距离热力图与二维MDS聚类可视化。",
+      "suggested_section": "方法与公式"
+    }
+  ]
+}

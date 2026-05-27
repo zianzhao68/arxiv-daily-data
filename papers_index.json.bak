@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-05-22T08:53:41.403796+00:00",
-    "total_papers": 360
+    "last_updated": "2026-05-25T09:32:10.494447+00:00",
+    "total_papers": 374
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -19599,6 +19599,912 @@
     ],
     "journal_ref": null,
     "comment": "To appear in Proceedings of the IEEE Intelligent Vehicles Symposium (IV), 2026. Accepted for oral presentation",
+    "relevance_tier": "peripheral"
+  },
+  "2605.23856": {
+    "title": "Point Tracking Improves World Action Models",
+    "authors": [
+      "Jiarui Guan",
+      "Wenshuai Zhao",
+      "Yue Pei",
+      "Ziliang Chen",
+      "Arno Solin",
+      "Juho Kannala"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-22T17:08:37+00:00",
+    "updated": "2026-05-22T17:08:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23856v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23856v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "联合像素与轨迹的世界动作模型提升机器人长程操作鲁棒性",
+    "tags": [
+      "Academic",
+      "No Code",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Aalto University"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.15
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "World-Action Model",
+      "Point Tracking",
+      "Diffusion Transformer",
+      "Robot Manipulation",
+      "Action-Free Pretraining"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-25/2605.23856/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-000-figure-1.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-001-architecture.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-002-2.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-003-3.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-25T09:30:13.325904+00:00"
+  },
+  "2605.23523": {
+    "title": "ComPose: When to Trust Hands for Object Pose Tracking",
+    "authors": [
+      "Jisu Shin",
+      "Junoh Lee",
+      "JunGyu Lee",
+      "Inhwan Bae",
+      "Dohyeon Lee",
+      "Hokyun Im",
+      "Youngwoon Lee",
+      "Hae-Gon Jeon"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-22T11:39:49+00:00",
+    "updated": "2026-05-22T11:39:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23523v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23523v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "利用手部线索自适应增强遮挡下6DoF物体跟踪",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.25
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "6DoF object tracking",
+      "hand-object interaction",
+      "foundation models",
+      "trajectory retargeting",
+      "temporal consistency"
+    ],
+    "journal_ref": null,
+    "comment": "22 pages, 10 figures",
+    "relevance_tier": "core"
+  },
+  "2605.23477": {
+    "title": "Semantically Structured Mixture-of-Experts for Compositional Robotic Manipulation",
+    "authors": [
+      "Chengyu Deng",
+      "Guanqi Chen",
+      "Yizhou Chen",
+      "Zejia Liu",
+      "Zhiwen Ruan",
+      "Guanhua Chen",
+      "Jia Pan"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-22T10:38:59+00:00",
+    "updated": "2026-05-22T10:38:59+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23477v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23477v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "语义结构化混合专家扩散策略实现可组合机器人操作",
+    "tags": [
+      "Academic",
+      "Accepted",
+      "No Code",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "The University of Hong Kong",
+      "Southern University of Science and Technology"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.15
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Mixture-of-Experts",
+      "Diffusion Policy",
+      "Vision-Language Models",
+      "Compositional Manipulation",
+      "Semantic Routing"
+    ],
+    "journal_ref": null,
+    "comment": "Accepted to Robotics: Science and Systems (RSS) 2026",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-25/2605.23477/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-000-aloha-iphone.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-003-main-fig-final-3.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-002-task-explain-final-11.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-001-appendix-final-11.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-25T09:31:07.025640+00:00"
+  },
+  "2605.23270": {
+    "title": "ChainFlow-VLA: Causal Flow Planning with Vision-Language Models",
+    "authors": [
+      "Xiyang Wang",
+      "Xinlin Wang",
+      "Tingguang Zhou",
+      "Gong Chen",
+      "Xingtai Gui",
+      "Zhi Xu",
+      "Xiaolei Wu",
+      "Feiyang Tan",
+      "Hangning Zhou",
+      "Mu Yang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-22T06:17:35+00:00",
+    "updated": "2026-05-22T06:17:35+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23270v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23270v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "统一因果生成与扩散优化的VLA规划框架",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.8
+    },
+    "has_code": false,
+    "code_url": "https://github.com/AFARI-Research/ChainFlow-VLA",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Causal Flow Planning",
+      "Residual Diffusion",
+      "Vision-Language-Action",
+      "Mixture of Trajectory Modes",
+      "NAVSIM"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core"
+  },
+  "2605.23128": {
+    "title": "$π_0$-EqM: Equilibrium Matching for Closed-Loop Vision-Language-Action Control",
+    "authors": [
+      "Huanming Liu",
+      "Congsheng Xu",
+      "Jianmin Ji",
+      "Yao Mu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-22T01:07:07+00:00",
+    "updated": "2026-05-22T01:07:07+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23128v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23128v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "EqM解码器替代流匹配实现自适应VLA闭环控制",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 2,
+      "focus_relevance": 4,
+      "weighted": 3.15
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Equilibrium Matching",
+      "Vision-Language-Action",
+      "Flow Matching",
+      "Adaptive Inference Depth",
+      "Warm Start"
+    ],
+    "journal_ref": null,
+    "comment": "Preprint. 5 pages, 3 figures",
+    "relevance_tier": "core"
+  },
+  "2605.22896": {
+    "title": "Agentic-VLA: Efficient Online Adaptation for Vision-Language-Action Models",
+    "authors": [
+      "Ruofan Jin",
+      "Zaixi Zhang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-21T15:24:21+00:00",
+    "updated": "2026-05-21T15:24:21+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.22896v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.22896v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "面向VLA的智能体高效在线自适应框架",
+    "tags": [
+      "Industry",
+      "No Code",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Scinetics"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.05
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Vision-Language-Action",
+      "Online Adaptation",
+      "Agentic RL",
+      "Curriculum Learning",
+      "Cross-Task Transfer"
+    ],
+    "journal_ref": null,
+    "comment": "Total 15 pages",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-25/2605.22896/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-002-survey.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-009-page-14-xref-397.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from pdf-image.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-000-figure-qualitative.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-001-fig3.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-25T09:31:38.222532+00:00"
+  },
+  "2605.22882": {
+    "title": "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation",
+    "authors": [
+      "Kaichen Zhou",
+      "Yuzhen Chen",
+      "Fangneng Zhan",
+      "Hang Hua",
+      "Grace Chen",
+      "Xinhai Chang",
+      "Ao Qu",
+      "Yilun Du",
+      "Zhuang Liu",
+      "Paul Pu Liang",
+      "Mengyu Wang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-20T21:36:44+00:00",
+    "updated": "2026-05-20T21:36:44+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.22882v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.22882v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "几何增强4D视频世界模型用于机器人操作",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "Harvard University",
+      "MIT",
+      "Princeton University",
+      "MIT-IBM Watson AI Lab"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.25
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "4D correspondence",
+      "geometry distillation",
+      "video world model",
+      "inverse dynamics",
+      "flow matching"
+    ],
+    "journal_ref": null,
+    "comment": "Robotic World Model, Video Generative Model",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-25/2605.22882/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-002-fig5.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-000-fig6.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-001-teaser.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-003-fig4-final.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-25T09:29:27.688883+00:00"
+  },
+  "2605.23699": {
+    "title": "CRONOS: Benchmarking Counterfactual Physical Consistency in Video Models",
+    "authors": [
+      "León Begiristain",
+      "Olaf Dünkel",
+      "Adam Kortylewski"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-22T14:51:22+00:00",
+    "updated": "2026-05-22T14:51:22+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23699v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23699v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "提出视频模型反事实物理一致性评测基准CRONOS",
+    "tags": [
+      "Code",
+      "Dataset",
+      "Academic",
+      "🟢 Code",
+      "📊 Dataset"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 5,
+      "focus_relevance": 4,
+      "weighted": 3.65
+    },
+    "has_code": true,
+    "code_url": "https://genintel.github.io/CRONOS/",
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "Counterfactual Physical Consistency",
+      "Video Generation Benchmark",
+      "Unreal Engine",
+      "World Models",
+      "VLM-as-Judge"
+    ],
+    "journal_ref": null,
+    "comment": "27 pages, 12 figures",
+    "relevance_tier": "core"
+  },
+  "2605.23089": {
+    "title": "Dreaming Smoothly and Sample Efficiently with Gradient Penalized Latent Dynamics",
+    "authors": [
+      "Romil V. Sonigra",
+      "P. R. Kumar"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-05-21T22:40:40+00:00",
+    "updated": "2026-05-21T22:40:40+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23089v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23089v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "梯度惩罚潜动态正则化提升DreamerV3样本效率",
+    "tags": [
+      "Code",
+      "Academic",
+      "🟢 Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Texas A&M University"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 4,
+      "focus_relevance": 5,
+      "weighted": 4.0
+    },
+    "has_code": true,
+    "code_url": "https://github.com/romils9/gpld-mbrl",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "latent world models",
+      "DreamerV3",
+      "Jacobian regularization",
+      "sample efficiency",
+      "continuous control"
+    ],
+    "journal_ref": null,
+    "comment": "17 pages and 9 figures",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-25/2605.23089/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-001-proprio-grid-2msteps.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-003-vision-grid-1msteps.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-000-montage-walker-walk-4.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      },
+      {
+        "filename": "figure-002-montage-cheetah-run-4.png",
+        "priority": "medium",
+        "reason": "Fallback selection because visual JSON selection failed.",
+        "description": "Candidate extracted from tex.",
+        "suggested_section": "关键图表解读"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-25T09:32:10.493204+00:00"
+  },
+  "2605.23863": {
+    "title": "Robotic Strawberry Harvesting with Robust Vision and Deep Reinforcement Learning based Sim-to-Real Control",
+    "authors": [
+      "Al Bashir",
+      "Shao-Yang Chang",
+      "Partho Ghose",
+      "Prem Raj",
+      "Chen-Kang Huang",
+      "Azlan Zahid"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-22T17:21:06+00:00",
+    "updated": "2026-05-22T17:21:06+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23863v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23863v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "融合改进YOLO与PPO的草莓采摘机器人闭环系统",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Texas A&M University",
+      "National Taiwan University"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.1
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Sim-to-Real",
+      "PPO",
+      "Instance Segmentation",
+      "Agricultural Robotics",
+      "Isaac Lab"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.23847": {
+    "title": "Instrumentation for Imitation Learning: Enhancing Training Datasets for Clothes Hanger Insertion",
+    "authors": [
+      "Remko Proesmans",
+      "Thomas Lips",
+      "Francis wyffels"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-22T16:59:55+00:00",
+    "updated": "2026-05-22T16:59:55+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23847v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23847v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "传感器嵌入物体提升机器人模仿学习性能",
+    "tags": [
+      "No Code",
+      "Dataset",
+      "Academic",
+      "Accepted",
+      "🔴 No Code",
+      "📊 Dataset"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "Instrumentation",
+      "Diffusion Policy",
+      "Imitation Learning",
+      "Teacher-Student Distillation",
+      "Robotic Manipulation"
+    ],
+    "journal_ref": null,
+    "comment": "Accepted for presentation at ICRA2026",
+    "relevance_tier": "peripheral"
+  },
+  "2605.23568": {
+    "title": "TactileReflex: Noise-Statistics-Driven Vision-Tactile Reflex Control for Force-Sensitive Manipulation",
+    "authors": [
+      "Ziyan Feng",
+      "Yulong Fu",
+      "Zheng Li",
+      "Yuxin He",
+      "Jieji Ren",
+      "Lujia Wang",
+      "Jinni Zhou",
+      "Yudong Zhong",
+      "Qiang Nie"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-22T12:35:28+00:00",
+    "updated": "2026-05-22T12:35:28+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23568v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23568v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "基于噪声统计标定的视觉触觉反射控制实现力敏感抓取",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "vision-based tactile sensing",
+      "reflex control",
+      "force-sensitive manipulation",
+      "slip detection",
+      "visuo-tactile sensor"
+    ],
+    "journal_ref": null,
+    "comment": "8 pages, 4 figures, 6 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2605.23386": {
+    "title": "Droneulator: A Portable UAV Simulator for Agricultural Workflows with RotorPy and Godot 4",
+    "authors": [
+      "Jacob Swindell",
+      "Michael Lowen",
+      "Marija Popovic",
+      "Riccardo Polvara"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-22T08:58:29+00:00",
+    "updated": "2026-05-22T08:58:29+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23386v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23386v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "面向农业工作流的轻量级无人机仿真平台",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "University of Lincoln",
+      "Delft University of Technology"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 2,
+      "reproducibility": 3,
+      "focus_relevance": 2,
+      "weighted": 2.6
+    },
+    "has_code": false,
+    "code_url": "https://github.com/JakeSwin/Droneulator",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "UAV Simulation",
+      "Agricultural Robotics",
+      "Reinforcement Learning",
+      "ROS 2 Middleware",
+      "Sim-to-Real"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.23027": {
+    "title": "PIMbot: A Self-Adaptive Attack Framework for Adversarial Manipulation of Multi-Robot Reinforcement Learning",
+    "authors": [
+      "Zexin Li",
+      "Ziliang Zhang",
+      "Hyoseung Kim",
+      "Cong Liu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-21T20:50:47+00:00",
+    "updated": "2026-05-21T20:50:47+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.23027v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.23027v1",
+    "first_seen": "2026-05-25",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "多机器人协作RL自适应对抗攻击框架",
+    "tags": [
+      "Code",
+      "Academic",
+      "Accepted",
+      "🟢 Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "University of California, Riverside"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 4,
+      "focus_relevance": 2,
+      "weighted": 2.95
+    },
+    "has_code": true,
+    "code_url": "https://github.com/UCR-Intelligent-Robotics-Lab/greedy_agent",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Multi-Agent Reinforcement Learning",
+      "Adversarial Attack",
+      "Incentive Manipulation",
+      "Policy Manipulation",
+      "Pareto Optimization"
+    ],
+    "journal_ref": null,
+    "comment": "Extension version of IROS'23",
     "relevance_tier": "peripheral"
   }
 }

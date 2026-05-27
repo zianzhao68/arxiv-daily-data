@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.26379",
+  "title": "When Does LeJEPA Learn a World Model?",
+  "generated_at": "2026-05-27T09:30:48.586213+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-planning-scatter.png",
+      "source": "tex",
+      "original_name": "planning_scatter.png",
+      "size_bytes": 4293019,
+      "width": 957,
+      "height": 957
+    },
+    {
+      "filename": "figure-006-fig-reacher-distribution.png",
+      "source": "tex",
+      "original_name": "fig_reacher_distribution.pdf",
+      "size_bytes": 1034886,
+      "width": 572,
+      "height": 443
+    },
+    {
+      "filename": "figure-002-fig-2d-other-mixing.png",
+      "source": "tex",
+      "original_name": "fig_2d_other_mixing.pdf",
+      "size_bytes": 705190,
+      "width": 830,
+      "height": 130
+    },
+    {
+      "filename": "figure-005-planning-demo.png",
+      "source": "tex",
+      "original_name": "planning_demo.pdf",
+      "size_bytes": 588456,
+      "width": 741,
+      "height": 247
+    },
+    {
+      "filename": "figure-001-fig-lejepa-demo.jpg",
+      "source": "tex",
+      "original_name": "fig_lejepa_demo.jpg",
+      "size_bytes": 467157,
+      "width": 559,
+      "height": 193
+    },
+    {
+      "filename": "figure-004-fig-bound-unique-plan.png",
+      "source": "tex",
+      "original_name": "fig_bound_unique_plan.pdf",
+      "size_bytes": 466410,
+      "width": 805,
+      "height": 162
+    },
+    {
+      "filename": "figure-003-reacher-rho-vs-sigreg.png",
+      "source": "tex",
+      "original_name": "reacher_rho_vs_sigreg.png",
+      "size_bytes": 306058,
+      "width": 1132,
+      "height": 312
+    },
+    {
+      "filename": "figure-007-ou-orth-err.png",
+      "source": "tex",
+      "original_name": "ou_orth_err.png",
+      "size_bytes": 137217,
+      "width": 495,
+      "height": 315
+    },
+    {
+      "filename": "figure-008-ou-r2-vs-rho.png",
+      "source": "tex",
+      "original_name": "ou_r2_vs_rho.png",
+      "size_bytes": 126190,
+      "width": 495,
+      "height": 315
+    },
+    {
+      "filename": "figure-009-ou-vs-traj.png",
+      "source": "tex",
+      "original_name": "ou_vs_traj.png",
+      "size_bytes": 112617,
+      "width": 495,
+      "height": 315
+    },
+    {
+      "filename": "figure-010-traj-perdim-r2.png",
+      "source": "tex",
+      "original_name": "traj_perdim_r2.png",
+      "size_bytes": 108761,
+      "width": 567,
+      "height": 351
+    },
+    {
+      "filename": "figure-011-ou-lambda-robustness.png",
+      "source": "tex",
+      "original_name": "ou_lambda_robustness.png",
+      "size_bytes": 101302,
+      "width": 495,
+      "height": 312
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-fig-lejepa-demo.jpg",
+      "priority": "high",
+      "reason": "直观展示LeJEPA如何从非线性观测中恢复世界潜在变量的线性结构，是理解论文核心贡献的关键概念图。",
+      "description": "三面板对比图展示世界潜在变量z、非线性观测数据x=g(z)以及LeJEPA表示f(x)的对应关系。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-009-ou-vs-traj.png",
+      "priority": "high",
+      "reason": "直接验证论文核心定理——高斯潜在分布是唯一能保证线性可识别性的分布，非高斯分布在自相关趋近1时性能显著下降。",
+      "description": "对比高斯(OU)与非高斯(Trajectory)潜在变量在不同自相关ρ下的线性可识别性R²。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-004-fig-bound-unique-plan.png",
+      "priority": "medium",
+      "reason": "综合展示理论界限验证、表示线性性、控制成本对比及可识别性与规划性能的关系，支撑论文主要实验结论。",
+      "description": "四子图分别展示恢复误差与理论界限、不同分布下的线性性、控制成本箱线图及控制成本与线性可识别性的散点关系。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-005-planning-demo.png",
+      "priority": "medium",
+      "reason": "定性展示LeJEPA在机器人reacher任务上的规划能力，验证其学到的表示可支持接近最优的潜在空间规划。",
+      "description": "三行时间序列帧对比最优控制、LeJEPA(OU)控制和LeJEPA(RL)控制的机械臂运动轨迹。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

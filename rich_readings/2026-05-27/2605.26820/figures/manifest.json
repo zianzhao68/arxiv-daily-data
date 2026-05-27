@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.26820",
+  "title": "Can VLA Models Learn from Real-World Data Continually without Forgetting?",
+  "generated_at": "2026-05-27T09:11:05.316631+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-tasksequences.png",
+      "source": "tex",
+      "original_name": "TaskSequences.png",
+      "size_bytes": 5687275,
+      "width": 846,
+      "height": 408
+    },
+    {
+      "filename": "figure-001-tasksequences2.png",
+      "source": "tex",
+      "original_name": "TaskSequences2.png",
+      "size_bytes": 5682885,
+      "width": 845,
+      "height": 408
+    },
+    {
+      "filename": "figure-005-mainfigure.png",
+      "source": "tex",
+      "original_name": "MainFigure.pdf",
+      "size_bytes": 1250422,
+      "width": 796,
+      "height": 415
+    },
+    {
+      "filename": "figure-002-robotplatform.png",
+      "source": "tex",
+      "original_name": "RobotPlatform.png",
+      "size_bytes": 997389,
+      "width": 376,
+      "height": 225
+    },
+    {
+      "filename": "figure-003-experimentsetup.png",
+      "source": "tex",
+      "original_name": "ExperimentSetup.pdf",
+      "size_bytes": 970160,
+      "width": 831,
+      "height": 341
+    },
+    {
+      "filename": "figure-004-hyperparametersensitivity.png",
+      "source": "tex",
+      "original_name": "HyperparameterSensitivity.pdf",
+      "size_bytes": 284370,
+      "width": 835,
+      "height": 233
+    },
+    {
+      "filename": "figure-006-fogettingmatrix.png",
+      "source": "tex",
+      "original_name": "FogettingMatrix.pdf",
+      "size_bytes": 180796,
+      "width": 836,
+      "height": 213
+    },
+    {
+      "filename": "figure-007-method-comparison.png",
+      "source": "tex",
+      "original_name": "method_comparison.png",
+      "size_bytes": 65152,
+      "width": 2652,
+      "height": 843
+    },
+    {
+      "filename": "figure-009-page-2-xref-335.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-335.jpeg",
+      "size_bytes": 62038,
+      "width": 723,
+      "height": 569
+    },
+    {
+      "filename": "figure-008-logo.png",
+      "source": "tex",
+      "original_name": "logo.pdf",
+      "size_bytes": 58382,
+      "width": 1061,
+      "height": 99
+    },
+    {
+      "filename": "figure-011-page-2-xref-337.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-337.jpeg",
+      "size_bytes": 49908,
+      "width": 947,
+      "height": 349
+    },
+    {
+      "filename": "figure-010-page-2-xref-336.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-336.jpeg",
+      "size_bytes": 31197,
+      "width": 651,
+      "height": 252
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-005-mainfigure.png",
+      "priority": "high",
+      "reason": "作为论文核心综合图，同时涵盖方法架构（Experience Replay流程）、关键发现（Key Findings）和主实验结果（性能演变+最终对比），是精读笔记理解全文逻辑的最佳入口。",
+      "description": "论文主图，综合展示持续学习挑战、Experience Replay方法架构、四个训练阶段的性能演变及最终性能对比。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-006-fogettingmatrix.png",
+      "priority": "high",
+      "reason": "以矩阵热力图形式详细对比No ER与多种ER配置下各任务的遗忘程度，直接支撑论文关于“ER关键实现因素”的核心结论，是实验分析的高密度信息图。",
+      "description": "不同ER配置下的遗忘矩阵，展示各任务在训练过程中的性能保留情况。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-004-hyperparametersensitivity.png",
+      "priority": "medium",
+      "reason": "系统展示回放缓冲区大小和回放频率对平均性能及各任务性能的影响，属于关键消融实验，为部署长期机器人策略提供实践指导。",
+      "description": "Experience Replay超参数敏感性分析，包括回放缓冲区大小和回放频率的影响。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-003-experimentsetup.png",
+      "priority": "medium",
+      "reason": "直观展示真实世界实验硬件平台（遥操作设置、多视角相机、机械臂）和四个连续操作任务的具体过程，帮助读者理解“真实世界持续学习”的实验设定与数据来源。",
+      "description": "真实世界遥操作实验平台与四个操作任务的过程可视化。",
+      "suggested_section": "贡献拆解"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "arxiv_id": "2605.27038",
+  "title": "TPS-Drive: Task-Guided Representation Purification for VLM-based Autonomous Driving",
+  "generated_at": "2026-05-27T09:27:28.778751+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-experiment.png",
+      "source": "tex",
+      "original_name": "experiment.pdf",
+      "size_bytes": 11202159,
+      "width": 2380,
+      "height": 1091
+    },
+    {
+      "filename": "figure-001-method.png",
+      "source": "tex",
+      "original_name": "method.pdf",
+      "size_bytes": 3202939,
+      "width": 1331,
+      "height": 667
+    },
+    {
+      "filename": "figure-005-page-9-xref-535.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-9-xref-535.jpeg",
+      "size_bytes": 1988606,
+      "width": 8181,
+      "height": 3751
+    },
+    {
+      "filename": "figure-002-introduction.png",
+      "source": "tex",
+      "original_name": "Introduction.pdf",
+      "size_bytes": 1688625,
+      "width": 1209,
+      "height": 425
+    },
+    {
+      "filename": "figure-004-page-4-xref-515.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-515.jpeg",
+      "size_bytes": 1035441,
+      "width": 4574,
+      "height": 2292
+    },
+    {
+      "filename": "figure-003-page-2-xref-483.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-483.jpeg",
+      "size_bytes": 569462,
+      "width": 4158,
+      "height": 1461
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-003-page-2-xref-483.jpeg",
+      "priority": "high",
+      "reason": "该图通过并列对比三种表征范式（文本/数值、图像/稠密网格、本文的净化BEV），直接揭示了现有方法导致“空间幻觉”与“表征干扰”的本质原因，是理解论文核心动机与贡献的关键 insight 图。",
+      "description": "三种自动驾驶场景表征策略的对比及其固有缺陷分析",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-004-page-4-xref-515.jpeg",
+      "priority": "high",
+      "reason": "完整呈现了 TPS-Drive 的系统架构，涵盖 BEV/Vision/Language 三空间输入、解耦推理管线（场景理解→未来预测→动作生成）以及三阶段渐进训练范式，是精读方法细节不可或缺的架构总览图。",
+      "description": "TPS-Drive 整体框架与三阶段训练流程",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-005-page-9-xref-535.jpeg",
+      "priority": "medium",
+      "reason": "在开放人行横道与复杂走廊两个真实场景中，定性对比了 Image CoT 与 TPS-Drive 的感知可视化与驾驶决策差异，直观验证了净化表征在避免碰撞和正确决策上的优势。",
+      "description": "开放环场景下 Image CoT 与 TPS-Drive 的定性实验对比",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
