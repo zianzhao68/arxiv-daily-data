@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-05-27T09:30:48.587515+00:00",
-    "total_papers": 391
+    "last_updated": "2026-05-29T09:20:24.045012+00:00",
+    "total_papers": 411
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -21540,6 +21540,1028 @@
     ],
     "journal_ref": null,
     "comment": "9 pages, 3 figures, 7 tables. Accepted at CVPR 2026 Workshop on Autonomous Driving (WAD)",
+    "relevance_tier": "peripheral"
+  },
+  "2605.30350": {
+    "title": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
+    "authors": [
+      "Jusuk Lee",
+      "Seungjae Lee",
+      "Jonghun Shin",
+      "Hoseong Jung",
+      "Sungha Kim",
+      "Daesol Cho",
+      "H. Jin Kim",
+      "Jia-Bin Huang",
+      "Furong Huang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T17:59:53+00:00",
+    "updated": "2026-05-28T17:59:53+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30350v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30350v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "DynaFLIP: Rethinking Robotics Perception via Tri-Modal-Dynamics Guided Representation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project website: https://dynaflip-robotics.github.io",
+    "relevance_tier": "peripheral"
+  },
+  "2605.30346": {
+    "title": "YoCausal: How Far is Video Generation from World Model? A Causality Perspective",
+    "authors": [
+      "You-Zhe Xie",
+      "Yu-Hsuan Li",
+      "Jie-Ying Lee",
+      "Kaipeng Zhang",
+      "Yu-Lun Liu",
+      "Zhixiang Wang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-28T17:59:51+00:00",
+    "updated": "2026-05-28T17:59:51+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30346v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30346v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "YoCausal: How Far is Video Generation from World Model? A Causality Perspective",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://www.youzhexie.me/papers/YoCausal/index.html",
+    "relevance_tier": "peripheral"
+  },
+  "2605.30326": {
+    "title": "RoboWits: Unexpected Challenges for Robotic Creative Problem Solving",
+    "authors": [
+      "Chunru Lin",
+      "Hongxin Zhang",
+      "Fenghao Yu",
+      "Zhehuan Chen",
+      "Thomas L. Griffiths",
+      "Yejin Choi",
+      "David Held",
+      "Chuang Gan"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T17:57:15+00:00",
+    "updated": "2026-05-28T17:57:15+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30326v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30326v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "RoboWits: Unexpected Challenges for Robotic Creative Problem Solving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "The first two authors contributed equally",
+    "relevance_tier": "peripheral"
+  },
+  "2605.30313": {
+    "title": "A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms",
+    "authors": [
+      "Yufei Jia",
+      "Zhanxiang Cao",
+      "Mingrui Yu",
+      "Heng Zhang",
+      "Shenyu Chen",
+      "Dixuan Jiang",
+      "Meng Li",
+      "Xiaofan Li",
+      "Yiyang Liu",
+      "Junzhe Wu",
+      "Zheng Li",
+      "XiLin Fang",
+      "Tingyu Cui",
+      "Shengcheng Fu",
+      "Haoyang Li",
+      "Anqi Wang",
+      "Zifan Wang",
+      "Dongjie Zhu",
+      "Chenyu Cao",
+      "Zhenbiao Huang",
+      "Ziang Zheng",
+      "Jie Lu",
+      "Xin Ma",
+      "Zhengyang Wei",
+      "Xiang Zhao",
+      "Tianyue Zhan",
+      "Ye He",
+      "Yuxiang Chen",
+      "Yizhou Jiang",
+      "Yue Li",
+      "Haizhou Ge",
+      "Yuhang Dong",
+      "Fan Jia",
+      "Ziheng Zhang",
+      "Meng Zhang",
+      "Xiwa Deng",
+      "Zhixing Chen",
+      "Hanyang Shao",
+      "Chenxin Dong",
+      "Yixuan Li",
+      "Yizhi Chen",
+      "Bokui Chen",
+      "Kaifeng Zhang",
+      "Hanqing Cui",
+      "Yusen Qin",
+      "Ruqi Huang",
+      "Lei Han",
+      "Tiancai Wang",
+      "Xiang Li",
+      "Yue Gao",
+      "Guyue Zhou"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T17:53:50+00:00",
+    "updated": "2026-05-28T17:53:50+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30313v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30313v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.30282": {
+    "title": "Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation",
+    "authors": [
+      "Kuangji Zuo",
+      "Gen Li",
+      "Bofan Lyu",
+      "Yanshuo Lu",
+      "Boyu Ma",
+      "Shijia Han",
+      "Xinyu Zhou",
+      "Xichen Yuan",
+      "Chuhao Zhou",
+      "Jiaqi Bai",
+      "Geng Li",
+      "Jianfei Yang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T17:37:16+00:00",
+    "updated": "2026-05-28T17:37:16+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30282v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30282v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://zuo-kuangji.github.io/Gaze2Act/",
+    "relevance_tier": "peripheral"
+  },
+  "2605.30280": {
+    "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+    "authors": [
+      "Qiuyue Wang",
+      "Mingsheng Li",
+      "Jian Guan",
+      "Jinhui Ye",
+      "Sicheng Xie",
+      "Yitao Liu",
+      "Junhao Chen",
+      "Zhixuan Liang",
+      "Jie Zhang",
+      "Xintong Hu",
+      "Xuhong Huang",
+      "Pei Lin",
+      "Junyang Lin",
+      "Dayiheng Liu",
+      "Shuai Bai",
+      "Jingren Zhou",
+      "Jiazhao Zhang",
+      "Haoqi Yuan",
+      "Gengze Zhou",
+      "Hang Yin",
+      "Ye Wang",
+      "Yiyang Huang",
+      "Zixing Lei",
+      "Wujian Peng",
+      "Delin Chen",
+      "Yingming Zheng",
+      "Jingyang Fan",
+      "Xianwei Zhuang",
+      "Xin Zhou",
+      "Haoyang Li",
+      "Anzhe Chen",
+      "Tong Zhang",
+      "Xuejing Liu",
+      "Yuchong Sun",
+      "Ruizhe Chen",
+      "Zhaohai Li",
+      "Chenxu Lü",
+      "Zhibo Yang",
+      "Tao Yu",
+      "Xionghui Chen"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T17:36:31+00:00",
+    "updated": "2026-05-28T17:36:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30280v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30280v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "34 pages",
+    "relevance_tier": "peripheral"
+  },
+  "2605.30226": {
+    "title": "BORA: Bridging Offline Reinforcement Learning and Online Residual Adaptation for Real-World Dexterous VLA Models",
+    "authors": [
+      "Zhongxi Chen",
+      "Yifan Han",
+      "Yanming Shao",
+      "Huanming Liu",
+      "Congsheng Xu",
+      "Xiaoyu Chen",
+      "Yao Mu",
+      "Wenzhao Lian"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T16:57:47+00:00",
+    "updated": "2026-05-28T16:57:47+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30226v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30226v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "BORA: Bridging Offline Reinforcement Learning and Online Residual Adaptation for Real-World Dexterous VLA Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "24 pages,11 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2605.30117": {
+    "title": "VLA-Trace: Diagnosing Vision-Language-Action Models through Representation and Behavior Tracing",
+    "authors": [
+      "Haoyuan Shi",
+      "Xiancong Ren",
+      "Yingji Zhang",
+      "Qinfan Zhang",
+      "Jiayu Hu",
+      "Haozhe Shan",
+      "Han Dong",
+      "Jinpeng Lu",
+      "Yinda Chen",
+      "Yi Zhang",
+      "Yong Dai",
+      "Xiaozhu Ju"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-05-28T15:50:56+00:00",
+    "updated": "2026-05-28T15:50:56+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30117v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30117v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "VLA-Trace: Diagnosing Vision-Language-Action Models through Representation and Behavior Tracing",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.30056": {
+    "title": "Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance",
+    "authors": [
+      "Shutong Ding",
+      "Zejia Zhong",
+      "Zhongyi Wang",
+      "Ke Hu",
+      "Bikang Pan",
+      "Jingya Wang",
+      "Ye Shi"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T15:07:50+00:00",
+    "updated": "2026-05-28T15:07:50+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30056v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30056v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "accepted by ICML2026",
+    "relevance_tier": "peripheral"
+  },
+  "2605.30011": {
+    "title": "VisualThink-VLA: Visual Intermediate Reasoning for Effective and Low-Latency Vision-Language-Action Policies",
+    "authors": [
+      "Mingjian Gao",
+      "Wenqiao Zhang",
+      "Yuqian Yuan",
+      "Yang Dai",
+      "Binhe Yu",
+      "Zheqi Lv",
+      "Haoyu Zheng",
+      "Jiaqi Zhu",
+      "Zhiqi Ge",
+      "Zixuan Wan",
+      "Siliang Tang",
+      "Yueting Zhuang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-28T14:36:53+00:00",
+    "updated": "2026-05-28T14:36:53+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.30011v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.30011v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "VisualThink-VLA: Visual Intermediate Reasoning for Effective and Low-Latency Vision-Language-Action Policies",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.29864": {
+    "title": "LLM-Guided Future Hypotheses for Horizon-Aware Exploration in Multi-Step Robot Manipulation",
+    "authors": [
+      "Mohammad Khoshnazar",
+      "Andrew Melnik",
+      "Michael Beetz"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T12:49:37+00:00",
+    "updated": "2026-05-28T12:49:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29864v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29864v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "LLM-Guided Future Hypotheses for Horizon-Aware Exploration in Multi-Step Robot Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.29710": {
+    "title": "PhAIL: A Real-Robot VLA Benchmark and Distributional Methodology",
+    "authors": [
+      "Sergey Arkhangelskiy"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T10:10:19+00:00",
+    "updated": "2026-05-28T10:10:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29710v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29710v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "PhAIL: A Real-Robot VLA Benchmark and Distributional Methodology",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "22 pages, 10 figures, 8 tables. Dataset, analysis pipeline, and paper source: https://phail.ai and https://github.com/Positronic-Robotics/phail-paper",
+    "relevance_tier": "peripheral"
+  },
+  "2605.29662": {
+    "title": "SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation",
+    "authors": [
+      "Shilin Ma",
+      "Chubin Zhang",
+      "Changyuan Wang",
+      "Yuji Wang",
+      "Yue Wu",
+      "Zixuan Wang",
+      "Jingqi Tian",
+      "Zheng Zhu",
+      "Yansong Tang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-28T09:23:08+00:00",
+    "updated": "2026-05-28T09:23:08+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29662v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29662v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "面向VLA的高效未来感知语义注意力token剪枝框架",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "Tsinghua University",
+      "GigaAI"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.15
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Token Pruning",
+      "Vision-Language-Action",
+      "Semantic Attention Consistency",
+      "Inference Acceleration",
+      "Robotic Manipulation"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral",
+    "rich_reading_path": "rich_readings/2026-05-29/2605.29662/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-002-pipeline-v7.png",
+        "priority": "high",
+        "reason": "展示了SAFE-Pruner的完整架构流程，包括基于子任务的关键时间步选择和未来感知Token剪枝两大核心模块，是理解方法设计的总览图。",
+        "description": "SAFE-Pruner整体框架图，包含编码器、关键时间步选择、Token剪枝及两个子模块的详细流程。",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-004-comparison-v3.png",
+        "priority": "high",
+        "reason": "直观对比了仅依赖浅层显著性的剪枝方法与SAFE-Pruner的差异，清晰揭示了核心Insight：浅层不重要的Token可能被深层需要，因此必须引入未来感知机制。",
+        "description": "Shallow-Only Methods与SAFE-Pruner的剪枝策略对比示意图。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-000-robot-exp-v2.png",
+        "priority": "medium",
+        "reason": "展示了真实世界机器人平台上四个复杂操作任务（Pick and Place、Throw Basketball、Pack Doll等）的实验序列，直接证明方法在真实场景中的有效性。",
+        "description": "真实世界机器人实验任务序列展示，涵盖多种操作类型。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-007-cosine-kl-bar-v2.png",
+        "priority": "medium",
+        "reason": "通过余弦相似度和KL散度量化了预测注意力与真实注意力模式的一致性，以100%通过率验证了论文核心假设——语义注意力一致性（semantic attention consistency）。",
+        "description": "预测注意力与实际注意力模式在控制时间步上的余弦相似度和KL散度统计。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-29T09:20:24.043674+00:00"
+  },
+  "2605.29605": {
+    "title": "VLAConf: Calibrated Task-Success Confidence for Vision-Language-Action Models",
+    "authors": [
+      "Dehao Huang",
+      "Aoxiang Gu",
+      "Chengjie Zhang",
+      "Bolin Zou",
+      "Wenlong Dong",
+      "Zilang Cen",
+      "Yue Wang",
+      "Hong Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T08:42:12+00:00",
+    "updated": "2026-05-28T08:42:12+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29605v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29605v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "VLAConf: Calibrated Task-Success Confidence for Vision-Language-Action Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "11 pages, 7 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2605.29577": {
+    "title": "Mitigating State Aliasing in Vision-Language-Action Models via Inverse Dynamics Learning",
+    "authors": [
+      "Kyujin Lee",
+      "Injae Kim",
+      "Jihwan Park",
+      "Yejun Ju",
+      "Minseok Joo",
+      "Hyunwoo J. Kim"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-28T08:22:49+00:00",
+    "updated": "2026-05-28T08:22:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29577v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29577v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Mitigating State Aliasing in Vision-Language-Action Models via Inverse Dynamics Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.29564": {
+    "title": "VE2VF: Vision-Enabled to Vision-Free Distillation via Real-world Reinforcement Learning for Robust Contact-Rich Manipulation",
+    "authors": [
+      "Victor Kowalski",
+      "Chengxi Li",
+      "Dongheui Lee"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T08:15:59+00:00",
+    "updated": "2026-05-28T08:15:59+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29564v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29564v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "VE2VF: Vision-Enabled to Vision-Free Distillation via Real-world Reinforcement Learning for Robust Contact-Rich Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.29562": {
+    "title": "VLA-Pro: Cross-Task Procedural Memory Transfer for Vision-Language-Action Models",
+    "authors": [
+      "Shengyu Si",
+      "Yuanzhuo Lu",
+      "Ruimeng Yang",
+      "Ziyi Ye",
+      "Zuxuan Wu",
+      "Yu-Gang Jiang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T08:14:08+00:00",
+    "updated": "2026-05-28T08:14:08+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29562v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29562v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "VLA-Pro通过可检索的程序记忆提升VLA跨任务泛化能力",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 3.95
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Vision-Language-Action",
+      "Procedural Memory",
+      "LoRA Adapters",
+      "Cross-Task Generalization",
+      "Action-Aware Retrieval"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.29438": {
+    "title": "ElegantVLA: Learning When to Think for Efficient Vision-Language-Action Models",
+    "authors": [
+      "Ye Li",
+      "Huanan Liu",
+      "Kangye Ji",
+      "Yuan Meng",
+      "Jiajun Fan",
+      "Yuansong Wang",
+      "Shiyu Qin",
+      "Chenglei Wu",
+      "Shu-Tao Xia",
+      "Zhi Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T06:33:05+00:00",
+    "updated": "2026-05-28T06:33:05+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29438v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29438v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "ElegantVLA: Learning When to Think for Efficient Vision-Language-Action Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.29416": {
+    "title": "3DVLA: Enhancing Vision-Language-Action Models via 3D Spatial and Instance Understanding",
+    "authors": [
+      "Zhongyu Xia",
+      "Yousen Tang",
+      "Bingqing Wei",
+      "Yongtao Wang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-28T06:07:57+00:00",
+    "updated": "2026-05-28T06:07:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29416v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29416v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "3DVLA: Enhancing Vision-Language-Action Models via 3D Spatial and Instance Understanding",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.29114": {
+    "title": "ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving",
+    "authors": [
+      "Mohammadreza Teymoorianfard",
+      "Jean-Philippe Monteuuis",
+      "Jonathan Petit",
+      "Amir Houmansadr"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CR",
+    "published": "2026-05-27T21:21:37+00:00",
+    "updated": "2026-05-27T21:21:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.29114v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.29114v1",
+    "first_seen": "2026-05-29",
+    "announce_type": "cross",
+    "direction": "embodied_ai",
+    "one_line_summary": "ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
     "relevance_tier": "peripheral"
   }
 }

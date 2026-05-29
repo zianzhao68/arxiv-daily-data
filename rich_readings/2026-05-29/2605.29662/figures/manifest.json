@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.29662",
+  "title": "SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation",
+  "generated_at": "2026-05-29T09:20:24.043674+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-robot-exp-v2.png",
+      "source": "tex",
+      "original_name": "robot_exp_v2.pdf",
+      "size_bytes": 1725974,
+      "width": 959,
+      "height": 540
+    },
+    {
+      "filename": "figure-002-pipeline-v7.png",
+      "source": "tex",
+      "original_name": "pipeline_v7.pdf",
+      "size_bytes": 922790,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-001-robot-setup.png",
+      "source": "tex",
+      "original_name": "robot_setup.pdf",
+      "size_bytes": 384920,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-006-k-r-influcence.png",
+      "source": "tex",
+      "original_name": "k_r_influcence.pdf",
+      "size_bytes": 281474,
+      "width": 1000,
+      "height": 382
+    },
+    {
+      "filename": "figure-003-sac-v2.png",
+      "source": "tex",
+      "original_name": "sac_v2.pdf",
+      "size_bytes": 277134,
+      "width": 959,
+      "height": 540
+    },
+    {
+      "filename": "figure-005-different-layer-attn.png",
+      "source": "tex",
+      "original_name": "different_layer_attn.pdf",
+      "size_bytes": 233874,
+      "width": 959,
+      "height": 540
+    },
+    {
+      "filename": "figure-004-comparison-v3.png",
+      "source": "tex",
+      "original_name": "comparison_v3.pdf",
+      "size_bytes": 149856,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-009-page-10-xref-609.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-10-xref-609.jpeg",
+      "size_bytes": 109144,
+      "width": 720,
+      "height": 620
+    },
+    {
+      "filename": "figure-010-page-10-xref-610.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-10-xref-610.jpeg",
+      "size_bytes": 107858,
+      "width": 512,
+      "height": 384
+    },
+    {
+      "filename": "figure-007-cosine-kl-bar-v2.png",
+      "source": "tex",
+      "original_name": "cosine_kl_bar_v2.pdf",
+      "size_bytes": 104282,
+      "width": 885,
+      "height": 337
+    },
+    {
+      "filename": "figure-008-pruning-impact-v3.png",
+      "source": "tex",
+      "original_name": "pruning_impact_v3.pdf",
+      "size_bytes": 74796,
+      "width": 457,
+      "height": 315
+    },
+    {
+      "filename": "figure-011-page-11-xref-618.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-11-xref-618.jpeg",
+      "size_bytes": 14752,
+      "width": 156,
+      "height": 87
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-002-pipeline-v7.png",
+      "priority": "high",
+      "reason": "展示了SAFE-Pruner的完整架构流程，包括基于子任务的关键时间步选择和未来感知Token剪枝两大核心模块，是理解方法设计的总览图。",
+      "description": "SAFE-Pruner整体框架图，包含编码器、关键时间步选择、Token剪枝及两个子模块的详细流程。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-comparison-v3.png",
+      "priority": "high",
+      "reason": "直观对比了仅依赖浅层显著性的剪枝方法与SAFE-Pruner的差异，清晰揭示了核心Insight：浅层不重要的Token可能被深层需要，因此必须引入未来感知机制。",
+      "description": "Shallow-Only Methods与SAFE-Pruner的剪枝策略对比示意图。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-000-robot-exp-v2.png",
+      "priority": "medium",
+      "reason": "展示了真实世界机器人平台上四个复杂操作任务（Pick and Place、Throw Basketball、Pack Doll等）的实验序列，直接证明方法在真实场景中的有效性。",
+      "description": "真实世界机器人实验任务序列展示，涵盖多种操作类型。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-007-cosine-kl-bar-v2.png",
+      "priority": "medium",
+      "reason": "通过余弦相似度和KL散度量化了预测注意力与真实注意力模式的一致性，以100%通过率验证了论文核心假设——语义注意力一致性（semantic attention consistency）。",
+      "description": "预测注意力与实际注意力模式在控制时间步上的余弦相似度和KL散度统计。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-05-25T09:32:10.494447+00:00",
-    "total_papers": 374
+    "last_updated": "2026-05-27T09:30:48.587515+00:00",
+    "total_papers": 391
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -20505,6 +20505,1041 @@
     ],
     "journal_ref": null,
     "comment": "Extension version of IROS'23",
+    "relevance_tier": "peripheral"
+  },
+  "2605.27284": {
+    "title": "FineVLA: Fine-Grained Instruction Alignment for Steerable Vision-Language-Action Policies",
+    "authors": [
+      "Xintong Hu",
+      "Xuhong Huang",
+      "Jinyu Zhang",
+      "Yutong Yao",
+      "Yuchong Sun",
+      "Qiuyue Wang",
+      "Mingsheng Li",
+      "Sicheng Xie",
+      "Yitao Liu",
+      "Junhao Chen",
+      "Yixuan Chen",
+      "Yingming Zheng",
+      "Shuai Bai",
+      "Tao Yu"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-26T17:01:10+00:00",
+    "updated": "2026-05-26T17:01:10+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.27284v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27284v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "细粒度指令对齐增强VLA策略可操控性",
+    "tags": [
+      "Code",
+      "Dataset",
+      "🟢 Code",
+      "📊 Dataset",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 5,
+      "focus_relevance": 5,
+      "weighted": 4.15
+    },
+    "has_code": true,
+    "code_url": null,
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "Vision-Language-Action",
+      "Fine-grained Instruction Alignment",
+      "Steerable Policy",
+      "Instruction Mixing",
+      "Robotic Video Understanding"
+    ],
+    "journal_ref": null,
+    "comment": "26 pages, 7 figures, 25 tables",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-27/2605.27284/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-010-robotwin-mixing-curve.png",
+        "priority": "medium",
+        "reason": "直接展示论文核心实验发现：细粒度与原始目标级指令混合训练呈现倒U型趋势，在FG:Raw=1:2至1:1时达到峰值，是支撑“两者互补且不牺牲目标级成功率”这一关键结论的主实验图。",
+        "description": "不同FG比例下RoboTwin Easy/Hard任务成功率的混合曲线。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-011-caption-human-alignment-easy.png",
+        "priority": "medium",
+        "reason": "验证自动VLM评判器（GPT/Gemini）与人类排名具有极高相关性（r>0.97），支撑细粒度benchmark的可扩展标注与评估可靠性。",
+        "description": "各模型生成caption的自动评判分数与人类归一化排名的对比柱状图。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-006-human-ranking2.png",
+        "priority": "medium",
+        "reason": "直观展示FineVLA数据构建工具的人类验证界面，说明如何从原始轨迹生成并筛选细粒度指令，支撑FineVLA-Data数据集构建方法的可信度。",
+        "description": "细粒度caption人工排序与验证的Web界面截图。",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-004-clustering-examples-combined.png",
+        "priority": "medium",
+        "reason": "通过DTW距离矩阵与MDS嵌入展示大规模异构机器人轨迹的聚类结构，支撑将10个开源数据集的97万+轨迹统一并划分为细粒度任务的数据处理合理性。",
+        "description": "基于DTW的轨迹距离热力图与二维MDS聚类可视化。",
+        "suggested_section": "方法与公式"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-27T09:16:11.682173+00:00"
+  },
+  "2605.26820": {
+    "title": "Can VLA Models Learn from Real-World Data Continually without Forgetting?",
+    "authors": [
+      "Jiarun Zhu",
+      "Yijun Hong",
+      "Xiaoquan Sun",
+      "Zetian Xu",
+      "Mingqi Yuan",
+      "Zhiyong Wang",
+      "Wenjun Zeng",
+      "Jiayu Chen"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-26T10:39:02+00:00",
+    "updated": "2026-05-26T10:39:02+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26820v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26820v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "真实世界VLA持续学习中经验回放缓解灾难性遗忘",
+    "tags": [
+      "Code",
+      "Dataset",
+      "Academic",
+      "🟢 Code",
+      "📊 Dataset",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "University of Hong Kong",
+      "Eastern Institute of Technology",
+      "Agentic Intelligence Lab"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 5,
+      "focus_relevance": 5,
+      "weighted": 4.35
+    },
+    "has_code": true,
+    "code_url": "https://github.com/Agentic-Intelligence-Lab/ContinualVLA",
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "Continual Learning",
+      "Catastrophic Forgetting",
+      "Experience Replay",
+      "Vision-Language-Action",
+      "Action Normalization"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-27/2605.26820/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-005-mainfigure.png",
+        "priority": "high",
+        "reason": "作为论文核心综合图，同时涵盖方法架构（Experience Replay流程）、关键发现（Key Findings）和主实验结果（性能演变+最终对比），是精读笔记理解全文逻辑的最佳入口。",
+        "description": "论文主图，综合展示持续学习挑战、Experience Replay方法架构、四个训练阶段的性能演变及最终性能对比。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-006-fogettingmatrix.png",
+        "priority": "high",
+        "reason": "以矩阵热力图形式详细对比No ER与多种ER配置下各任务的遗忘程度，直接支撑论文关于“ER关键实现因素”的核心结论，是实验分析的高密度信息图。",
+        "description": "不同ER配置下的遗忘矩阵，展示各任务在训练过程中的性能保留情况。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-004-hyperparametersensitivity.png",
+        "priority": "medium",
+        "reason": "系统展示回放缓冲区大小和回放频率对平均性能及各任务性能的影响，属于关键消融实验，为部署长期机器人策略提供实践指导。",
+        "description": "Experience Replay超参数敏感性分析，包括回放缓冲区大小和回放频率的影响。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-003-experimentsetup.png",
+        "priority": "medium",
+        "reason": "直观展示真实世界实验硬件平台（遥操作设置、多视角相机、机械臂）和四个连续操作任务的具体过程，帮助读者理解“真实世界持续学习”的实验设定与数据来源。",
+        "description": "真实世界遥操作实验平台与四个操作任务的过程可视化。",
+        "suggested_section": "贡献拆解"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-27T09:11:05.316631+00:00"
+  },
+  "2605.26256": {
+    "title": "Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions",
+    "authors": [
+      "Jeongeun Lee",
+      "Chanyoung Park",
+      "Dongha Lee"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-05-25T18:27:27+00:00",
+    "updated": "2026-05-25T18:27:27+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26256v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26256v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "多模态记忆增强框架实现具身智能体长期个性化交互",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 2,
+      "focus_relevance": 3,
+      "weighted": 2.9
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Multimodal Memory",
+      "Personalized Embodied Agents",
+      "Knowledge Graph",
+      "Semantic Memory",
+      "Episodic Memory"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core"
+  },
+  "2605.26379": {
+    "title": "When Does LeJEPA Learn a World Model?",
+    "authors": [
+      "David Klindt",
+      "Yann LeCun",
+      "Randall Balestriero"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "primary_category": "stat.ML",
+    "published": "2026-05-25T22:56:26+00:00",
+    "updated": "2026-05-25T22:56:26+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26379v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26379v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "When Does LeJEPA Learn a World Model?",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-27/2605.26379/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-001-fig-lejepa-demo.jpg",
+        "priority": "high",
+        "reason": "直观展示LeJEPA如何从非线性观测中恢复世界潜在变量的线性结构，是理解论文核心贡献的关键概念图。",
+        "description": "三面板对比图展示世界潜在变量z、非线性观测数据x=g(z)以及LeJEPA表示f(x)的对应关系。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-009-ou-vs-traj.png",
+        "priority": "high",
+        "reason": "直接验证论文核心定理——高斯潜在分布是唯一能保证线性可识别性的分布，非高斯分布在自相关趋近1时性能显著下降。",
+        "description": "对比高斯(OU)与非高斯(Trajectory)潜在变量在不同自相关ρ下的线性可识别性R²。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-004-fig-bound-unique-plan.png",
+        "priority": "medium",
+        "reason": "综合展示理论界限验证、表示线性性、控制成本对比及可识别性与规划性能的关系，支撑论文主要实验结论。",
+        "description": "四子图分别展示恢复误差与理论界限、不同分布下的线性性、控制成本箱线图及控制成本与线性可识别性的散点关系。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-005-planning-demo.png",
+        "priority": "medium",
+        "reason": "定性展示LeJEPA在机器人reacher任务上的规划能力，验证其学到的表示可支持接近最优的潜在空间规划。",
+        "description": "三行时间序列帧对比最优控制、LeJEPA(OU)控制和LeJEPA(RL)控制的机械臂运动轨迹。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-27T09:30:48.586213+00:00"
+  },
+  "2605.26282": {
+    "title": "Scaling World-Model Reinforcement Learning Through Diffusion Policy Optimization",
+    "authors": [
+      "Xiaoyuan Cheng",
+      "Wenxuan Yuan",
+      "Zhancun Mu",
+      "Yuanzhao Zhang",
+      "Yiming Yang",
+      "Hai Wang",
+      "Zhuo Sun",
+      "Che Liu"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-05-25T19:06:51+00:00",
+    "updated": "2026-05-25T19:06:51+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26282v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26282v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "提出MBDPO统一世界模型搜索与扩散策略优化",
+    "tags": [
+      "No Code",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.05
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Diffusion Policy",
+      "World Models",
+      "Model-Based RL",
+      "Score Field",
+      "Trajectory Search"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-27/2605.26282/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-011-conceptual.png",
+        "priority": "high",
+        "reason": "完整呈现MBDPO的核心方法框架，涵盖扩散策略优化、去噪世界模型校准分数场、隐式能量正则化等关键模块，是理解论文方法机制的首要图示。",
+        "description": "MBDPO概念框架与扩散策略优化流程图",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-008-insight-eta.png",
+        "priority": "medium",
+        "reason": "通过Cross TD-error曲线与能量正则化参数η的箱线图，定量展示MBDPO相比TD-MPC2在价值学习一致性上的优势，直接支撑论文核心insight。",
+        "description": "Cross TD-error对比及能量正则化η消融实验",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-006-drift-separate-all-methods.png",
+        "priority": "medium",
+        "reason": "在8个代表性任务上展示不同方法的Squared Difference时序曲线，系统验证MBDPO缓解模型漂移与训练不一致性的效果，支撑关键实验结论。",
+        "description": "多任务策略漂移/差异对比实验",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-007-integrated-manifold.png",
+        "priority": "medium",
+        "reason": "以3D流形可视化直观对比MBDPO与TD-MPC2在单episode与多episode中的行为轨迹差异，形象说明策略一致性与探索效率的提升。",
+        "description": "单/多episode策略流形可视化对比",
+        "suggested_section": "核心Insight"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-27T09:21:23.827296+00:00"
+  },
+  "2605.27038": {
+    "title": "TPS-Drive: Task-Guided Representation Purification for VLM-based Autonomous Driving",
+    "authors": [
+      "Jiaxiang Li",
+      "Yumao Liu",
+      "Ke Ma"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-26T13:56:31+00:00",
+    "updated": "2026-05-26T13:56:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.27038v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27038v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "基于任务导向表征提纯的VLA自动驾驶框架",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 2,
+      "focus_relevance": 4,
+      "weighted": 3.7
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Task-Guided Vector Quantization",
+      "Agent-Centric Tokenizer",
+      "Vision-Language-Action",
+      "World Models for Driving",
+      "Diffusion Planning"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-05-27/2605.27038/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-003-page-2-xref-483.jpeg",
+        "priority": "high",
+        "reason": "该图通过并列对比三种表征范式（文本/数值、图像/稠密网格、本文的净化BEV），直接揭示了现有方法导致“空间幻觉”与“表征干扰”的本质原因，是理解论文核心动机与贡献的关键 insight 图。",
+        "description": "三种自动驾驶场景表征策略的对比及其固有缺陷分析",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-004-page-4-xref-515.jpeg",
+        "priority": "high",
+        "reason": "完整呈现了 TPS-Drive 的系统架构，涵盖 BEV/Vision/Language 三空间输入、解耦推理管线（场景理解→未来预测→动作生成）以及三阶段渐进训练范式，是精读方法细节不可或缺的架构总览图。",
+        "description": "TPS-Drive 整体框架与三阶段训练流程",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-005-page-9-xref-535.jpeg",
+        "priority": "medium",
+        "reason": "在开放人行横道与复杂走廊两个真实场景中，定性对比了 Image CoT 与 TPS-Drive 的感知可视化与驾驶决策差异，直观验证了净化表征在避免碰撞和正确决策上的优势。",
+        "description": "开放环场景下 Image CoT 与 TPS-Drive 的定性实验对比",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-05-27T09:27:28.778751+00:00"
+  },
+  "2605.27046": {
+    "title": "Learning to Balance Motor Thermal Safety and Quadrupedal Locomotion Performance with Residual Policy",
+    "authors": [
+      "Yuhang Wan",
+      "Weixian Lin",
+      "Letian Qian",
+      "Yiqi Zou",
+      "Weiwei Wu",
+      "Shengwei Wu",
+      "Chuanlin Zhao",
+      "Xin Luo"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-26T14:00:10+00:00",
+    "updated": "2026-05-26T14:00:10+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.27046v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.27046v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "四足机器人热安全与高性能运动的残差策略学习",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 2,
+      "weighted": 2.75
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Residual Policy",
+      "Thermal Management",
+      "Quadruped Locomotion",
+      "Reinforcement Learning",
+      "Sim-to-Real"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.26998": {
+    "title": "Probabilistic Recurrent Intention Switching Model",
+    "authors": [
+      "Wenyuan Sheng",
+      "Hao Zhu",
+      "Joschka Boedecker"
+    ],
+    "categories": [
+      "cs.LG",
+      "q-bio.NC"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-05-26T13:19:00+00:00",
+    "updated": "2026-05-26T13:19:00+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26998v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26998v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Probabilistic Recurrent Intention Switching Model",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.26991": {
+    "title": "Towards Shared Embodied Intelligence in Humanoid Robots through Optimization Development and Testing of the Human Aware ergoCub Robot",
+    "authors": [
+      "Carlotta Sartore",
+      "Mohamed Elobaid",
+      "Lorenzo Rapetti",
+      "Giulio Romualdi",
+      "Stefano Dafarra",
+      "Nicola A. Piga",
+      "Ines Sorrentino",
+      "Paolo Maria Vicecone",
+      "Silvio Traversaro",
+      "Ugo Pattacini",
+      "Luca Fiorio",
+      "Francesco Draicchio",
+      "Giovanna Tranfo",
+      "Lorenzo Natale",
+      "Marco Maggiali",
+      "Daniele Pucci"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-26T13:13:41+00:00",
+    "updated": "2026-05-26T13:13:41+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26991v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26991v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Towards Shared Embodied Intelligence in Humanoid Robots through Optimization Development and Testing of the Human Aware ergoCub Robot",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.26649": {
+    "title": "On the Generalization Capabilities, Design Choices and Limitations of Keypoint Imitation Learning",
+    "authors": [
+      "Thomas Lips",
+      "Marco Moletta",
+      "Michael C. Welle",
+      "Danica Kragic",
+      "Francis wyffels"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-26T07:31:43+00:00",
+    "updated": "2026-05-26T07:31:43+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26649v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26649v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "关键点模仿学习的设计选择与泛化能力研究",
+    "tags": [
+      "No Code",
+      "Dataset",
+      "Academic",
+      "🔴 No Code",
+      "📊 Dataset"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "KTH Royal Institute of Technology",
+      "Ghent University"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 4,
+      "focus_relevance": 3,
+      "weighted": 3.2
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "Keypoint Imitation Learning",
+      "Diffusion Policy",
+      "Visual Foundation Models",
+      "Robot Manipulation",
+      "Object-Centric Representation"
+    ],
+    "journal_ref": null,
+    "comment": "This version was submitted to IROS 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2605.26638": {
+    "title": "HyperSim: A Holistic Sim-To-Real Framework For Robust Robotic Manipulation",
+    "authors": [
+      "Junyi Dong",
+      "Haotian Luo",
+      "Ziwei Xu",
+      "Shengwei Bian",
+      "Heng Zhang",
+      "Sitong Mao",
+      "Jingyi Guo",
+      "Yang Xu",
+      "Wenhao Chen",
+      "Qiuyu Feng",
+      "Yao Mu",
+      "Ping Luo",
+      "Shunbo Zhou",
+      "Xiaodong Wu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-26T07:19:04+00:00",
+    "updated": "2026-05-26T07:19:04+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26638v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26638v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "面向鲁棒操作的全流程仿真到现实迁移框架",
+    "tags": [
+      "No Code",
+      "Industry",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "Huawei Cloud Computing Technologies",
+      "Shanghai Jiao Tong University",
+      "The University of Hong Kong"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 3.8
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Sim-to-Real Transfer",
+      "Adversarial Trajectory Generation",
+      "3D Gaussian Splatting",
+      "Sim-and-Real Co-Training",
+      "Vision-Language-Action Models"
+    ],
+    "journal_ref": null,
+    "comment": "9 pages, 8 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2605.26478": {
+    "title": "Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient",
+    "authors": [
+      "Haoxiang You",
+      "Yilang Liu",
+      "Davis Zong",
+      "Qian Wang",
+      "Teeratham Vitchutripop",
+      "Qi Wang",
+      "Daniel Rakita",
+      "Ian Abraham"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-26T02:35:08+00:00",
+    "updated": "2026-05-26T02:35:08+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26478v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26478v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "基于随机解耦策略梯度的轻量端到端视觉强化学习方法",
+    "tags": [
+      "Dataset",
+      "Academic",
+      "No Code",
+      "🔴 No Code",
+      "📊 Dataset"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.45
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": true,
+    "has_demo": false,
+    "key_terms": [
+      "Stochastic Decoupled Policy Gradient",
+      "Visual Reinforcement Learning",
+      "Sim-to-Real Transfer",
+      "Ego-centric Visual Control",
+      "Stochastic Smoothing"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.26284": {
+    "title": "PhyPush: One Push is All You Need for Sensorless Physical Property Estimation with Physics-Guided Transformers",
+    "authors": [
+      "Koyo Fujii",
+      "Luis Figueredo",
+      "Praminda Caleb-Solly",
+      "Ivan Boschi",
+      "Edoardo Ida'",
+      "Marco Carricato",
+      "Aly Magassouba"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-25T19:14:43+00:00",
+    "updated": "2026-05-25T19:14:43+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26284v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26284v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "物理引导Transformer单推估计物体质量与摩擦",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "physics-guided learning",
+      "interactive perception",
+      "physical property estimation",
+      "transformer",
+      "sim-to-real"
+    ],
+    "journal_ref": null,
+    "comment": "Submitted to 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "relevance_tier": "peripheral"
+  },
+  "2605.26642": {
+    "title": "Adaptation-Free Heterogeneous Collaborative Perception with Unseen Agent Configurations",
+    "authors": [
+      "Hyunchul Bae",
+      "Heejin Ahn"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-05-26T07:26:34+00:00",
+    "updated": "2026-05-26T07:26:34+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26642v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26642v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "提出ALF框架，实现异构协同感知零样本即插即用",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 2,
+      "weighted": 2.95
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Collaborative Perception",
+      "Heterogeneous Fusion",
+      "V2X",
+      "3D Object Detection",
+      "Zero-shot Adaptation"
+    ],
+    "journal_ref": null,
+    "comment": "9 pages main paper, 23 pages including references and appendix, 7 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2605.26627": {
+    "title": "Breaking the Epistemic Trap: Active Perception Under Compound Uncertainty",
+    "authors": [
+      "Chayan Banerjee",
+      "Ethan Goan"
+    ],
+    "categories": [
+      "eess.SY",
+      "cs.RO"
+    ],
+    "primary_category": "eess.SY",
+    "published": "2026-05-26T07:03:26+00:00",
+    "updated": "2026-05-26T07:03:26+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26627v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26627v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "cross",
+    "direction": "multiple",
+    "one_line_summary": "提出复合不确定系数与主动感知安全架构",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Queensland University of Technology"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 4,
+      "weighted": 3.65
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Compound Uncertainty",
+      "Epistemic Trap",
+      "Active Perception",
+      "Bayes-Adaptive POMDP",
+      "MaxInfoRL"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.26625": {
+    "title": "Provably Safe Motion Planning Under Unknown Disturbances",
+    "authors": [
+      "Ibon Gracia",
+      "Qi Heng Ho",
+      "Luca Laurenti",
+      "Morteza Lahijanian"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-26T07:02:27+00:00",
+    "updated": "2026-05-26T07:02:27+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26625v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26625v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "未知扰动下基于Wasserstein模糊集的安全运动规划",
+    "tags": [
+      "No Code",
+      "Academic",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "University of Colorado Boulder",
+      "Virginia Tech",
+      "Delft University of Technology"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 2,
+      "weighted": 3.05
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Wasserstein ambiguity tube",
+      "sampling-based motion planning",
+      "chance constraints",
+      "distributionally robust optimization",
+      "kinodynamic planning"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2605.26155": {
+    "title": "When Does Adaptive Guidance Help? Belief-Aware Privileged Distillation for Autonomous Driving Under Partial Observability",
+    "authors": [
+      "Mehmet Haklidir"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-05-24T04:41:30+00:00",
+    "updated": "2026-05-24T04:41:30+00:00",
+    "abs_url": "http://arxiv.org/abs/2605.26155v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.26155v1",
+    "first_seen": "2026-05-27",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "部分可观测驾驶中自适应特权蒸馏的盲区诊断",
+    "tags": [
+      "Accepted",
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 2,
+      "weighted": 2.75
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Privileged Distillation",
+      "Partial Observability",
+      "Ensemble Disagreement",
+      "Teacher-Student RL",
+      "Observability Blindness"
+    ],
+    "journal_ref": null,
+    "comment": "9 pages, 3 figures, 7 tables. Accepted at CVPR 2026 Workshop on Autonomous Driving (WAD)",
     "relevance_tier": "peripheral"
   }
 }
