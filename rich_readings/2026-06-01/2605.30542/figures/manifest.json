@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.30542",
+  "title": "Physically Viable World Models: A Case for Query-Conditioned Embodied AI",
+  "generated_at": "2026-06-01T12:23:01.699508+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-newton-sim-4x5-timestep-grid.jpg",
+      "source": "tex",
+      "original_name": "newton_sim_4x5_timestep_grid.jpg",
+      "size_bytes": 8283498,
+      "width": 2709,
+      "height": 2417
+    },
+    {
+      "filename": "figure-004-combined-pour-timestep-rows.jpg",
+      "source": "tex",
+      "original_name": "combined_pour_timestep_rows.jpg",
+      "size_bytes": 2163438,
+      "width": 2242,
+      "height": 1990
+    },
+    {
+      "filename": "figure-005-genesis-pour-target-honey-2x5-timestep-grid.jpg",
+      "source": "tex",
+      "original_name": "genesis_pour_target_honey_2x5_timestep_grid.jpg",
+      "size_bytes": 1294005,
+      "width": 2709,
+      "height": 1206
+    },
+    {
+      "filename": "figure-006-cup-water.png",
+      "source": "tex",
+      "original_name": "cup_water.png",
+      "size_bytes": 713557,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-007-double-jelly.png",
+      "source": "tex",
+      "original_name": "double_jelly.png",
+      "size_bytes": 654329,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-008-single-jelly.png",
+      "source": "tex",
+      "original_name": "single_jelly.png",
+      "size_bytes": 650967,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-009-superball.png",
+      "source": "tex",
+      "original_name": "superball.png",
+      "size_bytes": 615019,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-003-neurips-simulations.png",
+      "source": "tex",
+      "original_name": "neurips_simulations.pdf",
+      "size_bytes": 580896,
+      "width": 398,
+      "height": 250
+    },
+    {
+      "filename": "figure-002-truck-figure.png",
+      "source": "tex",
+      "original_name": "truck_figure.pdf",
+      "size_bytes": 501637,
+      "width": 396,
+      "height": 200
+    },
+    {
+      "filename": "figure-000-neurips-ball-sims.png",
+      "source": "tex",
+      "original_name": "neurips_ball_sims.pdf",
+      "size_bytes": 398368,
+      "width": 398,
+      "height": 250
+    },
+    {
+      "filename": "figure-010-pvwm-title-figure.png",
+      "source": "tex",
+      "original_name": "pvwm_title_figure.pdf",
+      "size_bytes": 235175,
+      "width": 398,
+      "height": 250
+    },
+    {
+      "filename": "figure-011-frame-004.png",
+      "source": "tex",
+      "original_name": "frame_004.png",
+      "size_bytes": 161590,
+      "width": 960,
+      "height": 540
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-010-pvwm-title-figure.png",
+      "priority": "high",
+      "reason": "该图是论文核心方法架构图，直观对比了传统 Visual World Model 产生物理不可行预测（Incorrect Prediction）与本文提出的 Query-Conditioned Physically Viable World Model（Correct Prediction），直接解释了“为何需要物理可行世界模型”以及 Orchestrator 的作用，是理解全文 insight 的关键。",
+      "description": "系统架构与核心对比图：左侧为斜坡滚球干预查询，中间对比纯视觉世界模型与由 Orchestrator 调度的物理可行世界模型，右侧展示两种模型生成的时序预测结果（错误 vs 正确）。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-004-combined-pour-timestep-rows.jpg",
+      "priority": "medium",
+      "reason": "该图展示了机器人在不同粘度液体（水、蜂蜜、合成目标液体）下的倾倒过程，以及最佳粘度估计结果，是论文主实验（液体参数估计）的核心可视化，能支撑“模型可识别潜在物理参数”这一关键结论。",
+      "description": "四行五列时序网格图，分别展示水状参考、蜂蜜状参考、合成目标液体及最佳匹配粘度估计的机器人倒液过程。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-005-genesis-pour-target-honey-2x5-timestep-grid.jpg",
+      "priority": "medium",
+      "reason": "该图直接对应论文标题中的 Query-Conditioned，展示了未知液体粘度推断与基于编排世界模型的查询条件倾倒，体现方法在干预查询下的应用能力，是主实验的重要组成部分。",
+      "description": "两行五列时序网格图，上行展示未知液体粘度推断，下行展示基于编排世界模型的查询条件倾倒（query-conditioned pouring）。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-000-neurips-ball-sims.png",
+      "priority": "medium",
+      "reason": "该图通过固定场景结构、改变球的材质（wood/steel/aluminum）与干预参数（height/volume），展示了相同可见场景下潜在物理变化导致的不同结果，是支撑论文核心论点“controlled benchmarks that fix the visible scene while varying latent physics”的关键消融/基准可视化。",
+      "description": "三行五列网格图，展示不同材质球体在不同释放高度与体积条件下撞击杯子的物理结果差异。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "arxiv_id": "2605.30795",
+  "title": "Feat2Go: Visual Feature-Grounded Value Estimation for Embodied Reinforcement Learning",
+  "generated_at": "2026-06-01T12:28:34.391053+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-value-estimation-main-results.png",
+      "source": "tex",
+      "original_name": "value_estimation-main_results.pdf",
+      "size_bytes": 2094817,
+      "width": 1045,
+      "height": 649
+    },
+    {
+      "filename": "figure-001-integration-into-rl.png",
+      "source": "tex",
+      "original_name": "integration_into_rl.pdf",
+      "size_bytes": 1410636,
+      "width": 1228,
+      "height": 373
+    },
+    {
+      "filename": "figure-003-page-2-xref-386.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-386.jpeg",
+      "size_bytes": 241270,
+      "width": 1045,
+      "height": 649
+    },
+    {
+      "filename": "figure-004-page-6-xref-421.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-6-xref-421.jpeg",
+      "size_bytes": 130460,
+      "width": 1228,
+      "height": 373
+    },
+    {
+      "filename": "figure-002-ablation-f2g-vs-steps-to-go.png",
+      "source": "tex",
+      "original_name": "ablation_f2g_vs_steps_to_go.pdf",
+      "size_bytes": 106704,
+      "width": 506,
+      "height": 297
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-000-value-estimation-main-results.png",
+      "priority": "high",
+      "reason": "上半部分完整展示了基于视觉特征的三阶段价值估计核心方法（Patch特征提取、趋势语义聚类、分层价值赋值），下半部分提供了ManiSkill3和RoboTwin 2.0两个基准上的主实验结果与SOTA对比，单张图同时覆盖方法流程与关键性能证据。",
+      "description": "视觉特征 grounded 价值估计流程与主实验结果汇总图",
+      "suggested_section": "核心 Insight / 方法与公式 / 实验与消融"
+    },
+    {
+      "filename": "figure-001-integration-into-rl.png",
+      "priority": "high",
+      "reason": "系统架构图，清晰展示Feat2Go如何嵌入现有VLA强化学习训练管道，涵盖具身价值模型输入、Qwen3-VL价值模型、进度感知奖励重塑及PPO/GRPO策略优化四个核心模块，是理解方法实现与系统设计的必备图。",
+      "description": "Feat2Go与强化学习训练管道的集成架构图",
+      "suggested_section": "方法与公式 / 贡献拆解"
+    },
+    {
+      "filename": "figure-002-ablation-f2g-vs-steps-to-go.png",
+      "priority": "medium",
+      "reason": "消融实验训练曲线，直接对比Feat2Go与基线Steps-To-Go在训练过程中的成功率变化，支撑方法在收敛速度和最终性能上更优的关键结论。",
+      "description": "Feat2Go与Steps-To-Go的消融实验训练曲线对比",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

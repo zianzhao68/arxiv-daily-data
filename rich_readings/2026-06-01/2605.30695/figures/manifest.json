@@ -1,0 +1,71 @@
+{
+  "arxiv_id": "2605.30695",
+  "title": "Primitive Subspaces Mediate Few-Shot Transfer in VLAs",
+  "generated_at": "2026-06-01T12:33:21.263783+00:00",
+  "candidates": [
+    {
+      "filename": "figure-002-page-3.png",
+      "source": "pdf-page",
+      "original_name": "page-3.png",
+      "size_bytes": 235385,
+      "width": 688,
+      "height": 891
+    },
+    {
+      "filename": "figure-003-page-4.png",
+      "source": "pdf-page",
+      "original_name": "page-4.png",
+      "size_bytes": 228217,
+      "width": 688,
+      "height": 891
+    },
+    {
+      "filename": "figure-004-page-5.png",
+      "source": "pdf-page",
+      "original_name": "page-5.png",
+      "size_bytes": 226059,
+      "width": 688,
+      "height": 891
+    },
+    {
+      "filename": "figure-000-page-1.png",
+      "source": "pdf-page",
+      "original_name": "page-1.png",
+      "size_bytes": 215249,
+      "width": 688,
+      "height": 891
+    },
+    {
+      "filename": "figure-001-page-2.png",
+      "source": "pdf-page",
+      "original_name": "page-2.png",
+      "size_bytes": 213617,
+      "width": 688,
+      "height": 891
+    },
+    {
+      "filename": "figure-005-page-6.png",
+      "source": "pdf-page",
+      "original_name": "page-6.png",
+      "size_bytes": 190147,
+      "width": 688,
+      "height": 891
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-page-2.png",
+      "priority": "high",
+      "reason": "包含Figure 1，直观展示了2×2实验设计网格与少样本测试时的演示条件流程，是理解论文方法设计与核心贡献的关键架构/流程图。",
+      "description": "实验设计与少样本迁移协议示意图，涵盖训练阶段的2×2架构网格和测试时的演示嵌入流程。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-005-page-6.png",
+      "priority": "high",
+      "reason": "包含Figure 2及Table 2，直接呈现primitive-aware训练相比flat训练在少样本迁移上的3×样本效率优势，是支撑论文核心实验结论的主结果图。",
+      "description": "少样本迁移成功率随演示数量变化的曲线图与数值表，对比两种架构下primitive与flat训练的性能。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.31234",
+  "title": "HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model",
+  "generated_at": "2026-06-01T11:59:18.952295+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-mainfigurev3.png",
+      "source": "tex",
+      "original_name": "MainFigureV3.pdf",
+      "size_bytes": 1708714,
+      "width": 1034,
+      "height": 737
+    },
+    {
+      "filename": "figure-004-dataprocessv1.png",
+      "source": "tex",
+      "original_name": "DataProcessV1.pdf",
+      "size_bytes": 1194293,
+      "width": 555,
+      "height": 297
+    },
+    {
+      "filename": "figure-000-real-platform.png",
+      "source": "tex",
+      "original_name": "real_platform.pdf",
+      "size_bytes": 1184781,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-002-stage1v3.png",
+      "source": "tex",
+      "original_name": "Stage1V3.pdf",
+      "size_bytes": 717261,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-003-umap-cat-horizon.png",
+      "source": "tex",
+      "original_name": "umap_cat_horizon.pdf",
+      "size_bytes": 544215,
+      "width": 1000,
+      "height": 218
+    },
+    {
+      "filename": "figure-006-stage2v3.png",
+      "source": "tex",
+      "original_name": "Stage2V3.pdf",
+      "size_bytes": 416103,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-005-paired-distance-plotv4.png",
+      "source": "tex",
+      "original_name": "paired_distance_plotV4.pdf",
+      "size_bytes": 125953,
+      "width": 864,
+      "height": 411
+    },
+    {
+      "filename": "figure-011-page-2-xref-460.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-460.png",
+      "size_bytes": 28511,
+      "width": 557,
+      "height": 243
+    },
+    {
+      "filename": "figure-010-page-2-xref-459.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-459.png",
+      "size_bytes": 21529,
+      "width": 510,
+      "height": 213
+    },
+    {
+      "filename": "figure-009-page-2-xref-456.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-456.jpeg",
+      "size_bytes": 19356,
+      "width": 251,
+      "height": 250
+    },
+    {
+      "filename": "figure-008-page-2-xref-455.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-455.jpeg",
+      "size_bytes": 18795,
+      "width": 252,
+      "height": 250
+    },
+    {
+      "filename": "figure-007-page-2-xref-454.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-454.jpeg",
+      "size_bytes": 18746,
+      "width": 251,
+      "height": 250
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-mainfigurev3.png",
+      "priority": "high",
+      "reason": "主图清晰对比了现有VLA预训练在人机视觉与动作上的双重鸿沟，以及HARP通过对齐视觉和潜在动作来弥合鸿沟的核心insight，是理解论文动机和整体框架的关键。",
+      "description": "现有方法 vs HARP 的整体框架对比图，展示视觉与动作对齐思想。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-002-stage1v3.png",
+      "priority": "high",
+      "reason": "详细展示了Stage 1的联合潜在动作学习与视觉对齐架构，包括配对/非配对数据流、机器人专属Adapter、LAM编解码器、交叉预测与自预测机制，是论文核心方法的技术实现。",
+      "description": "Stage 1 联合潜在动作学习与视觉对齐的详细模型架构图。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-003-umap-cat-horizon.png",
+      "priority": "medium",
+      "reason": "通过UMAP可视化直观验证了HARP在表示空间和潜在动作空间的对齐效果，展示了Before/After以及有无HARP对齐的对比，直接支撑论文关于人机对齐的核心结论。",
+      "description": "UMAP可视化对比：对齐前后表示空间及有无HARP的潜在动作空间分布。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-005-paired-distance-plotv4.png",
+      "priority": "medium",
+      "reason": "箱线图定量比较了不同基线与HARP在人类-机器人余弦距离上的表现，Ours显著降低，为主实验结果提供了关键的量化证据。",
+      "description": "人类-机器人余弦距离箱线图，对比不同方法的对齐效果。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

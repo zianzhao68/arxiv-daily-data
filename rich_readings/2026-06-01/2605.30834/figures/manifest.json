@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2605.30834",
+  "title": "Hide-and-Seek in Trajectories: Discovering Failure Signals for VLA Runtime Monitoring",
+  "generated_at": "2026-06-01T12:13:33.553130+00:00",
+  "candidates": [
+    {
+      "filename": "figure-009-fig1-3.png",
+      "source": "tex",
+      "original_name": "fig1_3.pdf",
+      "size_bytes": 1396154,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-001-trajectory-pi0.png",
+      "source": "tex",
+      "original_name": "trajectory_pi0.png",
+      "size_bytes": 1057661,
+      "width": 424,
+      "height": 424
+    },
+    {
+      "filename": "figure-002-finegrained-pi0.png",
+      "source": "tex",
+      "original_name": "finegrained_pi0.png",
+      "size_bytes": 1010440,
+      "width": 424,
+      "height": 424
+    },
+    {
+      "filename": "figure-004-trajectory-openvla.png",
+      "source": "tex",
+      "original_name": "trajectory_openvla.png",
+      "size_bytes": 826240,
+      "width": 420,
+      "height": 411
+    },
+    {
+      "filename": "figure-005-finegrained-openvla.png",
+      "source": "tex",
+      "original_name": "finegrained_openvla.png",
+      "size_bytes": 768277,
+      "width": 420,
+      "height": 411
+    },
+    {
+      "filename": "figure-006-robot-setting.png",
+      "source": "tex",
+      "original_name": "robot_setting.pdf",
+      "size_bytes": 628722,
+      "width": 394,
+      "height": 441
+    },
+    {
+      "filename": "figure-008-collision-openvla.png",
+      "source": "tex",
+      "original_name": "collision_openvla.pdf",
+      "size_bytes": 530539,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-000-openvla-qual2.png",
+      "source": "tex",
+      "original_name": "openvla_qual2.pdf",
+      "size_bytes": 510719,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-007-openvla-qual4.png",
+      "source": "tex",
+      "original_name": "openvla_qual4.pdf",
+      "size_bytes": 508825,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-010-collision-pi0.png",
+      "source": "tex",
+      "original_name": "collision_pi0.pdf",
+      "size_bytes": 487923,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-003-pi0-qual3.png",
+      "source": "tex",
+      "original_name": "pi0_qual3.pdf",
+      "size_bytes": 452050,
+      "width": 842,
+      "height": 595
+    },
+    {
+      "filename": "figure-011-img-2084.jpg",
+      "source": "tex",
+      "original_name": "IMG_2084.jpg",
+      "size_bytes": 294225,
+      "width": 900,
+      "height": 1200
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-009-fig1-3.png",
+      "priority": "high",
+      "reason": "这是论文的Figure 1，直接阐释了Hide-and-Seek的核心思想：在仅有轨迹级标签、无步骤级标注的情况下，如何将一条失败轨迹划分为Normal Execution和Failure Phase，并定位Onset与Critical时刻。是理解论文动机与框架的首要图片。",
+      "description": "Hide-and-Seek框架概念图：将无步骤标签的失败轨迹分为正常执行（蓝）与失败阶段（红），并标出失败起始与临界时刻。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-002-finegrained-pi0.png",
+      "priority": "medium",
+      "reason": "展示了π0策略在细粒度特征空间中的t-SNE/UMAP可视化，成功（蓝）与失败（红）样本呈现可分离的聚类结构，直接验证了论文提出的对比学习目标能够诱导出具有判别性的失败信号表示。",
+      "description": "π0策略的细粒度embedding可视化，显示成功与失败样本在特征空间中的分布分离。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-008-collision-openvla.png",
+      "priority": "medium",
+      "reason": "OpenVLA策略的定性实验结果，包含两个真实任务中Failure Score随时间变化的曲线及对应关键帧，直观展示了方法对Mis-target/Stalled/Collision/Stuck等不同失败类型的Onset和Critical时刻的准确定位能力。",
+      "description": "OpenVLA在两个任务上的失败分数时间曲线与关键帧，展示对失败起始和临界时刻的检测效果。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-010-collision-pi0.png",
+      "priority": "medium",
+      "reason": "π0策略的定性实验结果，展示了在不同于OpenVLA的VLA策略上，方法同样能够准确检测Slip/Drift/Mis-contact/Stuck等失败的Onset和Critical时刻，支撑了方法的跨模型泛化性。",
+      "description": "π0策略在两个任务上的失败分数时间曲线与关键帧，验证跨模型失败检测能力。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
