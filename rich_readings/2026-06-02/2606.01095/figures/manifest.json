@@ -1,0 +1,126 @@
+{
+  "arxiv_id": "2606.01095",
+  "title": "Beyond Task Success: Behavioral and Representational Diagnostics for WAM and VLA",
+  "generated_at": "2026-06-02T10:27:56.656006+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-main-phase-aligned-features.png",
+      "source": "tex",
+      "original_name": "main_phase_aligned_features.png",
+      "size_bytes": 3655224,
+      "width": 3030,
+      "height": 1245
+    },
+    {
+      "filename": "figure-001-cover.png",
+      "source": "tex",
+      "original_name": "cover.pdf",
+      "size_bytes": 2902740,
+      "width": 2938,
+      "height": 851
+    },
+    {
+      "filename": "figure-007-wam-types.png",
+      "source": "tex",
+      "original_name": "wam_types.pdf",
+      "size_bytes": 1165125,
+      "width": 1581,
+      "height": 1177
+    },
+    {
+      "filename": "figure-002-appendix-phase-aligned-features-xvla.png",
+      "source": "tex",
+      "original_name": "appendix_phase_aligned_features_xvla.png",
+      "size_bytes": 477901,
+      "width": 2942,
+      "height": 910
+    },
+    {
+      "filename": "figure-003-appendix-phase-aligned-features-lingbot-va.png",
+      "source": "tex",
+      "original_name": "appendix_phase_aligned_features_lingbot-va.png",
+      "size_bytes": 471061,
+      "width": 2942,
+      "height": 910
+    },
+    {
+      "filename": "figure-004-appendix-phase-aligned-features-pi05.png",
+      "source": "tex",
+      "original_name": "appendix_phase_aligned_features_pi05.png",
+      "size_bytes": 465230,
+      "width": 2942,
+      "height": 910
+    },
+    {
+      "filename": "figure-005-appendix-phase-aligned-features-pi0.png",
+      "source": "tex",
+      "original_name": "appendix_phase_aligned_features_pi0.png",
+      "size_bytes": 456347,
+      "width": 2942,
+      "height": 910
+    },
+    {
+      "filename": "figure-006-appendix-phase-aligned-features-vlajepa.png",
+      "source": "tex",
+      "original_name": "appendix_phase_aligned_features_vlajepa.png",
+      "size_bytes": 450075,
+      "width": 2942,
+      "height": 910
+    },
+    {
+      "filename": "figure-010-fig-sae-behavior-probe-delta-appendix.png",
+      "source": "tex",
+      "original_name": "fig_sae_behavior_probe_delta_appendix.pdf",
+      "size_bytes": 55653,
+      "width": 619,
+      "height": 302
+    },
+    {
+      "filename": "figure-008-cosmos-stable-rollout-rank12.png",
+      "source": "tex",
+      "original_name": "cosmos_stable_rollout_rank12.png",
+      "size_bytes": 52198,
+      "width": 676,
+      "height": 208
+    },
+    {
+      "filename": "figure-011-fig-real-vs-null-fcs.png",
+      "source": "tex",
+      "original_name": "fig_real_vs_null_fcs.pdf",
+      "size_bytes": 47384,
+      "width": 648,
+      "height": 288
+    },
+    {
+      "filename": "figure-009-xvla-stable-rollout-rank1.png",
+      "source": "tex",
+      "original_name": "xvla_stable_rollout_rank1.png",
+      "size_bytes": 47144,
+      "width": 676,
+      "height": 208
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-cover.png",
+      "priority": "high",
+      "reason": "该图同时呈现了论文的核心方法框架（VLA与WAM对比、行为分析与特征空间分析双视角）以及关键多维实验结果（雷达图），是理解全文脉络与核心结论的首选概览图。",
+      "description": "论文主图，展示VLA与WAM的对比框架、两种诊断分析视角，以及任务成功率和运动平滑性等多维雷达图实验结果。",
+      "suggested_section": "核心 Insight / 实验与消融"
+    },
+    {
+      "filename": "figure-007-wam-types.png",
+      "priority": "high",
+      "reason": "清晰定义了三种WAM架构范式（Joint/Parallel、Sequential、Auxiliary）的流程与区别，是后续所有行为与表征差异分析的方法论基础，属于必读的方法架构图。",
+      "description": "三种World-Action Model架构类型的分类与流程图，展示未来预测与动作生成的不同耦合方式。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-010-fig-sae-behavior-probe-delta-appendix.png",
+      "priority": "medium",
+      "reason": "通过移除预测性SAE特征后观察行为指标的变化，直接建立内部表征与外部行为的因果联系，是支撑“表征诊断具有行为意义”这一核心结论的关键消融实验。",
+      "description": "移除预测性SAE特征后各行为指标（成功率、物体交互、边界跳跃等）的变化量（Δ）柱状图。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
