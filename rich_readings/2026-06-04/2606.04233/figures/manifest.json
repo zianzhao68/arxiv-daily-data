@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.04233",
+  "title": "What Are We Actually Benchmarking in Robot Manipulation?",
+  "generated_at": "2026-06-04T11:03:13.728191+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-benchmark-environment-examples.png",
+      "source": "tex",
+      "original_name": "benchmark_environment_examples.pdf",
+      "size_bytes": 693182,
+      "width": 756,
+      "height": 169
+    },
+    {
+      "filename": "figure-001-creeping-overfitting-simplerenv-dumbbell.png",
+      "source": "tex",
+      "original_name": "creeping_overfitting_simplerenv_dumbbell.pdf",
+      "size_bytes": 166601,
+      "width": 367,
+      "height": 141
+    },
+    {
+      "filename": "figure-011-page-7-xref-617.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-617.png",
+      "size_bytes": 87344,
+      "width": 188,
+      "height": 141
+    },
+    {
+      "filename": "figure-008-page-7-xref-614.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-614.png",
+      "size_bytes": 84947,
+      "width": 188,
+      "height": 141
+    },
+    {
+      "filename": "figure-009-page-7-xref-615.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-615.png",
+      "size_bytes": 84947,
+      "width": 188,
+      "height": 141
+    },
+    {
+      "filename": "figure-010-page-7-xref-616.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-616.png",
+      "size_bytes": 83991,
+      "width": 188,
+      "height": 141
+    },
+    {
+      "filename": "figure-003-statistical-significance-pies.png",
+      "source": "tex",
+      "original_name": "statistical_significance_pies.pdf",
+      "size_bytes": 82554,
+      "width": 398,
+      "height": 125
+    },
+    {
+      "filename": "figure-004-bitwise-libero-task8-propagation.png",
+      "source": "tex",
+      "original_name": "bitwise_libero_task8_propagation.pdf",
+      "size_bytes": 77217,
+      "width": 475,
+      "height": 216
+    },
+    {
+      "filename": "figure-005-benchmark-reported-results-stacked-area.png",
+      "source": "tex",
+      "original_name": "benchmark_reported_results_stacked_area.pdf",
+      "size_bytes": 59319,
+      "width": 396,
+      "height": 155
+    },
+    {
+      "filename": "figure-002-teaser-data-source-dependence.png",
+      "source": "tex",
+      "original_name": "teaser_data_source_dependence.pdf",
+      "size_bytes": 50726,
+      "width": 268,
+      "height": 144
+    },
+    {
+      "filename": "figure-006-teaser-benchmark-reality-check.png",
+      "source": "tex",
+      "original_name": "teaser_benchmark_reality_check.pdf",
+      "size_bytes": 40844,
+      "width": 268,
+      "height": 144
+    },
+    {
+      "filename": "figure-007-teaser-minimum-reproduce.png",
+      "source": "tex",
+      "original_name": "teaser_minimum_reproduce.pdf",
+      "size_bytes": 33794,
+      "width": 345,
+      "height": 216
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-002-teaser-data-source-dependence.png",
+      "priority": "high",
+      "reason": "直接可视化论文核心论点之一——data-source dependence，用概率分布示意训练集与测试集之间的分布gap，是理解基准有效性质疑的关键概念图。",
+      "description": "示意图展示Bridge V2训练集与SimplerEnv测试集在任务/环境设置上的概率分布差距。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-001-creeping-overfitting-simplerenv-dumbbell.png",
+      "priority": "high",
+      "reason": "通过四种具体场景变体（反转语言、堆叠支撑块、随机姿态+手臂）与模型性能前后对比，直观展示creeping overfitting这一failure mode，是论文实验部分的核心证据。",
+      "description": "SimplerEnv上四种场景变体及不同策略在原始与修改条件下的成功率对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-003-statistical-significance-pies.png",
+      "priority": "high",
+      "reason": "对五个主流基准的统计显著性进行审计，用饼图量化展示各类显著性结论的占比，直接支撑论文关于大多数报告收益缺乏统计显著性的核心结论。",
+      "description": "LIBERO、CALVIN、SimplerEnv、RoboCasa、RoboTwin 2.0上报告改进的统计显著性分类饼图。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-007-teaser-minimum-reproduce.png",
+      "priority": "high",
+      "reason": "展示0.09B参数的DINO+MLP探针在LIBERO上取得97.6分，逼近或超过大型VLA模型，是质疑基准作为通用操作能力代理的最有力实验证据之一。",
+      "description": "LIBERO基准上DINO+MLP、OpenVLA、Pi0与CORAL的得分对比柱状图。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

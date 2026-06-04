@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.04436",
+  "title": "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training",
+  "generated_at": "2026-06-04T10:42:28.725889+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-robotsetup-b.png",
+      "source": "tex",
+      "original_name": "robotsetup_b.png",
+      "size_bytes": 4019015,
+      "width": 1065,
+      "height": 705
+    },
+    {
+      "filename": "figure-008-intro.png",
+      "source": "tex",
+      "original_name": "intro.pdf",
+      "size_bytes": 1866742,
+      "width": 960,
+      "height": 440
+    },
+    {
+      "filename": "figure-001-bolt.png",
+      "source": "tex",
+      "original_name": "bolt.png",
+      "size_bytes": 1781962,
+      "width": 1617,
+      "height": 206
+    },
+    {
+      "filename": "figure-002-woodbolt.png",
+      "source": "tex",
+      "original_name": "woodbolt.png",
+      "size_bytes": 1781962,
+      "width": 1617,
+      "height": 206
+    },
+    {
+      "filename": "figure-003-smoke.png",
+      "source": "tex",
+      "original_name": "smoke.png",
+      "size_bytes": 1777125,
+      "width": 1618,
+      "height": 205
+    },
+    {
+      "filename": "figure-004-coffee.png",
+      "source": "tex",
+      "original_name": "coffee.png",
+      "size_bytes": 1764158,
+      "width": 1618,
+      "height": 204
+    },
+    {
+      "filename": "figure-005-enhence.png",
+      "source": "tex",
+      "original_name": "enhence.png",
+      "size_bytes": 1759250,
+      "width": 1614,
+      "height": 204
+    },
+    {
+      "filename": "figure-006-milk.png",
+      "source": "tex",
+      "original_name": "milk.png",
+      "size_bytes": 1752781,
+      "width": 1614,
+      "height": 203
+    },
+    {
+      "filename": "figure-007-robotsetup-a.png",
+      "source": "tex",
+      "original_name": "robotsetup_a.png",
+      "size_bytes": 1558293,
+      "width": 340,
+      "height": 349
+    },
+    {
+      "filename": "figure-009-overallarch.png",
+      "source": "tex",
+      "original_name": "overallarch.pdf",
+      "size_bytes": 997657,
+      "width": 960,
+      "height": 440
+    },
+    {
+      "filename": "figure-011-embodied-qa.png",
+      "source": "tex",
+      "original_name": "embodied_qa.pdf",
+      "size_bytes": 962021,
+      "width": 960,
+      "height": 440
+    },
+    {
+      "filename": "figure-010-appendix-simpler.jpg",
+      "source": "tex",
+      "original_name": "appendix_simpler.jpg",
+      "size_bytes": 537759,
+      "width": 526,
+      "height": 284
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-009-overallarch.png",
+      "priority": "high",
+      "reason": "完整展示了3DThinkVLA的四大核心模块（协同训练框架、潜在3D几何感知、在线3D推理蒸馏、空间增强动作集成），是理解方法细节的最关键架构图。",
+      "description": "论文整体架构图，详细描绘了3D-Thinking-Guided Co-training Framework及其三个关键子模块。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-008-intro.png",
+      "priority": "high",
+      "reason": "同时涵盖方法动机（简单co-training存在GAP vs 本文Injection机制）和LIBERO/LIBERO-PLUS上的注意力可视化对比，能直观展示引入3D空间推理后模型关注区域的改进。",
+      "description": "方法概述与注意力对比图，展示了co-training pipeline、action prediction机制差异及benchmark上的注意力热图对比。",
+      "suggested_section": "核心 Insight / 实验与消融"
+    },
+    {
+      "filename": "figure-011-embodied-qa.png",
+      "priority": "high",
+      "reason": "直接呈现模型在具身问答中进行显式3D推理的完整思维链（3D坐标、向量计算、余弦相似度、角度判断），最能体现论文“3D-Thinking”这一核心创新点。",
+      "description": "具身问答中的3D推理过程示例，展示模型如何通过计算3D位置和向量夹角得出空间关系结论。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-007-robotsetup-a.png",
+      "priority": "medium",
+      "reason": "展示真实世界实验的硬件平台（7-DoF主从臂、腕部/顶部相机、1-DoF夹爪），支撑论文在真实场景下验证方法有效性的实验结论。",
+      "description": "真实机器人实验平台照片，标注了Leader Arm、Follower Arm、相机和夹爪等关键硬件。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

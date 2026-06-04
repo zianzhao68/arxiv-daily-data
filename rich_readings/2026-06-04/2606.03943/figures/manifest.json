@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.03943",
+  "title": "PointAction: 3D Points as Universal Action Representations for Robot Control",
+  "generated_at": "2026-06-04T10:19:38.942911+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-qual-4d.png",
+      "source": "tex",
+      "original_name": "Qual_4d.pdf",
+      "size_bytes": 12527502,
+      "width": 1920,
+      "height": 1600
+    },
+    {
+      "filename": "figure-003-teaser-final.png",
+      "source": "tex",
+      "original_name": "Teaser_Final.pdf",
+      "size_bytes": 10124854,
+      "width": 3800,
+      "height": 1400
+    },
+    {
+      "filename": "figure-001-combined.png",
+      "source": "tex",
+      "original_name": "combined.pdf",
+      "size_bytes": 6554494,
+      "width": 1650,
+      "height": 2700
+    },
+    {
+      "filename": "figure-007-task-illu.png",
+      "source": "tex",
+      "original_name": "task_illu.pdf",
+      "size_bytes": 5939126,
+      "width": 2200,
+      "height": 1080
+    },
+    {
+      "filename": "figure-006-simulation-qual-result.png",
+      "source": "tex",
+      "original_name": "simulation_qual_result.pdf",
+      "size_bytes": 4860513,
+      "width": 1342,
+      "height": 525
+    },
+    {
+      "filename": "figure-004-visual-both.png",
+      "source": "tex",
+      "original_name": "visual_both.pdf",
+      "size_bytes": 2754069,
+      "width": 1920,
+      "height": 600
+    },
+    {
+      "filename": "figure-008-simulation-vis.png",
+      "source": "tex",
+      "original_name": "simulation_vis.pdf",
+      "size_bytes": 1854986,
+      "width": 1219,
+      "height": 450
+    },
+    {
+      "filename": "figure-005-xarm2.png",
+      "source": "tex",
+      "original_name": "xarm2.pdf",
+      "size_bytes": 1563898,
+      "width": 1920,
+      "height": 450
+    },
+    {
+      "filename": "figure-002-stage2-fixed.png",
+      "source": "tex",
+      "original_name": "Stage2_Fixed.pdf",
+      "size_bytes": 1431360,
+      "width": 1920,
+      "height": 780
+    },
+    {
+      "filename": "figure-009-slidedishwasherrack-compressed.png",
+      "source": "tex",
+      "original_name": "SlideDishwasherRack-compressed.pdf",
+      "size_bytes": 936469,
+      "width": 720,
+      "height": 144
+    },
+    {
+      "filename": "figure-011-coffeeservemug-compressed.png",
+      "source": "tex",
+      "original_name": "CoffeeServeMug-compressed.pdf",
+      "size_bytes": 910073,
+      "width": 720,
+      "height": 144
+    },
+    {
+      "filename": "figure-010-turnonsinkfaucet-compressed.png",
+      "source": "tex",
+      "original_name": "TurnOnSinkFaucet-compressed.pdf",
+      "size_bytes": 782721,
+      "width": 720,
+      "height": 144
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-002-stage2-fixed.png",
+      "priority": "high",
+      "reason": "展示了PointAction的核心流程：从点云观测经FPS采样、PointNet风格编码器、轻量DiT解码头生成未来低层动作序列，是理解方法原理与系统设计的必备架构图。",
+      "description": "模型整体流程图，输入点云序列，通过编码器-解码器架构生成可执行的机器人低层动作。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-visual-both.png",
+      "priority": "medium",
+      "reason": "直观展示了方法在两种真实机器人（YAM Arm与xArm）上的执行效果，并体现了4D点云预测与RGB观测的对齐，直接支撑论文关于跨本体迁移与真实场景泛化的核心结论。",
+      "description": "真实机器人实验序列图，包含YAM Arm和xArm执行语言指令任务的过程及对应的3D点云动态可视化。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-008-simulation-vis.png",
+      "priority": "medium",
+      "reason": "清晰定义了ID、OOD-Env、OOD-Task三种评估设置，直接支撑论文关于跨场景与跨任务泛化能力的实验结论，是理解实验设计与结果的关键图。",
+      "description": "模拟环境中三种泛化设置（分布内、未见场景、未见任务）的示意图。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-005-xarm2.png",
+      "priority": "medium",
+      "reason": "展示了同一真实机器人在三种不同操作任务（Pick & Place、Stack Cubes、Stack Cups）上的执行能力，体现方法在真实环境下的任务级泛化性。",
+      "description": "xArm真实机器人在三个不同操作任务上的执行序列。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

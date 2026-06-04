@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-06-02T10:27:56.657829+00:00",
-    "total_papers": 514
+    "last_updated": "2026-06-04T11:03:13.729617+00:00",
+    "total_papers": 531
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -27449,6 +27449,960 @@
     "key_terms": [],
     "journal_ref": null,
     "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2606.04436": {
+    "title": "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training",
+    "authors": [
+      "Jiaxin Shi",
+      "Xidong Zhang",
+      "Fucai Zhu",
+      "Zhe Li",
+      "Siyu Zhu",
+      "Weihao Yuan"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-06-03T04:34:07+00:00",
+    "updated": "2026-06-03T04:34:07+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04436v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04436v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-06-04/2606.04436/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-009-overallarch.png",
+        "priority": "high",
+        "reason": "完整展示了3DThinkVLA的四大核心模块（协同训练框架、潜在3D几何感知、在线3D推理蒸馏、空间增强动作集成），是理解方法细节的最关键架构图。",
+        "description": "论文整体架构图，详细描绘了3D-Thinking-Guided Co-training Framework及其三个关键子模块。",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-008-intro.png",
+        "priority": "high",
+        "reason": "同时涵盖方法动机（简单co-training存在GAP vs 本文Injection机制）和LIBERO/LIBERO-PLUS上的注意力可视化对比，能直观展示引入3D空间推理后模型关注区域的改进。",
+        "description": "方法概述与注意力对比图，展示了co-training pipeline、action prediction机制差异及benchmark上的注意力热图对比。",
+        "suggested_section": "核心 Insight / 实验与消融"
+      },
+      {
+        "filename": "figure-011-embodied-qa.png",
+        "priority": "high",
+        "reason": "直接呈现模型在具身问答中进行显式3D推理的完整思维链（3D坐标、向量计算、余弦相似度、角度判断），最能体现论文“3D-Thinking”这一核心创新点。",
+        "description": "具身问答中的3D推理过程示例，展示模型如何通过计算3D位置和向量夹角得出空间关系结论。",
+        "suggested_section": "核心 Insight / 方法与公式"
+      },
+      {
+        "filename": "figure-007-robotsetup-a.png",
+        "priority": "medium",
+        "reason": "展示真实世界实验的硬件平台（7-DoF主从臂、腕部/顶部相机、1-DoF夹爪），支撑论文在真实场景下验证方法有效性的实验结论。",
+        "description": "真实机器人实验平台照片，标注了Leader Arm、Follower Arm、相机和夹爪等关键硬件。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-06-04T10:42:28.725889+00:00"
+  },
+  "2606.04226": {
+    "title": "PerceptTwin: Semantic Scene Reconstruction for Iterative LLM Planning and Verification",
+    "authors": [
+      "Charlie Gauthier",
+      "Sacha Morin",
+      "Liam Paull"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-02T21:25:49+00:00",
+    "updated": "2026-06-02T21:25:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04226v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04226v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "PerceptTwin: Semantic Scene Reconstruction for Iterative LLM Planning and Verification",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted at ICRA 2026 (Vienna); published on arxiv for archival purposes. See also https://percept-twin.github.io/",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-06-04/2606.04226/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-001-17.png",
+        "priority": "high",
+        "reason": "展示了PerceptTwin从语义场景表示到交互式模拟重建的完整系统架构，涵盖3D资产生成、点云对齐、LLM规划与验证反馈回路，是理解论文方法的核心。",
+        "description": "PerceptTwin系统总览图，包含语义场景表示、场景重建、LLM规划反馈与验证模块。",
+        "suggested_section": "核心 Insight / 方法与公式"
+      },
+      {
+        "filename": "figure-005-mesh-ablate.png",
+        "priority": "medium",
+        "reason": "通过对比SAM+TRELLIS、REMBG+TRELLIS、CLIP+Objaverse等不同视觉后端生成的网格质量，直观展示了3D资产生成模块的设计动机与关键取舍，支撑方法有效性。",
+        "description": "不同网格生成与检索方法的消融对比，展示各方案在视觉、语义、形状保真度上的差异。",
+        "suggested_section": "方法与公式 / 实验与消融"
+      },
+      {
+        "filename": "figure-003-bomb-bomb-the-laptop-nolegends.png",
+        "priority": "medium",
+        "reason": "呈现LLM规划器在'Bomb the laptop'有害提示任务上的迭代反馈过程，直接验证PerceptTwin在抵抗有害攻击、提升安全性方面的核心贡献。",
+        "description": "Bomb任务中LLM规划反馈迭代的实验结果，显示任务成功率与安全性指标随迭代的变化。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-008-blocks-yellow-on-black-on-blue-nolegends.png",
+        "priority": "medium",
+        "reason": "展示常规物理操作任务（积木堆叠）中PerceptTwin反馈对LLM规划成功率的提升效果，补充验证系统在标准机器人规划场景中的通用性。",
+        "description": "Blocks任务中规划成功率随反馈迭代的变化曲线与柱状统计。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-06-04T10:57:34.304401+00:00"
+  },
+  "2606.03943": {
+    "title": "PointAction: 3D Points as Universal Action Representations for Robot Control",
+    "authors": [
+      "Mutian Tong",
+      "Han Jiang",
+      "Qiao Feng",
+      "Lingjie Liu",
+      "Jiatao Gu"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-02T17:30:50+00:00",
+    "updated": "2026-06-02T17:30:50+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.03943v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.03943v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "cross",
+    "direction": "multiple",
+    "one_line_summary": "联合RGB-XYZ点云的跨本体机器人控制方法",
+    "tags": [
+      "No Code",
+      "🔴 No Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "University of Pennsylvania"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 4.25
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Video-Action Models",
+      "3D Pointmaps",
+      "Diffusion Policy",
+      "Cross-Embodiment Transfer",
+      "Flow Matching"
+    ],
+    "journal_ref": null,
+    "comment": "Project page: https://oriontmt.github.io/pointaction/",
+    "relevance_tier": "core",
+    "rich_reading_path": "rich_readings/2026-06-04/2606.03943/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-002-stage2-fixed.png",
+        "priority": "high",
+        "reason": "展示了PointAction的核心流程：从点云观测经FPS采样、PointNet风格编码器、轻量DiT解码头生成未来低层动作序列，是理解方法原理与系统设计的必备架构图。",
+        "description": "模型整体流程图，输入点云序列，通过编码器-解码器架构生成可执行的机器人低层动作。",
+        "suggested_section": "方法与公式"
+      },
+      {
+        "filename": "figure-004-visual-both.png",
+        "priority": "medium",
+        "reason": "直观展示了方法在两种真实机器人（YAM Arm与xArm）上的执行效果，并体现了4D点云预测与RGB观测的对齐，直接支撑论文关于跨本体迁移与真实场景泛化的核心结论。",
+        "description": "真实机器人实验序列图，包含YAM Arm和xArm执行语言指令任务的过程及对应的3D点云动态可视化。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-008-simulation-vis.png",
+        "priority": "medium",
+        "reason": "清晰定义了ID、OOD-Env、OOD-Task三种评估设置，直接支撑论文关于跨场景与跨任务泛化能力的实验结论，是理解实验设计与结果的关键图。",
+        "description": "模拟环境中三种泛化设置（分布内、未见场景、未见任务）的示意图。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-005-xarm2.png",
+        "priority": "medium",
+        "reason": "展示了同一真实机器人在三种不同操作任务（Pick & Place、Stack Cubes、Stack Cups）上的执行能力，体现方法在真实环境下的任务级泛化性。",
+        "description": "xArm真实机器人在三个不同操作任务上的执行序列。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-06-04T10:19:38.942911+00:00"
+  },
+  "2606.05160": {
+    "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
+    "authors": [
+      "Tianyi Xie",
+      "Haotian Zhang",
+      "Jinhyung Park",
+      "Zi Wang",
+      "Bowen Wen",
+      "Jiefeng Li",
+      "Xueting Li",
+      "Qingwei Ben",
+      "Haoyang Weng",
+      "Yufei Ye",
+      "David Minor",
+      "Tingwu Wang",
+      "Chenfanfu Jiang",
+      "Sanja Fidler",
+      "Jan Kautz",
+      "Linxi Fan",
+      "Yuke Zhu",
+      "Zhengyi Luo",
+      "Umar Iqbal",
+      "Ye Yuan"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T17:57:45+00:00",
+    "updated": "2026-06-03T17:57:45+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.05160v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05160v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://research.nvidia.com/labs/dair/grail/",
+    "relevance_tier": "peripheral"
+  },
+  "2606.05015": {
+    "title": "Generalization of World Models under Environmental Variability for Vision-based Quadrotor Navigation",
+    "authors": [
+      "Luca Zanatta",
+      "Grzegorz Malczyk",
+      "Kostas Alexis"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T15:38:36+00:00",
+    "updated": "2026-06-03T15:38:36+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.05015v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.05015v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "multiple",
+    "one_line_summary": "环境变化下世界模型泛化性的系统研究",
+    "tags": [
+      "Code",
+      "Academic",
+      "🟢 Code"
+    ],
+    "affiliation_tier": 3,
+    "affiliation_names": [
+      "Norwegian University of Science and Technology (NTNU)"
+    ],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 4,
+      "focus_relevance": 4,
+      "weighted": 3.55
+    },
+    "has_code": true,
+    "code_url": "https://github.com/ntnu-arl/world-model-nav-generalization",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "World Models",
+      "Sim-to-Real Transfer",
+      "DreamerV3",
+      "Self-Supervised Learning",
+      "Quadrotor Navigation"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2606.04968": {
+    "title": "Potential-Guided Flow Matching for Vision-Language-Action Policy Improvement",
+    "authors": [
+      "Yunpeng Mei",
+      "Jiakai He",
+      "Hongjie Cao",
+      "Chenyu Wang",
+      "Xiaowen Zhu",
+      "Yihan Zhou",
+      "Jiamin Wang",
+      "Chenbo Xin",
+      "Peng Cheng",
+      "Yuxuan Yang",
+      "Yijie Wang",
+      "Xinhu Zheng",
+      "Gao Huang",
+      "Jie Chen",
+      "Gang Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T14:49:35+00:00",
+    "updated": "2026-06-03T14:49:35+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04968v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04968v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "基于势函数引导的流匹配VLA策略优化",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 3,
+      "focus_relevance": 5,
+      "weighted": 3.95
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Flow Matching",
+      "VLA",
+      "Advantage-Weighted Regression",
+      "Self-Guided Generation",
+      "Bimanual Manipulation"
+    ],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2606.04907": {
+    "title": "WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation",
+    "authors": [
+      "Ning Yang",
+      "Yan Huang",
+      "Kaiwen Peng",
+      "Ziheng He",
+      "Kai Wang",
+      "Cui Miao",
+      "Kailin Lyu",
+      "Guo Li",
+      "Xiaofeng Wang",
+      "Zheng Zhu",
+      "Jing Liu",
+      "Nianfeng Liu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T14:05:19+00:00",
+    "updated": "2026-06-03T14:05:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04907v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04907v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2606.04829": {
+    "title": "M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking",
+    "authors": [
+      "Zuxing Lu",
+      "Ziang Zheng",
+      "Yao Lyu",
+      "Jingyu Liu",
+      "Feihong Zhang",
+      "Song Lu",
+      "Xin Yuan",
+      "Changyin Sun",
+      "Xingxing Zuo",
+      "Shengbo Eben Li"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T12:52:37+00:00",
+    "updated": "2026-06-03T12:52:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04829v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04829v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2606.04825": {
+    "title": "HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning",
+    "authors": [
+      "Amirhosein Alian",
+      "Yongqiang Zhao",
+      "Shiyi Gu",
+      "Xuyang Zhang",
+      "Zhuo Chen",
+      "Christopher E. Mower",
+      "Haitham Bou-Ammar",
+      "Shan Luo"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T12:48:17+00:00",
+    "updated": "2026-06-03T12:48:17+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04825v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04825v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2606.04811": {
+    "title": "Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?",
+    "authors": [
+      "Rui Zhao",
+      "Kaiming Yang",
+      "Jifeng Zhu",
+      "Siyang Chen",
+      "Ziqi Wang",
+      "Weijia Wu",
+      "Kevin Qinghong Lin",
+      "Heng Wang",
+      "Mike Zheng Shou"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-06-03T12:35:35+00:00",
+    "updated": "2026-06-03T12:35:35+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04811v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04811v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2606.04749": {
+    "title": "COP-Q: Safety-First Reinforcement Learning for Robot Control via Cholesky-Ordered Projection",
+    "authors": [
+      "Guopeng Li",
+      "Moritz A. Zanger",
+      "Matthijs T. J. Spaan",
+      "Julian F. P. Kooij"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T11:30:10+00:00",
+    "updated": "2026-06-03T11:30:10+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04749v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04749v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "COP-Q: Safety-First Reinforcement Learning for Robot Control via Cholesky-Ordered Projection",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "7 pages, 6 figures, 2 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2606.04718": {
+    "title": "CoRe-MoE: Contrastive Reweighted Mixture of Experts for Multi-Terrain Humanoid Locomotion with Gait Adaptation",
+    "authors": [
+      "Kailun Huang",
+      "Zikang Xie",
+      "Yanzhe Xie",
+      "Panpan Liao",
+      "Fanghai Zhang",
+      "Yanheng Mai",
+      "Wenhao Xu",
+      "Yunheng Wang",
+      "Renjing Xu",
+      "Haohui Huang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T10:51:46+00:00",
+    "updated": "2026-06-03T10:51:46+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04718v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04718v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "对比重加权MoE实现人形机器人多地形自适应步态控制",
+    "tags": [
+      "No Code",
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Mixture of Experts",
+      "Contrastive Learning",
+      "Humanoid Locomotion",
+      "Sim-to-Real",
+      "Adversarial Motion Priors"
+    ],
+    "journal_ref": null,
+    "comment": "Kailun Huang, Zikang Xie, Yanzhe Xie and Panpan Liao contributed equally to this work. Corresponding authors: Renjing Xu and Haohui Huang",
+    "relevance_tier": "peripheral"
+  },
+  "2606.04708": {
+    "title": "VISTA: Vision-Grounded and Physics-Validated Adaptation of UMI data for VLA Training",
+    "authors": [
+      "Siyuan Yang",
+      "Linzheng Guo",
+      "Ouyang Lu",
+      " Zhaxizhuoma",
+      "Daoran Zhang",
+      "Xinmiao Wang",
+      "Ting Xiao",
+      "Fangzheng Yan",
+      "Zhijun Chen",
+      "Yan Ding",
+      "Chao Yu",
+      "Chenjia Bai",
+      "Xuelong Li"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T10:38:45+00:00",
+    "updated": "2026-06-03T10:38:45+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04708v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04708v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "VISTA: Vision-Grounded and Physics-Validated Adaptation of UMI data for VLA Training",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2606.04569": {
+    "title": "MineXplore: An Open-Source Reinforcement Learning Exploration Benchmark for GNSS-Denied Underground Environment",
+    "authors": [
+      "Abhishek S",
+      "Badrikanath Praharaj",
+      "Sreeram MV"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-03T07:59:40+00:00",
+    "updated": "2026-06-03T07:59:40+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04569v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04569v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "MineXplore: An Open-Source Reinforcement Learning Exploration Benchmark for GNSS-Denied Underground Environment",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "7 pages,11 figures, Submitted to the workshop Xplore:Cross-Disciplinary aspects of Exploration in Robotics, Reinforcement Learning and Search Held at International Conference on Robotics and Automation (ICRA)",
+    "relevance_tier": "peripheral"
+  },
+  "2606.04233": {
+    "title": "What Are We Actually Benchmarking in Robot Manipulation?",
+    "authors": [
+      "Tianchong Jiang",
+      "Xiangshan Tan",
+      "Samuel Wheeler",
+      "Luzhe Sun",
+      "Tewodros W. Ayalew",
+      "Matthew Walter"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-02T21:33:28+00:00",
+    "updated": "2026-06-02T21:33:28+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04233v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04233v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "机器人操作基准有效性审计与四大诊断工具",
+    "tags": [
+      "Code",
+      "Academic",
+      "🟢 Code",
+      "🔥 Hot"
+    ],
+    "affiliation_tier": 2,
+    "affiliation_names": [
+      "University of Chicago"
+    ],
+    "scores": {
+      "novelty": 4,
+      "impact": 4,
+      "reproducibility": 5,
+      "focus_relevance": 4,
+      "weighted": 4.1
+    },
+    "has_code": true,
+    "code_url": "https://ripl.github.io/manipulation_benchmark_audit/",
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [
+      "Benchmark validity",
+      "Shortcut solvability",
+      "Creeping overfitting",
+      "Statistical significance",
+      "VLA evaluation"
+    ],
+    "journal_ref": null,
+    "comment": "31 pages, 6 figures",
+    "relevance_tier": "peripheral",
+    "rich_reading_path": "rich_readings/2026-06-04/2606.04233/README.md",
+    "selected_figures": [
+      {
+        "filename": "figure-002-teaser-data-source-dependence.png",
+        "priority": "high",
+        "reason": "直接可视化论文核心论点之一——data-source dependence，用概率分布示意训练集与测试集之间的分布gap，是理解基准有效性质疑的关键概念图。",
+        "description": "示意图展示Bridge V2训练集与SimplerEnv测试集在任务/环境设置上的概率分布差距。",
+        "suggested_section": "核心 Insight"
+      },
+      {
+        "filename": "figure-001-creeping-overfitting-simplerenv-dumbbell.png",
+        "priority": "high",
+        "reason": "通过四种具体场景变体（反转语言、堆叠支撑块、随机姿态+手臂）与模型性能前后对比，直观展示creeping overfitting这一failure mode，是论文实验部分的核心证据。",
+        "description": "SimplerEnv上四种场景变体及不同策略在原始与修改条件下的成功率对比。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-003-statistical-significance-pies.png",
+        "priority": "high",
+        "reason": "对五个主流基准的统计显著性进行审计，用饼图量化展示各类显著性结论的占比，直接支撑论文关于大多数报告收益缺乏统计显著性的核心结论。",
+        "description": "LIBERO、CALVIN、SimplerEnv、RoboCasa、RoboTwin 2.0上报告改进的统计显著性分类饼图。",
+        "suggested_section": "实验与消融"
+      },
+      {
+        "filename": "figure-007-teaser-minimum-reproduce.png",
+        "priority": "high",
+        "reason": "展示0.09B参数的DINO+MLP探针在LIBERO上取得97.6分，逼近或超过大型VLA模型，是质疑基准作为通用操作能力代理的最有力实验证据之一。",
+        "description": "LIBERO基准上DINO+MLP、OpenVLA、Pi0与CORAL的得分对比柱状图。",
+        "suggested_section": "实验与消融"
+      }
+    ],
+    "rich_reading_generated_at": "2026-06-04T11:03:13.728191+00:00"
+  },
+  "2606.04206": {
+    "title": "DLO-Lab: Benchmarking Deformable Linear Object Manipulations with Differentiable Physics",
+    "authors": [
+      "Junyi Cao",
+      "Yian Wang",
+      "Ziyan Xiong",
+      "Chunru Lin",
+      "Zhehuan Chen",
+      "Chuang Gan"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-06-02T20:49:44+00:00",
+    "updated": "2026-06-02T20:49:44+00:00",
+    "abs_url": "http://arxiv.org/abs/2606.04206v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.04206v1",
+    "first_seen": "2026-06-04",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "DLO-Lab: Benchmarking Deformable Linear Object Manipulations with Differentiable Physics",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "ICML 2026, the project page: https://dlo-lab-26.github.io/",
+    "relevance_tier": "peripheral"
+  },
+  "2507.21638": {
+    "title": "Assistax: A Multi-Agent Hardware-Accelerated Reinforcement Learning Benchmark for Assistive Robotics",
+    "authors": [
+      "Leonard Hinckeldey",
+      "Elliot Fosong",
+      "Rimvydas Rubavicius",
+      "Elle Miller",
+      "Trevor McInroe",
+      "Fan Zhang",
+      "Patricia Wollstadt",
+      "Stefano V. Albrecht",
+      "Subramanian Ramamoorthy"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA",
+      "cs.RO"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2025-07-29T09:49:11+00:00",
+    "updated": "2026-06-02T17:07:17+00:00",
+    "abs_url": "http://arxiv.org/abs/2507.21638v2",
+    "pdf_url": "https://arxiv.org/pdf/2507.21638v2",
+    "first_seen": "2026-06-04",
+    "announce_type": "cross",
+    "direction": "embodied_ai",
+    "one_line_summary": "Assistax: A Multi-Agent Hardware-Accelerated Reinforcement Learning Benchmark for Assistive Robotics",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted at the Reinforcement Learning Conference 2026",
     "relevance_tier": "peripheral"
   }
 }

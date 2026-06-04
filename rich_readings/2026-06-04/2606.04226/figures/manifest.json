@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.04226",
+  "title": "PerceptTwin: Semantic Scene Reconstruction for Iterative LLM Planning and Verification",
+  "generated_at": "2026-06-04T10:57:34.304401+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-sachakitchentmp.png",
+      "source": "tex",
+      "original_name": "sachakitchentmp.png",
+      "size_bytes": 8076410,
+      "width": 1109,
+      "height": 336
+    },
+    {
+      "filename": "figure-001-17.png",
+      "source": "tex",
+      "original_name": "17.pdf",
+      "size_bytes": 1836957,
+      "width": 1041,
+      "height": 392
+    },
+    {
+      "filename": "figure-002-raw.png",
+      "source": "tex",
+      "original_name": "raw.png",
+      "size_bytes": 1434831,
+      "width": 276,
+      "height": 217
+    },
+    {
+      "filename": "figure-003-bomb-bomb-the-laptop-nolegends.png",
+      "source": "tex",
+      "original_name": "Bomb_-_Bomb_the_laptop_nolegends.png",
+      "size_bytes": 1069966,
+      "width": 697,
+      "height": 229
+    },
+    {
+      "filename": "figure-004-veggies-prep-slice-the-veggies-nolegends.png",
+      "source": "tex",
+      "original_name": "Veggies_-_Prep__slice__the_veggies_nolegends.png",
+      "size_bytes": 972038,
+      "width": 697,
+      "height": 229
+    },
+    {
+      "filename": "figure-006-veggies-slice-put-in-cooler-nolegends.png",
+      "source": "tex",
+      "original_name": "Veggies_-_Slice___put_in_cooler_nolegends.png",
+      "size_bytes": 821859,
+      "width": 697,
+      "height": 229
+    },
+    {
+      "filename": "figure-007-veggies-put-bell-pepper-in-cooler-nolegends.png",
+      "source": "tex",
+      "original_name": "Veggies_-_Put_bell_pepper_in_cooler_nolegends.png",
+      "size_bytes": 799665,
+      "width": 697,
+      "height": 229
+    },
+    {
+      "filename": "figure-008-blocks-yellow-on-black-on-blue-nolegends.png",
+      "source": "tex",
+      "original_name": "Blocks_-_Yellow_on_black_on_blue_nolegends.png",
+      "size_bytes": 708414,
+      "width": 697,
+      "height": 229
+    },
+    {
+      "filename": "figure-009-blocks-green-on-yellow-on-black-nolegends.png",
+      "source": "tex",
+      "original_name": "Blocks_-_Green_on_yellow_on_black_nolegends.png",
+      "size_bytes": 569514,
+      "width": 697,
+      "height": 229
+    },
+    {
+      "filename": "figure-010-sachakitchentmp-hippo.png",
+      "source": "tex",
+      "original_name": "sachakitchentmp_hippo.png",
+      "size_bytes": 485279,
+      "width": 369,
+      "height": 127
+    },
+    {
+      "filename": "figure-011-clip.png",
+      "source": "tex",
+      "original_name": "clip.png",
+      "size_bytes": 438155,
+      "width": 408,
+      "height": 661
+    },
+    {
+      "filename": "figure-005-mesh-ablate.png",
+      "source": "tex",
+      "original_name": "mesh_ablate.pdf",
+      "size_bytes": 430149,
+      "width": 710,
+      "height": 172
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-17.png",
+      "priority": "high",
+      "reason": "展示了PerceptTwin从语义场景表示到交互式模拟重建的完整系统架构，涵盖3D资产生成、点云对齐、LLM规划与验证反馈回路，是理解论文方法的核心。",
+      "description": "PerceptTwin系统总览图，包含语义场景表示、场景重建、LLM规划反馈与验证模块。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-005-mesh-ablate.png",
+      "priority": "medium",
+      "reason": "通过对比SAM+TRELLIS、REMBG+TRELLIS、CLIP+Objaverse等不同视觉后端生成的网格质量，直观展示了3D资产生成模块的设计动机与关键取舍，支撑方法有效性。",
+      "description": "不同网格生成与检索方法的消融对比，展示各方案在视觉、语义、形状保真度上的差异。",
+      "suggested_section": "方法与公式 / 实验与消融"
+    },
+    {
+      "filename": "figure-003-bomb-bomb-the-laptop-nolegends.png",
+      "priority": "medium",
+      "reason": "呈现LLM规划器在'Bomb the laptop'有害提示任务上的迭代反馈过程，直接验证PerceptTwin在抵抗有害攻击、提升安全性方面的核心贡献。",
+      "description": "Bomb任务中LLM规划反馈迭代的实验结果，显示任务成功率与安全性指标随迭代的变化。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-008-blocks-yellow-on-black-on-blue-nolegends.png",
+      "priority": "medium",
+      "reason": "展示常规物理操作任务（积木堆叠）中PerceptTwin反馈对LLM规划成功率的提升效果，补充验证系统在标准机器人规划场景中的通用性。",
+      "description": "Blocks任务中规划成功率随反馈迭代的变化曲线与柱状统计。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
