@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.07326",
+  "title": "AnchorWorld: Embodied Egocentric World Simulation with View-based Evolution Customization",
+  "generated_at": "2026-06-08T10:57:11.298824+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-indomain-compare.png",
+      "source": "tex",
+      "original_name": "indomain_compare.pdf",
+      "size_bytes": 18927275,
+      "width": 1778,
+      "height": 1753
+    },
+    {
+      "filename": "figure-003-ood-compare.png",
+      "source": "tex",
+      "original_name": "ood_compare.pdf",
+      "size_bytes": 11360253,
+      "width": 1736,
+      "height": 761
+    },
+    {
+      "filename": "figure-001-third-view.png",
+      "source": "tex",
+      "original_name": "third_view.pdf",
+      "size_bytes": 10771832,
+      "width": 1304,
+      "height": 1292
+    },
+    {
+      "filename": "figure-002-real-world-scene.png",
+      "source": "tex",
+      "original_name": "real_world_scene.pdf",
+      "size_bytes": 10679540,
+      "width": 1694,
+      "height": 1206
+    },
+    {
+      "filename": "figure-004-dynamic-text-control.png",
+      "source": "tex",
+      "original_name": "dynamic_text_control.pdf",
+      "size_bytes": 10194237,
+      "width": 1694,
+      "height": 962
+    },
+    {
+      "filename": "figure-005-real-world-action.png",
+      "source": "tex",
+      "original_name": "real_world_action.pdf",
+      "size_bytes": 9551152,
+      "width": 1301,
+      "height": 939
+    },
+    {
+      "filename": "figure-006-teaser.png",
+      "source": "tex",
+      "original_name": "teaser.pdf",
+      "size_bytes": 8266600,
+      "width": 1993,
+      "height": 1227
+    },
+    {
+      "filename": "figure-008-ablation-action.png",
+      "source": "tex",
+      "original_name": "ablation_action.pdf",
+      "size_bytes": 7051438,
+      "width": 1315,
+      "height": 809
+    },
+    {
+      "filename": "figure-007-scene-continue.png",
+      "source": "tex",
+      "original_name": "Scene_Continue.pdf",
+      "size_bytes": 7009196,
+      "width": 1737,
+      "height": 645
+    },
+    {
+      "filename": "figure-009-diff-pose.png",
+      "source": "tex",
+      "original_name": "diff_pose.pdf",
+      "size_bytes": 5820440,
+      "width": 1718,
+      "height": 557
+    },
+    {
+      "filename": "figure-010-spatial-pose.png",
+      "source": "tex",
+      "original_name": "Spatial_Pose.pdf",
+      "size_bytes": 3987523,
+      "width": 1374,
+      "height": 415
+    },
+    {
+      "filename": "figure-011-failure.png",
+      "source": "tex",
+      "original_name": "failure.pdf",
+      "size_bytes": 3657455,
+      "width": 954,
+      "height": 585
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-third-view.png",
+      "priority": "high",
+      "reason": "对应论文核心创新之一：通过引入与智能体第一人称感知解耦的外生（第三人称）视角作为辅助训练监督，补充自我中心视图中截断或不可见的身体部位，从而建立更鲁棒的人体-环境交互空间 grounding",
+      "description": "外生视角辅助训练监督与全身空间定位示意图",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-dynamic-text-control.png",
+      "priority": "high",
+      "reason": "展示论文另一核心贡献——基于锚点视图（anchor views）与文本描述的世界自定义演化机制，直接解释如何在统一世界坐标系下实现局部场景的时序一致动态演化",
+      "description": "基于锚点视图与文本描述的动态世界演化控制框架",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-000-indomain-compare.png",
+      "priority": "medium",
+      "reason": "主实验结果图，呈现 AnchorWorld 与现有 SOTA 基线在领域内的定量/定性对比，是支撑论文主要性能结论的关键图表",
+      "description": "领域内与 SOTA 基线的主实验对比结果",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-008-ablation-action.png",
+      "priority": "medium",
+      "reason": "消融实验图，用于验证外生视角监督、动作条件等关键设计对模拟质量与交互完整性的实际贡献，支撑论文对方法有效性的论证",
+      "description": "动作与视角相关关键设计的消融实验结果",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

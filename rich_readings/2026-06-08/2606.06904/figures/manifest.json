@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.06904",
+  "title": "ActionMap: Robot Policy Learning via Voxel Action Heatmap",
+  "generated_at": "2026-06-08T10:37:11.724368+00:00",
+  "candidates": [
+    {
+      "filename": "figure-003-results-real-world.png",
+      "source": "tex",
+      "original_name": "results_real_world.pdf",
+      "size_bytes": 3164354,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-000-pick-nofixrot-trial-05-loc5-20260420-115627.png",
+      "source": "tex",
+      "original_name": "pick_nofixrot_trial_05_loc5_20260420_115627.pdf",
+      "size_bytes": 2656486,
+      "width": 821,
+      "height": 1272
+    },
+    {
+      "filename": "figure-002-sweep-trial-01-locorig-20260421-213450.png",
+      "source": "tex",
+      "original_name": "sweep_trial_01_locorig_20260421_213450.pdf",
+      "size_bytes": 2366374,
+      "width": 821,
+      "height": 1272
+    },
+    {
+      "filename": "figure-001-insert-trial-03-locorig-20260423-104239.png",
+      "source": "tex",
+      "original_name": "insert_trial_03_locorig_20260423_104239.pdf",
+      "size_bytes": 2362038,
+      "width": 821,
+      "height": 1272
+    },
+    {
+      "filename": "figure-004-teaser.png",
+      "source": "tex",
+      "original_name": "teaser.pdf",
+      "size_bytes": 1523790,
+      "width": 1630,
+      "height": 680
+    },
+    {
+      "filename": "figure-005-methodology-training.png",
+      "source": "tex",
+      "original_name": "methodology_training.pdf",
+      "size_bytes": 574419,
+      "width": 1233,
+      "height": 340
+    },
+    {
+      "filename": "figure-009-results-libero-decoding.png",
+      "source": "tex",
+      "original_name": "results_libero_decoding.pdf",
+      "size_bytes": 400688,
+      "width": 960,
+      "height": 297
+    },
+    {
+      "filename": "figure-007-methodology-inference.png",
+      "source": "tex",
+      "original_name": "methodology_inference.pdf",
+      "size_bytes": 338630,
+      "width": 1374,
+      "height": 340
+    },
+    {
+      "filename": "figure-006-libero-loss.png",
+      "source": "tex",
+      "original_name": "libero_loss.pdf",
+      "size_bytes": 197413,
+      "width": 1736,
+      "height": 291
+    },
+    {
+      "filename": "figure-011-ablation-grid-sigma.png",
+      "source": "tex",
+      "original_name": "ablation_grid_sigma.pdf",
+      "size_bytes": 129284,
+      "width": 637,
+      "height": 170
+    },
+    {
+      "filename": "figure-010-results-libero-main-pi.png",
+      "source": "tex",
+      "original_name": "results_libero_main_pi.pdf",
+      "size_bytes": 108220,
+      "width": 960,
+      "height": 184
+    },
+    {
+      "filename": "figure-008-pick-pose-error.png",
+      "source": "tex",
+      "original_name": "pick_pose_error.pdf",
+      "size_bytes": 63394,
+      "width": 396,
+      "height": 184
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-004-teaser.png",
+      "priority": "high",
+      "reason": "该图以左右对比方式直观呈现了传统单点动作预测范式与本文提出的Voxel Heatmap范式的核心差异，并给出真实世界性能对比（23.3% vs 66.7%），直接点明论文核心Insight与动机。",
+      "description": "对比传统范式与本文范式的机器人动作预测方式及真实世界成功率差异。",
+      "suggested_section": "核心 Insight / 贡献拆解"
+    },
+    {
+      "filename": "figure-005-methodology-training.png",
+      "priority": "high",
+      "reason": "清晰展示了从传统标量动作头（L1 Loss）到本文Voxel Heatmap动作头（Cross Entropy Loss）的架构转变，以及完整的网络结构（Translation/Rotation Voxel + Gripper），是理解方法设计的核心图。",
+      "description": "展示Common Action Head、本文Action Head及完整网络架构的对比。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-010-results-libero-main-pi.png",
+      "priority": "medium",
+      "reason": "主实验结果图，展示在LIBERO基准的Spatial、Object、Goal、Long等任务集上，本文方法相比基线在不同训练步数下的成功率提升，支撑论文主要性能结论。",
+      "description": "LIBERO基准上基线与本文方法在10K/30K步数下的各任务成功率柱状图。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-006-libero-loss.png",
+      "priority": "medium",
+      "reason": "训练损失曲线对比，直接支撑论文关于“收敛速度更快”和“数据效率更高”的关键结论，尤其在10%数据量下差异显著。",
+      "description": "OFT与Pi0.5在100%和10%数据量下的训练损失收敛曲线对比。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.07107",
+  "title": "Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models",
+  "generated_at": "2026-06-08T10:47:33.486792+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-joint-plan-execute-tokenizer.png",
+      "source": "tex",
+      "original_name": "joint_plan_execute_tokenizer.pdf",
+      "size_bytes": 1984347,
+      "width": 1532,
+      "height": 677
+    },
+    {
+      "filename": "figure-000-real-world-keyframes.png",
+      "source": "tex",
+      "original_name": "real_world_keyframes.pdf",
+      "size_bytes": 1286763,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-005-reasoning-representation.png",
+      "source": "tex",
+      "original_name": "reasoning_representation.pdf",
+      "size_bytes": 173524,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-009-page-4-xref-590.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-590.png",
+      "size_bytes": 172347,
+      "width": 1383,
+      "height": 463
+    },
+    {
+      "filename": "figure-003-plan-execute-vla.png",
+      "source": "tex",
+      "original_name": "plan_execute_vla.pdf",
+      "size_bytes": 155973,
+      "width": 595,
+      "height": 842
+    },
+    {
+      "filename": "figure-010-page-7-xref-533.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-533.png",
+      "size_bytes": 153424,
+      "width": 517,
+      "height": 219
+    },
+    {
+      "filename": "figure-002-main-experiment.png",
+      "source": "tex",
+      "original_name": "main_experiment.pdf",
+      "size_bytes": 113101,
+      "width": 627,
+      "height": 304
+    },
+    {
+      "filename": "figure-004-figure4-attention-comparison.png",
+      "source": "tex",
+      "original_name": "figure4_attention_comparison.png",
+      "size_bytes": 112087,
+      "width": 345,
+      "height": 146
+    },
+    {
+      "filename": "figure-007-real-world-results.png",
+      "source": "tex",
+      "original_name": "real_world_results.pdf",
+      "size_bytes": 78643,
+      "width": 821,
+      "height": 318
+    },
+    {
+      "filename": "figure-011-page-7-xref-534.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-534.png",
+      "size_bytes": 72871,
+      "width": 262,
+      "height": 219
+    },
+    {
+      "filename": "figure-008-page-3-xref-588.png",
+      "source": "pdf-image",
+      "original_name": "page-3-xref-588.png",
+      "size_bytes": 62992,
+      "width": 1062,
+      "height": 411
+    },
+    {
+      "filename": "figure-006-figure5-decoded-plan.png",
+      "source": "tex",
+      "original_name": "figure5_decoded_plan.png",
+      "size_bytes": 61218,
+      "width": 175,
+      "height": 146
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-joint-plan-execute-tokenizer.png",
+      "priority": "high",
+      "reason": "展示了Coarse-to-Control的整体框架，包括Plan Mode与Execution Mode的预处理/后处理、共享Transformer编解码器以及统一的离散动作token表示空间，是理解本文“动作token空间规划”核心思想的关键图。",
+      "description": "机器人轨迹经预处理后通过共享Transformer编解码器在统一表示空间中生成Plan token与Execution token，最终输出可执行轨迹。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-005-reasoning-representation.png",
+      "priority": "high",
+      "reason": "通过四列对比清晰展示了No COT、Textual COT、Visual COT与本文Action COT的本质差异，直接解释了为什么动作token规划比文本或视觉思维链更适合VLA模型。",
+      "description": "对比四种思维链范式，突出本文Action COT在动作空间直接输出粗轨迹并引导控制轨迹的独特设计。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-009-page-4-xref-590.png",
+      "priority": "high",
+      "reason": "细化了基于Transformer的VLA架构实现，展示了图像/文本/状态token的输入、VQ Decoder、Plan与Execution token的训练对齐方式，以及推理时的plan-to-execution guidance机制。",
+      "description": "基于Transformer的VLM通过VQ Decoder生成动作token，训练阶段分别对粗轨迹和控制轨迹进行token化，推理阶段利用plan token指导execution token生成。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-002-main-experiment.png",
+      "priority": "medium",
+      "reason": "主实验结果图，覆盖4个任务及平均性能，直观展示了Coarse-to-Control在长程多阶段任务上相比直接动作生成基线的显著优势。",
+      "description": "在四个长程操作任务及平均成功率上，Coarse-to-Control均优于PI0、Faster和Fast基线方法。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

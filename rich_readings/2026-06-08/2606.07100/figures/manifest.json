@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.07100",
+  "title": "LARA: Latent Action Representation Alignment for Vision-Language-Action Models",
+  "generated_at": "2026-06-08T10:31:53.815957+00:00",
+  "candidates": [
+    {
+      "filename": "figure-003-g1-data.png",
+      "source": "tex",
+      "original_name": "g1_data.pdf",
+      "size_bytes": 2771104,
+      "width": 1224,
+      "height": 360
+    },
+    {
+      "filename": "figure-001-heatmap-visualization.png",
+      "source": "tex",
+      "original_name": "heatmap_visualization.pdf",
+      "size_bytes": 2274100,
+      "width": 1050,
+      "height": 418
+    },
+    {
+      "filename": "figure-002-task-vis-2.png",
+      "source": "tex",
+      "original_name": "task_vis_2.pdf",
+      "size_bytes": 1061856,
+      "width": 960,
+      "height": 127
+    },
+    {
+      "filename": "figure-005-g1-setup-2.png",
+      "source": "tex",
+      "original_name": "g1_setup_2.pdf",
+      "size_bytes": 704676,
+      "width": 516,
+      "height": 404
+    },
+    {
+      "filename": "figure-000-teaser-2.png",
+      "source": "tex",
+      "original_name": "teaser_2.pdf",
+      "size_bytes": 570756,
+      "width": 673,
+      "height": 283
+    },
+    {
+      "filename": "figure-008-dataset-mixture-full.png",
+      "source": "tex",
+      "original_name": "dataset_mixture_full.pdf",
+      "size_bytes": 333781,
+      "width": 750,
+      "height": 675
+    },
+    {
+      "filename": "figure-004-method-3.png",
+      "source": "tex",
+      "original_name": "method_3.pdf",
+      "size_bytes": 205083,
+      "width": 673,
+      "height": 283
+    },
+    {
+      "filename": "figure-007-ablation-study-layers.png",
+      "source": "tex",
+      "original_name": "ablation_study_layers.pdf",
+      "size_bytes": 93637,
+      "width": 708,
+      "height": 425
+    },
+    {
+      "filename": "figure-006-vla-paradigm-2.png",
+      "source": "tex",
+      "original_name": "vla_paradigm_2.pdf",
+      "size_bytes": 58232,
+      "width": 673,
+      "height": 283
+    },
+    {
+      "filename": "figure-010-page-1-xref-738.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-738.jpeg",
+      "size_bytes": 12056,
+      "width": 192,
+      "height": 129
+    },
+    {
+      "filename": "figure-009-page-1-xref-736.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-736.jpeg",
+      "size_bytes": 10983,
+      "width": 192,
+      "height": 127
+    },
+    {
+      "filename": "figure-011-page-1-xref-740.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-740.jpeg",
+      "size_bytes": 10451,
+      "width": 192,
+      "height": 129
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-004-method-3.png",
+      "priority": "high",
+      "reason": "完整展示了LAM预训练（IDM/FDM）与LARA训练（DiT blocks、VLM Adapter、Latent Action Representation Alignment）的方法流程，是理解论文核心架构与训练机制的关键图。",
+      "description": "LAM预训练与LARA训练的完整方法架构，涵盖潜在动作模型、扩散策略网络及视觉-语言编码器的交互流程。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-006-vla-paradigm-2.png",
+      "priority": "high",
+      "reason": "通过对比传统VLA+LAM范式（LAM冻结作为伪标签生成器）与LARA范式（LAM与VLA联合优化、双向对齐），直接阐释了论文的核心创新点与Insight。",
+      "description": "传统VLA-LAM分离训练范式与LARA联合对齐范式的对比示意图。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-007-ablation-study-layers.png",
+      "priority": "medium",
+      "reason": "消融实验定量展示了不同对齐深度（4/8/L-2/L层）对任务成功率的影响，证明L-2层对齐效果最佳，为关键设计选择提供了实验支撑。",
+      "description": "关于对齐深度（Alignment Depth）的消融实验柱状图，对比Frozen-LAM基线。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-000-teaser-2.png",
+      "priority": "medium",
+      "reason": "展示了真实机器人执行语言指令的时序视觉序列，直观呈现VLA任务设定（语言-视觉-动作对应），帮助读者快速理解实验场景与问题定义。",
+      "description": "两条语言指令对应的真实机器人操作帧序列，展示从语言标注到动作执行的完整过程。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.07464",
+  "title": "Planning-aligned Token Compression for Long-Context Autonomous Driving",
+  "generated_at": "2026-06-08T10:42:54.768937+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-teaser3.png",
+      "source": "tex",
+      "original_name": "teaser3.pdf",
+      "size_bytes": 1238332,
+      "width": 586,
+      "height": 533
+    },
+    {
+      "filename": "figure-001-alpasim3.png",
+      "source": "tex",
+      "original_name": "alpasim3.pdf",
+      "size_bytes": 1022500,
+      "width": 582,
+      "height": 337
+    },
+    {
+      "filename": "figure-002-main-fig2.png",
+      "source": "tex",
+      "original_name": "main_fig2.pdf",
+      "size_bytes": 815032,
+      "width": 1207,
+      "height": 413
+    },
+    {
+      "filename": "figure-005-page-1-xref-262.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-262.jpeg",
+      "size_bytes": 196665,
+      "width": 450,
+      "height": 500
+    },
+    {
+      "filename": "figure-004-page-1-xref-261.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-261.jpeg",
+      "size_bytes": 191668,
+      "width": 450,
+      "height": 500
+    },
+    {
+      "filename": "figure-003-scenario.png",
+      "source": "tex",
+      "original_name": "scenario.pdf",
+      "size_bytes": 68598,
+      "width": 575,
+      "height": 249
+    },
+    {
+      "filename": "figure-011-page-7-xref-409.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-409.jpeg",
+      "size_bytes": 57773,
+      "width": 450,
+      "height": 500
+    },
+    {
+      "filename": "figure-006-page-4-xref-388.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-388.jpeg",
+      "size_bytes": 36000,
+      "width": 256,
+      "height": 160
+    },
+    {
+      "filename": "figure-007-page-4-xref-389.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-389.jpeg",
+      "size_bytes": 14244,
+      "width": 256,
+      "height": 160
+    },
+    {
+      "filename": "figure-008-page-4-xref-390.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-390.jpeg",
+      "size_bytes": 13320,
+      "width": 256,
+      "height": 160
+    },
+    {
+      "filename": "figure-009-page-4-xref-391.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-391.jpeg",
+      "size_bytes": 12461,
+      "width": 256,
+      "height": 160
+    },
+    {
+      "filename": "figure-010-page-4-xref-392.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-392.jpeg",
+      "size_bytes": 11916,
+      "width": 256,
+      "height": 160
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-000-teaser3.png",
+      "priority": "high",
+      "reason": "核心teaser图，直观展示了在token预算限制下保存决策关键历史的问题，以及本文Planning-aligned Memory与基于时间衰减启发式方法的对比，直接解释论文核心insight。",
+      "description": "对比传统时间衰减启发式方法与本文方法在十字路口让行场景下的差异，展示本文方法能保留决策关键历史。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-002-main-fig2.png",
+      "priority": "high",
+      "reason": "完整模型架构图，展示了从多视角长期历史观测到Vision Encoder、Q-former Compression、Conditional VAE with VQ、Skill Codebook、Policy Transformer的完整流程，是理解方法的核心。",
+      "description": "COMPACT-VA整体框架图，包含视觉编码、Q-former压缩、条件VQ-VAE、技能码本与策略Transformer的端到端架构。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-003-scenario.png",
+      "priority": "medium",
+      "reason": "定义了三种高信号动态场景（四向停车交叉口、动态遮挡、无保护转弯），说明历史上下文对行为正确性最关键的场景，支撑实验设计的关键结论。",
+      "description": "三种需要长期历史上下文的关键驾驶场景示意图：四向停车交叉口、动态遮挡和无保护转弯。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-001-alpasim3.png",
+      "priority": "medium",
+      "reason": "展示了具体场景下的鸟瞰图规划结果与对应相机视角，包含All-way Sign和Yield to this car等决策相关标注，作为定性实验结果支撑方法有效性。",
+      "description": "具体驾驶场景的定性可视化，包含ego plan的鸟瞰图和第一视角相机图像，标注了停车标志与让行车辆。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
