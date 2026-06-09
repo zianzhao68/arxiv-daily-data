@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.09828",
+  "title": "Latent Spatial Memory for Video World Models",
+  "generated_at": "2026-06-09T10:00:41.072613+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-re10k.png",
+      "source": "tex",
+      "original_name": "re10k.pdf",
+      "size_bytes": 5740288,
+      "width": 744,
+      "height": 803
+    },
+    {
+      "filename": "figure-005-teaser.png",
+      "source": "tex",
+      "original_name": "teaser.pdf",
+      "size_bytes": 3384104,
+      "width": 850,
+      "height": 510
+    },
+    {
+      "filename": "figure-002-open.png",
+      "source": "tex",
+      "original_name": "open.pdf",
+      "size_bytes": 2760848,
+      "width": 750,
+      "height": 519
+    },
+    {
+      "filename": "figure-004-pipeline.png",
+      "source": "tex",
+      "original_name": "pipeline.pdf",
+      "size_bytes": 2693312,
+      "width": 949,
+      "height": 524
+    },
+    {
+      "filename": "figure-006-concept.png",
+      "source": "tex",
+      "original_name": "concept.pdf",
+      "size_bytes": 1892578,
+      "width": 992,
+      "height": 510
+    },
+    {
+      "filename": "figure-003-re10k2.png",
+      "source": "tex",
+      "original_name": "re10k2.pdf",
+      "size_bytes": 1423763,
+      "width": 744,
+      "height": 258
+    },
+    {
+      "filename": "figure-001-revisit.png",
+      "source": "tex",
+      "original_name": "revisit.pdf",
+      "size_bytes": 915364,
+      "width": 486,
+      "height": 254
+    },
+    {
+      "filename": "figure-007-efficiency.png",
+      "source": "tex",
+      "original_name": "efficiency.pdf",
+      "size_bytes": 143768,
+      "width": 1336,
+      "height": 371
+    },
+    {
+      "filename": "figure-008-microsoft.png",
+      "source": "tex",
+      "original_name": "microsoft.pdf",
+      "size_bytes": 65475,
+      "width": 1284,
+      "height": 848
+    },
+    {
+      "filename": "figure-011-page-3-xref-659.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-3-xref-659.jpeg",
+      "size_bytes": 23047,
+      "width": 152,
+      "height": 107
+    },
+    {
+      "filename": "figure-009-page-1-xref-525.png",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-525.png",
+      "size_bytes": 15821,
+      "width": 135,
+      "height": 138
+    },
+    {
+      "filename": "figure-010-page-1-xref-537.png",
+      "source": "pdf-image",
+      "original_name": "page-1-xref-537.png",
+      "size_bytes": 13387,
+      "width": 140,
+      "height": 138
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-006-concept.png",
+      "priority": "high",
+      "reason": "直接对比传统显式3D空间记忆与本文提出的Latent Spatial Memory的核心差异，清晰阐释了避免像素空间往返的insight，是理解论文动机与贡献的关键图。",
+      "description": "传统方法与本文Latent Spatial Memory在编码-解码流程上的概念对比图",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-004-pipeline.png",
+      "priority": "high",
+      "reason": "展示了Mirage方法的完整流程，包括初始化、Chunk级Denoise、Readout/Write机制以及Latent Spatial Memory随时间的演化，是理解方法架构的核心图。",
+      "description": "Mirage方法流程图与Latent Spatial Memory时序演化示意图",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-007-efficiency.png",
+      "priority": "medium",
+      "reason": "以量化柱状图形式呈现了生成速度和显存占用随Chunk增加的变化，直接支撑论文中10.57×加速和55×显存降低的关键结论。",
+      "description": "不同方法的平均生成时间与峰值显存缓存对比",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-002-open.png",
+      "priority": "medium",
+      "reason": "在室外大场景和城市场景上与Voyager、Spatia、Gen3C进行长序列定性对比，直观展示了Ours在时序一致性和视觉质量上的优势。",
+      "description": "开放场景长视频生成多方法定性对比",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.08242",
+  "title": "Light-WAM: Efficient World Action Models with State-Fusion Action Decoding",
+  "generated_at": "2026-06-09T09:54:39.913745+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-d.png",
+      "source": "tex",
+      "original_name": "D.pdf",
+      "size_bytes": 6103583,
+      "width": 1544,
+      "height": 1390
+    },
+    {
+      "filename": "figure-001-real.png",
+      "source": "tex",
+      "original_name": "real.pdf",
+      "size_bytes": 1106646,
+      "width": 1544,
+      "height": 540
+    },
+    {
+      "filename": "figure-004-q1.png",
+      "source": "tex",
+      "original_name": "Q1.pdf",
+      "size_bytes": 930760,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-002-q2.png",
+      "source": "tex",
+      "original_name": "Q2.pdf",
+      "size_bytes": 751320,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-003-arch.png",
+      "source": "tex",
+      "original_name": "arch.pdf",
+      "size_bytes": 153182,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-005-robotwin-results.png",
+      "source": "tex",
+      "original_name": "robotwin_results.png",
+      "size_bytes": 144037,
+      "width": 352,
+      "height": 201
+    },
+    {
+      "filename": "figure-009-page-6-xref-372.png",
+      "source": "pdf-image",
+      "original_name": "page-6-xref-372.png",
+      "size_bytes": 103750,
+      "width": 1101,
+      "height": 629
+    },
+    {
+      "filename": "figure-010-page-8-xref-482.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-482.jpeg",
+      "size_bytes": 82243,
+      "width": 585,
+      "height": 254
+    },
+    {
+      "filename": "figure-011-page-8-xref-483.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-483.jpeg",
+      "size_bytes": 81070,
+      "width": 585,
+      "height": 267
+    },
+    {
+      "filename": "figure-007-page-3-xref-447.png",
+      "source": "pdf-image",
+      "original_name": "page-3-xref-447.png",
+      "size_bytes": 16097,
+      "width": 160,
+      "height": 311
+    },
+    {
+      "filename": "figure-006-page-3-xref-446.png",
+      "source": "pdf-image",
+      "original_name": "page-3-xref-446.png",
+      "size_bytes": 16064,
+      "width": 161,
+      "height": 310
+    },
+    {
+      "filename": "figure-008-page-3-xref-448.png",
+      "source": "pdf-image",
+      "original_name": "page-3-xref-448.png",
+      "size_bytes": 16056,
+      "width": 161,
+      "height": 310
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-003-arch.png",
+      "priority": "high",
+      "reason": "清晰展示Light-WAM整体架构，包括紧凑视频主干、共享/视频/动作路径，以及核心的StateFusionActionExpert模块，是理解论文方法设计的关键。",
+      "description": "Light-WAM模型架构图，展示Backbone、多路径信息流与StateFusionActionExpert动作解码模块。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-009-page-6-xref-372.png",
+      "priority": "high",
+      "reason": "主实验结果图，在RoboTwin 2.0上对比了Light-WAM与Fast-WAM、Motus、LingBot-VA等方法的平均成功率、推理延迟与峰值显存，直接支撑论文高效且性能强劲的核心结论。",
+      "description": "RoboTwin 2.0基准上的成功率-延迟-显存综合对比散点图。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-004-q1.png",
+      "priority": "medium",
+      "reason": "定性可视化未来视频预测效果，对比GT Future与Pred. Future在多时间步的一致性，直观验证WAM对未来时空动态的建模能力。",
+      "description": "两个机器人操作任务的当前观测、真实未来与预测未来视频帧对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-002-q2.png",
+      "priority": "medium",
+      "reason": "展示StateFusionActionExpert在不同主干层（Layer 8/16/24）的注意力热力图，揭示模型如何融合多层次状态表示进行动作解码，支撑State-Fusion机制的关键洞察。",
+      "description": "两个任务下模型第8、16、24层的注意力热力图可视化。",
+      "suggested_section": "核心 Insight"
+    }
+  ]
+}

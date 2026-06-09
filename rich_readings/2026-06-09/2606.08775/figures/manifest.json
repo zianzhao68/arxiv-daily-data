@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.08775",
+  "title": "Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks",
+  "generated_at": "2026-06-09T09:27:22.163324+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-planning-example-cube-triple.png",
+      "source": "tex",
+      "original_name": "planning_example_cube_triple.png",
+      "size_bytes": 4753541,
+      "width": 2143,
+      "height": 415
+    },
+    {
+      "filename": "figure-001-tasks.png",
+      "source": "tex",
+      "original_name": "tasks.png",
+      "size_bytes": 3407326,
+      "width": 3495,
+      "height": 1908
+    },
+    {
+      "filename": "figure-002-oce-scene-single.png",
+      "source": "tex",
+      "original_name": "oce_scene_single.png",
+      "size_bytes": 3176757,
+      "width": 3375,
+      "height": 1590
+    },
+    {
+      "filename": "figure-003-planning-example.png",
+      "source": "tex",
+      "original_name": "planning_example.png",
+      "size_bytes": 2940690,
+      "width": 1070,
+      "height": 414
+    },
+    {
+      "filename": "figure-004-oce-cube-triple.png",
+      "source": "tex",
+      "original_name": "oce_cube_triple.png",
+      "size_bytes": 2663755,
+      "width": 3375,
+      "height": 1590
+    },
+    {
+      "filename": "figure-005-oce-cube-single.png",
+      "source": "tex",
+      "original_name": "oce_cube_single.png",
+      "size_bytes": 2008739,
+      "width": 3375,
+      "height": 1590
+    },
+    {
+      "filename": "figure-006-planning-example-cube-single.png",
+      "source": "tex",
+      "original_name": "planning_example_cube_single.png",
+      "size_bytes": 1770697,
+      "width": 705,
+      "height": 414
+    },
+    {
+      "filename": "figure-007-oce.png",
+      "source": "tex",
+      "original_name": "oce.png",
+      "size_bytes": 1609371,
+      "width": 2137,
+      "height": 926
+    },
+    {
+      "filename": "figure-008-teaser.png",
+      "source": "tex",
+      "original_name": "teaser.png",
+      "size_bytes": 1562593,
+      "width": 3225,
+      "height": 1916
+    },
+    {
+      "filename": "figure-009-planning-example-scene-single-direct.png",
+      "source": "tex",
+      "original_name": "planning_example_scene_single_direct.png",
+      "size_bytes": 1554625,
+      "width": 525,
+      "height": 414
+    },
+    {
+      "filename": "figure-010-rollout-scene-single.png",
+      "source": "tex",
+      "original_name": "rollout_scene_single.png",
+      "size_bytes": 648239,
+      "width": 1128,
+      "height": 316
+    },
+    {
+      "filename": "figure-011-rollout-cube-triple.png",
+      "source": "tex",
+      "original_name": "rollout_cube_triple.png",
+      "size_bytes": 491801,
+      "width": 1128,
+      "height": 316
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-008-teaser.png",
+      "priority": "high",
+      "reason": "该图是论文核心框架图，清晰展示了测试时利用粒子滤波优化潜在动作以生成子目标（a），以及通过扩散策略（DP）分层执行这些子目标（b）的完整流程，直接对应论文的 hierarchical framework 核心思想。",
+      "description": "WorldDP 整体框架：基于粒子滤波的子目标优化与扩散策略分层执行示意图。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-007-oce.png",
+      "priority": "high",
+      "reason": "该图详细描绘了 Object-Centric Encoder 的网络架构，包括 DINOv2 特征提取、Slot Corrector、Slot Decoder 以及基于 slot 的重建与掩码预测损失，是理解对象中心表示如何解耦环境实体的关键。",
+      "description": "Object-Centric Encoder 架构图，包含 slot 初始化、校正、解码及 per-slot 重建流程。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-003-planning-example.png",
+      "priority": "high",
+      "reason": "该图以具体场景展示了多阶段规划过程：从起始帧出发，依次想象并到达子目标 A/B/C，最终抵达目标帧。直观解释了高层世界模型如何生成可行子目标序列，支撑多阶段任务的核心 claim。",
+      "description": "多阶段子目标规划示例：起始帧、三个想象子目标与目标帧的序列及执行路径。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-010-rollout-scene-single.png",
+      "priority": "medium",
+      "reason": "该图展示了模型在场景单任务上的 rollout 预测结果与真值的逐帧对比，直接验证世界模型的动态预测准确性，是支撑实验结论的关键可视化证据。",
+      "description": "Prediction 与 Ground Truth 的逐帧 rollout 对比，验证世界模型预测能力。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

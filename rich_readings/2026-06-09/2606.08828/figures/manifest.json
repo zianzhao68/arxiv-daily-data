@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.08828",
+  "title": "Video2Sim2Real: Full-Stack Autonomous Dexterous Skill Acquisition from a Single Human Video",
+  "generated_at": "2026-06-09T09:48:56.733378+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-teaser-fig-redo.png",
+      "source": "tex",
+      "original_name": "teaser_fig_redo.png",
+      "size_bytes": 16513051,
+      "width": 2436,
+      "height": 629
+    },
+    {
+      "filename": "figure-006-teaser-figure.png",
+      "source": "tex",
+      "original_name": "teaser_figure.pdf",
+      "size_bytes": 9660161,
+      "width": 5052,
+      "height": 1838
+    },
+    {
+      "filename": "figure-001-system-overview.png",
+      "source": "tex",
+      "original_name": "system_overview.png",
+      "size_bytes": 5674113,
+      "width": 1597,
+      "height": 588
+    },
+    {
+      "filename": "figure-003-pipeline-wide.png",
+      "source": "tex",
+      "original_name": "pipeline_wide.png",
+      "size_bytes": 4474222,
+      "width": 1592,
+      "height": 602
+    },
+    {
+      "filename": "figure-004-pipeline.png",
+      "source": "tex",
+      "original_name": "pipeline.pdf",
+      "size_bytes": 2165667,
+      "width": 3120,
+      "height": 2199
+    },
+    {
+      "filename": "figure-005-tasks-results-1.png",
+      "source": "tex",
+      "original_name": "tasks_results_1.pdf",
+      "size_bytes": 2039371,
+      "width": 707,
+      "height": 346
+    },
+    {
+      "filename": "figure-007-tasks-results.png",
+      "source": "tex",
+      "original_name": "tasks_results.pdf",
+      "size_bytes": 1692261,
+      "width": 705,
+      "height": 339
+    },
+    {
+      "filename": "figure-011-task-range.png",
+      "source": "tex",
+      "original_name": "task_range.pdf",
+      "size_bytes": 1452905,
+      "width": 533,
+      "height": 279
+    },
+    {
+      "filename": "figure-008-baseline-failure.png",
+      "source": "tex",
+      "original_name": "baseline_failure.pdf",
+      "size_bytes": 1155891,
+      "width": 501,
+      "height": 312
+    },
+    {
+      "filename": "figure-002-pipeline-wide.png",
+      "source": "tex",
+      "original_name": "pipeline_wide.pdf",
+      "size_bytes": 398831,
+      "width": 539,
+      "height": 204
+    },
+    {
+      "filename": "figure-009-mp-result.png",
+      "source": "tex",
+      "original_name": "MP_result.pdf",
+      "size_bytes": 358182,
+      "width": 475,
+      "height": 245
+    },
+    {
+      "filename": "figure-010-obstacle-recons.png",
+      "source": "tex",
+      "original_name": "obstacle_recons.pdf",
+      "size_bytes": 300368,
+      "width": 431,
+      "height": 113
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-004-pipeline.png",
+      "priority": "high",
+      "reason": "完整呈现了 Video2Sim2Real 的全栈架构：从 Real-to-Sim 的 off-the-shelf 感知与数字孪生重建，到基于物体关键帧的轨迹细化，再到解耦的 Sim-to-Real 迁移（Distillation IL + Residual RL）以及可选的碰撞感知运动规划。该图是理解论文核心方法与贡献的总览性蓝图。",
+      "description": "系统整体架构与流程图，涵盖从单个人类视频到真实机器人灵巧操作的完整 pipeline。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-005-tasks-results-1.png",
+      "priority": "medium",
+      "reason": "定性展示了 7 个日常操作任务在人类演示、模拟器中的机器人重定向轨迹、以及真实世界机器人执行三方面的并列对比，直观验证了本文 sim-to-real transfer 的有效性和任务覆盖广度。",
+      "description": "7 个任务的人类操作、模拟机器人操作与真实机器人操作并列对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-008-baseline-failure.png",
+      "priority": "medium",
+      "reason": "通过 FoundationPose、DP3 及纯 RL 基线在真实机器人上的典型失败案例（接触姿态错位、抓取力不足），直接论证了“将感知鲁棒性与交互动态解耦”这一关键 insight 的必要性，构成方法有效性的强力反证支撑。",
+      "description": "不同基线方法在真实机器人实验中的失败案例分析。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-011-task-range.png",
+      "priority": "medium",
+      "reason": "在真实环境中展示了 7 个操作任务各 10 个时间步的连续执行序列，体现了方法在多样化日常任务中的时间连贯性与端到端成功率，是对主实验定性结果的重要补充。",
+      "description": "真实世界中 7 个操作任务的时间序列执行过程。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
