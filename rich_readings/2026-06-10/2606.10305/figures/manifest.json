@@ -1,0 +1,126 @@
+{
+  "arxiv_id": "2606.10305",
+  "title": "SARM2: Multi-Task Stage Aware Reward Modeling for Self Improving Robotic Manipulation",
+  "generated_at": "2026-06-10T09:54:10.112259+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-sarm2-hw.png",
+      "source": "tex",
+      "original_name": "SARM2_HW.png",
+      "size_bytes": 4735469,
+      "width": 1792,
+      "height": 1344
+    },
+    {
+      "filename": "figure-001-action-pref.png",
+      "source": "tex",
+      "original_name": "action_pref.pdf",
+      "size_bytes": 3230217,
+      "width": 1297,
+      "height": 762
+    },
+    {
+      "filename": "figure-002-put-away-umbrella.png",
+      "source": "tex",
+      "original_name": "put_away_umbrella.pdf",
+      "size_bytes": 2077639,
+      "width": 1011,
+      "height": 407
+    },
+    {
+      "filename": "figure-005-fold-shorts.png",
+      "source": "tex",
+      "original_name": "fold_shorts.pdf",
+      "size_bytes": 1908184,
+      "width": 1011,
+      "height": 407
+    },
+    {
+      "filename": "figure-004-fold-tshirt.png",
+      "source": "tex",
+      "original_name": "fold_tshirt.pdf",
+      "size_bytes": 1880246,
+      "width": 1011,
+      "height": 407
+    },
+    {
+      "filename": "figure-007-fold-shorts-rollout.png",
+      "source": "tex",
+      "original_name": "fold_shorts_rollout.pdf",
+      "size_bytes": 1853478,
+      "width": 1011,
+      "height": 407
+    },
+    {
+      "filename": "figure-006-sweep-paper-with-broom.png",
+      "source": "tex",
+      "original_name": "sweep_paper_with_broom.pdf",
+      "size_bytes": 1831755,
+      "width": 1011,
+      "height": 407
+    },
+    {
+      "filename": "figure-008-clean-whiteboard-rollout.png",
+      "source": "tex",
+      "original_name": "clean_whiteboard_rollout.pdf",
+      "size_bytes": 1809389,
+      "width": 1011,
+      "height": 407
+    },
+    {
+      "filename": "figure-009-pull-plugs.png",
+      "source": "tex",
+      "original_name": "pull_plugs.pdf",
+      "size_bytes": 1806769,
+      "width": 1011,
+      "height": 407
+    },
+    {
+      "filename": "figure-010-pick-and-place-plates-into-dishrack.png",
+      "source": "tex",
+      "original_name": "pick_and_place_plates_into_dishrack.pdf",
+      "size_bytes": 1759892,
+      "width": 1011,
+      "height": 407
+    },
+    {
+      "filename": "figure-011-prepaer-dinner-table.png",
+      "source": "tex",
+      "original_name": "prepaer_dinner_table.pdf",
+      "size_bytes": 1713226,
+      "width": 1011,
+      "height": 407
+    },
+    {
+      "filename": "figure-003-rollout-label.png",
+      "source": "tex",
+      "original_name": "rollout_label.png",
+      "size_bytes": 819825,
+      "width": 1237,
+      "height": 714
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-003-rollout-label.png",
+      "priority": "medium",
+      "reason": "展示了自主rollout的标注界面与阶段划分流程（含Progress、Mistake、Adjust等标签），直接支撑论文中stage-aware reward模型的数据构建与密集监督来源，是理解方法数据飞轮的关键。",
+      "description": "机器人rollout视频标注工具界面，包含进度条、时间段分割与灾难性失败标记功能。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-007-fold-shorts-rollout.png",
+      "priority": "medium",
+      "reason": "对应摘要中SPIRAL框架在Folding Shorts任务上的关键提升（成功率从58%提升至100%），以策略推出序列直观展示长程折叠操作的完整执行过程，支撑主实验结论。",
+      "description": "双机械臂在策略推出阶段执行折叠短裤任务的8帧连续操作序列。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-008-clean-whiteboard-rollout.png",
+      "priority": "medium",
+      "reason": "对应摘要中SPIRAL框架在Cleaning Whiteboard任务上的关键提升（成功率从50%提升至90%），以策略推出序列展示双臂协作清洁白板的过程，是验证密集奖励有效性的核心实验证据。",
+      "description": "双机械臂在策略推出阶段执行清洁白板任务的8帧连续操作序列。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

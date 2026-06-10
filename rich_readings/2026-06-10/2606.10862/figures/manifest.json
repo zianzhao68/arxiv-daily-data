@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.10862",
+  "title": "LIBERO-Occ: Evaluating and Improving Vision-Language-Action Models under Scene-Induced Occlusion via Viewpoint Imagination",
+  "generated_at": "2026-06-10T09:47:22.897492+00:00",
+  "candidates": [
+    {
+      "filename": "figure-007-intro.png",
+      "source": "tex",
+      "original_name": "intro.pdf",
+      "size_bytes": 853850,
+      "width": 561,
+      "height": 452
+    },
+    {
+      "filename": "figure-006-intro-v2.png",
+      "source": "tex",
+      "original_name": "intro-v2.pdf",
+      "size_bytes": 839218,
+      "width": 561,
+      "height": 456
+    },
+    {
+      "filename": "figure-008-libero-occ-qualitative-appendix-example1.png",
+      "source": "tex",
+      "original_name": "libero_occ_qualitative_appendix_example1.pdf",
+      "size_bytes": 380216,
+      "width": 176,
+      "height": 222
+    },
+    {
+      "filename": "figure-009-libero-occ-qualitative-appendix.png",
+      "source": "tex",
+      "original_name": "libero_occ_qualitative_appendix.pdf",
+      "size_bytes": 343802,
+      "width": 176,
+      "height": 222
+    },
+    {
+      "filename": "figure-000-framework.png",
+      "source": "tex",
+      "original_name": "framework.pdf",
+      "size_bytes": 224784,
+      "width": 532,
+      "height": 246
+    },
+    {
+      "filename": "figure-001-background.png",
+      "source": "tex",
+      "original_name": "background.pdf",
+      "size_bytes": 152173,
+      "width": 186,
+      "height": 172
+    },
+    {
+      "filename": "figure-005-occluded-by-robot.png",
+      "source": "tex",
+      "original_name": "occluded_by_robot.pdf",
+      "size_bytes": 148756,
+      "width": 186,
+      "height": 172
+    },
+    {
+      "filename": "figure-002-original.png",
+      "source": "tex",
+      "original_name": "original.pdf",
+      "size_bytes": 130743,
+      "width": 173,
+      "height": 161
+    },
+    {
+      "filename": "figure-003-occluded-by-object.png",
+      "source": "tex",
+      "original_name": "occluded_by_object.pdf",
+      "size_bytes": 124257,
+      "width": 186,
+      "height": 172
+    },
+    {
+      "filename": "figure-010-occluded-by-drawer.png",
+      "source": "tex",
+      "original_name": "occluded_by_drawer.pdf",
+      "size_bytes": 114685,
+      "width": 186,
+      "height": 172
+    },
+    {
+      "filename": "figure-004-noise.png",
+      "source": "tex",
+      "original_name": "noise.pdf",
+      "size_bytes": 102645,
+      "width": 173,
+      "height": 161
+    },
+    {
+      "filename": "figure-011-light.png",
+      "source": "tex",
+      "original_name": "light.png",
+      "size_bytes": 67410,
+      "width": 192,
+      "height": 192
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-007-intro.png",
+      "priority": "high",
+      "reason": "清晰展示了原始视角与五种关键视觉扰动及场景遮挡类型（背景偏移、视觉噪声、附近物体、打开抽屉、运行机械臂）的对比，直观定义了论文研究的核心问题与动机，是理解场景遮挡挑战的首选图。",
+      "description": "原始视角与五种常见视觉扰动/场景遮挡类型的对比示意图",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-000-framework.png",
+      "priority": "high",
+      "reason": "呈现了VIM方法的核心架构，展示自回归Transformer如何联合编码语言指令、观测视觉token与生成互补视角token，并解码为机械臂动作，是理解视角想象机制与模型流程的关键。",
+      "description": "VIM自回归Transformer架构：语言-视觉-动作联合建模与视角生成流程",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-008-libero-occ-qualitative-appendix-example1.png",
+      "priority": "medium",
+      "reason": "通过t1-t5时间序列对比主视角、真实互补视角、VIM想象视角与基线失败案例，直观验证了方法在遮挡场景下生成准确互补视角并恢复动作预测的能力，直接支撑实验结论。",
+      "description": "时间序列定性结果：主视角、真实互补视角、想象视角与基线失败对比",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-009-libero-occ-qualitative-appendix.png",
+      "priority": "medium",
+      "reason": "另一组不同任务的时间序列定性结果，展示VIM在抽屉交互等复杂动态遮挡场景中的视角补全效果，进一步证明方法在不同遮挡类型下的泛化性与鲁棒性。",
+      "description": "抽屉交互场景下的时间序列定性结果：视角补全与动作执行展示",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

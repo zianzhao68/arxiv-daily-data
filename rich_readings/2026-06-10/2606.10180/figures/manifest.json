@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.10180",
+  "title": "Flow Control: Steering Vision-Language-Action Models with Simple Real-Time Inputs",
+  "generated_at": "2026-06-10T10:04:58.207837+00:00",
+  "candidates": [
+    {
+      "filename": "figure-011-page-8-xref-405.png",
+      "source": "pdf-image",
+      "original_name": "page-8-xref-405.png",
+      "size_bytes": 18050849,
+      "width": 8343,
+      "height": 1682
+    },
+    {
+      "filename": "figure-000-fig8.png",
+      "source": "tex",
+      "original_name": "fig8.png",
+      "size_bytes": 8096778,
+      "width": 8343,
+      "height": 1682
+    },
+    {
+      "filename": "figure-010-page-7-xref-404.png",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-404.png",
+      "size_bytes": 3664603,
+      "width": 2178,
+      "height": 1464
+    },
+    {
+      "filename": "figure-001-fig4.png",
+      "source": "tex",
+      "original_name": "fig4.png",
+      "size_bytes": 3630092,
+      "width": 1394,
+      "height": 937
+    },
+    {
+      "filename": "figure-002-fig5.png",
+      "source": "tex",
+      "original_name": "fig5.png",
+      "size_bytes": 3205529,
+      "width": 1429,
+      "height": 613
+    },
+    {
+      "filename": "figure-009-page-6-xref-403.png",
+      "source": "pdf-image",
+      "original_name": "page-6-xref-403.png",
+      "size_bytes": 1116458,
+      "width": 3113,
+      "height": 613
+    },
+    {
+      "filename": "figure-003-fig6.png",
+      "source": "tex",
+      "original_name": "fig6.png",
+      "size_bytes": 1047621,
+      "width": 1429,
+      "height": 613
+    },
+    {
+      "filename": "figure-004-fig3.png",
+      "source": "tex",
+      "original_name": "fig3.png",
+      "size_bytes": 1000642,
+      "width": 1992,
+      "height": 392
+    },
+    {
+      "filename": "figure-005-fig2.png",
+      "source": "tex",
+      "original_name": "fig2.png",
+      "size_bytes": 173336,
+      "width": 645,
+      "height": 232
+    },
+    {
+      "filename": "figure-008-page-4-xref-397.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-397.png",
+      "size_bytes": 104538,
+      "width": 1008,
+      "height": 363
+    },
+    {
+      "filename": "figure-006-fig1.png",
+      "source": "tex",
+      "original_name": "fig1.png",
+      "size_bytes": 60351,
+      "width": 396,
+      "height": 184
+    },
+    {
+      "filename": "figure-007-page-2-xref-390.png",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-390.png",
+      "size_bytes": 47312,
+      "width": 620,
+      "height": 288
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-005-fig2.png",
+      "priority": "high",
+      "reason": "展示了π0.5 VLA模型的整体系统架构，包括High-Level、Low-Level感知模块与Action Expert (Flow Matching)的集成方式，以及视觉、语言命令和实时用户控制输入如何共同生成action chunk，是理解Flow Control系统设计的关键图。",
+      "description": "π0.5 Vision-Language-Action模型架构图，包含高层/低层感知与流匹配动作专家及用户控制输入接口。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-002-fig5.png",
+      "priority": "high",
+      "reason": "通过流程图和向量场可视化，直观对比了Diffusion SDE（多步噪声注入）与Flow matching ODE（确定性可逆变换）的本质差异，揭示了flow path比diffusion path更平滑、更适合实时 steer 的核心insight。",
+      "description": "扩散SDE与流匹配ODE的数学过程对比及向量场中的diffusion path与flow path可视化。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-000-fig8.png",
+      "priority": "medium",
+      "reason": "包含机器人实验场景、动作块扰动可视化、不同扰动策略（add vs set）及步数对行为偏好的影响曲线，以及pick/place任务成功率，直接验证了Flow Control在真实机器人上的有效性和鲁棒性。",
+      "description": "机器人实验设置与主实验结果，展示动作块扰动策略对比和任务成功率统计。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-001-fig4.png",
+      "priority": "medium",
+      "reason": "展示了在不同时间延迟（1s/2s/3s）下施加扰动后的实验设置与结果曲线，证明Flow Control对扰动时机具有鲁棒性，支撑了论文关于方法可靠性的关键结论。",
+      "description": "不同时间延迟扰动下的机器人行为实验及流步扰动数量对左偏试验比例的影响。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

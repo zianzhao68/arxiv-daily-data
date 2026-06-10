@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.10568",
+  "title": "VeriSpace: Spatially Grounded Action Verification for Vision-Language-Action Models",
+  "generated_at": "2026-06-10T09:59:44.393061+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-qr-realworld.png",
+      "source": "tex",
+      "original_name": "qr_realworld.pdf",
+      "size_bytes": 3390237,
+      "width": 612,
+      "height": 792
+    },
+    {
+      "filename": "figure-010-intro-final.png",
+      "source": "tex",
+      "original_name": "intro_final.pdf",
+      "size_bytes": 1425311,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-002-appx-grounding.png",
+      "source": "tex",
+      "original_name": "appx_grounding.pdf",
+      "size_bytes": 1273875,
+      "width": 792,
+      "height": 612
+    },
+    {
+      "filename": "figure-000-robot-data-2.png",
+      "source": "tex",
+      "original_name": "robot-data_2.pdf",
+      "size_bytes": 1097553,
+      "width": 792,
+      "height": 612
+    },
+    {
+      "filename": "figure-008-appx-depth.png",
+      "source": "tex",
+      "original_name": "appx_depth.pdf",
+      "size_bytes": 986707,
+      "width": 792,
+      "height": 612
+    },
+    {
+      "filename": "figure-005-verispace-method.png",
+      "source": "tex",
+      "original_name": "VeriSpace_method.pdf",
+      "size_bytes": 971293,
+      "width": 792,
+      "height": 612
+    },
+    {
+      "filename": "figure-003-qr-simpler.png",
+      "source": "tex",
+      "original_name": "qr_simpler.pdf",
+      "size_bytes": 932144,
+      "width": 612,
+      "height": 792
+    },
+    {
+      "filename": "figure-009-appx-cot.png",
+      "source": "tex",
+      "original_name": "appx_cot.pdf",
+      "size_bytes": 782477,
+      "width": 792,
+      "height": 612
+    },
+    {
+      "filename": "figure-006-appx-pipeline.png",
+      "source": "tex",
+      "original_name": "appx_pipeline.pdf",
+      "size_bytes": 604603,
+      "width": 792,
+      "height": 612
+    },
+    {
+      "filename": "figure-004-cot-new.png",
+      "source": "tex",
+      "original_name": "COT_new.pdf",
+      "size_bytes": 595111,
+      "width": 792,
+      "height": 612
+    },
+    {
+      "filename": "figure-007-robot.png",
+      "source": "tex",
+      "original_name": "robot.pdf",
+      "size_bytes": 551299,
+      "width": 792,
+      "height": 612
+    },
+    {
+      "filename": "figure-011-linechart.png",
+      "source": "tex",
+      "original_name": "linechart.pdf",
+      "size_bytes": 132548,
+      "width": 632,
+      "height": 271
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-010-intro-final.png",
+      "priority": "high",
+      "reason": "论文总览图，同时涵盖核心动机（One-Shot vs. Generate-and-Verify）、关键挑战（空间推理与目标进度评估）以及多基准性能对比（雷达图与柱状图），是理解全文贡献的第一入口。",
+      "description": "对比一次性生成与生成-验证范式，展示动作验证挑战及跨基准性能提升。",
+      "suggested_section": "核心 Insight / 实验与消融"
+    },
+    {
+      "filename": "figure-005-verispace-method.png",
+      "priority": "high",
+      "reason": "完整的系统架构图，清晰呈现候选动作采样、双路径3D注入场景编码、基于大语言模型的空间推理与奖励专家打分等核心模块，是精读方法细节的关键。",
+      "description": "VeriSpace系统架构，包含3D场景编码、空间推理与动作验证打分流程。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-004-cot-new.png",
+      "priority": "high",
+      "reason": "直观展示了Chain-of-Thought空间推理的完整流程（物体定位→动作前/后状态评估→验证分数），直接解释了VeriSpace如何显式推理空间关系并评估目标进度，是方法核心创新的最佳注解。",
+      "description": "Chain-of-Thought推理流程，展示从RGB-D观测到逐步空间推理与最终验证分数。",
+      "suggested_section": "方法与公式 / 核心 Insight"
+    },
+    {
+      "filename": "figure-011-linechart.png",
+      "priority": "medium",
+      "reason": "重要的消融与效率分析图，揭示候选动作数量k与成功率、推理运行时的权衡关系，并展示优化策略对运行时的显著降低，支撑方法在实际部署中的可行性。",
+      "description": "候选动作数量k对成功率与推理运行时的影响及优化前后对比。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

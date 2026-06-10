@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.11129",
+  "title": "WorldOlympiad: Can Your World Model Survive a Triathlon?",
+  "generated_at": "2026-06-10T09:40:20.237442+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-general-case-study.png",
+      "source": "tex",
+      "original_name": "general_case_study.pdf",
+      "size_bytes": 13771662,
+      "width": 1810,
+      "height": 1815
+    },
+    {
+      "filename": "figure-003-gaming-case-study.png",
+      "source": "tex",
+      "original_name": "gaming_case_study.pdf",
+      "size_bytes": 13764966,
+      "width": 1810,
+      "height": 1815
+    },
+    {
+      "filename": "figure-000-failure-case-study.png",
+      "source": "tex",
+      "original_name": "failure_case_study.pdf",
+      "size_bytes": 11680202,
+      "width": 1927,
+      "height": 1134
+    },
+    {
+      "filename": "figure-002-embodied-case-study.png",
+      "source": "tex",
+      "original_name": "embodied_case_study.pdf",
+      "size_bytes": 10202795,
+      "width": 1810,
+      "height": 1815
+    },
+    {
+      "filename": "figure-004-dataoverview.png",
+      "source": "tex",
+      "original_name": "dataOverview.pdf",
+      "size_bytes": 6334480,
+      "width": 1378,
+      "height": 684
+    },
+    {
+      "filename": "figure-005-overview.png",
+      "source": "tex",
+      "original_name": "overview.pdf",
+      "size_bytes": 2584283,
+      "width": 1563,
+      "height": 733
+    },
+    {
+      "filename": "figure-007-humanlabel.png",
+      "source": "tex",
+      "original_name": "humanlabel.pdf",
+      "size_bytes": 1223674,
+      "width": 960,
+      "height": 540
+    },
+    {
+      "filename": "figure-008-statistics.png",
+      "source": "tex",
+      "original_name": "statistics.pdf",
+      "size_bytes": 1047747,
+      "width": 982,
+      "height": 376
+    },
+    {
+      "filename": "figure-006-datacompostion.png",
+      "source": "tex",
+      "original_name": "datacompostion.pdf",
+      "size_bytes": 860551,
+      "width": 1310,
+      "height": 428
+    },
+    {
+      "filename": "figure-009-result-statistics.png",
+      "source": "tex",
+      "original_name": "result_statistics.pdf",
+      "size_bytes": 390317,
+      "width": 1216,
+      "height": 351
+    },
+    {
+      "filename": "figure-010-logometa.png",
+      "source": "tex",
+      "original_name": "logometa.pdf",
+      "size_bytes": 25713,
+      "width": 383,
+      "height": 125
+    },
+    {
+      "filename": "figure-011-page-2-xref-599.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-2-xref-599.jpeg",
+      "size_bytes": 10868,
+      "width": 768,
+      "height": 157
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-005-overview.png",
+      "priority": "high",
+      "reason": "这张图同时呈现了WorldOlympiad三维度（Physical、Geometry、Interaction）的自动评估pipeline架构，以及Human Preference Alignment验证和Final Pipeline Scores主实验排名，是理解论文核心方法与总览结论的关键图。",
+      "description": "WorldOlympiad三维度自动评估流程与主实验排名总览。",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-009-result-statistics.png",
+      "priority": "medium",
+      "reason": "包含Overall Ranking柱状图、Capability Radar雷达图和Metric Heatmap热力图，全面展示了SOTA世界模型在物理、3D一致性、交互和综合得分上的差距，是支撑论文主实验结论的核心结果图。",
+      "description": "模型总体排名、能力雷达图与指标热力图。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-006-datacompostion.png",
+      "priority": "medium",
+      "reason": "清晰展示了从Internet Data到Video Chunks、Chunk Caption再到Refined Caption的数据构建pipeline，以及gaming/embodied/general三类数据来源，是理解benchmark数据构造与任务设置的关键流程图。",
+      "description": "从互联网数据到精炼视频caption的数据构建流程。",
+      "suggested_section": "方法与公式 / 贡献拆解"
+    },
+    {
+      "filename": "figure-008-statistics.png",
+      "priority": "medium",
+      "reason": "通过动作频率饼图、文本词云和视频段数分布柱状图，直观反映了数据集中交互动作、场景描述和时序结构的多样性，支撑benchmark覆盖物理、几何与交互多维度挑战的关键结论。",
+      "description": "动作频率分布、词云与视频段数统计。",
+      "suggested_section": "实验与消融 / 贡献拆解"
+    }
+  ]
+}
