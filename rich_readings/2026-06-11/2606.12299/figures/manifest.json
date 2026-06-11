@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.12299",
+  "title": "Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering",
+  "generated_at": "2026-06-11T10:41:14.700703+00:00",
+  "candidates": [
+    {
+      "filename": "figure-001-libero-envs.png",
+      "source": "tex",
+      "original_name": "libero_envs.pdf",
+      "size_bytes": 2175967,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-000-closedloop.png",
+      "source": "tex",
+      "original_name": "closedloop.pdf",
+      "size_bytes": 1909264,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-005-baselines.png",
+      "source": "tex",
+      "original_name": "baselines.pdf",
+      "size_bytes": 1083840,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-003-pipeline.png",
+      "source": "tex",
+      "original_name": "pipeline.pdf",
+      "size_bytes": 712808,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-002-hardware.png",
+      "source": "tex",
+      "original_name": "hardware.pdf",
+      "size_bytes": 669857,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-007-novel-tasks.png",
+      "source": "tex",
+      "original_name": "novel_tasks.pdf",
+      "size_bytes": 526526,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-010-paraphrase.png",
+      "source": "tex",
+      "original_name": "paraphrase.pdf",
+      "size_bytes": 382809,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-004-hardware-comp.png",
+      "source": "tex",
+      "original_name": "hardware_comp.pdf",
+      "size_bytes": 362833,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-011-narration.png",
+      "source": "tex",
+      "original_name": "narration.pdf",
+      "size_bytes": 304967,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-006-refusal.png",
+      "source": "tex",
+      "original_name": "refusal.pdf",
+      "size_bytes": 263543,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-008-ftdata.png",
+      "source": "tex",
+      "original_name": "ftdata.pdf",
+      "size_bytes": 222106,
+      "width": 1440,
+      "height": 540
+    },
+    {
+      "filename": "figure-009-novel-comp.png",
+      "source": "tex",
+      "original_name": "novel_comp.pdf",
+      "size_bytes": 113843,
+      "width": 1440,
+      "height": 540
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-003-pipeline.png",
+      "priority": "high",
+      "reason": "完整展示了论文提出的三阶段方法框架：Narrated Fine-Tuning、Learning Language Steering via VLA Interaction 和 Do No Harm Calibration，是理解系统设计与核心算法的关键架构图。",
+      "description": "方法流程图，包含叙述微调、语言引导学习及无害校准三个模块。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-000-closedloop.png",
+      "priority": "high",
+      "reason": "通过 Base VLA 与 Language Steered VLA 的直观对比，清晰展示了语言策略如何在人类干扰后引导机器人恢复正确行为，直接解释了论文的核心 insight。",
+      "description": "闭环控制对比图，展示语言引导策略在扰动后的恢复能力。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-005-baselines.png",
+      "priority": "high",
+      "reason": "左侧散点图量化了不同方法在训练成功率与部署成功率上的权衡，右侧展示了训练与部署环境的视觉差异，是支撑论文主要实验结论的核心结果图。",
+      "description": "训练与部署成功率对比散点图及环境示例。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-006-refusal.png",
+      "priority": "high",
+      "reason": "展示了 Class-Conditional Conformal Prediction 的校准效果，证明方法能在控制假阳性率的同时提升成功率，是 Do No Harm 贡献的关键实验证据。",
+      "description": "拒绝/校准策略的成功率与经验假阳性率关系图。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

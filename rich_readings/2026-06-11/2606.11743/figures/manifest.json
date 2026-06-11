@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.11743",
+  "title": "TacCoRL: Integrating Tactile Feedback into VLA via Simulation",
+  "generated_at": "2026-06-11T10:31:38.255842+00:00",
+  "candidates": [
+    {
+      "filename": "figure-003-tactile-signal-alignment-v3.png",
+      "source": "tex",
+      "original_name": "tactile_signal_alignment_v3.pdf",
+      "size_bytes": 5892724,
+      "width": 1080,
+      "height": 1199
+    },
+    {
+      "filename": "figure-006-robo-setup-adjust-size-v2.png",
+      "source": "tex",
+      "original_name": "robo_setup_adjust_size_v2.pdf",
+      "size_bytes": 5079222,
+      "width": 1862,
+      "height": 822
+    },
+    {
+      "filename": "figure-002-exp-setting.png",
+      "source": "tex",
+      "original_name": "exp_setting.pdf",
+      "size_bytes": 3454755,
+      "width": 1287,
+      "height": 480
+    },
+    {
+      "filename": "figure-004-camera-calibration.png",
+      "source": "tex",
+      "original_name": "camera_calibration.pdf",
+      "size_bytes": 2777684,
+      "width": 489,
+      "height": 609
+    },
+    {
+      "filename": "figure-000-result.png",
+      "source": "tex",
+      "original_name": "result.pdf",
+      "size_bytes": 2116205,
+      "width": 620,
+      "height": 364
+    },
+    {
+      "filename": "figure-001-failurecases.png",
+      "source": "tex",
+      "original_name": "failureCases.pdf",
+      "size_bytes": 1442401,
+      "width": 914,
+      "height": 148
+    },
+    {
+      "filename": "figure-007-appendix-joint-response-j0-j5-2x3.png",
+      "source": "tex",
+      "original_name": "appendix_joint_response_j0_j5_2x3.pdf",
+      "size_bytes": 1207584,
+      "width": 1602,
+      "height": 974
+    },
+    {
+      "filename": "figure-005-teaser.png",
+      "source": "tex",
+      "original_name": "teaser.pdf",
+      "size_bytes": 1120294,
+      "width": 715,
+      "height": 321
+    },
+    {
+      "filename": "figure-008-rl.png",
+      "source": "tex",
+      "original_name": "rl.pdf",
+      "size_bytes": 791782,
+      "width": 1927,
+      "height": 600
+    },
+    {
+      "filename": "figure-011-trace-episode-000000-left-j4.png",
+      "source": "tex",
+      "original_name": "trace_episode_000000_left_j4.pdf",
+      "size_bytes": 296591,
+      "width": 951,
+      "height": 289
+    },
+    {
+      "filename": "figure-009-alpha-beta-ablation.png",
+      "source": "tex",
+      "original_name": "alpha_beta_ablation.pdf",
+      "size_bytes": 202637,
+      "width": 623,
+      "height": 189
+    },
+    {
+      "filename": "figure-010-pipeline.png",
+      "source": "tex",
+      "original_name": "pipeline.pdf",
+      "size_bytes": 164546,
+      "width": 734,
+      "height": 203
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-005-teaser.png",
+      "priority": "high",
+      "reason": "这是论文的概览图，完整呈现了 TacCoRL 的核心训练范式：从大规模并行仿真、虚实协同训练到触觉引导的 RL 微调，并展示了覆盖的多种接触丰富任务，是理解全文思路的第一入口。",
+      "description": "TacCoRL 整体训练范式与任务概览，包括并行仿真环境、虚实协同训练流程及四个代表性操作任务。",
+      "suggested_section": "核心 Insight"
+    },
+    {
+      "filename": "figure-010-pipeline.png",
+      "priority": "high",
+      "reason": "清晰刻画了方法的三阶段技术细节：数据采集（真实+仿真遥操作）、Sim-Real Co-training 的网络结构（VLM Backbone、触觉 CNN 编码器、Contact-Aware Gating、Action Expert）以及 RL 微调的损失设计，是精读方法的关键图。",
+      "description": "TacCoRL 三阶段 pipeline：数据采集、虚实协同训练（含接触感知门控与动作专家）、RL 微调。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-000-result.png",
+      "priority": "medium",
+      "reason": "主实验结果图，直接对比了 Vision-Only 与 Visuo-Tactile 策略在四个接触丰富任务上的成功率曲线，是支撑论文核心结论（触觉反馈显著提升性能）的最关键定量证据。",
+      "description": "四个任务上 Vision-Only 与 Visuo-Tactile 策略的成功率训练曲线对比。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-008-rl.png",
+      "priority": "medium",
+      "reason": "展示了仿真 RL 训练动态、真实数据锚定损失变化以及不同设置下的真实部署成功率，揭示了 sim-to-real 训练过程中的关键指标与消融结果，支撑方法有效性的深入分析。",
+      "description": "RL 训练过程与真实部署消融：仿真 RL 成功率、真实数据锚定损失及真实部署成功率对比。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

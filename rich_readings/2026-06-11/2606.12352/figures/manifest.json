@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.12352",
+  "title": "CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy",
+  "generated_at": "2026-06-11T10:38:38.926489+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-rollouts2.png",
+      "source": "tex",
+      "original_name": "rollouts2.pdf",
+      "size_bytes": 11107093,
+      "width": 1920,
+      "height": 1900
+    },
+    {
+      "filename": "figure-001-figure1.png",
+      "source": "tex",
+      "original_name": "figure1.pdf",
+      "size_bytes": 5308514,
+      "width": 2500,
+      "height": 1080
+    },
+    {
+      "filename": "figure-004-kinova-top-tape.png",
+      "source": "tex",
+      "original_name": "kinova-top-tape.png",
+      "size_bytes": 1296942,
+      "width": 528,
+      "height": 473
+    },
+    {
+      "filename": "figure-005-kinova-wrist-tape.png",
+      "source": "tex",
+      "original_name": "kinova-wrist-tape.png",
+      "size_bytes": 1257094,
+      "width": 527,
+      "height": 497
+    },
+    {
+      "filename": "figure-003-perturb.png",
+      "source": "tex",
+      "original_name": "perturb.pdf",
+      "size_bytes": 1060425,
+      "width": 2500,
+      "height": 1080
+    },
+    {
+      "filename": "figure-006-arx-wrist-tape.png",
+      "source": "tex",
+      "original_name": "arx-wrist-tape.png",
+      "size_bytes": 934998,
+      "width": 414,
+      "height": 390
+    },
+    {
+      "filename": "figure-002-figure2.png",
+      "source": "tex",
+      "original_name": "figure2.pdf",
+      "size_bytes": 810038,
+      "width": 2500,
+      "height": 1080
+    },
+    {
+      "filename": "figure-007-arx-top-tape.png",
+      "source": "tex",
+      "original_name": "arx-top-tape.png",
+      "size_bytes": 778094,
+      "width": 372,
+      "height": 310
+    },
+    {
+      "filename": "figure-008-arx-top-basket.png",
+      "source": "tex",
+      "original_name": "arx-top-basket.png",
+      "size_bytes": 646367,
+      "width": 306,
+      "height": 293
+    },
+    {
+      "filename": "figure-009-arx-wrist-basket.png",
+      "source": "tex",
+      "original_name": "arx-wrist-basket.png",
+      "size_bytes": 555377,
+      "width": 308,
+      "height": 292
+    },
+    {
+      "filename": "figure-010-kinova-top-basket.png",
+      "source": "tex",
+      "original_name": "kinova-top-basket.png",
+      "size_bytes": 545207,
+      "width": 311,
+      "height": 289
+    },
+    {
+      "filename": "figure-011-arx-wrist-handover.png",
+      "source": "tex",
+      "original_name": "arx-wrist-handover.png",
+      "size_bytes": 523070,
+      "width": 313,
+      "height": 292
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-002-figure2.png",
+      "priority": "high",
+      "reason": "展示了CHORUS的核心方法架构，包括训练阶段的多机器人数据采样、基于π0.5 LoRA的VLA backbone微调，以及部署阶段各机器人独立运行去中心化策略的完整流程，是理解论文方法的关键。",
+      "description": "CHORUS整体架构图，分为Training（多机器人数据、robot sampler、双视角输入、identity prefix）与Deployment（双机器人独立CHORUS推理、不同频率动作输出）两部分。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-003-perturb.png",
+      "priority": "medium",
+      "reason": "展示了验证机器人对队友行为反应性的扰动实验设置，直接支撑论文关于reactivity提升40%的关键结论，体现去中心化协作无需通信即可响应动态队友的核心优势。",
+      "description": "双机器人扰动实验场景图，标注了CHORUS rollout与scripted perturbation，用于验证Kinova对移动YAM的反应能力。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-004-kinova-top-tape.png",
+      "priority": "medium",
+      "reason": "展示了真实世界中双机器人协作完成移动卷尺测量（mobile tape measurement）的场景，是论文主实验任务的直观体现，验证了多机器人协作的可行性。",
+      "description": "Kinova与另一机器人协作执行移动卷尺测量任务的顶部视角实验场景。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-010-kinova-top-basket.png",
+      "priority": "medium",
+      "reason": "展示了Kinova机器人执行洗衣篮搬运（laundry basket lifting）任务的实验场景，体现方法在不同协作任务上的泛化能力。",
+      "description": "Kinova机器人执行洗衣篮搬运任务的顶部视角实验场景。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.12028",
+  "title": "VICX: Generalizable Robot Manipulation via Video Generation and In-Context Operator Network",
+  "generated_at": "2026-06-11T10:17:22.403100+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-additional-self-correction-sequences.png",
+      "source": "tex",
+      "original_name": "additional_self_correction_sequences.png",
+      "size_bytes": 3257072,
+      "width": 1983,
+      "height": 2070
+    },
+    {
+      "filename": "figure-001-closed-loop-evaluation.png",
+      "source": "tex",
+      "original_name": "closed_loop_evaluation.png",
+      "size_bytes": 1592771,
+      "width": 2616,
+      "height": 1455
+    },
+    {
+      "filename": "figure-002-in-context-trajectory-translator.png",
+      "source": "tex",
+      "original_name": "in-context_trajectory_translator.png",
+      "size_bytes": 1464563,
+      "width": 4155,
+      "height": 2208
+    },
+    {
+      "filename": "figure-010-page-3-xref-436.png",
+      "source": "pdf-image",
+      "original_name": "page-3-xref-436.png",
+      "size_bytes": 1179002,
+      "width": 2616,
+      "height": 1455
+    },
+    {
+      "filename": "figure-003-self-correction-sequences.png",
+      "source": "tex",
+      "original_name": "self_correction_sequences.png",
+      "size_bytes": 1086404,
+      "width": 1980,
+      "height": 636
+    },
+    {
+      "filename": "figure-004-variant-arm-case-studies.png",
+      "source": "tex",
+      "original_name": "variant_arm_case_studies.png",
+      "size_bytes": 907262,
+      "width": 2644,
+      "height": 2004
+    },
+    {
+      "filename": "figure-011-page-4-xref-438.png",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-438.png",
+      "size_bytes": 852901,
+      "width": 4155,
+      "height": 2208
+    },
+    {
+      "filename": "figure-005-diy-sweep-soccer-scene.png",
+      "source": "tex",
+      "original_name": "diy_sweep_soccer_scene.png",
+      "size_bytes": 715964,
+      "width": 960,
+      "height": 528
+    },
+    {
+      "filename": "figure-006-metaworld-tasks-overview.png",
+      "source": "tex",
+      "original_name": "metaworld_tasks_overview.png",
+      "size_bytes": 690359,
+      "width": 432,
+      "height": 126
+    },
+    {
+      "filename": "figure-007-retrieval-demo.png",
+      "source": "tex",
+      "original_name": "retrieval_demo.png",
+      "size_bytes": 594409,
+      "width": 6212,
+      "height": 1728
+    },
+    {
+      "filename": "figure-008-cross-embodiment.png",
+      "source": "tex",
+      "original_name": "cross-embodiment.png",
+      "size_bytes": 465024,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "filename": "figure-009-icl-context-comparison.png",
+      "source": "tex",
+      "original_name": "icl_context_comparison.png",
+      "size_bytes": 401682,
+      "width": 5643,
+      "height": 918
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-001-closed-loop-evaluation.png",
+      "priority": "high",
+      "reason": "展示VICX整体框架：从任务提示和初始图像出发，经视频生成模型产生视觉计划，再通过上下文操作网络映射为机器人轨迹，配合PID控制形成闭环。是理解论文核心思路的总览图。",
+      "description": "VICX系统总览：视频生成与上下文执行闭环框架",
+      "suggested_section": "核心 Insight / 方法与公式"
+    },
+    {
+      "filename": "figure-002-in-context-trajectory-translator.png",
+      "priority": "high",
+      "reason": "详细刻画V2T-ICON网络结构，包括基于SAM 3的检索工作流、Reference Attention与Temporal Attention机制，以及Query-Reference编码方式。是方法部分最核心的架构图。",
+      "description": "V2T-ICON网络架构与检索工作流",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-009-icl-context-comparison.png",
+      "priority": "medium",
+      "reason": "呈现标准评估与跨 embodiment 场景下的成功率与规划次数对比，定量证明引入5个上下文示例相比0上下文显著提升性能并减少规划步数，支撑论文关键实验结论。",
+      "description": "上下文数量对成功率与规划次数的定量影响",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-003-self-correction-sequences.png",
+      "priority": "medium",
+      "reason": "通过两阶段执行序列直观展示系统的闭环自修正能力：第一阶段部分失败，第二阶段采用新策略成功完成任务，直接验证论文提出的closed-loop self-correction机制。",
+      "description": "闭环自修正执行序列（抽屉打开任务）",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}

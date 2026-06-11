@@ -1,0 +1,133 @@
+{
+  "arxiv_id": "2606.11396",
+  "title": "PLUME: Probabilistic Latent Unified World Modeling and Parameter Estimation for Multi-Finger Manipulation",
+  "generated_at": "2026-06-11T10:35:13.407193+00:00",
+  "candidates": [
+    {
+      "filename": "figure-000-valve-hw-setup-no-bg-cropped.png",
+      "source": "tex",
+      "original_name": "valve_hw_setup_no_bg_cropped.png",
+      "size_bytes": 1467922,
+      "width": 988,
+      "height": 858
+    },
+    {
+      "filename": "figure-004-block-diagram-v3.png",
+      "source": "tex",
+      "original_name": "block_diagram_v3.pdf",
+      "size_bytes": 710505,
+      "width": 900,
+      "height": 504
+    },
+    {
+      "filename": "figure-001-sim-envs-all.png",
+      "source": "tex",
+      "original_name": "sim_envs_all.pdf",
+      "size_bytes": 602049,
+      "width": 583,
+      "height": 158
+    },
+    {
+      "filename": "figure-003-dit.png",
+      "source": "tex",
+      "original_name": "dit.pdf",
+      "size_bytes": 568728,
+      "width": 1152,
+      "height": 504
+    },
+    {
+      "filename": "figure-002-ours-vs-uwm-goal-geodesic-over-time.png",
+      "source": "tex",
+      "original_name": "ours_vs_uwm_goal_geodesic_over_time.png",
+      "size_bytes": 236733,
+      "width": 518,
+      "height": 316
+    },
+    {
+      "filename": "figure-007-page-7-xref-451.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-451.jpeg",
+      "size_bytes": 48880,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "filename": "figure-008-page-7-xref-452.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-452.jpeg",
+      "size_bytes": 48755,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "filename": "figure-006-page-7-xref-450.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-450.jpeg",
+      "size_bytes": 47434,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "filename": "figure-009-page-7-xref-453.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-453.jpeg",
+      "size_bytes": 39579,
+      "width": 467,
+      "height": 708
+    },
+    {
+      "filename": "figure-005-page-4-xref-418.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-4-xref-418.jpeg",
+      "size_bytes": 23450,
+      "width": 176,
+      "height": 264
+    },
+    {
+      "filename": "figure-010-page-7-xref-454.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-454.jpeg",
+      "size_bytes": 22510,
+      "width": 480,
+      "height": 360
+    },
+    {
+      "filename": "figure-011-page-7-xref-455.jpeg",
+      "source": "pdf-image",
+      "original_name": "page-7-xref-455.jpeg",
+      "size_bytes": 19111,
+      "width": 480,
+      "height": 360
+    }
+  ],
+  "selected_figures": [
+    {
+      "filename": "figure-004-block-diagram-v3.png",
+      "priority": "high",
+      "reason": "完整展示了PLUME的推理流程，包括基于参数条件世界模型的并行自回归展开、似然加权轨迹评分、环境交互与参数信念更新闭环，是理解方法核心机制的关键架构图。",
+      "description": "PLUME推理阶段系统框图，涵盖Planner、Environment与Parameter Belief Update三大模块。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-003-dit.png",
+      "priority": "high",
+      "reason": "清晰呈现了训练阶段的双流设计：左侧表示学习（Transformer Encoder + Cross-Attention）用于编码物理参数与奖励的潜在空间，右侧Flow Matching（含Mamba History Encoder与Flow Matching Transformer）用于生成下一时刻观测、动作与参数粒子，是论文算法创新的核心。",
+      "description": "PLUME训练架构图，包含Representation Learning与Flow Matching两大组件及损失设计。",
+      "suggested_section": "方法与公式"
+    },
+    {
+      "filename": "figure-002-ours-vs-uwm-goal-geodesic-over-time.png",
+      "priority": "medium",
+      "reason": "硬件螺丝刀任务上的主实验对比曲线，直接证明PLUME在真实机器人zero-shot迁移中相比SOTA基线（UWM）能更快降低目标测地距离，支撑论文核心贡献。",
+      "description": "硬件螺丝刀任务中平均目标测地距离随时间步变化曲线，对比PLUME与UWM。",
+      "suggested_section": "实验与消融"
+    },
+    {
+      "filename": "figure-001-sim-envs-all.png",
+      "priority": "medium",
+      "reason": "一图汇总所有评估任务（模拟螺丝刀、硬件螺丝刀、按钮按压、工具操作、桶提起等），直观展示方法在多指灵巧操作上的任务广度，支撑实验设置与泛化性结论。",
+      "description": "所有模拟与硬件评估任务环境示意图拼接。",
+      "suggested_section": "实验与消融"
+    }
+  ]
+}
