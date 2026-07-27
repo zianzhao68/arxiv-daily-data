@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-07-23T08:14:18.347939+00:00",
-    "total_papers": 1859
+    "last_updated": "2026-07-24T08:11:28.185656+00:00",
+    "total_papers": 1882
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -89411,6 +89411,1019 @@
     "key_terms": [],
     "journal_ref": null,
     "comment": "Submitted to CoRL 2026. The Milo project website is available here: https://fgolemo.github.io/milo",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21588": {
+    "title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+    "authors": [
+      "Mengfei Zhao",
+      "Dihong Huang",
+      "Yikai Tang",
+      "Peihao Li",
+      "Mingxuan Yan",
+      "Ruiqi Zhuang",
+      "Yanjia Huang",
+      "Jie Wang",
+      "Hai Zhai",
+      "Tony Zhou",
+      "Rui Zhang",
+      "Zhexi Luo",
+      "Yuchen Huang",
+      "Jianfei Yang",
+      "Jiachen Li"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-23T17:58:08+00:00",
+    "updated": "2026-07-23T17:58:08+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21588v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21588v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project Website: https://axisaiorg.github.io/AXIS-V1/",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21582": {
+    "title": "Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation",
+    "authors": [
+      "Yu Qi",
+      "Zhang Ye",
+      "Xinyi Xu",
+      "Yuxuan Lu",
+      "Amitoj Sandhu",
+      "Boce Hu",
+      "Haojie Huang",
+      "Jonathan Tremblay",
+      "Lawson L. S. Wong"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-23T17:57:09+00:00",
+    "updated": "2026-07-23T17:57:09+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21582v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21582v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21522": {
+    "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+    "authors": [
+      "Hongxin Zhang",
+      "Chunru Lin",
+      "Junyan Li",
+      "Zhou Xian",
+      "Tsun-Hsuan Wang",
+      "Chuang Gan"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-23T17:04:36+00:00",
+    "updated": "2026-07-23T17:04:36+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21522v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21522v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21341": {
+    "title": "Grasp, Handover, Rotate: Bimanual Object Reorientation via Compositional Diffusion and Energy-Based Optimization",
+    "authors": [
+      "Wun Lam Yeung",
+      "Wenjun Liu",
+      "Yui Cheung Yu",
+      "Zhengyan Lambo Qin",
+      "Qijin She",
+      "Heng Li",
+      "Ziqi Wang",
+      "Ping Tan"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-23T14:11:14+00:00",
+    "updated": "2026-07-23T14:11:14+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21341v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21341v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Grasp, Handover, Rotate: Bimanual Object Reorientation via Compositional Diffusion and Energy-Based Optimization",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "IROS 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21302": {
+    "title": "Expert Behavior Prior Reinforcement Learning",
+    "authors": [
+      "Gong Gao",
+      "Weidong Zhao",
+      "Xianhui Liu",
+      "Ning Jia"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-07-23T13:26:57+00:00",
+    "updated": "2026-07-23T13:26:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21302v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21302v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Expert Behavior Prior Reinforcement Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21227": {
+    "title": "FORGE-plus: Force-Budgeted Recovery for Contact-Rich Assembly with a Frozen LLM Supervisor",
+    "authors": [
+      "Kyupaeck Jeff Rah",
+      "Midum Oh"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-23T11:43:31+00:00",
+    "updated": "2026-07-23T11:43:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21227v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21227v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "FORGE-plus: Force-Budgeted Recovery for Contact-Rich Assembly with a Frozen LLM Supervisor",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21071": {
+    "title": "TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects",
+    "authors": [
+      "Ke Ma",
+      "Yifei Wang",
+      "Meng Wang",
+      "Tian Xia"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.MM",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-23T09:04:11+00:00",
+    "updated": "2026-07-23T09:04:11+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21071v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21071v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "9 pages, 10 figures, accepted by ACM Multimedia 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21049": {
+    "title": "GuidedAttention: Interpretable and Correctable Visual Attention for OOD-Robust Robot Manipulation via Imitation Learning",
+    "authors": [
+      "Masaki Murooka",
+      "Ryoichi Nakajo",
+      "Keisuke Shirai",
+      "Tomohiro Motoda",
+      "Hanbit Oh",
+      "Ryo Hanai",
+      "Yukiyasu Domae"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-23T08:33:40+00:00",
+    "updated": "2026-07-23T08:33:40+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21049v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21049v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "GuidedAttention: Interpretable and Correctable Visual Attention for OOD-Robust Robot Manipulation via Imitation Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.20988": {
+    "title": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
+    "authors": [
+      "Quanfu Yu",
+      "Xian Wu",
+      "Hao Xu",
+      "Liulong Ma"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-23T07:11:41+00:00",
+    "updated": "2026-07-23T07:11:41+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.20988v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20988v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "20 pages with 13 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2607.20785": {
+    "title": "Robostral Navigate",
+    "authors": [
+      "Arjun Majumdar",
+      "Avinash Sooriyarachchi",
+      "Benjamin Tibi",
+      "Chris Bamford",
+      "Elliot Chane-Sane",
+      "Guillaume Lample",
+      "Khyathi Raghavi Chandu",
+      "Ludovic Ho Fuh",
+      "Mathieu Poiree",
+      "Olivier Duchenne",
+      "Rosalie Millner",
+      "Srijan Mishra",
+      "Theo Cachet",
+      "Thomas Chabal"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-22T23:13:05+00:00",
+    "updated": "2026-07-22T23:13:05+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.20785v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20785v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Robostral Navigate",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.20771": {
+    "title": "Emergent Compositional Skills in Mixture-of-Experts VLAs",
+    "authors": [
+      "Shlok Shah",
+      "Rhiaan Jhaveri",
+      "Tharun Kumar Tiruppali Kalidoss",
+      "Chirayu Nimonkar",
+      "Ishaan Javali"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-22T22:36:52+00:00",
+    "updated": "2026-07-22T22:36:52+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.20771v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20771v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Emergent Compositional Skills in Mixture-of-Experts VLAs",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted to the 2nd Workshop on Compositional Learning at ICML 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2607.20665": {
+    "title": "Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer",
+    "authors": [
+      "Jaeyoun Choi",
+      "Oswin So",
+      "Songyuan Zhang",
+      "Cooper Taylor",
+      "Chuchu Fan"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.MA",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-22T19:01:57+00:00",
+    "updated": "2026-07-22T19:01:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.20665v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20665v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Published in IEEE Robotics and Automation Letters (Early Access), 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21594": {
+    "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+    "authors": [
+      "Sicheng Mo",
+      "Yuheng Li",
+      "Ziyang Leng",
+      "Krishna Kumar Singh",
+      "Bolei Zhou"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-23T17:59:58+00:00",
+    "updated": "2026-07-23T17:59:58+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21594v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21594v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://vail-ucla.github.io/worldweaver/",
+    "relevance_tier": "peripheral"
+  },
+  "2607.20940": {
+    "title": "Ms. Forcing: Efficient Streaming Video Generation with Multi-Scale Patchification and Attention",
+    "authors": [
+      "Zekun Li",
+      "Xiaoyan Cong",
+      "Hongyu Li",
+      "Zhiyang Dou",
+      "Chuan Guo",
+      "Abhay Mittal",
+      "Sizhe An",
+      "Srinath Sridhar"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-23T05:35:31+00:00",
+    "updated": "2026-07-23T05:35:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.20940v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20940v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Ms. Forcing: Efficient Streaming Video Generation with Multi-Scale Patchification and Attention",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.20670": {
+    "title": "ODeform: Learning Continuous 4D Motion for Shape Deformation with Neural ODEs",
+    "authors": [
+      "Yordanka Velikova",
+      "Mahdi Saleh",
+      "Liming Kuang",
+      "Benjamin Busam"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-22T19:08:31+00:00",
+    "updated": "2026-07-22T19:08:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.20670v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20670v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "ODeform: Learning Continuous 4D Motion for Shape Deformation with Neural ODEs",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted at IROS 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2607.20653": {
+    "title": "PhysCoRe: Physics-Corrected Residual World Models for Material-Aware Deformable Dynamics",
+    "authors": [
+      "Haocheng Yin",
+      "Shuohan Tao",
+      "Yongsheng Chen",
+      "Lu Gan"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-22T18:25:57+00:00",
+    "updated": "2026-07-22T18:25:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.20653v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20653v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "PhysCoRe: Physics-Corrected Residual World Models for Material-Aware Deformable Dynamics",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21557": {
+    "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+    "authors": [
+      "Xiao Yu",
+      "Baolin Peng",
+      "Ruize Xu",
+      "Hao Zou",
+      "Qianhui Wu",
+      "Hao Cheng",
+      "Wenlin Yao",
+      "Nikhil Singh",
+      "Zhou Yu",
+      "Jianfeng Gao"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-07-23T17:38:30+00:00",
+    "updated": "2026-07-23T17:38:30+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21557v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21557v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21526": {
+    "title": "Boosting Robustness for All-Weather Self-Supervised Depth Estimation in Autonomous Driving",
+    "authors": [
+      "Mengshi Qi",
+      "Xiaoyang Bi",
+      "Xianlin Zhang",
+      "Huadong Ma"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-23T17:11:33+00:00",
+    "updated": "2026-07-23T17:11:33+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21526v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21526v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Boosting Robustness for All-Weather Self-Supervised Depth Estimation in Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21488": {
+    "title": "Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections",
+    "authors": [
+      "Gil Lifshits",
+      "Igal Bilik",
+      "Gilad Katz"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.MA",
+      "cs.RO"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-07-23T16:28:35+00:00",
+    "updated": "2026-07-23T16:28:35+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21488v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21488v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21354": {
+    "title": "SPORD: A Simulation-Propose-then-OR-Dispose Approach for Supply Chain Planning",
+    "authors": [
+      "Jiayin He",
+      "Yutong Pan",
+      "Sen Yang",
+      "Ningxuan Kang",
+      "Yongzhi Qi",
+      "Jianshen Zhang",
+      "Wei Qi",
+      "Zuo-Jun Max Shen"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-07-23T14:18:01+00:00",
+    "updated": "2026-07-23T14:18:01+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21354v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21354v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "SPORD: A Simulation-Propose-then-OR-Dispose Approach for Supply Chain Planning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21243": {
+    "title": "Detectors Learn the Wrong Thing: Shortcut-Resistant Adversarial Training Against Physically Realizable Attacks",
+    "authors": [
+      "Yuanhao Huang",
+      "Yilong Ren",
+      "Jinlei Wang",
+      "Xuesong Bai",
+      "Zheng Zhang",
+      "Haiyang Yu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-23T12:06:02+00:00",
+    "updated": "2026-07-23T12:06:02+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21243v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21243v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Detectors Learn the Wrong Thing: Shortcut-Resistant Adversarial Training Against Physically Realizable Attacks",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21043": {
+    "title": "A Real-Time Generalized Nash Equilibrium Framework for Interaction-Aware Autonomous Driving in Mixed Traffic",
+    "authors": [
+      "Nouhed Naidja",
+      "Mohamed-Cherif Rahal",
+      "Steve Pechberti",
+      "Stéphane Font",
+      "Guillaume Sandou",
+      "Marc Revilloud"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-23T08:25:01+00:00",
+    "updated": "2026-07-23T08:25:01+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21043v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21043v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "A Real-Time Generalized Nash Equilibrium Framework for Interaction-Aware Autonomous Driving in Mixed Traffic",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": "The 12th 2026 International Conference on Control, Decision and Information Technologies (CoDIT 2026), Jul 2026, Bari (Italy), Italy",
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.20947": {
+    "title": "RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection",
+    "authors": [
+      "Junsheng Du",
+      "Zhaocheng He",
+      "Yuhuan Lu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-23T05:56:42+00:00",
+    "updated": "2026-07-23T05:56:42+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.20947v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20947v1",
+    "first_seen": "2026-07-24",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
     "relevance_tier": "peripheral"
   }
 }
