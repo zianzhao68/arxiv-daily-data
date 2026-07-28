@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-07-24T08:11:28.185656+00:00",
-    "total_papers": 1882
+    "last_updated": "2026-07-27T09:11:38.918577+00:00",
+    "total_papers": 1901
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -90405,6 +90405,810 @@
     "announce_type": "new",
     "direction": "autonomous_driving",
     "one_line_summary": "RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.22530": {
+    "title": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation",
+    "authors": [
+      "Yunao Huang",
+      "Shiyu Sang",
+      "Haotao Lu",
+      "Suting Ni",
+      "Shijie Wu",
+      "Ziyang Guo",
+      "Ye Shi",
+      "Jingya Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-24T17:59:33+00:00",
+    "updated": "2026-07-24T17:59:33+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.22530v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22530v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "18 pages, 6 figures, 5 tables. Project page: https://vitacworld.github.io/",
+    "relevance_tier": "peripheral"
+  },
+  "2607.22434": {
+    "title": "Robot Learning to Communicate through Projected Visual Abstractions",
+    "authors": [
+      "Danyang Yan",
+      "Boyuan Wang",
+      "Jiaxun Liu",
+      "Boyuan Chen"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-24T15:52:36+00:00",
+    "updated": "2026-07-24T15:52:36+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.22434v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22434v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Robot Learning to Communicate through Projected Visual Abstractions",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Our project website is at:https://generalroboticslab.com/shadow",
+    "relevance_tier": "peripheral"
+  },
+  "2607.22409": {
+    "title": "Conformal Constraint Tightening for Chance-Constrained Motion Planning with Unknown Dynamics",
+    "authors": [
+      "Shubham Natraj",
+      "Bruno Sinopoli",
+      "Yiannis Kantaros"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-24T15:27:07+00:00",
+    "updated": "2026-07-24T15:27:07+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.22409v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22409v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Conformal Constraint Tightening for Chance-Constrained Motion Planning with Unknown Dynamics",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.22249": {
+    "title": "Design and Human Evaluation of Tactile Withdrawal Reflexes for a Skin-Covered Robot Arm",
+    "authors": [
+      "Laura Babayeva",
+      "Lukas Rustler",
+      "Matej Hoffmann"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-24T12:31:44+00:00",
+    "updated": "2026-07-24T12:31:44+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.22249v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22249v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Design and Human Evaluation of Tactile Withdrawal Reflexes for a Skin-Covered Robot Arm",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Submitted to IEEE Humanoids 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2607.22014": {
+    "title": "Zero-Shot Mission-Level Evaluation for Aerial MLLM Agents",
+    "authors": [
+      "Suman Navaratnarajah",
+      "Taehyoung Kim",
+      "Jona Ruthardt",
+      "Ishaan Bhimwal",
+      "Ryousuke Yamada",
+      "Yannik Blei",
+      "Wolfram Burgard",
+      "Yuki M Asano"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-07-24T06:22:50+00:00",
+    "updated": "2026-07-24T06:22:50+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.22014v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22014v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Zero-Shot Mission-Level Evaluation for Aerial MLLM Agents",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Preprint",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21960": {
+    "title": "Adaptive Undulatory Locomotion of Snake-like Robots in Dynamic Viscous Environments via Deep Reinforcement Learning",
+    "authors": [
+      "Tsuyoshi Kimoto",
+      "Akio Yamano",
+      "Kohei Honda",
+      "Takashi Iwasa"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-24T04:14:36+00:00",
+    "updated": "2026-07-24T04:14:36+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21960v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21960v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Adaptive Undulatory Locomotion of Snake-like Robots in Dynamic Viscous Environments via Deep Reinforcement Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "23 pages, 6 figures. Submitted to a journal",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21725": {
+    "title": "Addressing the Orchestration Gap in Generalist Robots via Physical Agency",
+    "authors": [
+      "Liane Galanti",
+      "Dhruv Shah",
+      "Tri Dao"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-23T18:18:32+00:00",
+    "updated": "2026-07-23T18:18:32+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21725v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21725v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Addressing the Orchestration Gap in Generalist Robots via Physical Agency",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21655": {
+    "title": "Progress Reward Modeling for Robotic Learning: A Comprehensive Survey",
+    "authors": [
+      "Jianshu Zhang",
+      "Keliang Wu",
+      "Haoran Lu",
+      "Anbang Liu",
+      "Ce Zhang",
+      "Weijie Yin",
+      "Chengxuan Qian",
+      "Xiyuan Yang",
+      "Zhenyu Pan",
+      "Guo Ye",
+      "Han Liu"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CL"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-22T19:29:52+00:00",
+    "updated": "2026-07-22T19:29:52+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21655v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21655v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Progress Reward Modeling for Robotic Learning: A Comprehensive Survey",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://github.com/sterzhang/Awesome-Progress-Models",
+    "relevance_tier": "peripheral"
+  },
+  "2607.22535": {
+    "title": "Robot-Factored World Models via Robot Rendering",
+    "authors": [
+      "Byungjun Kim",
+      "Taeksoo Kim",
+      "Hyunsoo Cha",
+      "Hanbyul Joo"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-07-24T17:59:57+00:00",
+    "updated": "2026-07-24T17:59:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.22535v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22535v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Robot-Factored World Models via Robot Rendering",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project Page: https://bjkim95.github.io/rofacto/",
+    "relevance_tier": "peripheral"
+  },
+  "2607.22430": {
+    "title": "On the Identifiability of Controlled World Models",
+    "authors": [
+      "Xiangteng Zhang",
+      "Yang Guan",
+      "Bo Zhang",
+      "Ya-Qin Zhang",
+      "Shengbo Eben Li"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-07-24T15:49:12+00:00",
+    "updated": "2026-07-24T15:49:12+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.22430v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22430v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "On the Identifiability of Controlled World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21910": {
+    "title": "TRW: TRACE-RealWorld---An Auditable Consistency Contract for World Models as Materialized Views",
+    "authors": [
+      "Edward Y. Chang"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.DB"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-07-24T02:31:10+00:00",
+    "updated": "2026-07-24T02:31:10+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21910v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21910v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "TRW: TRACE-RealWorld---An Auditable Consistency Contract for World Models as Materialized Views",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "50 pages, 22 tables, 10 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21897": {
+    "title": "ISPCloak: Weaponizing ISP for Optimization-Free Physical Camouflage against Deepfake Detectors",
+    "authors": [
+      "Jiale Zhao",
+      "Jiajun Wan",
+      "Lei Tang",
+      "Ye Qin",
+      "Kebing Jin",
+      "Jinghui Qin"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-24T01:59:53+00:00",
+    "updated": "2026-07-24T01:59:53+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21897v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21897v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "ISPCloak: Weaponizing ISP for Optimization-Free Physical Camouflage against Deepfake Detectors",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accpted by ACM MM 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21805": {
+    "title": "Natural Invariant Measures for Chaotic Game Dynamics: Finding Order in Chaos",
+    "authors": [
+      "Jakub Bielawski",
+      "Thiparat Chotibut",
+      "Fryderyk Falniowski",
+      "Michał Misiurewicz",
+      "Georgios Piliouras"
+    ],
+    "categories": [
+      "math.DS",
+      "cs.LG",
+      "econ.TH"
+    ],
+    "primary_category": "math.DS",
+    "published": "2026-07-23T20:45:08+00:00",
+    "updated": "2026-07-23T20:45:08+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21805v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21805v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "Natural Invariant Measures for Chaotic Game Dynamics: Finding Order in Chaos",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21688": {
+    "title": "Explainable quantum-compressed machine learning for complex fluid flows",
+    "authors": [
+      "Xiao Xue",
+      "Maida Wang",
+      "Mingyang Gao",
+      "Minh Chung",
+      "Peter V. Coveney"
+    ],
+    "categories": [
+      "physics.flu-dyn",
+      "cs.LG",
+      "quant-ph"
+    ],
+    "primary_category": "physics.flu-dyn",
+    "published": "2026-07-23T15:05:04+00:00",
+    "updated": "2026-07-23T15:05:04+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21688v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21688v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "Explainable quantum-compressed machine learning for complex fluid flows",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21686": {
+    "title": "Persistent Computational State: A Session-Centric Runtime for Generative World Models",
+    "authors": [
+      "Zhen Lin"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-07-23T14:39:46+00:00",
+    "updated": "2026-07-23T14:39:46+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21686v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21686v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Persistent Computational State: A Session-Centric Runtime for Generative World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "29 pages, 8 figures, 10 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21645": {
+    "title": "Multi-Horizon Consistency as Geometry: When Latent Dynamics Contract, and When They Do Not",
+    "authors": [
+      "Kavya Bhand",
+      "Aadi Joshi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-07-21T23:50:10+00:00",
+    "updated": "2026-07-21T23:50:10+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21645v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21645v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Multi-Horizon Consistency as Geometry: When Latent Dynamics Contract, and When They Do Not",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "22 pages, 9 figures. Diagnostic study of multi-horizon latent consistency, expansion proxies (L20), and a stochastic-forcing law for world-model geometry. Code and experiment logs to be released publicly",
+    "relevance_tier": "peripheral"
+  },
+  "2607.21644": {
+    "title": "Toward Goal-Agnostic Joint-Embedding Predictive Control of Partial Differential Equations",
+    "authors": [
+      "Jonathan Gallagher",
+      "Roberto Guglielmi"
+    ],
+    "categories": [
+      "cs.LG",
+      "eess.SY"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-07-21T20:49:07+00:00",
+    "updated": "2026-07-21T20:49:07+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21644v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21644v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Toward Goal-Agnostic Joint-Embedding Predictive Control of Partial Differential Equations",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Associated code will be open sourced alongside the V2 submission",
+    "relevance_tier": "peripheral"
+  },
+  "2607.22078": {
+    "title": "CommandLM: Data driven behavior level descriptor for ego vehicles",
+    "authors": [
+      "Boris Tokic",
+      "Constantin Selzer",
+      "Fabian B. Flohr"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-24T08:23:07+00:00",
+    "updated": "2026-07-24T08:23:07+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.22078v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22078v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "CommandLM: Data driven behavior level descriptor for ego vehicles",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2607.21896": {
+    "title": "Learning Adaptive Semantic Gaussian Allocation for 3D Occupancy",
+    "authors": [
+      "Kanglin Ning",
+      "Yiran Zhao",
+      "Wenrui Li",
+      "Houde Quan",
+      "Qifan Li",
+      "Xingtao Wang",
+      "Xiaopeng Fan"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-07-24T01:52:49+00:00",
+    "updated": "2026-07-24T01:52:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2607.21896v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21896v1",
+    "first_seen": "2026-07-27",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Learning Adaptive Semantic Gaussian Allocation for 3D Occupancy",
     "tags": [
       "🔴 No Code"
     ],
