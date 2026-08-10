@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-08-07T07:20:19.646912+00:00",
-    "total_papers": 2229
+    "last_updated": "2026-08-10T07:22:14.799895+00:00",
+    "total_papers": 2260
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -105699,6 +105699,1386 @@
     "key_terms": [],
     "journal_ref": null,
     "comment": "20 pages, 8 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07361": {
+    "title": "Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model",
+    "authors": [
+      "Harisankar Babu",
+      "Benjamin Coors",
+      "Christopher Lang",
+      "Hendrik Berkemeyer",
+      "Tamim Asfour",
+      "Simon Foell"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T16:02:34+00:00",
+    "updated": "2026-08-07T16:02:34+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07361v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07361v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Depth-Wise Probing and Pruning of the Planning Token in a Driving Vision-Language-Action Model",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted at the 6th DriveX Workshop (Foundation Models for Autonomous Driving), ECCV 2026. 14 pages, 8 figures, 4 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07328": {
+    "title": "Learning Fault-Tolerant Locomotion with Adaptive Gait Timing",
+    "authors": [
+      "Giovanbattista Gravina",
+      "Luca Rossini",
+      "Carlo Rizzardo",
+      "Arturo Laurenzi",
+      "Nikos Tsagarakis"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T15:27:03+00:00",
+    "updated": "2026-08-07T15:27:03+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07328v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07328v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Learning Fault-Tolerant Locomotion with Adaptive Gait Timing",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted at the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07314": {
+    "title": "TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models",
+    "authors": [
+      "Ziheng Liu",
+      "Quantao Yang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T15:09:51+00:00",
+    "updated": "2026-08-07T15:09:51+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07314v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07314v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.07267": {
+    "title": "WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN",
+    "authors": [
+      "Yuehao Huang",
+      "Yunzi Wu",
+      "Xiaotao Zhang",
+      "Xinhai Li",
+      "Jiankun Dong",
+      "Jiajun Lv",
+      "Chi Zhang",
+      "Chenjia Bai",
+      "Yong Liu",
+      "Xuelong Li"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-08-07T14:29:00+00:00",
+    "updated": "2026-08-07T14:29:00+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07267v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07267v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.07154": {
+    "title": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation",
+    "authors": [
+      "Yang Shen",
+      "Chonghao Cheng",
+      "Ziyi Zhao",
+      "Jialuo Zhu",
+      "Zhenyi Yi",
+      "Qi Zhao",
+      "Jian Yang",
+      "Yuhui Shi",
+      "Chin-Teng Lin"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T12:19:50+00:00",
+    "updated": "2026-08-07T12:19:50+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07154v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07154v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Robotics: Science and Systems (RSS) Workshop 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07075": {
+    "title": "Detection and Ranging of Transient Extrinsic Contacts Based on 6D Dynamic Tactile Sensing",
+    "authors": [
+      "Haowen Zheng",
+      "Yinghao Wu",
+      "Fuyuan Liu",
+      "Yichen Li",
+      "Yitian Shao"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T10:27:37+00:00",
+    "updated": "2026-08-07T10:27:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07075v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07075v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Detection and Ranging of Transient Extrinsic Contacts Based on 6D Dynamic Tactile Sensing",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.07065": {
+    "title": "AutoIntervene: Calibrated Intervention for Action-Chunking Imitation Learning Policies",
+    "authors": [
+      "Jinhe Tang",
+      "Weiming Zhi"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.HC",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T10:14:29+00:00",
+    "updated": "2026-08-07T10:14:29+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07065v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07065v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "AutoIntervene: Calibrated Intervention for Action-Chunking Imitation Learning Policies",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "9 pages, 7 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07045": {
+    "title": "C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video",
+    "authors": [
+      "Jie Ren",
+      "Zhehao Jiang",
+      "Yinhong Yang",
+      "Haorui Jia",
+      "Han Jiang",
+      "Ben Li",
+      "Yao Yao",
+      "Cheng Lin",
+      "Qiu Shen",
+      "Zhenshan Bing",
+      "Xiao-Xiao Long",
+      "Xun Cao"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T09:54:00+00:00",
+    "updated": "2026-08-07T09:54:00+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07045v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07045v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "9 pages, 5 figures. Submitted to IEEE Robotics and Automation Letters (RA-L). Project page: https://k-jie.github.io/C2Dex/",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07002": {
+    "title": "A Haptic Robot Finger Designed for Guqin Instrument Playing",
+    "authors": [
+      "Tianwei Zhang",
+      "Hanming Yan",
+      "Yang Yang. Ziya Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T09:18:58+00:00",
+    "updated": "2026-08-07T09:18:58+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07002v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07002v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "A Haptic Robot Finger Designed for Guqin Instrument Playing",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted by IEEE Transactions on Haptics",
+    "relevance_tier": "peripheral"
+  },
+  "2608.06965": {
+    "title": "Cross-View Action Consistency for Camera-Robust Vision-Language-Action Policies",
+    "authors": [
+      "Bingqi Huang",
+      "Bingchuan Wei",
+      "Xuan Wang",
+      "Yingkai Cai",
+      "Zhaokui Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T08:41:31+00:00",
+    "updated": "2026-08-07T08:41:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06965v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06965v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Cross-View Action Consistency for Camera-Robust Vision-Language-Action Policies",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06907": {
+    "title": "Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception",
+    "authors": [
+      "Yidong Zhu",
+      "Zibo Dai",
+      "Tongning Zhang",
+      "Leixin Chang",
+      "Hua Chen"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T07:42:19+00:00",
+    "updated": "2026-08-07T07:42:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06907v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06907v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Spatiotemporal Agility: Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06830": {
+    "title": "When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems",
+    "authors": [
+      "Zhen Huang",
+      "Zhihuang Liu",
+      "Weijia Shi",
+      "Yifan Yang",
+      "Weishang Wu",
+      "Zhiping Cai"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CR"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T05:39:27+00:00",
+    "updated": "2026-08-07T05:39:27+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06830v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06830v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "When Coordination Becomes a Threat: Communication Attacks in LLM-Controlled Multi-Robot Systems",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "17 pages, 8 figures, 4 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2608.06799": {
+    "title": "Is Forward Prediction Enough? Physical State Grounding for JEPA World Models",
+    "authors": [
+      "Haodong Yan",
+      "Jiaguan Zhu",
+      "Mingyuan Jia",
+      "Ruiqing Yin",
+      "Junjie He",
+      "Zhide Zhong",
+      "Junfeng Li",
+      "Jinxuan Lu",
+      "Hengtao Li",
+      "Tianran Zhang",
+      "Jiayi Chen",
+      "Wenxuan Song",
+      "Wen Chen",
+      "Yuxiang Gao",
+      "Haoang Li"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T04:44:16+00:00",
+    "updated": "2026-08-07T04:44:16+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06799v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06799v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Is Forward Prediction Enough? Physical State Grounding for JEPA World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06756": {
+    "title": "Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence",
+    "authors": [
+      "Ying Chen",
+      "Weizhen Li",
+      "Zhe Hu",
+      "Zhenjiang Li",
+      "Rui Jiang",
+      "Zhifeng Gu",
+      "Lihuang Fang",
+      "Jiangping Liu",
+      "Lei Yi",
+      "Jie Chen"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-08-07T03:24:25+00:00",
+    "updated": "2026-08-07T03:24:25+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06756v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06756v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06729": {
+    "title": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
+    "authors": [
+      "Guiyu Zhao",
+      "Longteng Guo",
+      "Yanghong Mei",
+      "Zilin Zhu",
+      "Yu Zhang",
+      "Bin Cao",
+      "Mingming Yu",
+      "Xingjian He",
+      "Jie Jiang",
+      "Jing Liu"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T02:49:39+00:00",
+    "updated": "2026-08-07T02:49:39+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06729v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06729v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06688": {
+    "title": "CrossTracer: Cross-Embodiment Navigation via VLA Model Reasoning and Trace Residuals Adapting",
+    "authors": [
+      "Yao Wang",
+      "Siyuan Wang",
+      "Zhirui Sun",
+      "Wenzheng Chi",
+      "Liang Lin",
+      "Jiankun Wang",
+      "Wenjun Xu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T01:24:53+00:00",
+    "updated": "2026-08-07T01:24:53+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06688v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06688v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "CrossTracer: Cross-Embodiment Navigation via VLA Model Reasoning and Trace Residuals Adapting",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06650": {
+    "title": "SoRoMoX: Fast, Differentiable, and Parallelizable Soft Robot Models",
+    "authors": [
+      "Maximilian Stölzle",
+      "Solange Gribonval",
+      "Daniel Feliu-Talegon",
+      "Vito Daniele Perfetta",
+      "Michele Martini",
+      "Chuhan Zhang",
+      "Kiwan Wong",
+      "Mohammed Tarnini",
+      "Anup Teejo Mathew",
+      "Federico Renda",
+      "Daniela Rus",
+      "Cosimo Della Santina"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-06T23:31:47+00:00",
+    "updated": "2026-08-06T23:31:47+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06650v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06650v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "SoRoMoX: Fast, Differentiable, and Parallelizable Soft Robot Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06481": {
+    "title": "LyEvO: Lyapunov-Guided Evolutionary Optimization for Safe and Robust Sim-to-Real Policy Learning",
+    "authors": [
+      "Riccardo Curcio",
+      "Hongpeng Cao",
+      "Marco Caccamo"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-06T18:19:33+00:00",
+    "updated": "2026-08-06T18:19:33+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06481v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06481v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "LyEvO: Lyapunov-Guided Evolutionary Optimization for Safe and Robust Sim-to-Real Policy Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.07468": {
+    "title": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+    "authors": [
+      "Zongchuang Zhao",
+      "Xin Zhou",
+      "Tianyang Xu",
+      "Zhengyang Sun",
+      "Kaixuan Zhou",
+      "Honglin Li",
+      "Dingkang Liang",
+      "Xiang Bai"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-07T17:59:09+00:00",
+    "updated": "2026-08-07T17:59:09+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07468v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07468v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "SimWAM: A Simple World Action Model for End-to-End Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "The code and model weights are available at https://github.com/H-EmbodVis/SimWAM/",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07420": {
+    "title": "Beyond Myopic World Models: Long-Horizon End-to-End Training for Direct Future Prediction",
+    "authors": [
+      "Xinyi Li",
+      "Zaishuo Xia",
+      "Chenjie Hao",
+      "Yubei Chen"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-08-07T17:05:44+00:00",
+    "updated": "2026-08-07T17:05:44+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07420v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07420v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Beyond Myopic World Models: Long-Horizon End-to-End Training for Direct Future Prediction",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.07409": {
+    "title": "UniJEPA: A Unified Joint-Embedding Predictive Architecture for Task-Agnostic Visual World Modeling",
+    "authors": [
+      "An Lanji",
+      "Dawei Liu",
+      "Jin Li",
+      "Haoran Xu",
+      "Mei Chen",
+      "Yu Tian"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-07T16:55:58+00:00",
+    "updated": "2026-08-07T16:55:58+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07409v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07409v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "UniJEPA: A Unified Joint-Embedding Predictive Architecture for Task-Agnostic Visual World Modeling",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "10 pages, 7 figures; Accepted by ICML2026",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07408": {
+    "title": "Addressable Memory for Video World Models",
+    "authors": [
+      "Xindi Wu",
+      "Sven Elflein",
+      "James Lucas",
+      "Olga Russakovsky",
+      "Laura Leal-Taixé",
+      "Despoina Paschalidou",
+      "Jonathan Lorraine",
+      "Aljoša Ošep"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-07T16:55:57+00:00",
+    "updated": "2026-08-07T16:55:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07408v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07408v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Addressable Memory for Video World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://research.nvidia.com/labs/sil/projects/WorldTrace/",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07301": {
+    "title": "From Optimal Actions to World Models: Identifiability of Transition Kernels in Discounted MDPs",
+    "authors": [
+      "Neal Batra"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-08-07T14:56:11+00:00",
+    "updated": "2026-08-07T14:56:11+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07301v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07301v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "From Optimal Actions to World Models: Identifiability of Transition Kernels in Discounted MDPs",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "15 pages, 1 figure",
+    "relevance_tier": "peripheral"
+  },
+  "2608.07107": {
+    "title": "MemWM: Memory-Augmented Text-Based World Model",
+    "authors": [
+      "Yujun Wang",
+      "Tao Zhang",
+      "Jinhe Bi",
+      " Aniri",
+      "Wenxuan Ye",
+      "Boliang Liu",
+      "Sikuan Yan",
+      "Shuning Wang",
+      "Xuebing Zhou",
+      "Sören Pirk",
+      "Hinrich Schütze",
+      "Yunpu Ma"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-08-07T11:03:32+00:00",
+    "updated": "2026-08-07T11:03:32+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07107v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07107v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "MemWM: Memory-Augmented Text-Based World Model",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.07077": {
+    "title": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+    "authors": [
+      "Devin Pereira",
+      "Willem Zuidema"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-08-07T10:29:19+00:00",
+    "updated": "2026-08-07T10:29:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07077v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07077v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06994": {
+    "title": "Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models",
+    "authors": [
+      "Xiangkai Ma",
+      "Yue Ma",
+      "Junjie Wang",
+      "Sheng Xu",
+      "Mingyang Li",
+      "Han Zhang",
+      "Yuzheng Zhuang",
+      "Wenzhong Li",
+      "Zhihao Yuan"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T09:12:15+00:00",
+    "updated": "2026-08-07T09:12:15+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06994v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06994v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06770": {
+    "title": "Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts",
+    "authors": [
+      "Rulin Zhou",
+      "Wanhao Liu",
+      "Guoheng Ma",
+      "Liangjin Shao",
+      "Qiujie Song",
+      "Yidu Wang",
+      "Guankun Wang",
+      "Tong Chen",
+      "Long Bai",
+      "Luping Zhou",
+      "Hongliang Ren"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-08-07T03:43:37+00:00",
+    "updated": "2026-08-07T03:43:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06770v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06770v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.06706": {
+    "title": "Dueling World Models: Advantage-Style Action Channels for Common-Mode Distractor Rejection",
+    "authors": [
+      "Jiazhuo Li",
+      "Yiming Fei",
+      "Zhiruo Zhou",
+      "Heikichi Hayashi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-08-07T02:02:19+00:00",
+    "updated": "2026-08-07T02:02:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06706v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06706v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Dueling World Models: Advantage-Style Action Channels for Common-Mode Distractor Rejection",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "17 pages, 6 figures, 11 tables. Includes supplementary appendix",
+    "relevance_tier": "peripheral"
+  },
+  "2608.06597": {
+    "title": "Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks",
+    "authors": [
+      "Björn Ladewig",
+      "Ibrahim Talha Ersoy",
+      "Karoline Wiesner"
+    ],
+    "categories": [
+      "cond-mat.stat-mech",
+      "cond-mat.dis-nn",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.stat-mech",
+    "published": "2026-08-06T21:15:32+00:00",
+    "updated": "2026-08-06T21:15:32+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06597v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06597v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "Cascading Through the Hierarchy: Regularizer-Induced Feature Detection as Phase Transitions in Deep Linear Neural Networks",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "39 pages, 9 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2608.06544": {
+    "title": "TaskSense: Focusing on What Matters in World Models",
+    "authors": [
+      "SM Mazharul Islam",
+      "Manfred Huber"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-08-06T19:49:31+00:00",
+    "updated": "2026-08-06T19:49:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.06544v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06544v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "TaskSense: Focusing on What Matters in World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.07005": {
+    "title": "Real-time Whole-Body Motion Planning for Mobile Manipulators Carrying Arbitrarily Shaped Payloads via Kinematically-Coupled SVSDF",
+    "authors": [
+      "Yisheng Li",
+      "Longji Yin",
+      "Tingrui Zhang",
+      "Ruize Xue",
+      "Haoda Zhu",
+      "Nan Chen",
+      "Siqi Liang",
+      "Yuxi Liu",
+      "Fu Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-07T09:20:31+00:00",
+    "updated": "2026-08-07T09:20:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.07005v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.07005v1",
+    "first_seen": "2026-08-10",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Real-time Whole-Body Motion Planning for Mobile Manipulators Carrying Arbitrarily Shaped Payloads via Kinematically-Coupled SVSDF",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
     "relevance_tier": "peripheral"
   }
 }
