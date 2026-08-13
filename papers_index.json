@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-08-12T07:16:38.119316+00:00",
-    "total_papers": 2355
+    "last_updated": "2026-08-13T07:13:46.446477+00:00",
+    "total_papers": 2374
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -111249,6 +111249,856 @@
     "key_terms": [],
     "journal_ref": null,
     "comment": "16 pages, 12 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2608.12122": {
+    "title": "HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+    "authors": [
+      "Zhenjie Yang",
+      "Xingyu Jiao",
+      "Guopeng Zhong",
+      "Shuzhe Yang",
+      "Shi Che",
+      "Chao Wu",
+      "Chenyu Jiang",
+      "Dongjie Zhang",
+      "Yideng Zhang",
+      "Zheng Zhang",
+      "Muyun Jiang",
+      "Haisheng Su",
+      "Shuang Jin",
+      "Donghang Zhang",
+      "Chao Yang",
+      "Li Chen",
+      "Hongyang Li",
+      "Zuxuan Wu",
+      "Yu-Gang Jiang",
+      "Xiaosong Jia",
+      "Junchi Yan"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-12T14:41:53+00:00",
+    "updated": "2026-08-12T14:41:53+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.12122v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12122v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Technical Report. Project Page: https://handedit.github.io/",
+    "relevance_tier": "peripheral"
+  },
+  "2608.12063": {
+    "title": "Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL",
+    "authors": [
+      "Martin Schuck",
+      "Maks Sorokin",
+      "Simone Manni",
+      "Duy Ta",
+      "Angela P. Schoellig",
+      "Marco Hutter",
+      "Simon Le Cleac'H",
+      "Jan Brüdigam"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-12T13:48:56+00:00",
+    "updated": "2026-08-12T13:48:56+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.12063v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12063v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.11901": {
+    "title": "DaViNCi: A Dataset Towards Outdoor Vision-and-Language Navigation with Continuous Actions and Dynamic Elements",
+    "authors": [
+      "Zihao Xie",
+      "Pingrui Lai",
+      "Yitong Wu",
+      "Hua Yang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-12T10:27:48+00:00",
+    "updated": "2026-08-12T10:27:48+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11901v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11901v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "DaViNCi: A Dataset Towards Outdoor Vision-and-Language Navigation with Continuous Actions and Dynamic Elements",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.11769": {
+    "title": "Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence",
+    "authors": [
+      "Chaeyeon Jung",
+      "Juyoun Park"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-12T08:13:44+00:00",
+    "updated": "2026-08-12T08:13:44+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11769v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11769v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Policy-Induced Hand Priors in Humanoid Dual-Arm Manipulation: Diagnosing and Mitigating Initial-Pose Dependence",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.11739": {
+    "title": "G0.5: One Autoregressive Stream for Robot Reasoning and Action",
+    "authors": [
+      "Yicheng Liu",
+      "Zibin Dong",
+      "Baijun Ye",
+      "Tianyuan Yuan",
+      "Tao Jiang",
+      "Anqi Yang",
+      "Shicheng Cao",
+      "Haonan Liu",
+      "Yue Sun",
+      "Zihan Guo",
+      "Xiao Liu",
+      "Dong Ke",
+      "Changxun Pan",
+      "Chenru Wu",
+      "Tailai Cheng",
+      "Xiaoshu Ren",
+      "Xinlei Zhang",
+      "Jianning Cui",
+      "Zijie Zhao",
+      "Haoyu Zhang",
+      "Kaiming Xu",
+      "Haodong Yang",
+      "Bowen Zhang",
+      "Jiahui Niu",
+      "Shaoting Zhu",
+      "Shiduo Zhang",
+      "Hang Zhao"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-12T07:26:47+00:00",
+    "updated": "2026-08-12T07:26:47+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11739v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11739v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "G0.5: One Autoregressive Stream for Robot Reasoning and Action",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.11671": {
+    "title": "StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models",
+    "authors": [
+      "Siyu Xu",
+      "Yunke Wang",
+      "Zijian Wang",
+      "Dihao Zhu",
+      "Chenghao Xia",
+      "Chengbin Du",
+      "Daochang Liu",
+      "Tao Huang",
+      "Chang Xu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-12T05:30:53+00:00",
+    "updated": "2026-08-12T05:30:53+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11671v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11671v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.11363": {
+    "title": "Adaptation of Generalist Robot Policies with Minimal Data",
+    "authors": [
+      "Shreyas Kowshik",
+      "Sreyas Venkataraman",
+      "Leo Wang",
+      "Niharika Pant",
+      "Max Simchowitz",
+      "Aviral Kumar"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-11T19:15:26+00:00",
+    "updated": "2026-08-11T19:15:26+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11363v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11363v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Adaptation of Generalist Robot Policies with Minimal Data",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.11350": {
+    "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+    "authors": [
+      "Peidong Wang",
+      "Zhiming Ma",
+      "Ying Chang",
+      "Xufang Luo",
+      "Xiaocui Yang",
+      "Shi Feng",
+      "Yuqing Yang",
+      "Dongsheng Li"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CL",
+    "published": "2026-08-11T18:55:58+00:00",
+    "updated": "2026-08-11T18:55:58+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11350v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11350v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "cross",
+    "direction": "embodied_ai",
+    "one_line_summary": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.12078": {
+    "title": "Better Slots, Better Worlds: Representation Quality & Robustness in Object-Centric World Models",
+    "authors": [
+      "Shukrullo Nazirjonov",
+      "Sai Prasanna",
+      "Anna Manasyan",
+      "Georg Martius"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-12T14:02:36+00:00",
+    "updated": "2026-08-12T14:02:36+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.12078v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12078v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Better Slots, Better Worlds: Representation Quality & Robustness in Object-Centric World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Published at Model-Based RL in the Era of Generative World Models Workshop at RLC 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2608.11605": {
+    "title": "Foresight Without Seeing: Latent Futures for World Action Models",
+    "authors": [
+      "Jiakai Huang",
+      "Zhongbo Wu",
+      "Zheng Zhang",
+      "Zihan Wang",
+      "Shan You",
+      "Tao Huang"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-08-12T03:27:43+00:00",
+    "updated": "2026-08-12T03:27:43+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11605v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11605v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Foresight Without Seeing: Latent Futures for World Action Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "12 pages, 3 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2608.11601": {
+    "title": "How Can Driving World Models Do Counterfactual Prediction?",
+    "authors": [
+      "Jiaru Zhang",
+      "Can Cui",
+      "Yi Xu",
+      "Xin Ye",
+      "Ruqi Zhang",
+      "Ziran Wang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-12T03:19:59+00:00",
+    "updated": "2026-08-12T03:19:59+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11601v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11601v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "How Can Driving World Models Do Counterfactual Prediction?",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.11521": {
+    "title": "Keep the Future, Drop the Rollout: RIFT for World Action Models",
+    "authors": [
+      "Chushan Zhang",
+      "Jinguang Tong",
+      "Xuesong Li",
+      "Yikai Wang",
+      "Hongdong Li"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-12T00:17:30+00:00",
+    "updated": "2026-08-12T00:17:30+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11521v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11521v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Keep the Future, Drop the Rollout: RIFT for World Action Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.11349": {
+    "title": "Dynamics Models for Offline Hyperparameter Selection in Real-World RL",
+    "authors": [
+      "Jordan Coblin",
+      "Han Wang",
+      "Martha White",
+      "Adam White"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-08-11T18:54:51+00:00",
+    "updated": "2026-08-11T18:54:51+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11349v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11349v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Dynamics Models for Offline Hyperparameter Selection in Real-World RL",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted to the 2026 Reinforcement Learning Conference (RLC)",
+    "relevance_tier": "peripheral"
+  },
+  "2608.12198": {
+    "title": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
+    "authors": [
+      "Jean-Pierre Busch",
+      "Guido Linden",
+      "Jan Bergmann",
+      "Lutz Eckstein"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-12T15:52:18+00:00",
+    "updated": "2026-08-12T15:52:18+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.12198v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12198v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "17 pages; Accepted to be published as part of the 17. Uni-DAS e.V. Workshop \"Fahrerassistenz und automatisiertes Fahren\", September 29-30, 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2608.12051": {
+    "title": "Do Not Forget the Obvious - RISC: A Risk-Informed Slice-Coverage Protocol for Safe Autonomous Driving",
+    "authors": [
+      "Fabian Hüger"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-12T13:32:25+00:00",
+    "updated": "2026-08-12T13:32:25+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.12051v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12051v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Do Not Forget the Obvious - RISC: A Risk-Informed Slice-Coverage Protocol for Safe Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "14 pages, 3 figures, 5 tables. Accepted at the ECCV 2026 Workshop on Safe and Defensive Autonomous Driving (SDAD). Non-archival workshop paper",
+    "relevance_tier": "peripheral"
+  },
+  "2608.11770": {
+    "title": "Achieving Near-Zero-Overhead Multi-Model Hierarchical Classification in Real-Time Detection Pipelines",
+    "authors": [
+      "Vaishnav Raju"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.DC",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-12T08:14:22+00:00",
+    "updated": "2026-08-12T08:14:22+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11770v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11770v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Achieving Near-Zero-Overhead Multi-Model Hierarchical Classification in Real-Time Detection Pipelines",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "14 pages, 17 figures, 5 tables. Submitted to Journal of Real-Time Image Processing",
+    "relevance_tier": "peripheral"
+  },
+  "2608.11580": {
+    "title": "RoadWeaver: Large-Scale Lane-Level HD Map Generation from Scratch for Autonomous Driving Simulation",
+    "authors": [
+      "Yueyuan Li",
+      "Zexi Chen",
+      "Weijie Xi",
+      "Mingyang Jiang",
+      "Songan Zhang",
+      "Hanyang Zhuang",
+      "Ming Yang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-12T02:39:14+00:00",
+    "updated": "2026-08-12T02:39:14+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11580v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11580v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "RoadWeaver: Large-Scale Lane-Level HD Map Generation from Scratch for Autonomous Driving Simulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 6 figures, 2 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2608.11451": {
+    "title": "Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards",
+    "authors": [
+      "Simón Patiño Idarraga",
+      "Erick Silva",
+      "Rehana Yasmin",
+      "Ali Shoker"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-11T21:27:27+00:00",
+    "updated": "2026-08-11T21:27:27+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11451v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11451v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Herding End-to-End Autonomous Driving via Neuro-Symbolic Safety Guards",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.11407": {
+    "title": "Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion and Trajectory Infilling",
+    "authors": [
+      "Da Saem Lee",
+      "Yash Vardhan Pant",
+      "Sebastian Fischmeister"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.MA"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-11T20:13:51+00:00",
+    "updated": "2026-08-11T20:13:51+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.11407v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11407v1",
+    "first_seen": "2026-08-13",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Top-down Traffic Scenario Generation via Joint Initial-Goal Diffusion and Trajectory Infilling",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted for publication at the IEEE International Conference on Intelligent Transportation Systems (ITSC), 2026",
     "relevance_tier": "peripheral"
   }
 }
