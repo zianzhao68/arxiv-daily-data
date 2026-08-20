@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-08-19T06:19:56.963670+00:00",
-    "total_papers": 2527
+    "last_updated": "2026-08-20T06:20:21.935448+00:00",
+    "total_papers": 2551
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -118922,6 +118922,1067 @@
     "key_terms": [],
     "journal_ref": null,
     "comment": "This work has been submitted to the Transportation Research Record: Journal of the Transportation Research Board for possible publication",
+    "relevance_tier": "peripheral"
+  },
+  "2608.19182": {
+    "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+    "authors": [
+      "Jayjun Lee",
+      "Jessica Yin",
+      "Asif Rana",
+      "Nicholas Blauch",
+      "Sam Mady",
+      "Mohak Bhardwaj",
+      "Nima Fazeli",
+      "Nathan Ratliff",
+      "Karl Van Wyk",
+      "Ankur Handa"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-19T17:55:06+00:00",
+    "updated": "2026-08-19T17:55:06+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.19182v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.19182v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://adept-dexterity.github.io/",
+    "relevance_tier": "peripheral"
+  },
+  "2608.19066": {
+    "title": "GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting",
+    "authors": [
+      "Yechan Park",
+      "HyunJin Kim"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-19T16:08:10+00:00",
+    "updated": "2026-08-19T16:08:10+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.19066v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.19066v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18840": {
+    "title": "Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction",
+    "authors": [
+      "Zijian Xiao",
+      "Zipeng Ye",
+      "Jinkun Hao",
+      "Xiong Yang",
+      "Yuchen Xie",
+      "Ran Yi"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-19T12:00:35+00:00",
+    "updated": "2026-08-19T12:00:35+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18840v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18840v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18787": {
+    "title": "Dream2Reward: Transition-Alignment Reward Models from Positive Demonstrations for Robotic Manipulation",
+    "authors": [
+      "Haoyu Zhang",
+      "Zecui Zeng",
+      "Bin Wang",
+      "Lusong Li",
+      "Liang Lin",
+      "Long Cheng"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-19T10:44:20+00:00",
+    "updated": "2026-08-19T10:44:20+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18787v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18787v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Dream2Reward: Transition-Alignment Reward Models from Positive Demonstrations for Robotic Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "12 pages, 7 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2608.18671": {
+    "title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+    "authors": [
+      "Mohammad Zamani",
+      "Fatemeh Ziaeetabar"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-19T08:21:58+00:00",
+    "updated": "2026-08-19T08:21:58+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18671v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18671v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18618": {
+    "title": "LabDex: A Hierarchical Benchmark for Dexterous Manipulation in Laboratories",
+    "authors": [
+      "Zhipeng Tang",
+      "Sihang Chen",
+      "Sha Zhang",
+      "Peihao Yang",
+      "Yan Liu",
+      "Wentao Zhao",
+      "Xinrui Liu",
+      "Rui Huang",
+      "Wensheng Du",
+      "Yuting Huang",
+      "Jiajun Deng",
+      "Lidian Wang",
+      "Yuan Zhang",
+      "Yanyong Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-19T07:11:06+00:00",
+    "updated": "2026-08-19T07:11:06+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18618v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18618v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "LabDex: A Hierarchical Benchmark for Dexterous Manipulation in Laboratories",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "13 pages, 3 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2608.18433": {
+    "title": "The Embodiment Gap in Robot Foundation Models",
+    "authors": [
+      "Yukiyasu Domae",
+      "Keisuke Shirai",
+      "Hanbit Oh",
+      "Ryoichi Nakajo",
+      "Tomohiro Motoda",
+      "Koshi Makihara",
+      "Masaki Murooka",
+      "Takuma Yagi",
+      "Yoshiaki Bando",
+      "Ryo Hanai"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-19T01:55:04+00:00",
+    "updated": "2026-08-19T01:55:04+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18433v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18433v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "The Embodiment Gap in Robot Foundation Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": "Transactions on Machine Learning Research, August 2026",
+    "comment": "32 pages, 4 figures. Published in Transactions on Machine Learning Research (TMLR), August 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2608.18410": {
+    "title": "Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies",
+    "authors": [
+      "Wei Jiang",
+      "Wei Wang"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-08-19T00:38:23+00:00",
+    "updated": "2026-08-19T00:38:23+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18410v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18410v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "12 pages, 5 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2608.18292": {
+    "title": "GuideFetch: A Task Coordination Framework for Concurrent Navigation and Object Retrieval in Assistive Robot Dogs",
+    "authors": [
+      "Qian Yin",
+      "Ruiping Liu",
+      "Kunyu Peng",
+      "Jianxiang Man",
+      "Isik Baran Sandan",
+      "Junwei Zheng",
+      "Yufan Chen",
+      "Di Wen",
+      "Kailun Yang",
+      "Rainer Stiefelhagen"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-18T20:16:57+00:00",
+    "updated": "2026-08-18T20:16:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18292v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18292v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "GuideFetch: A Task Coordination Framework for Concurrent Navigation and Object Retrieval in Assistive Robot Dogs",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18279": {
+    "title": "A Comprehensive Review of Large Language Models for Nanophotonics: From Surrogate Modeling to Autonomous Design",
+    "authors": [
+      "Huanshu Zhang",
+      "Kegeng Tang",
+      "Lei Kang",
+      "Sawyer D. Campbell",
+      "Zihao Wang",
+      "Douglas H. Werner"
+    ],
+    "categories": [
+      "physics.optics",
+      "cs.LG"
+    ],
+    "primary_category": "physics.optics",
+    "published": "2026-08-18T19:57:16+00:00",
+    "updated": "2026-08-18T19:57:16+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18279v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18279v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "cross",
+    "direction": "embodied_ai",
+    "one_line_summary": "A Comprehensive Review of Large Language Models for Nanophotonics: From Surrogate Modeling to Autonomous Design",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted for publication in Advanced Photonics",
+    "relevance_tier": "peripheral"
+  },
+  "2608.18227": {
+    "title": "Revisiting the \"Push-T\" Robot Manipulation Task with Agentic Robotics",
+    "authors": [
+      "Shuangyu Xie",
+      "Kaiyuan Chen",
+      "Ken Goldberg"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-18T18:16:15+00:00",
+    "updated": "2026-08-18T18:16:15+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18227v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18227v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Revisiting the \"Push-T\" Robot Manipulation Task with Agentic Robotics",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.19085": {
+    "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
+    "authors": [
+      "Ruiguo Zhong",
+      "Benshan Ma",
+      "Xiaolong Chen",
+      "Lang Zhang",
+      "Mingyue Feng",
+      "Yaonong Wang",
+      "Pei Liu",
+      "Jun Ma"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-19T16:33:02+00:00",
+    "updated": "2026-08-19T16:33:02+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.19085v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.19085v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18901": {
+    "title": "Quantum Tensor Network Learning with DMRG",
+    "authors": [
+      "Gustav J L Jäger",
+      "Martin B Plenio",
+      "Hans-Martin Rieser"
+    ],
+    "categories": [
+      "quant-ph",
+      "cs.LG"
+    ],
+    "primary_category": "quant-ph",
+    "published": "2026-08-19T13:25:51+00:00",
+    "updated": "2026-08-19T13:25:51+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18901v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18901v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "Quantum Tensor Network Learning with DMRG",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": "ESANN 2025 Proceedings pp. 537-542",
+    "comment": "6 pages, 2 figures, 1 table, ESANN conference",
+    "relevance_tier": "peripheral"
+  },
+  "2608.18746": {
+    "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+    "authors": [
+      "Jiawei Wang",
+      "Ke Rui",
+      "Yushen Zuo",
+      "Yichun Feng",
+      "Minglei Li"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-08-19T09:56:39+00:00",
+    "updated": "2026-08-19T09:56:39+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18746v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18746v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18669": {
+    "title": "Reinforced Planning with Latent World Models",
+    "authors": [
+      "Armin Sommer",
+      "Jannik Schilling"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-08-19T08:21:28+00:00",
+    "updated": "2026-08-19T08:21:28+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18669v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18669v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Reinforced Planning with Latent World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Preprint",
+    "relevance_tier": "peripheral"
+  },
+  "2608.18647": {
+    "title": "Progressive Experience Fusion for Multi-Task World Model Control in Endovascular Navigation",
+    "authors": [
+      "Harry Robertshaw",
+      "Maxence Boels",
+      "Nikola Fischer",
+      "Sebastien Ourselin",
+      "Christos Bergeles",
+      "Alejandro Granados",
+      "Thomas C Booth"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-19T07:51:50+00:00",
+    "updated": "2026-08-19T07:51:50+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18647v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18647v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Progressive Experience Fusion for Multi-Task World Model Control in Endovascular Navigation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18484": {
+    "title": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+    "authors": [
+      "Pardis Taghavi",
+      "Reza Langari",
+      "Gaurav Pandey"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-19T03:16:09+00:00",
+    "updated": "2026-08-19T03:16:09+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18484v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18484v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "22 pages, 5 figures. Project page: https://pardistaghavi.github.io/SparsePR-website/",
+    "relevance_tier": "peripheral"
+  },
+  "2608.18234": {
+    "title": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
+    "authors": [
+      "Ziyang Cheng",
+      "Tianshu Tang",
+      "Jinxin Lan",
+      "Xinze Chen",
+      "Yuhan Gong",
+      "Zhichao Liu",
+      "Changzhong Wu",
+      "Yahao Mao",
+      "Zongyan Deng",
+      "Mingxuan Ma",
+      "Huasen Xi",
+      "Yilong Liu",
+      "Yutong Wu",
+      "Xiaofeng Wang",
+      "Yang Wang",
+      "Yun Ye",
+      "Guan Huang",
+      "Xiaojie Jin",
+      "Zheng Zhu",
+      "Jiwen Lu"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-18T18:21:36+00:00",
+    "updated": "2026-08-18T18:21:36+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18234v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18234v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "20 pages, 8 figures, 4 tables. Technical report. Project page: https://shepherd1226.github.io/gigabrain-wbc-0.5/",
+    "relevance_tier": "peripheral"
+  },
+  "2608.18190": {
+    "title": "Safe Domain Adaptation for Physics: Overcoming Nuisances, Label Shifts, and Simulation Priors",
+    "authors": [
+      "Ivan Kharuk"
+    ],
+    "categories": [
+      "cs.LG",
+      "astro-ph.IM",
+      "physics.data-an"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-08-18T11:51:59+00:00",
+    "updated": "2026-08-18T11:51:59+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18190v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18190v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Safe Domain Adaptation for Physics: Overcoming Nuisances, Label Shifts, and Simulation Priors",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.19188": {
+    "title": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
+    "authors": [
+      "Ayush Kaura",
+      "Vignesh Vembar",
+      "Md Faizal Karim",
+      "Keshab Patra",
+      "K Madhava Krishna"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-08-19T17:56:11+00:00",
+    "updated": "2026-08-19T17:56:11+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.19188v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.19188v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.19014": {
+    "title": "One-Stage Object Detectors in Autonomous Driving",
+    "authors": [
+      "Jonel Roman",
+      "Ryan Sirjue",
+      "Peter Nguyen",
+      "Daniel Krutky",
+      "Juan Jesus",
+      "Sudip Dhakal"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-19T15:13:33+00:00",
+    "updated": "2026-08-19T15:13:33+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.19014v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.19014v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "One-Stage Object Detectors in Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18996": {
+    "title": "GrabVG: Graph-Attentive Binding for Visual Grounding in UAV Imagery",
+    "authors": [
+      "Chaowei Wang",
+      "Yan Di",
+      "Jingjun Sun",
+      "Baozhe Liu",
+      "Jiaxu Tian",
+      "Yuheng Li",
+      "Guangqian Guo",
+      "Shan Gao"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-19T15:00:02+00:00",
+    "updated": "2026-08-19T15:00:02+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18996v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18996v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "GrabVG: Graph-Attentive Binding for Visual Grounding in UAV Imagery",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18778": {
+    "title": "Engineering Psychological Safety in Autonomous Vehicles: A Systems-Theoretic Framework for Psychological Safety in Autonomous Vehicles and its Validation in Real-World Scenarios",
+    "authors": [
+      "Yandika Sirgabsou",
+      "Benjamin Hardin",
+      "François Leblanc",
+      "Efi Raili",
+      "David Jackson",
+      "Pericle Salvini",
+      "Lars Kunze",
+      "Marina Jirotka"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.RO"
+    ],
+    "primary_category": "cs.HC",
+    "published": "2026-08-19T10:35:08+00:00",
+    "updated": "2026-08-19T10:35:08+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18778v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18778v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "cross",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Engineering Psychological Safety in Autonomous Vehicles: A Systems-Theoretic Framework for Psychological Safety in Autonomous Vehicles and its Validation in Real-World Scenarios",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2608.18498": {
+    "title": "DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer",
+    "authors": [
+      "Yansong Wang",
+      "Zhaobo Qi",
+      "Xinyan Liu",
+      "Beichen Zhang",
+      "Shuhui Wang",
+      "Weigang Zhang",
+      "Qingming Huang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-08-19T03:44:28+00:00",
+    "updated": "2026-08-19T03:44:28+00:00",
+    "abs_url": "http://arxiv.org/abs/2608.18498v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18498v1",
+    "first_seen": "2026-08-20",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "DyG$^2$T: Modeling Object Dynamics with 3D Gaussian Temporal-Spatial Particle Graph Transformer",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
     "relevance_tier": "peripheral"
   }
 }
