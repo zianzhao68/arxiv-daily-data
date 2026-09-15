@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-09-11T10:20:04.522632+00:00",
-    "total_papers": 3082
+    "last_updated": "2026-09-15T10:38:00.994614+00:00",
+    "total_papers": 3093
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -143361,6 +143361,470 @@
     "key_terms": [],
     "journal_ref": null,
     "comment": "This work has been submitted to Signal, Image and Video Processing for possible publication",
+    "relevance_tier": "peripheral"
+  },
+  "2609.15544": {
+    "title": "Specifying Reward Functions for RL Without Environment Sampling",
+    "authors": [
+      "Stephane Hatgis-Kessell",
+      "W. Bradley Knox",
+      "Emma Brunskill"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-09-14T13:28:52+00:00",
+    "updated": "2026-09-14T13:28:52+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.15544v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15544v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Specifying Reward Functions for RL Without Environment Sampling",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.15322": {
+    "title": "Planning in the Backbone: DiffAdapterVLA for Native Continuous Trajectory Generation with Driving VLMs",
+    "authors": [
+      "Changxin Lu",
+      "Xiaoliang Meng",
+      "Yu Wu",
+      "Rui Huang",
+      "Honglin Li",
+      "Tao Chen",
+      "Kaixuan Zhou",
+      "Yadong Shao"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-14T10:14:38+00:00",
+    "updated": "2026-09-14T10:14:38+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.15322v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15322v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Planning in the Backbone: DiffAdapterVLA for Native Continuous Trajectory Generation with Driving VLMs",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "21 pages, 8 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2609.15169": {
+    "title": "GRAVA: Grounded Reasoning-to-Action Representation and Learning for Autonomous Driving",
+    "authors": [
+      "Xiao Liu",
+      "Haoyu Li",
+      "Jianghao Leng",
+      "Lin Wang",
+      "Chao Sun"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-14T07:55:04+00:00",
+    "updated": "2026-09-14T07:55:04+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.15169v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15169v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "GRAVA: Grounded Reasoning-to-Action Representation and Learning for Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "23 pages. Code: https://github.com/AhernResearch/grava",
+    "relevance_tier": "peripheral"
+  },
+  "2609.14997": {
+    "title": "From Learned-Mode AV-Traffic Pairing to Planner Decisions: A Marginal-Preserving Study on Argoverse 2",
+    "authors": [
+      "Jingyu Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-14T04:05:14+00:00",
+    "updated": "2026-09-14T04:05:14+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.14997v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14997v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "From Learned-Mode AV-Traffic Pairing to Planner Decisions: A Marginal-Preserving Study on Argoverse 2",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 4 figures. Accepted to the 16th Workshop on Planning, Perception and Navigation for Intelligent Vehicles (PPNIV), held in conjunction with IEEE/RSJ IROS 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2609.14619": {
+    "title": "ESAFusion: LiDAR--4-D Radar Fusion via Local Geometric Complementation and Multiscale Adaptive Interaction for 3-D Object Detection",
+    "authors": [
+      "Gang Ma",
+      "Senjie Hu",
+      "Junjie Liu",
+      "Chao Wang",
+      "Hui Wei"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-13T15:48:23+00:00",
+    "updated": "2026-09-13T15:48:23+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.14619v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14619v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "ESAFusion: LiDAR--4-D Radar Fusion via Local Geometric Complementation and Multiscale Adaptive Interaction for 3-D Object Detection",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.14374": {
+    "title": "LLaTSA: Large Language Model-Aligned General-Purpose Transient Stability Analysis",
+    "authors": [
+      "Chao Shen",
+      "Hongwei Zhen",
+      "Junyan Shao",
+      "Zhenghao Yang",
+      "Yifan Zhang",
+      "Mingyang Sun"
+    ],
+    "categories": [
+      "eess.SY",
+      "cs.AI"
+    ],
+    "primary_category": "eess.SY",
+    "published": "2026-09-13T08:07:08+00:00",
+    "updated": "2026-09-13T08:07:08+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.14374v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14374v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "cross",
+    "direction": "autonomous_driving",
+    "one_line_summary": "LLaTSA: Large Language Model-Aligned General-Purpose Transient Stability Analysis",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.14185": {
+    "title": "Bi-Level Routing and Sparse Spatial Attention based Multi-View BEV 3D Object Detection for Autonomous Driving",
+    "authors": [
+      "Jing Zhang",
+      "Jiaqi Liu",
+      "Zibo Wang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-12T23:35:28+00:00",
+    "updated": "2026-09-12T23:35:28+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.14185v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14185v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Bi-Level Routing and Sparse Spatial Attention based Multi-View BEV 3D Object Detection for Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted to 2026 9th International Conference on Computer Information Science and Application Technology (CISAT). 4 pages, 1 figure",
+    "relevance_tier": "peripheral"
+  },
+  "2609.13778": {
+    "title": "GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction",
+    "authors": [
+      "Jiaheng Chen",
+      "Jiaxing Li",
+      "Leixia Wang",
+      "Jianan Ju",
+      "Tinghe Zhang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-12T07:46:36+00:00",
+    "updated": "2026-09-12T07:46:36+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.13778v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.13778v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "GEAR: From Dynamic Encoding to Dynamic Activation in Social Trajectory Prediction",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted by ICDM 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2609.13595": {
+    "title": "Predictive audio representations for early detection and tracking of hidden dynamic objects",
+    "authors": [
+      "Katerina Vinciguerra",
+      "Moritz Brandes",
+      "Danilo Hollosi",
+      "Letizia Marchegiani"
+    ],
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "eess.AS"
+    ],
+    "primary_category": "cs.SD",
+    "published": "2026-09-11T23:05:23+00:00",
+    "updated": "2026-09-11T23:05:23+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.13595v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.13595v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "cross",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Predictive audio representations for early detection and tracking of hidden dynamic objects",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 2 tables, 6 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2609.13328": {
+    "title": "Pedestrian Crossing Intent Classification From Event-Based Vision Using Convolutional Spiking Neural Networks With Temporal Augmentation",
+    "authors": [
+      "Henok Teklu",
+      "Mustafa Sakhai",
+      "Maciej Wielgosz",
+      "Matej Mertik"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-11T02:34:24+00:00",
+    "updated": "2026-09-11T02:34:24+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.13328v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.13328v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Pedestrian Crossing Intent Classification From Event-Based Vision Using Convolutional Spiking Neural Networks With Temporal Augmentation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 figures, 6 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2609.13307": {
+    "title": "IMM-based Multiple Object Tracking using a State Prediction Neural Network",
+    "authors": [
+      "Chan-Bin Lim",
+      "Dong-Hee Paek",
+      "Seung-Hyun Kong"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-10T13:19:08+00:00",
+    "updated": "2026-09-10T13:19:08+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.13307v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.13307v1",
+    "first_seen": "2026-09-15",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "IMM-based Multiple Object Tracking using a State Prediction Neural Network",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 4 figures",
     "relevance_tier": "peripheral"
   }
 }
