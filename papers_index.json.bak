@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-09-29T12:42:29.969252+00:00",
-    "total_papers": 3599
+    "last_updated": "2026-09-30T12:10:06.497243+00:00",
+    "total_papers": 3667
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -166256,6 +166256,3081 @@
     "key_terms": [],
     "journal_ref": null,
     "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.38173": {
+    "title": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
+    "authors": [
+      "Minxing Li",
+      "Minghao Han",
+      "Weizhi Zhao",
+      "Hanwen Wang",
+      "Xiangshuo Liu",
+      "Shuyao Shang",
+      "Jingxiang Zhou",
+      "Mingchao Sun",
+      "Hongyu Pan",
+      "Mu Xu",
+      "Yu Liu",
+      "Lue Fan",
+      "Zhaoxiang Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T17:59:45+00:00",
+    "updated": "2026-09-29T17:59:45+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38173v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38173v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.38172": {
+    "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+    "authors": [
+      "Zihan Wang",
+      "Zhen Wu",
+      "Pieter Abbeel",
+      "Rocky Duan",
+      "Jitendra Malik",
+      "Carmelo Sferrazza",
+      "C. Karen Liu",
+      "Guanya Shi",
+      "Angjoo Kanazawa"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.GR"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T17:59:45+00:00",
+    "updated": "2026-09-29T17:59:45+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38172v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38172v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "published at CoRL 2026. Project page: https://prism-real2sim2real.github.io/",
+    "relevance_tier": "peripheral"
+  },
+  "2609.38164": {
+    "title": "Rho: A Foundation for Efficiently Adaptable VLA Models",
+    "authors": [
+      " Rho Team",
+      "Simran Bagaria",
+      "Daphne Chen",
+      "Dean Fortier",
+      "Jianlong Fu",
+      "Michael Harrison",
+      "Tess Hellebrekers",
+      "Neel Joshi",
+      "Andrey Kolobov",
+      "Dalton Moore",
+      "Galen Mullins",
+      "Michael Murray",
+      "Eduardo Salinas",
+      "Reuben Tan"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T17:59:28+00:00",
+    "updated": "2026-09-29T17:59:28+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38164v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38164v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Rho: A Foundation for Efficiently Adaptable VLA Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.38163": {
+    "title": "Rethinking Representations for World-Action Modeling",
+    "authors": [
+      "Haoyi Jiang",
+      "Liu Liu",
+      "Xinjiang Wang",
+      "Zhihao Sun",
+      "Zequn Chen",
+      "Sen Wang",
+      "Xinjie Wang",
+      "Xia Chen",
+      "Jingfeng Yao",
+      "Weiheng Zhao",
+      "Shanglin Yuan",
+      "Zhizhong Su",
+      "Wei Sui",
+      "Wenyu Liu",
+      "Xinggang Wang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T17:59:22+00:00",
+    "updated": "2026-09-29T17:59:22+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38163v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38163v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Rethinking Representations for World-Action Modeling",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "https://github.com/hustvl/ReWAM",
+    "relevance_tier": "peripheral"
+  },
+  "2609.38105": {
+    "title": "FORM: Robot Manipulation through Direct Material Law Identification",
+    "authors": [
+      "Stepan Tretiakov",
+      "Ruihan Zhao",
+      "Cheng-Hsi Hsiao",
+      "Xingjian Li",
+      "Adam Thorpe",
+      "Hassan Iqbal",
+      "Sandeep Chinchali",
+      "Ufuk Topcu",
+      "Krishna Kumar"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T17:46:40+00:00",
+    "updated": "2026-09-29T17:46:40+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38105v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38105v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "FORM: Robot Manipulation through Direct Material Law Identification",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "9 pages, 6 figures. Project page: https://form-robots.github.io/ . Code: https://github.com/form-robots/FORM",
+    "relevance_tier": "peripheral"
+  },
+  "2609.38078": {
+    "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+    "authors": [
+      "Bingxuan Li",
+      "Siqi Song",
+      "Yizhuo Wu",
+      "Jiarui Yao",
+      "Tong Zhang",
+      "Huan Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T17:36:40+00:00",
+    "updated": "2026-09-29T17:36:40+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38078v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38078v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.38059": {
+    "title": "WorldLine: Action-Driven Visual Simulation for Robotic Manipulation",
+    "authors": [
+      "Shenghe Zheng",
+      "Wenbo Li",
+      "Jiyao Zhang",
+      "Bin Xia",
+      "Haoyang Huang",
+      "Nan Duan",
+      "Jiaya Jia"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T17:26:22+00:00",
+    "updated": "2026-09-29T17:26:22+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38059v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38059v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "WorldLine: Action-Driven Visual Simulation for Robotic Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "A work about visual simulators for embodied AI",
+    "relevance_tier": "peripheral"
+  },
+  "2609.38046": {
+    "title": "EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation",
+    "authors": [
+      "Yiming Jiang",
+      "Chen Jin",
+      "Chongyang Xu",
+      "Yilun Chen",
+      "Aimin Hao",
+      "Yisheng He"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T17:18:42+00:00",
+    "updated": "2026-09-29T17:18:42+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38046v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38046v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37922": {
+    "title": "WayFinder: Hierarchical Visual-Language-Action for Zero-Shot Waypoint Generation and Low-Level Kinematic Control",
+    "authors": [
+      "Timothy K Johnsen",
+      "Marco Levorato"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T16:16:16+00:00",
+    "updated": "2026-09-29T16:16:16+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37922v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37922v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "WayFinder: Hierarchical Visual-Language-Action for Zero-Shot Waypoint Generation and Low-Level Kinematic Control",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 1 figure, 5 tables, Accepted to the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37810": {
+    "title": "Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents",
+    "authors": [
+      "Sicheng Xie",
+      "Yitong Chen",
+      "Haidong Cao",
+      "Shunlin Lu",
+      "Zuxuan Wu",
+      "Yu-Gang Jiang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T15:25:43+00:00",
+    "updated": "2026-09-29T15:25:43+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37810v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37810v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37793": {
+    "title": "MVG-WAM: Multiple View Geometry-Aware World-Action Modeling for Robotic Manipulation",
+    "authors": [
+      "Wenbo Chen",
+      "Tianfu Li",
+      "Haoxuan Xu",
+      "Zhihao Cao",
+      "Zhenghan Chen",
+      "Zhengming Zhu",
+      "Zizhou Luo",
+      "Guosheng Yang",
+      "Yuan Liu",
+      "Lujia Wang",
+      "Wen Chen",
+      "Haoang Li"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T15:20:59+00:00",
+    "updated": "2026-09-29T15:20:59+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37793v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37793v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "MVG-WAM: Multiple View Geometry-Aware World-Action Modeling for Robotic Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://bobc-123.github.io/MVG-WAM/",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37772": {
+    "title": "Urgent Actions Go First: Urgency-Aware Denoising for Real-Time VLA Control",
+    "authors": [
+      "Zibo Wang",
+      "Haochen Han",
+      "Pengzhen Ren",
+      "Mingtong Dai",
+      "Fangming Liu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T15:13:14+00:00",
+    "updated": "2026-09-29T15:13:14+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37772v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37772v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Urgent Actions Go First: Urgency-Aware Denoising for Real-Time VLA Control",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "19 pages",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37771": {
+    "title": "Faster and Better? Benchmark Bugs and Design Limitations Distort the Evaluation of Vision-Language-Action Acceleration",
+    "authors": [
+      "Qiwei Chen",
+      "Kaijun Zhou",
+      "Nuohui Shi",
+      "Zhiyang Li",
+      "Yuxuan Feng",
+      "Jinyu Gu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T15:12:55+00:00",
+    "updated": "2026-09-29T15:12:55+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37771v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37771v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Faster and Better? Benchmark Bugs and Design Limitations Distort the Evaluation of Vision-Language-Action Acceleration",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Includes appendix",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37655": {
+    "title": "Exemplar2VQA: A Scalable Exemplar-Driven Visual Question Answering Generation Framework via Multi-Agent Coding",
+    "authors": [
+      "Jiayu Ying",
+      "Qijian Tian",
+      "Ruijie Xu",
+      "Xinnan Zhu",
+      "Daoguo Dong",
+      "Jiachen Xu",
+      "Xin Tan"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T14:17:49+00:00",
+    "updated": "2026-09-29T14:17:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37655v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37655v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Exemplar2VQA: A Scalable Exemplar-Driven Visual Question Answering Generation Framework via Multi-Agent Coding",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted to NeurIPS 2026. 33 pages, 11 figures, 11 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37591": {
+    "title": "Credit-Guided Policy Improvement for Test-time Adaptive Vision-Language Navigation",
+    "authors": [
+      "Yang Li",
+      "Sijia Zhang",
+      "Yihan Li",
+      "Aming WU",
+      "Zihao Zhang",
+      "Ziju Han",
+      "Yahong Han"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T13:46:11+00:00",
+    "updated": "2026-09-29T13:46:11+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37591v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37591v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Credit-Guided Policy Improvement for Test-time Adaptive Vision-Language Navigation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37583": {
+    "title": "RoboHarn-Evo: Evolving Hierarchical Physical Knowledge for Self-Improving Robotic Manipulation",
+    "authors": [
+      "Shifeng Bao",
+      "Fanding Huang",
+      "Yihan Lin",
+      "Youhe Feng",
+      "Guanlin Li",
+      "Chen Zhao",
+      "Yang Li",
+      "Jiawei He",
+      "Cheng Chi",
+      "Jing Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T13:42:22+00:00",
+    "updated": "2026-09-29T13:42:22+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37583v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37583v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "RoboHarn-Evo: Evolving Hierarchical Physical Knowledge for Self-Improving Robotic Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "39 pages, 9 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37560": {
+    "title": "RoboFin3D: A Sim-to-Real Platform for Robotic Surface Finishing",
+    "authors": [
+      "Haowei Wen",
+      "Shangtao Li",
+      "Vaibhav Sanjay",
+      "Philip Huang",
+      "Jiaoyang Li",
+      "Changliu Liu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T13:32:07+00:00",
+    "updated": "2026-09-29T13:32:07+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37560v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37560v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "RoboFin3D: A Sim-to-Real Platform for Robotic Surface Finishing",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted for poster presentation at the IROS 2026 Workshop on Sim2Real and Classical Control: From Rigorous Theory to Data-Driven Robotics",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37530": {
+    "title": "RawVLA: Embodied Neural Image Signal Processor For Robotic Manipulation",
+    "authors": [
+      "Shuhong Liu",
+      "Heng Zhou",
+      "Lingfeng Qian",
+      "Yuhao Fang",
+      "Xianbao Hou",
+      "Qianyu Zhou",
+      "Lin Gu",
+      "Wei Sui",
+      "Jianfei Yang",
+      "Ziteng Cui"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T13:16:37+00:00",
+    "updated": "2026-09-29T13:16:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37530v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37530v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "RawVLA: Embodied Neural Image Signal Processor For Robotic Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37519": {
+    "title": "Video2STL: Grounding VLM-Generated Temporal Specifications for Robot Learning",
+    "authors": [
+      "Merve Atasever",
+      "Keyan Azbijari",
+      "Cagan Bakirci",
+      "Bo-Ruei Huang",
+      "Tolga Izdas",
+      "Zahra Shahrooei",
+      "Richard Yang",
+      "Erdem Biyik",
+      "Jyotirmoy V. Deshmukh"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T13:10:14+00:00",
+    "updated": "2026-09-29T13:10:14+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37519v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37519v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Video2STL: Grounding VLM-Generated Temporal Specifications for Robot Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37433": {
+    "title": "FP2: Equipping Robotic Foundation Models with Force Control",
+    "authors": [
+      "Hongjie Fang",
+      "Shirun Tang",
+      "Junjian Hu",
+      "Shidong Zhang",
+      "Derek Zhang",
+      "Linhao Chen",
+      "Dehai Li",
+      "Mingyu Mei",
+      "Wanxi Liu",
+      "Cewu Lu",
+      "Shiquan Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T12:58:23+00:00",
+    "updated": "2026-09-29T12:58:23+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37433v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37433v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "FP2: Equipping Robotic Foundation Models with Force Control",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37432": {
+    "title": "Looped Actor: Depth-Recurrent Reasoning Models for Reinforcement Learning",
+    "authors": [
+      "T. Konstantin Rusch",
+      "Tim Seyde",
+      "Jared Boyer",
+      "Zach J. Patterson",
+      "Daniela Rus"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-09-29T12:57:04+00:00",
+    "updated": "2026-09-29T12:57:04+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37432v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37432v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Looped Actor: Depth-Recurrent Reasoning Models for Reinforcement Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37398": {
+    "title": "Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation",
+    "authors": [
+      "Xiangcheng Zhan",
+      "Zirui Chen",
+      "Yicheng Zhao",
+      "Ziteng Gao",
+      "Shuo Yang"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-09-29T12:41:41+00:00",
+    "updated": "2026-09-29T12:41:41+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37398v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37398v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "World Action Model; post-deployment training; dexterous manipulation",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37348": {
+    "title": "DROM: A Language-Guided Diffusion Framework for Multi-Skill Robotic Manipulation",
+    "authors": [
+      "Vincenzo Pomponi",
+      "Rocco Felici",
+      "Paolo Franceschi",
+      "Stefano Baraldo",
+      "Oliver Avram",
+      "Loris Roveda",
+      "Luca Maria Gambardella",
+      "Anna Valente"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T12:15:48+00:00",
+    "updated": "2026-09-29T12:15:48+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37348v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37348v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "DROM: A Language-Guided Diffusion Framework for Multi-Skill Robotic Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37334": {
+    "title": "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
+    "authors": [
+      "Sohyun Lee",
+      "Yoonjae Baek",
+      "Jaesang Won",
+      "Jinnyeong Kim",
+      "Kang Hyunwoo",
+      "Seung-Hwan Baek",
+      "Ivan Laptev",
+      "Suha Kwak"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T12:08:13+00:00",
+    "updated": "2026-09-29T12:08:13+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37334v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37334v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37330": {
+    "title": "The Domain Is a Residue: Adapting Self-Supervised Features, Not Generators",
+    "authors": [
+      "Thomas Deixelberger",
+      "Markus Steinberger"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.GR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T12:06:01+00:00",
+    "updated": "2026-09-29T12:06:01+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37330v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37330v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "The Domain Is a Residue: Adapting Self-Supervised Features, Not Generators",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "9 pages main text, 28 pages including appendix. 12 figures, 13 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37307": {
+    "title": "Remember What You Did: Action-History Memory with Dual-Expert Denoising for Long-Horizon Vision-Language-Action Policies",
+    "authors": [
+      "Yaxin Zhao",
+      "Dianye Huang",
+      "Chenwei Wang",
+      "Chenguang Yang",
+      "Zhongliang Jiang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T11:43:19+00:00",
+    "updated": "2026-09-29T11:43:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37307v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37307v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Remember What You Did: Action-History Memory with Dual-Expert Denoising for Long-Horizon Vision-Language-Action Policies",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37292": {
+    "title": "Recovering the View: Benchmarking Physical Active Vision for Occlusion Recovery in Robotic Manipulation",
+    "authors": [
+      "Kaijun Luo",
+      "Yudi Huang",
+      "Qijun Zhong",
+      "Xinshuai Song",
+      "Yang Liu",
+      "Liang Lin"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T11:33:21+00:00",
+    "updated": "2026-09-29T11:33:21+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37292v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37292v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Recovering the View: Benchmarking Physical Active Vision for Occlusion Recovery in Robotic Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "20 pages, 8 figures, Project page: https://hcplab-sysu.github.io/BAVO-Bench",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37250": {
+    "title": "V-JEPA Policy: Building Effective World-Action Models on Predictive Visual Latents",
+    "authors": [
+      "Yang Zhang",
+      "Jiangyuan Zhao",
+      "Chenyou Fan",
+      "Jiayu Hu",
+      "Xiu Yuan",
+      "Chenjia Bai",
+      "Xiu Li"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T11:03:02+00:00",
+    "updated": "2026-09-29T11:03:02+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37250v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37250v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "V-JEPA Policy: Building Effective World-Action Models on Predictive Visual Latents",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "19 pages, 5 figures, 11 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37239": {
+    "title": "Differentiating Bisimulation Metrics: A Framework for Parametric Markov Chain Fitting via Bicausal Optimal Transport",
+    "authors": [
+      "Sergio Calo",
+      "Amy Zhang",
+      "Javier Segovia-Aguas",
+      "Anders Jonsson"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-09-29T10:55:37+00:00",
+    "updated": "2026-09-29T10:55:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37239v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37239v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Differentiating Bisimulation Metrics: A Framework for Parametric Markov Chain Fitting via Bicausal Optimal Transport",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37181": {
+    "title": "EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation",
+    "authors": [
+      "Jin Chen",
+      "Yiming Jiang",
+      "Chongyang Xu",
+      "Modi Shi",
+      "Shijia Peng",
+      "Li Chen",
+      "Tianyu Li",
+      "Mu Xu",
+      "Yilun Chen",
+      "Steven Hoi",
+      "Hongyang Li"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T10:05:10+00:00",
+    "updated": "2026-09-29T10:05:10+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37181v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37181v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37165": {
+    "title": "Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead",
+    "authors": [
+      "Junghyun Kim",
+      "Ngseo Kim",
+      "ChungWoo Lee",
+      "Seoyeon Lee",
+      "Woo-Jeong Baek",
+      "Adam Zhou",
+      "Chip Huyen",
+      "Jun-Ki Lee",
+      "Gi-Cheon Kang",
+      "Byoung-Tak Zhang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T09:56:17+00:00",
+    "updated": "2026-09-29T09:56:17+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37165v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37165v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted to CoRL 2026. Project website: https://dill-vla.github.io/",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37150": {
+    "title": "CoRe-VLA: Preserving Cross-View Coordination in VLAs under Camera Shifts",
+    "authors": [
+      "Tianhang Pan",
+      "Xuanhao Wang",
+      "Yiwen Pang",
+      "Bo Zhou",
+      "Jun Yang",
+      "Min-Ling Zhang",
+      "Shimin Di"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T09:42:54+00:00",
+    "updated": "2026-09-29T09:42:54+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37150v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37150v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "CoRe-VLA: Preserving Cross-View Coordination in VLAs under Camera Shifts",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "15 pages, 9 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37135": {
+    "title": "Multi-Granularity Language-Guided Imitation Learning via Instruction Decomposition",
+    "authors": [
+      "Yi-Pei Chiu",
+      "Wei-Ta Chu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T09:38:54+00:00",
+    "updated": "2026-09-29T09:38:54+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37135v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37135v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Multi-Granularity Language-Guided Imitation Learning via Instruction Decomposition",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37131": {
+    "title": "ReF-HIL: Shaping the Critic around Human Action Neighborhoods for Efficient Human-in-the-Loop Reinforcement Learning",
+    "authors": [
+      "Shaoyin Luo",
+      "Song Wang",
+      "Shibo Xia",
+      "Tianle Zhang",
+      "Zhaowei Liang",
+      "Guanghui Shen",
+      "Bin Wang",
+      "Dan Wu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T09:35:20+00:00",
+    "updated": "2026-09-29T09:35:20+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37131v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37131v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "ReF-HIL: Shaping the Critic around Human Action Neighborhoods for Efficient Human-in-the-Loop Reinforcement Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 7 figures. Shaoyin Luo and Song Wang contributed equally to this work",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37046": {
+    "title": "Speed in the Blind Spot: An Interpretability Analysis of Dynamic Perception in VLMs for Autonomous Driving",
+    "authors": [
+      "Katharina Winter",
+      "Stefan Englmeier",
+      "Fabian B. Flohr"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T08:54:45+00:00",
+    "updated": "2026-09-29T08:54:45+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37046v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37046v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Speed in the Blind Spot: An Interpretability Analysis of Dynamic Perception in VLMs for Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible",
+    "relevance_tier": "peripheral"
+  },
+  "2609.38154": {
+    "title": "LongLive-Plug: Once-for-All Distillation for Video Generation",
+    "authors": [
+      "Shuai Yang",
+      "Luozhou Wang",
+      "Wei Huang",
+      "ZhiFei Chen",
+      "Bohan Zhang",
+      "Xiao Fu",
+      "Qianli Ma",
+      "Chen-Hsuan Lin",
+      "Weian Mao",
+      "Bryan Chu",
+      "Song Han",
+      "Yukang Chen"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T17:58:49+00:00",
+    "updated": "2026-09-29T17:58:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38154v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38154v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "LongLive-Plug: Once-for-All Distillation for Video Generation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Code and models are available at https://github.com/NVlabs/LongLive",
+    "relevance_tier": "peripheral"
+  },
+  "2609.38140": {
+    "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+    "authors": [
+      "Yu Xu",
+      "Yuxin Zhang",
+      "Xiao Yang",
+      "Haotian Yang",
+      "Yizhi Wang",
+      "Xinwei Huang",
+      "Minxuan Lin",
+      "Angtian Wang",
+      "Chongyang Ma",
+      "Fan Tang"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T17:55:19+00:00",
+    "updated": "2026-09-29T17:55:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38140v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38140v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted as a Spotlight paper at NeurIPS 2026. Project page: https://yuci-gpt.github.io/SplitMoE/",
+    "relevance_tier": "peripheral"
+  },
+  "2609.38123": {
+    "title": "HelixWorld: A Real-time Interactive Audio-Visual World Model",
+    "authors": [
+      "Lei Ke",
+      "Jiahao Pan",
+      "Zeyue Tian",
+      "Jiaming Wang",
+      "Haoyuan Huang",
+      "Kam Man Wu",
+      "Pengjun Fang",
+      "Hongyu Liu",
+      "Chenyang Qi",
+      "Lin Wang",
+      "Ruibin Yuan",
+      "Weijia Chen",
+      "Fangneng Zhan",
+      "Qifeng Chen",
+      "Wei Xue",
+      "Yike Guo"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T17:51:41+00:00",
+    "updated": "2026-09-29T17:51:41+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38123v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38123v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "HelixWorld: A Real-time Interactive Audio-Visual World Model",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.38120": {
+    "title": "Stochastic World Models for Verifying Vision-Based Neural Feedback Systems",
+    "authors": [
+      "I. Samuel Akinwande",
+      "Mykel J. Kochenderfer",
+      "Clark Barrett"
+    ],
+    "categories": [
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-09-29T17:50:40+00:00",
+    "updated": "2026-09-29T17:50:40+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38120v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38120v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Stochastic World Models for Verifying Vision-Based Neural Feedback Systems",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.38057": {
+    "title": "EVO-WAM: Evolving World Action Models through Video-Action Verification",
+    "authors": [
+      "Shiyang Zhou",
+      "Xionghao Wu",
+      "Wenbo Li",
+      "Shenghe Zheng",
+      "Jiyao Zhang",
+      "Songsong Yu",
+      "Yijun Yang",
+      "Jianhui Liu",
+      "Haoze Sun",
+      "Senqiao Yang",
+      "Li Jiang",
+      "Jingyong Su",
+      "Haoyang Huang",
+      "Zhuotao Tian"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T17:25:35+00:00",
+    "updated": "2026-09-29T17:25:35+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38057v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38057v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "EVO-WAM: Evolving World Action Models through Video-Action Verification",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37970": {
+    "title": "PhysWAM: Physically Consistent World Action Model for Autonomous Driving",
+    "authors": [
+      "Dhruv Parikh",
+      "Fengcheng Yu",
+      "Quankai Gao",
+      "Jiawei Yang",
+      "Junjie Ye",
+      "Maulik Bhatt",
+      "Thang Vu",
+      "Charles Ochoa",
+      "Rowan McAllister",
+      "Igor Vasiljevic",
+      "Rajgopal Kannan",
+      "Viktor Prasanna",
+      "Vitor Guizilini",
+      "Yue Wang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T16:38:13+00:00",
+    "updated": "2026-09-29T16:38:13+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37970v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37970v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "PhysWAM: Physically Consistent World Action Model for Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Technical Report",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37944": {
+    "title": "Identifiability Guarantees for Drivers and Dynamics of Delayed Physical Systems",
+    "authors": [
+      "Julien Boussard",
+      "Antoine Débouchage",
+      "Théo Saulus"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "math.DS"
+    ],
+    "primary_category": "stat.ML",
+    "published": "2026-09-29T16:22:19+00:00",
+    "updated": "2026-09-29T16:22:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37944v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37944v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "Identifiability Guarantees for Drivers and Dynamics of Delayed Physical Systems",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "46 pages, 2 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37721": {
+    "title": "CogWAM: Aligning Semantic Cognition with World Action Modeling via Event-Driven Interfaces",
+    "authors": [
+      "Sen Wang",
+      "Liu Liu",
+      "Xinjiang Wang",
+      "Zequn Chen",
+      "Haoyi Jiang",
+      "Taojun Ding",
+      "Tingyang Xiao",
+      "Zhizhong Su",
+      "Jie Wang",
+      "Sanping Zhou"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T14:48:21+00:00",
+    "updated": "2026-09-29T14:48:21+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37721v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37721v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "CogWAM: Aligning Semantic Cognition with World Action Modeling via Event-Driven Interfaces",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37690": {
+    "title": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
+    "authors": [
+      "Jack Wei Lun Shi",
+      "Kaichen Zhou",
+      "Haoyu Chen",
+      "Yufeng Weng",
+      "Keane Ong",
+      "Ruojin Cai",
+      "Hang Hua",
+      "Justin K. W. Yeoh",
+      "Mengyu Wang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T14:33:39+00:00",
+    "updated": "2026-09-29T14:33:39+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37690v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37690v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Honeycomb: Constant-Size Scene Memory Representation for Video World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project Page: https://jackswl.github.io/honeycomb/ Code: https://github.com/kaichen-z/honeycomb",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37644": {
+    "title": "Beyond a single latent space: a dual-latent world model for long-horizon planning",
+    "authors": [
+      "Delin Zhao",
+      "Zhengrong Yue",
+      "Shaobin Zhuang",
+      "Junlin He",
+      "Xiaoyu Chen",
+      "Zikang Wang",
+      "Yuxin Liu",
+      "Limin Wang",
+      "Yali Wang"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-09-29T14:12:33+00:00",
+    "updated": "2026-09-29T14:12:33+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37644v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37644v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Beyond a single latent space: a dual-latent world model for long-horizon planning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "31 pages, 22 figures, 9 tables. Main text: 9 pages",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37378": {
+    "title": "Do-JEPA: From Masking to Intervention in Latent World Models",
+    "authors": [
+      "Hossein Resani",
+      "Javen Qinfeng Shi"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T12:31:28+00:00",
+    "updated": "2026-09-29T12:31:28+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37378v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37378v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Do-JEPA: From Masking to Intervention in Latent World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37156": {
+    "title": "Lucid Dreaming for World Models: Learning to Doubt Imagination and Decide by Trust",
+    "authors": [
+      "Ziqi Wen",
+      "Ting Xu",
+      "Lianyu Wang",
+      "Xian Lin",
+      "Yanda Meng",
+      "Huazhu Fu",
+      "Meng Wang",
+      "Ching-Yu Cheng"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-09-29T09:46:19+00:00",
+    "updated": "2026-09-29T09:46:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37156v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37156v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Lucid Dreaming for World Models: Learning to Doubt Imagination and Decide by Trust",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "30 pages, 22 figures, 8 tables. Project page: https://lucidwm.github.io",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37107": {
+    "title": "Waypoint-1.5: A Real-Time Video World Model for Consumer Hardware",
+    "authors": [
+      "Rajit Rajpal",
+      "Shahbuland Matiana",
+      "Liew Wei Pyn",
+      "Anmol Agarwal",
+      "Ryan Craig",
+      "Andrew Lapp",
+      "Mithun Hunsur",
+      "Sami BuGhanem",
+      "Scottie Fox",
+      "Aaron Sanders Carson Poole",
+      "Irene Park",
+      "Dave Rossi",
+      "Spencer Frazier",
+      "Louis Castricato"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.HC"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T09:26:07+00:00",
+    "updated": "2026-09-29T09:26:07+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37107v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37107v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Waypoint-1.5: A Real-Time Video World Model for Consumer Hardware",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37098": {
+    "title": "V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving",
+    "authors": [
+      "Junwei You",
+      "Weizhe Tang",
+      "Can Wang",
+      "Yan Zhao",
+      "Jun Hua",
+      "Haotian Shi",
+      "Wei Zhang",
+      "Lin Wang",
+      "Bin Ran"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T09:20:07+00:00",
+    "updated": "2026-09-29T09:20:07+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37098v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37098v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "V2X-WAM: A Cooperative World Action Model for End-to-End Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.37004": {
+    "title": "World2Motion: Turning Video World Models into 3D Human Motion Generators",
+    "authors": [
+      "Tu Fangyuan",
+      "Xiangyue Zhang",
+      "Yiyi Cai",
+      "Yichen Peng",
+      "Kunhang Li",
+      "Bo Zheng",
+      "Zhixiang Wang",
+      "Kaipeng Zhang",
+      "Erwin Wu",
+      "Haoran Xie",
+      "Haiyang Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T08:30:04+00:00",
+    "updated": "2026-09-29T08:30:04+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37004v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37004v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "World2Motion: Turning Video World Models into 3D Human Motion Generators",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "15 pages, 6 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2609.36985": {
+    "title": "Abductive World Modeling via Causal Representation Learning",
+    "authors": [
+      "Ziqi Liu",
+      "Songhan Yang",
+      "Linfan Zhou",
+      "Jiatong Liu",
+      "Lijun Peng",
+      "Long Wan",
+      "Yinqi Bai"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-09-29T08:18:27+00:00",
+    "updated": "2026-09-29T08:18:27+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36985v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36985v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Abductive World Modeling via Causal Representation Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "21 pages, 4 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2609.36945": {
+    "title": "Fine-Tuning on Self-Generated and Reward-Weighted Data: Learning Dynamics, Convergence Rates, and Benefits of Off-Policyness",
+    "authors": [
+      "Zhiwei Wang",
+      "Yanxi Chen",
+      "Yaliang Li",
+      "Bolin Ding"
+    ],
+    "categories": [
+      "cs.LG",
+      "math.OC"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-09-29T07:54:06+00:00",
+    "updated": "2026-09-29T07:54:06+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36945v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36945v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Fine-Tuning on Self-Generated and Reward-Weighted Data: Learning Dynamics, Convergence Rates, and Benefits of Off-Policyness",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.36851": {
+    "title": "RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts",
+    "authors": [
+      "Hongbin Lin",
+      "Chaoda Zheng",
+      "Yiming Yang",
+      "Xiangyu Li",
+      "Shijia Chen",
+      "Jinhao Deng",
+      "Kangjie Chen",
+      "Dongbin Zhang",
+      "Jie Feng",
+      "Yu Zhang",
+      "Xianming Liu",
+      "Shuguang Cui",
+      "Boyang Wang",
+      "Zhen Li"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T06:59:50+00:00",
+    "updated": "2026-09-29T06:59:50+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36851v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36851v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "RoXDrive: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving via Action-Faithful Rollouts",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://hongbin98.github.io/RoXDrive/; Github: https://github.com/Hongbin98/RoXDrive",
+    "relevance_tier": "peripheral"
+  },
+  "2609.36845": {
+    "title": "DSWM: Decomposed Spatio-Temporal World Model for Demand-Driven UAV Base Station Repositioning",
+    "authors": [
+      "Shengjie Zhong",
+      "Zhongliang Zhao",
+      "Jingxuan Chen",
+      "Xianbin Cao",
+      "Xinmei Qiang",
+      "Dapeng O. Wu",
+      "Tony Q. S. Quek"
+    ],
+    "categories": [
+      "cs.NI",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.NI",
+    "published": "2026-09-29T06:56:46+00:00",
+    "updated": "2026-09-29T06:56:46+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36845v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36845v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "DSWM: Decomposed Spatio-Temporal World Model for Demand-Driven UAV Base Station Repositioning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "13 pages, 13 figures, 4 tables, 2 algorithms. Submitted to IEEE Journal on Selected Areas in Communications (Special Issue on Agentic AI for Intelligent Networks)",
+    "relevance_tier": "peripheral"
+  },
+  "2609.36843": {
+    "title": "RolloutFaith: Auditing Persistent Internal Interventions in Visual World Model",
+    "authors": [
+      "Junchi Yao",
+      "Ziyi Wang",
+      "Youling Huang",
+      "Lijie Hu"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-09-29T06:54:31+00:00",
+    "updated": "2026-09-29T06:54:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36843v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36843v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "RolloutFaith: Auditing Persistent Internal Interventions in Visual World Model",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.36810": {
+    "title": "MeteoVerse: Unified Weather-Controllable Video World Model",
+    "authors": [
+      "Renlong Wu",
+      "Guanqiao Wang",
+      "Xuan Shang",
+      "Yin Hanming",
+      "Xiaoxiao Sheng",
+      "Tianyu Huang",
+      "Hui Li",
+      "Wangmeng Zuo"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T06:24:35+00:00",
+    "updated": "2026-09-29T06:24:35+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36810v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36810v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "MeteoVerse: Unified Weather-Controllable Video World Model",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "13 pages",
+    "relevance_tier": "peripheral"
+  },
+  "2609.36677": {
+    "title": "ReWorld-Track: A Recursive Event World Model for Language-Guided Multi-Camera Tracking",
+    "authors": [
+      "Haoyang Wu",
+      "Shoudong Han",
+      "Chaoyue Li",
+      "Sijia Chen",
+      "Zhenyang Xie",
+      "Wang sihan"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T04:16:18+00:00",
+    "updated": "2026-09-29T04:16:18+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36677v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36677v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "ReWorld-Track: A Recursive Event World Model for Language-Guided Multi-Camera Tracking",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "41 pages, 8 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2609.36593": {
+    "title": "Text2Sim: Agentic Physics-Based Simulation Generation with Distilled Expertise",
+    "authors": [
+      "Xiaoyu Xiong",
+      "Tsun-Hsuan Wang",
+      "Yi-Ling Qiao",
+      "Tao Du",
+      "Minchen Li"
+    ],
+    "categories": [
+      "cs.GR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.GR",
+    "published": "2026-09-29T03:13:09+00:00",
+    "updated": "2026-09-29T03:13:09+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36593v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36593v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "Text2Sim: Agentic Physics-Based Simulation Generation with Distilled Expertise",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.36531": {
+    "title": "Foresight at the Event Boundary: Evaluating Physical Prediction in Video World Models",
+    "authors": [
+      "Estela Monserrat Arriaga Santana",
+      "Julian Rosas Scull",
+      "Ehécatl Sacamch'en Núñez Rico",
+      "Hugo Jair Escalante"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T02:24:18+00:00",
+    "updated": "2026-09-29T02:24:18+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36531v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36531v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Foresight at the Event Boundary: Evaluating Physical Prediction in Video World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 2 figures, 6 tables",
+    "relevance_tier": "peripheral"
+  },
+  "2609.36471": {
+    "title": "Staircase Policy: Streaming Inference for World-Action Models with Large Action Chunks",
+    "authors": [
+      "Guoheng Sun",
+      "Chen Chen",
+      "Jin Wang",
+      "Ang Li",
+      "Teresa Lv"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T01:32:04+00:00",
+    "updated": "2026-09-29T01:32:04+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36471v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36471v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Staircase Policy: Streaming Inference for World-Action Models with Large Action Chunks",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.36454": {
+    "title": "DynamicHOI: Coupled Dynamics for Physics-aware HOI Reconstruction",
+    "authors": [
+      "Wenliang Guo",
+      "Zhanbo Huang",
+      "Yu Kong"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T01:17:16+00:00",
+    "updated": "2026-09-29T01:17:16+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36454v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36454v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "DynamicHOI: Coupled Dynamics for Physics-aware HOI Reconstruction",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Page: https://wenliangguo.github.io/HOI-Reconstruction-Page/",
+    "relevance_tier": "peripheral"
+  },
+  "2609.36333": {
+    "title": "ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning",
+    "authors": [
+      "Ke Fang",
+      "Yupu Yao",
+      "Lu Cheng"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-28T22:09:55+00:00",
+    "updated": "2026-09-28T22:09:55+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36333v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36333v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.38028": {
+    "title": "doPlan: A Variable-Horizon Dataset for Multi-Stage Language-Conditioned Planning in Autonomous Driving",
+    "authors": [
+      "Parthib Roy",
+      "Yash Tandon",
+      "Marcus Blennemann",
+      "Giovanni Tapia Lopez",
+      "Angel Martinez-Sanchez",
+      "Mohan M. Trivedi",
+      "Ross Greer"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T17:08:01+00:00",
+    "updated": "2026-09-29T17:08:01+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38028v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38028v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "doPlan: A Variable-Horizon Dataset for Multi-Stage Language-Conditioned Planning in Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.38016": {
+    "title": "Brain-SAD: A Brain-Inspired Safe Autonomous Driving Control Framework with Dynamic Fear-Oriented Constraint on Dual-Policy",
+    "authors": [
+      "Huan Rong",
+      "Chao Yin",
+      "Anouar Imel",
+      "Yijie Xia",
+      "Tinghuai Ma"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.NE",
+      "cs.RO"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-09-29T17:01:29+00:00",
+    "updated": "2026-09-29T17:01:29+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.38016v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38016v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Brain-SAD: A Brain-Inspired Safe Autonomous Driving Control Framework with Dynamic Fear-Oriented Constraint on Dual-Policy",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "18 pages, 11 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2609.37871": {
+    "title": "ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving",
+    "authors": [
+      "Ziyi Luo",
+      "Zhe Sun",
+      "Yehao Lu",
+      "Lei Zhou",
+      "Lisheng Wu",
+      "Xuewei Li",
+      "Zequn Qin",
+      "Xi Li"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T15:48:16+00:00",
+    "updated": "2026-09-29T15:48:16+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.37871v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37871v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "ExceptionDrive: A Planning-Oriented Counterfactual Corner-Case Benchmark for Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "13 pages, 5 figures, 3 tables; supplementary material included",
+    "relevance_tier": "peripheral"
+  },
+  "2609.36852": {
+    "title": "Socialality Anchors: Towards Group-bounded Trajectory Prediction",
+    "authors": [
+      "Ziqian Zou",
+      "Conghao Wong",
+      "Qinmu Peng",
+      "Xinge You"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-09-29T07:00:34+00:00",
+    "updated": "2026-09-29T07:00:34+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36852v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36852v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Socialality Anchors: Towards Group-bounded Trajectory Prediction",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.36530": {
+    "title": "Trajectory-Level Mode Guidance for Controllable Diffusion-Based Multi-Robot Motion Planning",
+    "authors": [
+      "Tianyou Yu",
+      "Shengze Cai",
+      "Chao Xu"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T02:22:17+00:00",
+    "updated": "2026-09-29T02:22:17+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36530v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36530v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Trajectory-Level Mode Guidance for Controllable Diffusion-Based Multi-Robot Motion Planning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2609.36438": {
+    "title": "World4Scorer: Outcome-Grounded World Modeling for Autonomous Driving",
+    "authors": [
+      "Jieyuan Pei",
+      "Meiyi Lu",
+      "Sining Ang",
+      "Yubo Zhao",
+      "Zhangyi Hu",
+      "Mingwei Xu",
+      "Haokai Ding",
+      "Wei Li",
+      "Zihan You",
+      "Jianwei Zheng",
+      "Li Yu",
+      "Yifeng Pan",
+      "Ji Tao",
+      "Rongjunchen Zhang",
+      "Yan Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-09-29T00:55:12+00:00",
+    "updated": "2026-09-29T00:55:12+00:00",
+    "abs_url": "http://arxiv.org/abs/2609.36438v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36438v1",
+    "first_seen": "2026-09-30",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "World4Scorer: Outcome-Grounded World Modeling for Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "28 pages, 14 figures, 13 tables. Project page: https://guobapei.github.io/World4Scorer/",
     "relevance_tier": "peripheral"
   }
 }
