@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-11-06T13:45:26.190643+00:00",
-    "total_papers": 5137
+    "last_updated": "2026-11-09T14:28:41.649914+00:00",
+    "total_papers": 5151
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -234691,6 +234691,618 @@
     "announce_type": "new",
     "direction": "autonomous_driving",
     "one_line_summary": "Wide View Synthesis from Overlapping Perspective Cameras in Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.09892": {
+    "title": "On Agentic Manipulation Policies",
+    "authors": [
+      "Chen Chen",
+      "Omid Bagherieh",
+      "Naveen Nikamanth Appiah Balaji",
+      "Jesse T. Gonzalez",
+      "Negin Heravi",
+      "Fahad Islam",
+      "Xueting Li",
+      "Jean-Baptiste Regli",
+      "Kejia Ren",
+      "Petr Švec",
+      "David J. Yoon",
+      "Matthias Müller",
+      "Vladlen Koltun"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-06T18:59:34+00:00",
+    "updated": "2026-11-06T18:59:34+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09892v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09892v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "On Agentic Manipulation Policies",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Videos and code available at: https://apple-aiml-research.github.io/ml-amp/",
+    "relevance_tier": "peripheral"
+  },
+  "2611.09864": {
+    "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+    "authors": [
+      "Xun Tu",
+      "Minghao Zou",
+      "Karthik Desingh"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-06T18:44:33+00:00",
+    "updated": "2026-11-06T18:44:33+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09864v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09864v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "10 pages, 6 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2611.09625": {
+    "title": "Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning",
+    "authors": [
+      "Maxime Burchi",
+      "Fayaz Ali Dharejo",
+      "Radu Timofte"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-11-06T15:45:54+00:00",
+    "updated": "2026-11-06T15:45:54+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09625v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09625v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Encoding Memory in World Models with Test-Time Model-Based Reinforcement Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.09413": {
+    "title": "SmartBloch-Agent: An Agentic Framework for Automated MRI Sequence Design and Optimization",
+    "authors": [
+      "Jiakai Yang",
+      "Haoye Zheng",
+      "Yixiao Yue",
+      "Qinqin Yang",
+      "Zhong Chen",
+      "Shuhui Cai",
+      "Congbo Cai"
+    ],
+    "categories": [
+      "physics.med-ph",
+      "cs.AI",
+      "eess.IV"
+    ],
+    "primary_category": "physics.med-ph",
+    "published": "2026-11-06T12:44:55+00:00",
+    "updated": "2026-11-06T12:44:55+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09413v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09413v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "SmartBloch-Agent: An Agentic Framework for Automated MRI Sequence Design and Optimization",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.09295": {
+    "title": "Bridging Spiking and Continuous Dynamics in Spiking Neural Networks: A Muscle-Inspired Model",
+    "authors": [
+      "Maryam Soltani",
+      "Philip N. Garner"
+    ],
+    "categories": [
+      "cs.NE",
+      "cs.LG",
+      "eess.AS"
+    ],
+    "primary_category": "cs.NE",
+    "published": "2026-11-06T10:47:55+00:00",
+    "updated": "2026-11-06T10:47:55+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09295v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09295v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "Bridging Spiking and Continuous Dynamics in Spiking Neural Networks: A Muscle-Inspired Model",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.08904": {
+    "title": "MotionCore: A Latent Neural Simulator for Video Generation with Rigid-Body Dynamics",
+    "authors": [
+      "Zheng Wang",
+      "Zhengwei Gong",
+      "Yuanzhi Liang",
+      "Chi Zhang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-06T02:45:37+00:00",
+    "updated": "2026-11-06T02:45:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.08904v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08904v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "MotionCore: A Latent Neural Simulator for Video Generation with Rigid-Body Dynamics",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.08756": {
+    "title": "Debate to Deceive: Poisoning LLM's Fact-Checking via Game-Theoretic Multi-Agent Debate",
+    "authors": [
+      "Liting Huang",
+      "Huizhi Liang",
+      "Yi Lei",
+      "Xingjun Ma",
+      "Varun Ojha"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-11-05T22:13:04+00:00",
+    "updated": "2026-11-05T22:13:04+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.08756v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08756v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Debate to Deceive: Poisoning LLM's Fact-Checking via Game-Theoretic Multi-Agent Debate",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.08568": {
+    "title": "Personalized health coaching via coachable health age and counterfactual wearable trajectories",
+    "authors": [
+      "Simon A. Lee",
+      "Zeinab Esmaeilpour",
+      "Menglian Zhou",
+      "Marius Guerard",
+      "Sohrab Sidhu",
+      "Alexandru Solot",
+      "Hamid Palangi",
+      "Pramod Rudrapatna",
+      "Ming-Zher Poh",
+      "Max A. Xu",
+      "Daniel McDuff",
+      "Dimitrios Antos",
+      "Yuzhe Yang",
+      "Jeffrey N. Chiang",
+      "Anthony Z. Faranesh",
+      "Lindsey Sunden",
+      "Mark Malhotra",
+      "Shwetak Patel",
+      "A. Ali Heydari",
+      "Ahmed A. Metwally"
+    ],
+    "categories": [
+      "q-bio.QM",
+      "cs.LG"
+    ],
+    "primary_category": "q-bio.QM",
+    "published": "2026-11-05T17:52:57+00:00",
+    "updated": "2026-11-05T17:52:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.08568v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08568v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "Personalized health coaching via coachable health age and counterfactual wearable trajectories",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.09888": {
+    "title": "Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving",
+    "authors": [
+      "Frieda Rong",
+      "Zhaoyue Wang",
+      "Veer Kapadia",
+      "Vishaka Rajani",
+      "Aren A. Babikian",
+      "Xujie Si",
+      "Mahsa Golchoubian",
+      "Raquel Urtasun",
+      "Igor Gilitschenski"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-06T18:58:27+00:00",
+    "updated": "2026-11-06T18:58:27+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09888v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09888v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Scenario Orchestration for Closed-loop Policy Evaluation of Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 5 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2611.09816": {
+    "title": "BEV3SR: Evidence-Aware 3D Spatial Reasoning from Video",
+    "authors": [
+      "Fan Zhu",
+      "Rui Yu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-06T18:02:49+00:00",
+    "updated": "2026-11-06T18:02:49+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09816v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09816v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "BEV3SR: Evidence-Aware 3D Spatial Reasoning from Video",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "WACV camera ready",
+    "relevance_tier": "peripheral"
+  },
+  "2611.09664": {
+    "title": "Dual Architecture Fusion Vehicle Lidar 3D Target Detection",
+    "authors": [
+      "Muyun Li",
+      "Weizheng Jin",
+      "Yuan Sun"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-06T16:13:58+00:00",
+    "updated": "2026-11-06T16:13:58+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09664v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09664v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Dual Architecture Fusion Vehicle Lidar 3D Target Detection",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": "M. Li, W. Jin, and Y. Sun, \"Dual Architecture Fusion Vehicle Lidar 3D Target Detection,\" 2026 6th International Conference on Artificial Intelligence, Big Data and Algorithms (CAIBDA), Tianjin, China, 2026, pp. 1-5",
+    "comment": "5 pages, 6 figures. Published in CAIBDA 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2611.09121": {
+    "title": "CoMET: Tracking the Shared Pose Error of Roadside Messages for Asynchronous Vehicle-Infrastructure Cooperative 3D Detection",
+    "authors": [
+      "Shuwei Sun",
+      "Jian Huang",
+      "Hui Cao"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-06T07:59:24+00:00",
+    "updated": "2026-11-06T07:59:24+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09121v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09121v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "CoMET: Tracking the Shared Pose Error of Roadside Messages for Asynchronous Vehicle-Infrastructure Cooperative 3D Detection",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "25 pages, 4 figures. Code and experimental results archived at https://doi.org/10.5281/zenodo.23999418",
+    "relevance_tier": "peripheral"
+  },
+  "2611.09118": {
+    "title": "Semantic Extraction Framework for Goal-Oriented V2X Communication Supporting Safe Intersection Passage",
+    "authors": [
+      "Haoran Yang",
+      "Shan Lu",
+      "Takaya Yamazato"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "primary_category": "eess.IV",
+    "published": "2026-11-06T07:56:31+00:00",
+    "updated": "2026-11-06T07:56:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.09118v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09118v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "cross",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Semantic Extraction Framework for Goal-Oriented V2X Communication Supporting Safe Intersection Passage",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accept by 2026 Asia-Pacific Conference on Communications",
+    "relevance_tier": "peripheral"
+  },
+  "2611.08631": {
+    "title": "BEVCast: Path-Adaptive BEV for Efficient End-to-End Autonomous Driving",
+    "authors": [
+      "Qiren Wang",
+      "Mingyu Guo",
+      "Zixuan Wang",
+      "Weisong Shi"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-05T19:27:01+00:00",
+    "updated": "2026-11-05T19:27:01+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.08631v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08631v1",
+    "first_seen": "2026-11-09",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "BEVCast: Path-Adaptive BEV for Efficient End-to-End Autonomous Driving",
     "tags": [
       "🔴 No Code"
     ],

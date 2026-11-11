@@ -1,8 +1,8 @@
 {
   "_meta": {
     "version": 1,
-    "last_updated": "2026-11-09T14:28:41.649914+00:00",
-    "total_papers": 5151
+    "last_updated": "2026-11-11T13:25:03.505385+00:00",
+    "total_papers": 5185
   },
   "2604.25788": {
     "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
@@ -235322,6 +235322,1483 @@
     "key_terms": [],
     "journal_ref": null,
     "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.14488": {
+    "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+    "authors": [
+      "Chubin Zhang",
+      "Bo An"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T18:47:57+00:00",
+    "updated": "2026-11-10T18:47:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14488v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14488v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "38 pages",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14436": {
+    "title": "Metric-Aligned Group Relative Policy Optimization for Explainable Deepfake Detection",
+    "authors": [
+      "Luka Dragar",
+      "Peter Peer",
+      "Vitomir Štruc",
+      "Borut Batagelj"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-10T18:08:35+00:00",
+    "updated": "2026-11-10T18:08:35+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14436v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14436v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Metric-Aligned Group Relative Policy Optimization for Explainable Deepfake Detection",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "5 pages. Accepted to MRAC '26 (ACM Multimedia 2026)",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14432": {
+    "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+    "authors": [
+      "Ilia Larchenko",
+      "Gleb Zarin",
+      "Atindra Nair",
+      "Keerti Manney",
+      "Vitaly Kleban",
+      "Mirko Kiefer",
+      "Anjana Yodaiken"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T18:06:16+00:00",
+    "updated": "2026-11-10T18:06:16+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14432v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14432v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Code: https://github.com/Robot-Learning-Collective/behavior-1k-solution-2026 ; checkpoint: https://huggingface.co/IliaLarchenko/BEHAVIOR2026VLA ; project page: https://robot-learning-collective.github.io/behavior-1k-2026/",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14420": {
+    "title": "OnlyAct: Extracting Action Representations from Foundation Models for World Models",
+    "authors": [
+      "Runjia Li",
+      "Minghao Chen",
+      "Junyu Xie",
+      "Philip Torr",
+      "Andrea Vedaldi",
+      "Tomas Jakab"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-10T17:59:19+00:00",
+    "updated": "2026-11-10T17:59:19+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14420v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14420v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "OnlyAct: Extracting Action Representations from Foundation Models for World Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.14256": {
+    "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+    "authors": [
+      "Jingjing Jiang"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-11-10T16:04:02+00:00",
+    "updated": "2026-11-10T16:04:02+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14256v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14256v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "44 pages, 15 tables, 4 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14186": {
+    "title": "Koopman Model-Based Reinforcement Learning",
+    "authors": [
+      "Wenjian Hao",
+      "Paulo C. Heredia",
+      "Shaoshuai Mou"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T15:08:33+00:00",
+    "updated": "2026-11-10T15:08:33+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14186v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14186v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Koopman Model-Based Reinforcement Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.14111": {
+    "title": "Model-Free Runtime Measurement of Task-Relevant Information",
+    "authors": [
+      "Dimitris Panagopoulos",
+      "Adolfo Perrusquía",
+      "Yang Xing",
+      "Weisi Guo"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T14:02:31+00:00",
+    "updated": "2026-11-10T14:02:31+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14111v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14111v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Model-Free Runtime Measurement of Task-Relevant Information",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "17 pages, 5 figures, 2 extended data tables, appendix included. Code available",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14092": {
+    "title": "DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+    "authors": [
+      "Huaijin Pi",
+      "Zehong Shen",
+      "Yong Wang",
+      "Kechun Xu",
+      "Changpeng Wang",
+      "Dingkun Wei",
+      "Xueyang Wang",
+      "Wenjia Wang",
+      "Xing Zhu",
+      "Yujun Shen",
+      "Taku Komura"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T13:52:18+00:00",
+    "updated": "2026-11-10T13:52:18+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14092v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14092v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project page: https://robbyant-research.github.io/DexSeed/",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14048": {
+    "title": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning",
+    "authors": [
+      "Xuheng Zhang",
+      "Yiming Zhang",
+      "Jialin Gao",
+      "Hao Chen",
+      "Jiaming Liu",
+      "Ji Li",
+      "Runzhong Huang",
+      "Yinxi Wang",
+      "Chenyang Gu",
+      "Zihan Yang",
+      "Yaowei Liu",
+      "Zhonghao Yan",
+      "Ziyu Guo",
+      "Renrui Zhang",
+      "Peng Jia",
+      "Pheng-Ann Heng",
+      "Shanghang Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T13:15:11+00:00",
+    "updated": "2026-11-10T13:15:11+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14048v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14048v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.13929": {
+    "title": "ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads",
+    "authors": [
+      "Xianghui Wang",
+      "Aoran Fu",
+      "Liyou Luo",
+      "Shanze Wang",
+      "Xiaoyu Shen",
+      "Dan Zhang",
+      "Wei Zhang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T11:18:34+00:00",
+    "updated": "2026-11-10T11:18:34+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13929v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13929v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.13732": {
+    "title": "CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation",
+    "authors": [
+      "Choo Sin Wai",
+      "Dake Zhong",
+      "Jingye Zhang",
+      "Zhifang Liu",
+      "Siyao Xiao",
+      "Zirong Ding",
+      "Yuhong Zhang",
+      "Kangjie Chen",
+      "Dongbin Zhang",
+      "Guorui Song",
+      "Guocun Wang",
+      "Peng Jiao",
+      "Haoqian Wang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T08:35:27+00:00",
+    "updated": "2026-11-10T08:35:27+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13732v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13732v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.13685": {
+    "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+    "authors": [
+      "Lin Long",
+      "Tianren Ma",
+      "Zhong Chu",
+      "Di Wu",
+      "Maosong Cao",
+      "Qixiang Ye",
+      "Junbo Zhao",
+      "Shanghang Zhang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T07:33:35+00:00",
+    "updated": "2026-11-10T07:33:35+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13685v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13685v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Project Page: https://llong-cs.github.io/EgoGuidance",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13610": {
+    "title": "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence",
+    "authors": [
+      "Yi Wang",
+      "Jingqiu Wu",
+      "Lei Yao",
+      "Zhaoshuo Li",
+      "Haoyu Zhu",
+      "Yirui Zhou",
+      "Huaiyuan Xu",
+      "Ying Zheng",
+      "Chuang Yang",
+      "Lap-Pui Chau"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T05:36:17+00:00",
+    "updated": "2026-11-10T05:36:17+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13610v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13610v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "39 pages, 10 figures. Project page: https://mikewu597.github.io/Ego2Robot_Learning/",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13499": {
+    "title": "DeRep: Learning Depth Representations for End-to-End Navigation in Cluttered Environments",
+    "authors": [
+      "Hanyu Jin",
+      "Kenji Shimada"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T03:11:47+00:00",
+    "updated": "2026-11-10T03:11:47+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13499v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13499v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "DeRep: Learning Depth Representations for End-to-End Navigation in Cluttered Environments",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 5 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13482": {
+    "title": "ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control",
+    "authors": [
+      "Xu Luo",
+      "Jiaying Yang",
+      "Hao Wu",
+      "Junlin Xie",
+      "Zijin Hong",
+      "Ji Zhang",
+      "Lianli Gao",
+      "Jingkuan Song"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T02:44:05+00:00",
+    "updated": "2026-11-10T02:44:05+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13482v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13482v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.13382": {
+    "title": "Discrete Model-Based Diffusion for Combinatorial Optimization in Multi-Robot Task Allocation",
+    "authors": [
+      "Haejoon Lee",
+      "Thomas Marshall Vielmetti",
+      "Xinyi Wang",
+      "Dimitra Panagou"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG",
+      "math.OC"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-09T23:59:47+00:00",
+    "updated": "2026-11-09T23:59:47+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13382v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13382v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Discrete Model-Based Diffusion for Combinatorial Optimization in Multi-Robot Task Allocation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "11 pages, 3 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13161": {
+    "title": "Cognitive Multi-Agent Search and Rescue: Language-Grounded Hierarchical Reinforcement Learning for Collaborative Robotics",
+    "authors": [
+      "Sepideh Ravanbakhsh",
+      "Hamidreza Moradi"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CE"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-11-09T19:45:28+00:00",
+    "updated": "2026-11-09T19:45:28+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13161v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13161v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "Cognitive Multi-Agent Search and Rescue: Language-Grounded Hierarchical Reinforcement Learning for Collaborative Robotics",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "33 pages, 8 Figures",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13160": {
+    "title": "How Much of Your VLA Is kNN",
+    "authors": [
+      "Denis Grachev",
+      "Damien LaRocque",
+      "Omar Moured"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-09T19:44:58+00:00",
+    "updated": "2026-11-09T19:44:58+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13160v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13160v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "embodied_ai",
+    "one_line_summary": "How Much of Your VLA Is kNN",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "21 pages, 10 figures, accepted to the CoRL 2026 G2A/TAG workshop",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14419": {
+    "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+    "authors": [
+      "Souhaila Djaffal",
+      "Amna Jamal",
+      "Gagana Madhugiri Devaraja",
+      "Anidipta Pal",
+      "Jobst Heitzig"
+    ],
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-11-10T17:58:12+00:00",
+    "updated": "2026-11-10T17:58:12+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14419v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14419v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.14383": {
+    "title": "An Energy-Based Perspective on Machine Learning",
+    "authors": [
+      "Bo Dai",
+      "Yilun Du"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-11-10T17:37:22+00:00",
+    "updated": "2026-11-10T17:37:22+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14383v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14383v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "An Energy-Based Perspective on Machine Learning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.14374": {
+    "title": "Uncertainty-Aware Hybrid Offline Reinforcement Learning with Online Action Selection Enabled by Sparse Gaussian-Process Critics",
+    "authors": [
+      "Marco Chan",
+      "Christos Evripidou",
+      "Liqiu Dong",
+      "Benoit Chachuat",
+      "Mehmet Mercangöz"
+    ],
+    "categories": [
+      "cs.LG",
+      "eess.SY"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-11-10T17:30:34+00:00",
+    "updated": "2026-11-10T17:30:34+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14374v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14374v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Uncertainty-Aware Hybrid Offline Reinforcement Learning with Online Action Selection Enabled by Sparse Gaussian-Process Critics",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "8 pages, 5 figures, 1 table. Submitted to the 2027 European Control Conference (ECC 2027)",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14365": {
+    "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+    "authors": [
+      "Guoqiang Liang",
+      "Yiqi Lin",
+      "Yanzhe Chen",
+      "Kevin Yuchen Ma",
+      "Mike Zheng Shou"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-10T17:21:37+00:00",
+    "updated": "2026-11-10T17:21:37+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14365v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14365v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.14257": {
+    "title": "Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control",
+    "authors": [
+      "Haitian Li",
+      "Tianfu Li",
+      "Xuxi Zhao",
+      "Zizheng Liu",
+      "Yangcheng Yu",
+      "Yiwen Hou",
+      "Zeyu Xiao",
+      "Mutian Xu",
+      "Ziqian Yang",
+      "Haonan Chen",
+      "Lin Shao"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T16:04:16+00:00",
+    "updated": "2026-11-10T16:04:16+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14257v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14257v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "14 pages. Project page: https://lihaitian.com/Elastic-WAM/",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13995": {
+    "title": "Lipschitz-Controlled Flow Matching for Robust Image Restoration",
+    "authors": [
+      "Sedjro Salomon Hotegni",
+      "Konstantin Sonntag",
+      "Paul-Christian Bürkner",
+      "Sebastian Peitz"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-10T12:40:17+00:00",
+    "updated": "2026-11-10T12:40:17+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13995v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13995v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Lipschitz-Controlled Flow Matching for Robust Image Restoration",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.13528": {
+    "title": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM",
+    "authors": [
+      "Yuchen Yang",
+      "Ming Ding",
+      "Xinyu Wu",
+      "Hesheng Wang"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T03:51:43+00:00",
+    "updated": "2026-11-10T03:51:43+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13528v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13528v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.13348": {
+    "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+    "authors": [
+      "Yikun Zhang",
+      "Minghao Guo",
+      "Guangxue Xu",
+      "Peter Yichen Chen",
+      "Wojciech Matusik",
+      "Wengong Jin",
+      "Jingjing Chai",
+      "Kaiyi Jiang"
+    ],
+    "categories": [
+      "q-bio.BM",
+      "cs.AI"
+    ],
+    "primary_category": "q-bio.BM",
+    "published": "2026-11-09T23:19:33+00:00",
+    "updated": "2026-11-09T23:19:33+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13348v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13348v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "cross",
+    "direction": "world_models",
+    "one_line_summary": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "64 pages, 5 main figures, 5 supplementary figures",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13276": {
+    "title": "An Analytical Model of Compute-limited Multistage Training Pipelines",
+    "authors": [
+      "Nishil Patel",
+      "Jin Hwa Lee",
+      "Basile Confavreux",
+      "Andrew Saxe"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "published": "2026-11-09T21:41:25+00:00",
+    "updated": "2026-11-09T21:41:25+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13276v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13276v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "An Analytical Model of Compute-limited Multistage Training Pipelines",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Accepted at NeurIPS 2026",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13113": {
+    "title": "Building World Models from Intrinsic Motivation",
+    "authors": [
+      "Reece Keller",
+      "Declan Kutscher",
+      "Xaq Pitkow",
+      "Aran Nayebi"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "published": "2026-11-09T19:02:32+00:00",
+    "updated": "2026-11-09T19:02:32+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13113v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13113v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "world_models",
+    "one_line_summary": "Building World Models from Intrinsic Motivation",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "27 pages, 11 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14414": {
+    "title": "SIGMO: Sigmoid Gated Interaction-Aware Motion Planning",
+    "authors": [
+      "Avinash Singh",
+      "Manish Saroya",
+      "Fatemeh Cheraghi Pouria",
+      "Faizan Tariq",
+      "Jovin D'sa",
+      "David Isele",
+      "Yosuke Sakamoto",
+      "Sangjae Bae"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T17:53:57+00:00",
+    "updated": "2026-11-10T17:53:57+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14414v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14414v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "SIGMO: Sigmoid Gated Interaction-Aware Motion Planning",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "Submitted to IEEE",
+    "relevance_tier": "peripheral"
+  },
+  "2611.14025": {
+    "title": "HiPFuse: Real-Time LiDAR Semantic Segmentation for Robotic Perception on Edge Devices",
+    "authors": [
+      "Haiyang Wu",
+      "George Vosselman",
+      "Ville Lehtola"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "published": "2026-11-10T12:57:21+00:00",
+    "updated": "2026-11-10T12:57:21+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.14025v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.14025v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "HiPFuse: Real-Time LiDAR Semantic Segmentation for Robotic Perception on Edge Devices",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "13 pages, 6 figures",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13863": {
+    "title": "Learn-To-Propagate: Distributionally Robust Motion Planning for Nonlinear Uncertain Systems",
+    "authors": [
+      "Eduardo Figueiredo",
+      "Adrien Banse",
+      "Qi Heng Ho",
+      "Raphael Jungers",
+      "Morteza Lahijanian",
+      "Luca Laurenti"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T10:23:12+00:00",
+    "updated": "2026-11-10T10:23:12+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13863v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13863v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Learn-To-Propagate: Distributionally Robust Motion Planning for Nonlinear Uncertain Systems",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.13790": {
+    "title": "RiSE-Drive: Risk-Sensitive Long-Horizon Candidate Evaluation for End-to-End Autonomous Driving",
+    "authors": [
+      "Yu Zhao",
+      "Hongyi Duan",
+      "Ming Yin",
+      "Hongyuan Zhang",
+      "Fan Yang",
+      "Hongzhi Wang",
+      "Xiubo Liang"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T09:22:58+00:00",
+    "updated": "2026-11-10T09:22:58+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13790v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13790v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "RiSE-Drive: Risk-Sensitive Long-Horizon Candidate Evaluation for End-to-End Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": "Proceedings of the 34th ACM International Conference on Multimedia (MM '26), 15482-15491 (2026)",
+    "comment": "11 pages, 3 figures, 6 tables, including supplementary material. Published in ACM Multimedia 2026 (MM '26)",
+    "relevance_tier": "peripheral"
+  },
+  "2611.13494": {
+    "title": "Route-Time Conflict Maps for Cooperative End-to-End Autonomous Driving",
+    "authors": [
+      "Haohua Que",
+      "Mingkai Liu",
+      "Tianle Zhu",
+      "Zhipeng Bao",
+      "Yiping Li",
+      "Handong Yao"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-10T03:05:47+00:00",
+    "updated": "2026-11-10T03:05:47+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.13494v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.13494v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Route-Time Conflict Maps for Cooperative End-to-End Autonomous Driving",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": null,
+    "relevance_tier": "peripheral"
+  },
+  "2611.12949": {
+    "title": "Maze Runner: Autonomous Maze Navigation with Line-Based Localization and Control Barrier Functions",
+    "authors": [
+      "Alvaro J. Gaona",
+      "Lucas Gómez-Velayos",
+      "Peter Pasuy-Quevedo"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "primary_category": "cs.RO",
+    "published": "2026-11-06T22:32:59+00:00",
+    "updated": "2026-11-06T22:32:59+00:00",
+    "abs_url": "http://arxiv.org/abs/2611.12949v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12949v1",
+    "first_seen": "2026-11-11",
+    "announce_type": "new",
+    "direction": "autonomous_driving",
+    "one_line_summary": "Maze Runner: Autonomous Maze Navigation with Line-Based Localization and Control Barrier Functions",
+    "tags": [
+      "🔴 No Code"
+    ],
+    "affiliation_tier": 0,
+    "affiliation_names": [],
+    "scores": {
+      "novelty": 3,
+      "impact": 3,
+      "reproducibility": 3,
+      "focus_relevance": 3,
+      "weighted": 3.0
+    },
+    "has_code": false,
+    "code_url": null,
+    "has_dataset": false,
+    "has_demo": false,
+    "key_terms": [],
+    "journal_ref": null,
+    "comment": "10 pages, 8 figures, 1 table. Code: https://github.com/alvgaona/maze-runner",
     "relevance_tier": "peripheral"
   }
 }
